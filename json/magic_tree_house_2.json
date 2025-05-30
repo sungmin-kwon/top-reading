@@ -1,0 +1,1046 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-30T16:09:44",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 10057,
+    "completion_tokens": 7706,
+    "total_tokens": 17763
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "The Dark Woods",
+      "vocabulary": [
+        {
+          "word": "notebook",
+          "eng_definition": "a small book with blank or lined pages for writing notes",
+          "kor_definition": "수첩, 노트"
+        },
+        {
+          "word": "medallion",
+          "eng_definition": "a large medal, often worn as a decoration or award",
+          "kor_definition": "메달, 장식용 훈장"
+        },
+        {
+          "word": "dawn",
+          "eng_definition": "the time in the morning when the sun rises",
+          "kor_definition": "새벽, 해돋이"
+        },
+        {
+          "word": "creep",
+          "eng_definition": "to move slowly and carefully so as not to be noticed",
+          "kor_definition": "살금살금 걷다"
+        },
+        {
+          "word": "scary",
+          "eng_definition": "causing fear or fright",
+          "kor_definition": "무서운"
+        },
+        {
+          "word": "tiptoe",
+          "eng_definition": "to walk quietly on the balls of the feet with heels raised",
+          "kor_definition": "발끝으로 살금살금 걷다"
+        },
+        {
+          "word": "ladder",
+          "eng_definition": "a set of steps used for climbing up or down",
+          "kor_definition": "사다리"
+        },
+        {
+          "word": "disappear",
+          "eng_definition": "to go out of sight; vanish",
+          "kor_definition": "사라지다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What time did Jack look at on the clock?",
+          "options": [
+            "7:00",
+            "5:30",
+            "4:00",
+            "6:45"
+          ],
+          "answer": "5:30"
+        },
+        {
+          "question": "Who is the only person that believes in Jack's story?",
+          "options": [
+            "His teacher",
+            "His sister Annie",
+            "His mom",
+            "His dad"
+          ],
+          "answer": "His sister Annie"
+        },
+        {
+          "question": "What did Annie find that she called a 'magic wand'?",
+          "options": [
+            "A flashlight",
+            "A toy",
+            "A real magic wand",
+            "A stick"
+          ],
+          "answer": "A flashlight"
+        },
+        {
+          "question": "Where is the tree house located?",
+          "options": [
+            "On the ground",
+            "In a big tree in the woods",
+            "In Jack's backyard",
+            "In the city"
+          ],
+          "answer": "In a big tree in the woods"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Jack worried about going to the tree house at night?",
+          "answer": "He was worried that the magic person might be mean or not want kids to know about the tree house."
+        },
+        {
+          "question": "What did Annie do to help them see in the dark in the woods?",
+          "answer": "She used a flashlight clipped onto her belt."
+        },
+        {
+          "question": "What does Jack want to write in his notebook?",
+          "answer": "He wants to write facts about the strange things that happened, like the gold medallion and the magic person."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Leaving Again",
+      "vocabulary": [
+        {
+          "word": "scattered",
+          "eng_definition": "spread out randomly over an area",
+          "kor_definition": "흩어진, 산재된"
+        },
+        {
+          "word": "dawn",
+          "eng_definition": "the first light of morning",
+          "kor_definition": "새벽, 여명"
+        },
+        {
+          "word": "shuddered",
+          "eng_definition": "shook suddenly, usually from fear or cold",
+          "kor_definition": "떨었다, 전율하다"
+        },
+        {
+          "word": "bookmark",
+          "eng_definition": "a marker used to keep one's place in a book",
+          "kor_definition": "책갈피"
+        },
+        {
+          "word": "neighing",
+          "eng_definition": "the sound a horse makes",
+          "kor_definition": "말이 내는 울음소리"
+        },
+        {
+          "word": "moan",
+          "eng_definition": "a low, sad sound",
+          "kor_definition": "신음, 신음소리"
+        },
+        {
+          "word": "loomed",
+          "eng_definition": "appeared large and threatening",
+          "kor_definition": "어렴풋이 나타나다, 우뚝 솟다"
+        },
+        {
+          "word": "examine",
+          "eng_definition": "to look at closely and carefully",
+          "kor_definition": "조사하다, 검토하다"
+        },
+        {
+          "word": "misty",
+          "eng_definition": "covered with mist; foggy",
+          "kor_definition": "안개 낀, 희미한"
+        },
+        {
+          "word": "peek",
+          "eng_definition": "to look quickly and secretly",
+          "kor_definition": "살짝 엿보다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Jack see in the distant sky as he approaches the tree house?",
+          "options": [
+            "A plane",
+            "Light in the sky",
+            "A bright star",
+            "An airplane"
+          ],
+          "answer": "Light in the sky"
+        },
+        {
+          "question": "What is Annie’s favorite book among the ones in the tree house?",
+          "options": [
+            "The dinosaur book",
+            "The knight and castle book",
+            "The Frog Creek picture book",
+            "The Pennsylvania book"
+          ],
+          "answer": "The knight and castle book"
+        },
+        {
+          "question": "What sound does the horse make that they hear?",
+          "options": [
+            "Whinnying",
+            "Neighing",
+            "Neigh",
+            "Neighing sound"
+          ],
+          "answer": "Neighing"
+        },
+        {
+          "question": "What happens to the tree house at the end of the chapter?",
+          "options": [
+            "It stays still",
+            "It falls from the tree",
+            "It spins faster and faster",
+            "It disappears"
+          ],
+          "answer": "It spins faster and faster"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Jack want to leave the tree house?",
+          "answer": "Because he thinks they should go home and make a plan."
+        },
+        {
+          "question": "What does Annie want to do instead of leaving?",
+          "answer": "She wants to stay and visit the castle."
+        },
+        {
+          "question": "What indicates that they might be in a different time or place?",
+          "answer": "The castle in the fog and the knight riding by suggest they are somewhere else."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Across The Bridge",
+      "vocabulary": [
+        {
+          "word": "armor",
+          "eng_definition": "Heavy metal clothing worn by knights to protect their bodies",
+          "kor_definition": "기사들이 몸을 보호하기 위해 입는 무거운 금속 갑옷"
+        },
+        {
+          "word": "moat",
+          "eng_definition": "A deep, wide ditch filled with water surrounding a castle",
+          "kor_definition": "성을 둘러싼 깊고 넓은 물이 채워진 도랑"
+        },
+        {
+          "word": "drawbridge",
+          "eng_definition": "A bridge that can be pulled up or lowered over a moat",
+          "kor_definition": "도랑 위를 오르내릴 수 있도록 들어올리거나 내릴 수 있는 다리"
+        },
+        {
+          "word": "feast",
+          "eng_definition": "A large meal with many different kinds of food, often for celebration",
+          "kor_definition": "축하를 위해 많은 음식을 차린 큰 잔칫상"
+        },
+        {
+          "word": "fanfare",
+          "eng_definition": "A loud, lively sound of trumpets or horns used to announce something",
+          "kor_definition": "무언가를 알리기 위해 연주하는 크고 활기찬 트럼펫 또는 호른 소리"
+        },
+        {
+          "word": "inner ward",
+          "eng_definition": "The innermost section of a castle, often where important buildings are located",
+          "kor_definition": "성의 가장 안쪽 구역, 중요한 건물이 위치하는 곳"
+        },
+        {
+          "word": "feathers",
+          "eng_definition": "The light, thin parts covering a bird's body",
+          "kor_definition": "새의 몸을 덮는 가볍고 얇은 깃털"
+        },
+        {
+          "word": "peacock",
+          "eng_definition": "A large bird with bright, colorful tail feathers that fan out",
+          "kor_definition": "화려하고 색깔이 찬 깃털을 펼치는 큰 새"
+        },
+        {
+          "word": "shriek",
+          "eng_definition": "A loud, sharp cry or scream",
+          "kor_definition": "날카롭고 큰 소리의 비명"
+        },
+        {
+          "word": "castle",
+          "eng_definition": "A large, strong building built in past times for protection and residence of nobility",
+          "kor_definition": "과거에 보호와 귀족 거주를 위해 지어진 크고 강한 건물"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is a moat filled with?",
+          "options": [
+            "Water",
+            "Sand",
+            "Sand and water",
+            "Oil"
+          ],
+          "answer": "Water"
+        },
+        {
+          "question": "What do fanfares announce in the castle?",
+          "options": [
+            "The arrival of knights",
+            "Different dishes in a feast",
+            "The weather",
+            "The time"
+          ],
+          "answer": "Different dishes in a feast"
+        },
+        {
+          "question": "Where was Annie going at the end of the chapter?",
+          "options": [
+            "Back home",
+            "To the castle dungeon",
+            "Through the gate into the castle",
+            "To the castle tower"
+          ],
+          "answer": "Through the gate into the castle"
+        },
+        {
+          "question": "What did Jack think the people in the feast were eating?",
+          "options": [
+            "Pizzas",
+            "Vegetables",
+            "Sandwiches",
+            "Pigs, pies, and peacocks"
+          ],
+          "answer": "Pigs, pies, and peacocks"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Jack want to look at the castle book?",
+          "answer": "He wanted to learn more about the castle and what was happening there."
+        },
+        {
+          "question": "What is a drawbridge used for?",
+          "answer": "A drawbridge is used to cross a moat and can be raised or lowered."
+        },
+        {
+          "question": "Why did Annie run toward the castle at the end?",
+          "answer": "She heard real drums and horns and wanted to see the castle's feast."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Into The Castle",
+      "vocabulary": [
+        {
+          "word": "drawbridge",
+          "eng_definition": "a bridge that can be lifted or lowered to allow or prevent access to a castle or fortress",
+          "kor_definition": "성이나 요새에 연결된, 들어오거나 나갈 수 있도록 들어 올리거나 내릴 수 있는 다리"
+        },
+        {
+          "word": "moat",
+          "eng_definition": "a deep, wide ditch surrounding a castle, often filled with water",
+          "kor_definition": "성 주변에 파이거나 깊은 물웅덩이로 둘러싸인 해자"
+        },
+        {
+          "word": "peered",
+          "eng_definition": "looked intently or carefully",
+          "kor_definition": "집중하거나 조심스럽게 들여다보다"
+        },
+        {
+          "word": "courtyard",
+          "eng_definition": "an open area surrounded by walls or buildings, often inside a castle or large house",
+          "kor_definition": "성이나 큰 집 안에 둘러싸인 열린 공간"
+        },
+        {
+          "word": "clopped",
+          "eng_definition": "made a sound like a horse’s hoof hitting the ground",
+          "kor_definition": "말의 발굽이 땅을 치는 소리"
+        },
+        {
+          "word": "peeked",
+          "eng_definition": "looked quickly or secretly",
+          "kor_definition": "살금살금 또는 몰래 흘끗 들여다보다"
+        },
+        {
+          "word": "awe",
+          "eng_definition": "a feeling of great respect or wonder",
+          "kor_definition": "큰 존경이나 경이로움을 느끼는 감정"
+        },
+        {
+          "word": "balancing",
+          "eng_definition": "keeping steady or equal on both sides",
+          "kor_definition": "양쪽이 균형 잡히거나 안정되어 있게 하는 것"
+        },
+        {
+          "word": "art thou",
+          "eng_definition": "an old-fashioned way of asking 'are you'",
+          "kor_definition": "옛날 영어 표현으로 ‘너는 ~이니?’라는 의미"
+        },
+        {
+          "word": "squeaked",
+          "eng_definition": "made a short, high-pitched sound",
+          "kor_definition": "짧고 높은 소리를 내다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is a drawbridge used for?",
+          "options": [
+            "To allow or block access to a castle",
+            "To decorate castles",
+            "To serve as a lookout point",
+            "To store water"
+          ],
+          "answer": "To allow or block access to a castle"
+        },
+        {
+          "question": "What kind of room is the Great Hall described as?",
+          "options": [
+            "A noisy feast room with a fireplace",
+            "A secret storage room",
+            "A small bedroom",
+            "A quiet library"
+          ],
+          "answer": "A noisy feast room with a fireplace"
+        },
+        {
+          "question": "What is a moat?",
+          "options": [
+            "A type of castle",
+            "A large tree",
+            "A deep ditch around a castle",
+            "A kind of food"
+          ],
+          "answer": "A deep ditch around a castle"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Jack and Annie hide when they saw the guard?",
+          "answer": "They wanted to stay hidden so they wouldn't be caught."
+        },
+        {
+          "question": "What did Jack and Annie want to find inside the castle?",
+          "answer": "They wanted to find the music."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Trapped",
+      "vocabulary": [
+        {
+          "word": "creaked",
+          "eng_definition": "Made a long, high sound when opening or closing, usually a door or floorboard.",
+          "kor_definition": "끽끽 소리 내다, 삐걱거리다"
+        },
+        {
+          "word": "flipped",
+          "eng_definition": "Turned over quickly or suddenly.",
+          "kor_definition": "홱 뒤집다"
+        },
+        {
+          "word": "armory",
+          "eng_definition": "A place where weapons and armor are stored.",
+          "kor_definition": "무기고, 갑옷 저장소"
+        },
+        {
+          "word": "shelves",
+          "eng_definition": "Horizontal surfaces used for storing objects, usually attached to a wall.",
+          "kor_definition": "선반, 선반장"
+        },
+        {
+          "word": "helmet",
+          "eng_definition": "A protective head covering, often made of metal or hard material.",
+          "kor_definition": "투구, 헬멧"
+        },
+        {
+          "word": "clattered",
+          "eng_definition": "Made a continuous rattling sound.",
+          "kor_definition": "덜컹거리다, 달그락거리다"
+        },
+        {
+          "word": "struggling",
+          "eng_definition": "Trying hard to do something difficult.",
+          "kor_definition": "애쓰다, 힘쓰다"
+        },
+        {
+          "word": "echoed",
+          "eng_definition": "Sound reflected back from a surface, heard again.",
+          "kor_definition": "메아리 치다"
+        },
+        {
+          "word": "yikes",
+          "eng_definition": "An exclamation of surprise or fear.",
+          "kor_definition": "이런, 깜짝이야"
+        },
+        {
+          "word": "blazing",
+          "eng_definition": "Burning brightly and intensely.",
+          "kor_definition": "타오르는, 불길이 치솟는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the armory in the story?",
+          "options": [
+            "A room with books",
+            "A corridor in the house",
+            "A hall with knights",
+            "A place where armor and weapons are stored"
+          ],
+          "answer": "A place where armor and weapons are stored"
+        },
+        {
+          "question": "Why couldn't Jack lift the helmet easily?",
+          "options": [
+            "It was glued to the shelf",
+            "He didn't want to lift it",
+            "It was too heavy",
+            "It was too light"
+          ],
+          "answer": "It was too heavy"
+        },
+        {
+          "question": "What did Jack see when his helmet was taken off?",
+          "options": [
+            "A mirror",
+            "A bright torch",
+            "A knight",
+            "A book"
+          ],
+          "answer": "A bright torch"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Annie tell Jack to turn off the flashlight?",
+          "answer": "Because the voices were getting closer and they needed to hide."
+        },
+        {
+          "question": "What did Jack struggle with in the armory?",
+          "answer": "He struggled to lift the heavy helmet and to get it off."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "Ta-Da",
+      "vocabulary": [
+        {
+          "word": "torch",
+          "eng_definition": "a portable light source, usually a stick with a flame or electric light",
+          "kor_definition": "손전등, 횃불"
+        },
+        {
+          "word": "squinty",
+          "eng_definition": "having eyes that look partly closed or squeezed shut",
+          "kor_definition": "눈이 찡그린, 비스듬히 뜬"
+        },
+        {
+          "word": "mustache",
+          "eng_definition": "hair that grows above a person's upper lip",
+          "kor_definition": "콧수염"
+        },
+        {
+          "word": "dungeon",
+          "eng_definition": "a dark, underground prison cell",
+          "kor_definition": "지하 감옥"
+        },
+        {
+          "word": "creepy",
+          "eng_definition": "causing an unpleasant feeling of fear or unease",
+          "kor_definition": "소름끼치는, 무서운"
+        },
+        {
+          "word": "frantically",
+          "eng_definition": "in a hurried, excited, or disorganized manner",
+          "kor_definition": "미친 듯이, 정신없이"
+        },
+        {
+          "word": "puddle",
+          "eng_definition": "a small pool of water on the ground",
+          "kor_definition": "물이 고인 웅덩이"
+        },
+        {
+          "word": "quaking",
+          "eng_definition": "shaking or trembling from fear or cold",
+          "kor_definition": "떨며 흔들림"
+        },
+        {
+          "word": "leap",
+          "eng_definition": "to jump a long way or a great height",
+          "kor_definition": "뛰어넘다, 도약하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What object does Annie use to scare the guards?",
+          "options": [
+            "A torch",
+            "A flashlight",
+            "A sword",
+            "A mirror"
+          ],
+          "answer": "A flashlight"
+        },
+        {
+          "question": "What is the setting of this chapter?",
+          "options": [
+            "A village",
+            "A dungeon",
+            "A castle",
+            "A forest"
+          ],
+          "answer": "A dungeon"
+        },
+        {
+          "question": "What do the guards plan to do with Jack and Annie?",
+          "options": [
+            "Help them escape",
+            "Invite them to a feast",
+            "Send them home",
+            "Arrest them and keep them in the dungeon"
+          ],
+          "answer": "Arrest them and keep them in the dungeon"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How does Annie manage to scare the guards?",
+          "answer": "She uses her flashlight like a magic wand to make them fear her."
+        },
+        {
+          "question": "What is Jack worried about when they are in the dungeon?",
+          "answer": "He is worried about his backpack and being trapped."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "A Secret Passage",
+      "vocabulary": [
+        {
+          "word": "winding",
+          "eng_definition": "twisting or curving in a circular or spiral shape",
+          "kor_definition": "구불구불한, 휘어진"
+        },
+        {
+          "word": "shined",
+          "eng_definition": "to emit light by means of a flashlight or other source",
+          "kor_definition": "빛을 비추다"
+        },
+        {
+          "word": "sacks",
+          "eng_definition": "large bags used for storing or carrying items",
+          "kor_definition": "자루, 가방"
+        },
+        {
+          "word": "barrels",
+          "eng_definition": "large round containers, usually made of wood or metal",
+          "kor_definition": "통, 배럴"
+        },
+        {
+          "word": "trapdoor",
+          "eng_definition": "a secret or hidden door that leads to a different place",
+          "kor_definition": "덧문, 함정문"
+        },
+        {
+          "word": "precipice",
+          "eng_definition": "a very steep cliff or edge of a high place",
+          "kor_definition": "절벽, 벼랑"
+        },
+        {
+          "word": "loose",
+          "eng_definition": "not firmly attached or fixed in place",
+          "kor_definition": "느슨한, 헐거운"
+        },
+        {
+          "word": "crawl",
+          "eng_definition": "to move slowly or on hands and knees",
+          "kor_definition": "기어가다"
+        },
+        {
+          "word": "dimmer",
+          "eng_definition": "less bright or faint",
+          "kor_definition": "더 어두운, 희미한"
+        },
+        {
+          "word": "clinging",
+          "eng_definition": "holding on tightly to something",
+          "kor_definition": "매달리다, 붙잡다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Jack find under the loose stone?",
+          "options": [
+            "A secret message",
+            "A small wooden door",
+            "A hidden trap",
+            "A treasure chest"
+          ],
+          "answer": "A small wooden door"
+        },
+        {
+          "question": "What is the main purpose of the tunnel?",
+          "options": [
+            "To hide from enemies",
+            "To connect to the outside",
+            "To escape from the castle",
+            "To find a secret treasure"
+          ],
+          "answer": "To escape from the castle"
+        },
+        {
+          "question": "What does Jack think the precipice is?",
+          "options": [
+            "A tall tower",
+            "A secret trapdoor",
+            "An underground room",
+            "A steep cliff"
+          ],
+          "answer": "A steep cliff"
+        },
+        {
+          "question": "Why is Jack worried about the flashlight?",
+          "options": [
+            "It is broken",
+            "It might be stolen",
+            "The batteries might die",
+            "It is too bright"
+          ],
+          "answer": "The batteries might die"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What do Jack and Annie find behind the trapdoor?",
+          "answer": "They find a tunnel leading outside the castle."
+        },
+        {
+          "question": "Why does Jack fall into the water at the end?",
+          "answer": "He slips while hanging over the precipice and falls into the water."
+        },
+        {
+          "question": "What is the significance of the secret passage?",
+          "answer": "It helps Jack and Annie escape from the castle secretly."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "The Knight",
+      "vocabulary": [
+        {
+          "word": "moat",
+          "eng_definition": "a deep, wide ditch surrounding a castle, often filled with water",
+          "kor_definition": "성 주변에 파여진 깊고 넓은 도랑, 보통 물이 채워져 있음"
+        },
+        {
+          "word": "gasping",
+          "eng_definition": "breathing quickly and with difficulty, usually because of pain or exhaustion",
+          "kor_definition": "갑자기 숨이 차거나 힘들게 숨쉬는 것"
+        },
+        {
+          "word": "embankment",
+          "eng_definition": "a raised structure of earth or stone that supports or forms the edge of a river or canal",
+          "kor_definition": "강이나 운하의 가장자리 또는 지지하는 흙이나 돌로 만든 언덕"
+        },
+        {
+          "word": "misty",
+          "eng_definition": "covered with mist or fog; not clear",
+          "kor_definition": "안개나 연기로 뒤덮인, 흐릿한 상태"
+        },
+        {
+          "word": "shivering",
+          "eng_definition": "shaking slightly because of cold or fear",
+          "kor_definition": "추위나 두려움 때문에 약간 떠는 것"
+        },
+        {
+          "word": "shelter",
+          "eng_definition": "a place that provides protection from danger or weather",
+          "kor_definition": "위험이나 날씨로부터 보호하는 장소"
+        },
+        {
+          "word": "armor",
+          "eng_definition": "a protective covering worn by soldiers or knights",
+          "kor_definition": "전사나 기사들이 입는 보호용 갑옷"
+        },
+        {
+          "word": "visor",
+          "eng_definition": "a part of a helmet that covers the face or eyes",
+          "kor_definition": "헬멧의 얼굴이나 눈을 가리는 부분"
+        },
+        {
+          "word": "trapped",
+          "eng_definition": "caught or unable to escape from a place or situation",
+          "kor_definition": "움직이거나 빠져나올 수 없는 상태에 갇힌 것"
+        },
+        {
+          "word": "floodlight",
+          "eng_definition": "a very bright light used to illuminate large areas",
+          "kor_definition": "큰 지역을 비추기 위해 사용하는 매우 밝은 조명"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is a moat?",
+          "options": [
+            "A kind of tree",
+            "A deep, wide ditch around a castle",
+            "A small pond",
+            "A type of bird"
+          ],
+          "answer": "A deep, wide ditch around a castle"
+        },
+        {
+          "question": "What does 'misty' mean?",
+          "options": [
+            "Covered with mist or fog",
+            "Filled with animals",
+            "Very noisy",
+            "Full of sunlight"
+          ],
+          "answer": "Covered with mist or fog"
+        },
+        {
+          "question": "Who is sitting on the black horse in the story?",
+          "options": [
+            "A king",
+            "A farmer",
+            "A knight",
+            "A prince"
+          ],
+          "answer": "A knight"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why were Jack and Annie feeling cold and shivering?",
+          "answer": "Because they were in the cold, misty darkness after swimming in the moat."
+        },
+        {
+          "question": "What did Jack and Annie see when the clouds parted?",
+          "answer": "They saw a knight sitting on a black horse, with his armor shining in the moonlight."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "Under The Moon",
+      "vocabulary": [
+        {
+          "word": "frozen",
+          "eng_definition": "completely still or unable to move because of cold or fear",
+          "kor_definition": "얼어붙은, 움직일 수 없는"
+        },
+        {
+          "word": "dismounted",
+          "eng_definition": "got off or stepped down from a horse or bicycle",
+          "kor_definition": "내리다, 하차하다"
+        },
+        {
+          "word": "cantered",
+          "eng_definition": "moved at a smooth, easy gait faster than a walk but slower than a gallop",
+          "kor_definition": "천천히 달리다, 부드럽게 달리다"
+        },
+        {
+          "word": "mist",
+          "eng_definition": "a cloud of tiny water droplets suspended in the atmosphere near the ground",
+          "kor_definition": "안개"
+        },
+        {
+          "word": "gleaming",
+          "eng_definition": "shining brightly, especially because of reflected light",
+          "kor_definition": "반짝이는"
+        },
+        {
+          "word": "silk bookmark",
+          "eng_definition": "a thin piece of silk used to mark a page in a book",
+          "kor_definition": "실크 책갈피"
+        },
+        {
+          "word": "whispered",
+          "eng_definition": "spoke very softly or quietly",
+          "kor_definition": "속삭이다"
+        },
+        {
+          "word": "spin",
+          "eng_definition": "to turn around quickly or continuously",
+          "kor_definition": "돌다, 회전하다"
+        },
+        {
+          "word": "absolute",
+          "eng_definition": "total; complete; not changed or limited",
+          "kor_definition": "절대적인, 완전한"
+        },
+        {
+          "word": "gloomy",
+          "eng_definition": "dark or poorly lit, often indicating sadness or mystery",
+          "kor_definition": "음침한, 어둑한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the main setting of the chapter?",
+          "options": [
+            "A castle by the moonlit water",
+            "A busy city street",
+            "A sunny park",
+            "A desert"
+          ],
+          "answer": "A castle by the moonlit water"
+        },
+        {
+          "question": "Who helps Jack and Annie in the story?",
+          "options": [
+            "A wizard",
+            "A pirate",
+            "A knight",
+            "A farmer"
+          ],
+          "answer": "A knight"
+        },
+        {
+          "question": "What do Jack and Annie do at the end of the chapter?",
+          "options": [
+            "They go to sleep",
+            "They wish to go to Frog Creek",
+            "They meet a dragon",
+            "They find a treasure"
+          ],
+          "answer": "They wish to go to Frog Creek"
+        },
+        {
+          "question": "What causes the tree house to start spinning?",
+          "options": [
+            "An earthquake",
+            "A wish made in the book",
+            "A magic spell",
+            "A storm"
+          ],
+          "answer": "A wish made in the book"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Who is the mysterious figure that helps Jack and Annie?",
+          "answer": "A knight."
+        },
+        {
+          "question": "What do Jack and Annie look out from the tree house after the knight rides away?",
+          "answer": "They look out the window and see the moon and the land covered in black mist."
+        },
+        {
+          "question": "What do Jack and Annie hope to do with the book they find?",
+          "answer": "They hope to wish to go to Frog Creek."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "One Mystery Solved",
+      "vocabulary": [
+        {
+          "word": "dawn",
+          "eng_definition": "the first appearance of light in the morning",
+          "kor_definition": "새벽, 새벽빛"
+        },
+        {
+          "word": "unzipped",
+          "eng_definition": "opened or separated the zipper of something",
+          "kor_definition": "지퍼를 열다"
+        },
+        {
+          "word": "cozy",
+          "eng_definition": "comfortable and warm",
+          "kor_definition": "아늑한, 포근한"
+        },
+        {
+          "word": "bookmark",
+          "eng_definition": "a piece of material used to mark a page in a book",
+          "kor_definition": "책갈피"
+        },
+        {
+          "word": "medallion",
+          "eng_definition": "a large metal disk, often as a symbol or award",
+          "kor_definition": "메달, 장식용 원판"
+        },
+        {
+          "word": "ancient",
+          "eng_definition": "very old, from a long time ago",
+          "kor_definition": "고대의, 옛날의"
+        },
+        {
+          "word": "mystery",
+          "eng_definition": "something that is difficult to understand or explain",
+          "kor_definition": "수수께끼, 미스터리"
+        },
+        {
+          "word": "deserted",
+          "eng_definition": "empty or abandoned",
+          "kor_definition": "인적이 끊긴, 버림받은"
+        },
+        {
+          "word": "slipped",
+          "eng_definition": "moved quietly or quickly without being noticed",
+          "kor_definition": "살금살금 움직이다"
+        },
+        {
+          "word": "mist",
+          "eng_definition": "a mass of tiny water droplets in the air that reduces visibility",
+          "kor_definition": "안개"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What time of day does the story take place?",
+          "options": [
+            "Afternoon",
+            "Noon",
+            "Dawn",
+            "Night"
+          ],
+          "answer": "Dawn"
+        },
+        {
+          "question": "What object did Jack find that had a letter 'M' on it?",
+          "options": [
+            "A necklace",
+            "A bookmark",
+            "A letter",
+            "A map"
+          ],
+          "answer": "A bookmark"
+        },
+        {
+          "question": "Who was the person that dropped the medallion in the time of the dinosaurs?",
+          "options": [
+            "The same person who owned the books",
+            "Jack himself",
+            "A dinosaur",
+            "A knight"
+          ],
+          "answer": "The same person who owned the books"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What clue helped Jack identify the owner of the medallion?",
+          "answer": "The letter 'M' on the medallion and the bookmark matched, revealing they belonged to the same person."
+        },
+        {
+          "question": "Where did Jack imagine they were riding in his dream?",
+          "answer": "They were riding a black horse through the castle, over a moonlit hill, into the mist."
+        }
+      ]
+    }
+  ]
+}
