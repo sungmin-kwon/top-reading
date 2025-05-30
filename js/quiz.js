@@ -81,6 +81,7 @@ function renderChapter(index) {
   chapter.multiple_choice.forEach((q, i) => {
     const questionDiv = document.createElement("div");
     questionDiv.className = "question";
+    questionDiv.setAttribute("data-answer", q.answer);
     questionDiv.innerHTML = `
       <h3>${i + 1}. ${q.question}</h3>
       ${q.options.map(opt => `
@@ -89,29 +90,66 @@ function renderChapter(index) {
           ${opt}
         </label>
       `).join("")}
-      <button class="check-btn" onclick="checkAnswer(this, '${q.answer.replace(/'/g, "\\'")}')">Check Answer</button>
       <div class="mcq-feedback"></div>
     `;
     quizContainer.appendChild(questionDiv);
   });
+
+  const submitBtn = document.createElement("button");
+  submitBtn.textContent = "Submit Answers";
+  submitBtn.className = "check-btn";
+  submitBtn.style.marginTop = "20px";
+  submitBtn.onclick = gradeQuiz;
+  quizContainer.appendChild(submitBtn);
 }
 
-function checkAnswer(button, correctAnswer) {
-  const container = button.closest(".question");
-  const selected = container.querySelector("input[type='radio']:checked");
-  const feedback = container.querySelector(".mcq-feedback");
+function gradeQuiz() {
+  const quizContainer = document.getElementById("quiz");
+  const questions = document.querySelectorAll(".question");
+  let score = 0;
 
-  if (!selected) {
-    feedback.textContent = "⚠️ Please select an answer.";
-    feedback.style.color = "orange";
-    return;
-  }
+  // ❌ Remove previous result message
+  const oldResult = quizContainer.querySelector(".results");
+  if (oldResult) oldResult.remove();
 
-  if (selected.value === correctAnswer) {
-    feedback.textContent = "✅ Correct!";
-    feedback.style.color = "green";
-  } else {
-    feedback.textContent = `❌ Incorrect. The correct answer is "${correctAnswer}"`;
-    feedback.style.color = "red";
-  }
+  // ❌ Remove previous retry buttons
+  const oldRetries = quizContainer.querySelectorAll(".retry-btn");
+  oldRetries.forEach(btn => btn.remove());
+
+  questions.forEach((qDiv) => {
+    const correct = qDiv.getAttribute("data-answer");
+    const selected = qDiv.querySelector("input[type='radio']:checked");
+    const feedback = qDiv.querySelector(".mcq-feedback");
+
+    if (!selected) {
+      feedback.textContent = "⚠️ No answer selected.";
+      feedback.style.color = "orange";
+      return;
+    }
+
+    if (selected.value === correct) {
+      feedback.textContent = "✅ Correct!";
+      feedback.style.color = "green";
+      score++;
+    } else {
+      feedback.textContent = `❌ Incorrect. Correct answer: "${correct}"`;
+      feedback.style.color = "red";
+    }
+  });
+
+  // ✅ Add score summary
+  const resultMsg = document.createElement("div");
+  resultMsg.className = "results";
+  resultMsg.style.marginTop = "20px";
+  resultMsg.style.fontWeight = "bold";
+  resultMsg.textContent = `You got ${score} out of ${questions.length} correct.`;
+  quizContainer.appendChild(resultMsg);
+
+  // ✅ Add retry button
+  const retryBtn = document.createElement("button");
+  retryBtn.textContent = "Retry Quiz";
+  retryBtn.className = "check-btn retry-btn";
+  retryBtn.style.marginTop = "10px";
+  retryBtn.onclick = () => renderChapter(currentChapterIndex);
+  quizContainer.appendChild(retryBtn);
 }

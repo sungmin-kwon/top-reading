@@ -1,0 +1,1023 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-31T01:35:02",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 9463,
+    "completion_tokens": 7224,
+    "total_tokens": 16687
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "The M Things",
+      "vocabulary": [
+        {
+          "word": "darted",
+          "eng_definition": "moved quickly and suddenly",
+          "kor_definition": "갑자기 빠르게 움직이다"
+        },
+        {
+          "word": "pushed",
+          "eng_definition": "applied force to move something away or into position",
+          "kor_definition": "밀거나 누르다"
+        },
+        {
+          "word": "shadow",
+          "eng_definition": "a dark area caused by blocking light",
+          "kor_definition": "그림자"
+        },
+        {
+          "word": "clearing",
+          "eng_definition": "an open space in the woods",
+          "kor_definition": "개활지, 공터"
+        },
+        {
+          "word": "carved",
+          "eng_definition": "cut or engraved into a surface",
+          "kor_definition": "조각하다, 새기다"
+        },
+        {
+          "word": "journeys",
+          "eng_definition": "travels or trips from one place to another",
+          "kor_definition": "여행, 여정"
+        },
+        {
+          "word": "stared",
+          "eng_definition": "looked at something with wide-open eyes",
+          "kor_definition": "응시했다"
+        },
+        {
+          "word": "prepared",
+          "eng_definition": "ready for something",
+          "kor_definition": "준비된"
+        },
+        {
+          "word": "spin",
+          "eng_definition": "to turn around quickly",
+          "kor_definition": "돌다, 회전하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the magic tree house located in?",
+          "options": [
+            "Underwater",
+            "In the tallest tree in the woods",
+            "In a city",
+            "In a small village"
+          ],
+          "answer": "In the tallest tree in the woods"
+        },
+        {
+          "question": "What does the carved 'M' on the floor represent?",
+          "options": [
+            "A map",
+            "A magic spell",
+            "A treasure",
+            "The letter M"
+          ],
+          "answer": "The letter M"
+        },
+        {
+          "question": "What happens when the wind starts to blow in the story?",
+          "options": [
+            "They fly away",
+            "The tree house stays still",
+            "It rains heavily",
+            "The tree house spins and then becomes silent"
+          ],
+          "answer": "The tree house spins and then becomes silent"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Jack give up on changing out of his bathing suit?",
+          "answer": "Because Annie encouraged him to go to the tree house before the sun sets."
+        },
+        {
+          "question": "What do Jack and Annie find on the wooden floor that relates to the letter M?",
+          "answer": "They find a moonstone, a mango, and the carved letter M."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Bones",
+      "vocabulary": [
+        {
+          "word": "plain",
+          "eng_definition": "a large area of flat land with few trees",
+          "kor_definition": "평평한 들판"
+        },
+        {
+          "word": "cliffs",
+          "eng_definition": "high, steep rock faces",
+          "kor_definition": "절벽"
+        },
+        {
+          "word": "chattered",
+          "eng_definition": "made quick, repetitive sounds with the teeth",
+          "kor_definition": "턱이 떨리며 소리를 냄"
+        },
+        {
+          "word": "grove",
+          "eng_definition": "a small group of trees",
+          "kor_definition": "작은 숲, 작은 나무 무리"
+        },
+        {
+          "word": "ice age",
+          "eng_definition": "a period when much of the world was covered with ice and glaciers",
+          "kor_definition": "빙하기"
+        },
+        {
+          "word": "Cro-Magnons",
+          "eng_definition": "early modern humans who lived during the Ice Age",
+          "kor_definition": "크로마뇽인 (선사 시대의 현대인)"
+        },
+        {
+          "word": "trapped",
+          "eng_definition": "caught or enclosed, usually to catch animals",
+          "kor_definition": "덫에 걸린"
+        },
+        {
+          "word": "fiercer",
+          "eng_definition": "more aggressive or intense",
+          "kor_definition": "더 사나운, 더 격렬한"
+        },
+        {
+          "word": "huddled",
+          "eng_definition": "grouped closely together for warmth or comfort",
+          "kor_definition": "꼭 붙어 모여 있다"
+        },
+        {
+          "word": "bones",
+          "eng_definition": "the hard parts inside a body that support it",
+          "kor_definition": "뼈"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does the word 'grove' mean?",
+          "options": [
+            "A small group of trees",
+            "A large mountain",
+            "A deep river",
+            "A wide plain"
+          ],
+          "answer": "A small group of trees"
+        },
+        {
+          "question": "Who were Cro-Magnons?",
+          "options": [
+            "Ancient fish",
+            "Modern animals",
+            "Dinosaurs",
+            "Early modern humans during the Ice Age"
+          ],
+          "answer": "Early modern humans during the Ice Age"
+        },
+        {
+          "question": "Why did the Cro-Magnon family use traps?",
+          "options": [
+            "To store water",
+            "To catch animals like reindeer and mammoths",
+            "To trap enemies",
+            "To catch fish"
+          ],
+          "answer": "To catch animals like reindeer and mammoths"
+        },
+        {
+          "question": "What does Jack suggest doing to stay warm?",
+          "options": [
+            "Finding a cave or warm place",
+            "Running fast",
+            "Jumping in a lake",
+            "Building a fire outside"
+          ],
+          "answer": "Finding a cave or warm place"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why are Jack and Annie cold in the story?",
+          "answer": "Because they are outside in the snow during the Ice Age."
+        },
+        {
+          "question": "What did Jack and Annie find inside the cave?",
+          "answer": "They found bones and the bones of great cave bears."
+        },
+        {
+          "question": "Why did Jack think it was dangerous to meet the Cro-Magnons?",
+          "answer": "Because they might think Jack and Annie are enemies and throw spears at them."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Brrr",
+      "vocabulary": [
+        {
+          "word": "bones",
+          "eng_definition": "the hard parts inside your body that form your skeleton",
+          "kor_definition": "뼈, 해골"
+        },
+        {
+          "word": "stronger",
+          "eng_definition": "more powerful or forceful",
+          "kor_definition": "더 강한"
+        },
+        {
+          "word": "moaning",
+          "eng_definition": "making a long, low sound of pain or sadness",
+          "kor_definition": "신음하는 소리"
+        },
+        {
+          "word": "panic",
+          "eng_definition": "a sudden feeling of fear that makes you unable to think clearly",
+          "kor_definition": "공황, 공포"
+        },
+        {
+          "word": "glow",
+          "eng_definition": "a steady light that shines softly",
+          "kor_definition": "빛, 빛남"
+        },
+        {
+          "word": "cozy",
+          "eng_definition": "comfortable and warm",
+          "kor_definition": "아늑한"
+        },
+        {
+          "word": "cliffs",
+          "eng_definition": "high, steep areas of rock by the sea or land",
+          "kor_definition": "절벽"
+        },
+        {
+          "word": "footprints",
+          "eng_definition": "marks left by feet in the ground",
+          "kor_definition": "발자국"
+        },
+        {
+          "word": "huddled",
+          "eng_definition": "crowded close together for warmth or comfort",
+          "kor_definition": "모여 있거나 기대어 있는"
+        },
+        {
+          "word": "discovered",
+          "eng_definition": "found something that was hidden or unknown",
+          "kor_definition": "발견했다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Jack and Annie run through to escape the cave?",
+          "options": [
+            "B) fallen rocks",
+            "C) a forest",
+            "D) a desert",
+            "A) a river"
+          ],
+          "answer": "B) fallen rocks"
+        },
+        {
+          "question": "What did Annie notice behind Jack?",
+          "options": [
+            "B) a golden glow from a cave",
+            "A) a sleeping bear",
+            "C) a group of people",
+            "D) a river"
+          ],
+          "answer": "B) a golden glow from a cave"
+        },
+        {
+          "question": "What did Jack wipe off with his glasses?",
+          "options": [
+            "A) mud",
+            "D) dirt",
+            "B) rain",
+            "C) snow"
+          ],
+          "answer": "C) snow"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Jack and Annie think the bear probably never woke up?",
+          "answer": "Because they ran away quickly and the bear was still sleeping when they left."
+        },
+        {
+          "question": "What did Annie find behind Jack that looked cozy and safe?",
+          "answer": "A cave with a golden glow under a ledge."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Cave Kids",
+      "vocabulary": [
+        {
+          "word": "crept",
+          "eng_definition": "moved quietly and carefully",
+          "kor_definition": "살금살금 움직였다"
+        },
+        {
+          "word": "danced",
+          "eng_definition": "moved rhythmically to music or movement",
+          "kor_definition": "춤추었다"
+        },
+        {
+          "word": "hollowed-out",
+          "eng_definition": "made by removing the inside part",
+          "kor_definition": "속이 빈, 파내어진"
+        },
+        {
+          "word": "braiding",
+          "eng_definition": "intertwining three or more strands to make a pattern",
+          "kor_definition": "땋기, 엮기"
+        },
+        {
+          "word": "flint",
+          "eng_definition": "a hard type of rock used to make tools and start fires",
+          "kor_definition": "부싯돌, 부싯돌로 만든 도구"
+        },
+        {
+          "word": "lamps",
+          "eng_definition": "devices that produce light, especially made from hollowed rocks in this context",
+          "kor_definition": "램프, 조명기구"
+        },
+        {
+          "word": "echoed",
+          "eng_definition": "repeated sound that bounces back",
+          "kor_definition": "반향되었다"
+        },
+        {
+          "word": "cavern",
+          "eng_definition": "a large cave or chamber in a cave",
+          "kor_definition": "큰 동굴"
+        },
+        {
+          "word": "prehistoric",
+          "eng_definition": "relating to the time before written history",
+          "kor_definition": "선사 시대의"
+        },
+        {
+          "word": "flickering",
+          "eng_definition": "wavering or flashing light",
+          "kor_definition": "깜박이는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Jack and Annie find inside the cave?",
+          "options": [
+            "A fire with animals around it",
+            "A treasure chest",
+            "A small boat",
+            "A pile of books"
+          ],
+          "answer": "A fire with animals around it"
+        },
+        {
+          "question": "What materials did Cro-Magnons use for making tools?",
+          "options": [
+            "Wood and glass",
+            "Stone, bones, and plant fibers",
+            "Cloth and paper",
+            "Plastic and metal"
+          ],
+          "answer": "Stone, bones, and plant fibers"
+        },
+        {
+          "question": "How did Cro-Magnons make their clothing soft?",
+          "options": [
+            "Using soap",
+            "Drying in the sun",
+            "Scraping reindeer skins with flint rocks",
+            "Washing with water"
+          ],
+          "answer": "Scraping reindeer skins with flint rocks"
+        },
+        {
+          "question": "What did Jack and Annie leave as gifts for the cave people?",
+          "options": [
+            "Towels and goggles",
+            "Clothes and shoes",
+            "Food and water",
+            "Jewelry and tools"
+          ],
+          "answer": "Towels and goggles"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What did Cro-Magnons make from mammoth bones?",
+          "answer": "They made flute-like musical instruments."
+        },
+        {
+          "question": "How did Cro-Magnons see in the dark?",
+          "answer": "They made stone lamps by hollowing out rocks, filling them with animal fat, and burning moss wicks."
+        },
+        {
+          "question": "What animals were painted on the cave walls?",
+          "answer": "Cave bears, lions, elk, reindeer, bison, woolly rhinos, and mammoths."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Show Tracks",
+      "vocabulary": [
+        {
+          "word": "gallery",
+          "eng_definition": "A room or building for displaying art.",
+          "kor_definition": "미술 작품을 전시하는 공간"
+        },
+        {
+          "word": "cave paintings",
+          "eng_definition": "Prehistoric images painted on cave walls.",
+          "kor_definition": "동굴 벽에 그린 선사 시대 그림"
+        },
+        {
+          "word": "Cro-Magnons",
+          "eng_definition": "An early group of humans from the Ice Age.",
+          "kor_definition": "구석기 시대 초기 인류 그룹"
+        },
+        {
+          "word": "sorcerer",
+          "eng_definition": "A person who claims to have magical powers.",
+          "kor_definition": "마법을 부린다고 믿는 사람"
+        },
+        {
+          "word": "antlers",
+          "eng_definition": "The branched horns on the heads of deer and reindeer.",
+          "kor_definition": "사슴과 순록의 뿔"
+        },
+        {
+          "word": "mask",
+          "eng_definition": "A covering for the face, often used in ceremonies or rituals.",
+          "kor_definition": "얼굴 덮개, 의식이나 제사용"
+        },
+        {
+          "word": "tracks",
+          "eng_definition": "Impressions left by animals or people on the ground.",
+          "kor_definition": "동물이나 사람의 발자국 흔적"
+        },
+        {
+          "word": "lamp",
+          "eng_definition": "A device that produces light.",
+          "kor_definition": "빛을 내는 조명기구"
+        },
+        {
+          "word": "shadows",
+          "eng_definition": "Dark shapes made when something blocks light.",
+          "kor_definition": "빛을 가려서 생기는 어두운 형태"
+        },
+        {
+          "word": "furry skins",
+          "eng_definition": "Animal pelts covered with fur, used as coverings or clothing.",
+          "kor_definition": "털이 덮인 동물 가죽"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does the term 'sorcerer' most likely mean?",
+          "options": [
+            "A type of animal",
+            "A person who paints cave pictures",
+            "A cave explorer",
+            "A person with magical powers"
+          ],
+          "answer": "A person with magical powers"
+        },
+        {
+          "question": "Why did Jack and Annie blow out their lamps?",
+          "options": [
+            "To save firewood",
+            "To avoid attracting animals",
+            "Because they wanted to see in the dark",
+            "Because they finished exploring"
+          ],
+          "answer": "Because they finished exploring"
+        },
+        {
+          "question": "What are the tiny tracks in the snow most likely made by?",
+          "options": [
+            "A small animal",
+            "A person",
+            "A falling leaf",
+            "A rock"
+          ],
+          "answer": "A small animal"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do Jack and Annie think the Master of the Animals might be their friend Morgan?",
+          "answer": "Because the Master of the Animals is a magical figure, and Morgan is also a wizard or friend of magic."
+        },
+        {
+          "question": "What do Jack and Annie plan to do after finding the tracks in the snow?",
+          "answer": "They plan to follow the tracks to find out what animal made them."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "Song On The Wind",
+      "vocabulary": [
+        {
+          "word": "tracks",
+          "eng_definition": "Footprints or marks left by a moving animal or person.",
+          "kor_definition": "발자국 또는 흔적"
+        },
+        {
+          "word": "vanished",
+          "eng_definition": "Disappeared completely; ceased to exist.",
+          "kor_definition": "사라졌다"
+        },
+        {
+          "word": "cliffs",
+          "eng_definition": "High, steep faces of rock or earth, often overlooking water or land below.",
+          "kor_definition": "절벽"
+        },
+        {
+          "word": "sabertooth",
+          "eng_definition": "An extinct large carnivorous mammal with long, sharp upper canine teeth.",
+          "kor_definition": "사자송곳니(빙하기의 육식동물)"
+        },
+        {
+          "word": "trap",
+          "eng_definition": "A device or situation designed to catch or trick someone or something.",
+          "kor_definition": "덫, 함정"
+        },
+        {
+          "word": "caved in",
+          "eng_definition": "Fell inward or collapsed.",
+          "kor_definition": "무너지거나 함몰되었다"
+        },
+        {
+          "word": "helpless",
+          "eng_definition": "Unable to help oneself or escape from a difficult situation.",
+          "kor_definition": "무력한, 도와줄 수 없는"
+        },
+        {
+          "word": "fiercest",
+          "eng_definition": "Most intense or aggressive.",
+          "kor_definition": "가장 사나운, 격렬한"
+        },
+        {
+          "word": "haunting",
+          "eng_definition": "Having a sad or frightening quality that stays in your mind.",
+          "kor_definition": "귀신 같은, 마음을 사로잡는"
+        },
+        {
+          "word": "sorcerer",
+          "eng_definition": "A person who claims to have magic powers; a wizard.",
+          "kor_definition": "마법사, 마술사"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Annie and Jack need to find before it froze?",
+          "options": [
+            "A lost treasure",
+            "A secret message",
+            "Peanut the mouse",
+            "A hidden cave"
+          ],
+          "answer": "Peanut the mouse"
+        },
+        {
+          "question": "What kind of animal was the giant tiger they saw on the cliff?",
+          "options": [
+            "A lion",
+            "A sabertooth",
+            "A wolf",
+            "A bear"
+          ],
+          "answer": "A sabertooth"
+        },
+        {
+          "question": "What did Jack and Annie realize was covering the hole they fell into?",
+          "options": [
+            "A layer of snow",
+            "A trap made of branches",
+            "A thin sheet of ice",
+            "A pile of rocks"
+          ],
+          "answer": "A trap made of branches"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Jack and Annie feel helpless in the hole?",
+          "answer": "Because the pit was too deep to climb out of and they were trapped."
+        },
+        {
+          "question": "What sound did Jack hear besides the wind that made him pay attention?",
+          "answer": "He heard strange, haunting music."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "The Sorcerers Gift",
+      "vocabulary": [
+        {
+          "word": "sorcerer",
+          "eng_definition": "a person who practices magic or sorcery",
+          "kor_definition": "마법사, 주술사"
+        },
+        {
+          "word": "mask",
+          "eng_definition": "a covering for the face, worn for disguise or entertainment",
+          "kor_definition": "가면"
+        },
+        {
+          "word": "pit",
+          "eng_definition": "a large hole in the ground",
+          "kor_definition": "구덩이, 함정"
+        },
+        {
+          "word": "tug",
+          "eng_definition": "to pull with force",
+          "kor_definition": "잡아당기다"
+        },
+        {
+          "word": "reappear",
+          "eng_definition": "to appear again",
+          "kor_definition": "다시 나타나다"
+        },
+        {
+          "word": "climb",
+          "eng_definition": "to go up something using the hands and feet",
+          "kor_definition": "오르다"
+        },
+        {
+          "word": "flesh",
+          "eng_definition": "the soft parts of a person's or animal's body",
+          "kor_definition": "살, 육체"
+        },
+        {
+          "word": "bone",
+          "eng_definition": "the rigid organs that form the skeleton of humans and animals",
+          "kor_definition": "뼈"
+        },
+        {
+          "word": "whisper",
+          "eng_definition": "to speak very softly",
+          "kor_definition": "속삭이다"
+        },
+        {
+          "word": "vanish",
+          "eng_definition": "to disappear suddenly",
+          "kor_definition": "사라지다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did the sorcerer wear on his face?",
+          "options": [
+            "Glasses",
+            "A mask",
+            "A helmet",
+            "A hat"
+          ],
+          "answer": "A mask"
+        },
+        {
+          "question": "How did Annie get pulled out of the pit?",
+          "options": [
+            "By a rope",
+            "By a ladder",
+            "By magic",
+            "By a helicopter"
+          ],
+          "answer": "By a rope"
+        },
+        {
+          "question": "What animal was Annie sitting on?",
+          "options": [
+            "An elephant",
+            "A woolly mammoth",
+            "A camel",
+            "A horse"
+          ],
+          "answer": "A woolly mammoth"
+        },
+        {
+          "question": "What did Jack think the mammoth bone might be?",
+          "options": [
+            "A necklace",
+            "A flute",
+            "A sword",
+            "A key"
+          ],
+          "answer": "A flute"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Who helped Annie get out of the pit?",
+          "answer": "The sorcerer helped Annie by pulling her up with a rope."
+        },
+        {
+          "question": "What did Jack receive from the sorcerer?",
+          "answer": "Jack received a mammoth bone that might be a flute."
+        },
+        {
+          "question": "Where were Annie and Jack going at the end of the chapter?",
+          "answer": "They were going to the tree house."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "The Great Parade",
+      "vocabulary": [
+        {
+          "word": "herd",
+          "eng_definition": "a large group of animals of the same kind that live, feed, or migrate together",
+          "kor_definition": "무리, 떼"
+        },
+        {
+          "word": "antlers",
+          "eng_definition": "the branched horns of deer, elk, or similar animals that grow on the head",
+          "kor_definition": "사슴뿔, 뿔"
+        },
+        {
+          "word": "pranced",
+          "eng_definition": "moved with a lively, springing step",
+          "kor_definition": "경쾌하게 뛰거나 걷다"
+        },
+        {
+          "word": "escort",
+          "eng_definition": "to accompany or go along with someone or something for protection or as a guide",
+          "kor_definition": "호위하다, 안내하다"
+        },
+        {
+          "word": "sparkled",
+          "eng_definition": "shined with flashes of light",
+          "kor_definition": "반짝였다"
+        },
+        {
+          "word": "slinked",
+          "eng_definition": "moved quietly and cautiously, often in a sneaky or secretive way",
+          "kor_definition": "살금살금 움직이다"
+        },
+        {
+          "word": "charged",
+          "eng_definition": "moved forward quickly and aggressively",
+          "kor_definition": "돌진하다"
+        },
+        {
+          "word": "trapped",
+          "eng_definition": "caught or held in a place from which escape is difficult",
+          "kor_definition": "갇히다, 함정에 빠지다"
+        },
+        {
+          "word": "fiercely",
+          "eng_definition": "in a very intense or aggressive manner",
+          "kor_definition": "사납게, 맹렬히"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What animals are mentioned as part of the parade in the story?",
+          "options": [
+            "Horses, cows, goats, and sheep",
+            "Lions, tigers, bears, and wolves",
+            "Elk, reindeer, rhino, and bison",
+            "Dogs, cats, rabbits, and mice"
+          ],
+          "answer": "Elk, reindeer, rhino, and bison"
+        },
+        {
+          "question": "What does the mammoth do when it senses danger?",
+          "options": [
+            "It runs away",
+            "It roars and charges",
+            "It falls asleep",
+            "It hides under the trees"
+          ],
+          "answer": "It roars and charges"
+        },
+        {
+          "question": "Who is trying to threaten the mammoth at the end of the chapter?",
+          "options": [
+            "A sabertooth tiger",
+            "A pack of wolves",
+            "A crocodile",
+            "A wolf pack"
+          ],
+          "answer": "A sabertooth tiger"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How do Jack and Annie feel during the mammoth's charge?",
+          "answer": "They feel scared and nearly fall off."
+        },
+        {
+          "question": "What is the main danger facing the mammoth in this chapter?",
+          "answer": "The sabertooth tiger is dangerous and threatens the mammoth."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "Master Of The Animals",
+      "vocabulary": [
+        {
+          "word": "crept",
+          "eng_definition": "moved slowly and quietly",
+          "kor_definition": "살금살금 기어가다"
+        },
+        {
+          "word": "whispered",
+          "eng_definition": "spoke very quietly",
+          "kor_definition": "속삭였다"
+        },
+        {
+          "word": "froze",
+          "eng_definition": "stopped moving; became still",
+          "kor_definition": "얼어붙었다"
+        },
+        {
+          "word": "growled",
+          "eng_definition": "made a low, menacing sound",
+          "kor_definition": "으르렁거렸다"
+        },
+        {
+          "word": "snarled",
+          "eng_definition": "made an angry, aggressive sound",
+          "kor_definition": "으르렁거렸다"
+        },
+        {
+          "word": "lumbered",
+          "eng_definition": "moved in a slow, heavy way",
+          "kor_definition": "느릿느릿 움직였다"
+        },
+        {
+          "word": "disappeared",
+          "eng_definition": "became unseen; went out of sight",
+          "kor_definition": "사라졌다"
+        },
+        {
+          "word": "mission",
+          "eng_definition": "a task or goal to be achieved",
+          "kor_definition": "임무, 과제"
+        },
+        {
+          "word": "peered",
+          "eng_definition": "looked carefully and closely",
+          "kor_definition": "응시했다"
+        },
+        {
+          "word": "spin",
+          "eng_definition": "to turn around quickly",
+          "kor_definition": "빙글빙글 돌다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Jack use to try to scare away the sabertooth?",
+          "options": [
+            "A sword",
+            "A flute",
+            "A spear",
+            "A torch"
+          ],
+          "answer": "A flute"
+        },
+        {
+          "question": "How did the mammoth seem to feel when Jack and Annie finished their task?",
+          "options": [
+            "Happy",
+            "Angry",
+            "Sad",
+            "Tired"
+          ],
+          "answer": "Happy"
+        },
+        {
+          "question": "What did Jack and Annie decide to do with their coats before leaving?",
+          "options": [
+            "Sell them",
+            "Drop them",
+            "Return them",
+            "Keep them"
+          ],
+          "answer": "Drop them"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Jack blow into the mammoth-bone flute?",
+          "answer": "To scare away the sabertooth tiger."
+        },
+        {
+          "question": "What does the spinning tree house symbolize at the end of the chapter?",
+          "answer": "It represents the magical way they travel between times and places."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "This Age",
+      "vocabulary": [
+        {
+          "word": "sang",
+          "eng_definition": "past tense of sing; made musical sounds with the voice",
+          "kor_definition": "노래하다, 부르다"
+        },
+        {
+          "word": "soft",
+          "eng_definition": "not hard or firm; gentle in touch or sound",
+          "kor_definition": "부드러운, 연한"
+        },
+        {
+          "word": "secret",
+          "eng_definition": "something kept hidden or unknown",
+          "kor_definition": "비밀"
+        },
+        {
+          "word": "mammoth",
+          "eng_definition": "a large, extinct elephant-like animal",
+          "kor_definition": "매머드"
+        },
+        {
+          "word": "rainforest",
+          "eng_definition": "a dense forest with a lot of rain and diverse plants and animals",
+          "kor_definition": "열대우림"
+        },
+        {
+          "word": "moonstone",
+          "eng_definition": "a gemstone that appears to glow with a sheen",
+          "kor_definition": "달빛 무늬가 있는 보석"
+        },
+        {
+          "word": "neighborhood",
+          "eng_definition": "the area around a person's home; community",
+          "kor_definition": "이웃, 동네"
+        },
+        {
+          "word": "safe",
+          "eng_definition": "free from harm or danger",
+          "kor_definition": "안전한"
+        },
+        {
+          "word": "dinner",
+          "eng_definition": "the main meal of the day, usually in the evening",
+          "kor_definition": "저녁 식사"
+        },
+        {
+          "word": "hunting",
+          "eng_definition": "the act of chasing and killing animals for food or sport",
+          "kor_definition": "사냥"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Jack hold up on the floor?",
+          "options": [
+            "A mammoth bone",
+            "A map",
+            "A book",
+            "A sword"
+          ],
+          "answer": "A mammoth bone"
+        },
+        {
+          "question": "Why do Annie and Jack need one more 'M' thing?",
+          "options": [
+            "To start a fire",
+            "To find a treasure",
+            "To break Morgan's spell",
+            "To open a door"
+          ],
+          "answer": "To break Morgan's spell"
+        },
+        {
+          "question": "What did Annie hope they would trap for dinner?",
+          "options": [
+            "A burger",
+            "A fish",
+            "Spaghetti and meatballs",
+            "A chicken"
+          ],
+          "answer": "Spaghetti and meatballs"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What are Annie and Jack trying to find to help Morgan?",
+          "answer": "They are trying to find one more 'M' thing, like a mango, moonstone, or mammoth bone."
+        },
+        {
+          "question": "How do Annie and Jack feel about being back in this age?",
+          "answer": "They feel it is great, warm, safe, and almost like home."
+        }
+      ]
+    }
+  ]
+}
