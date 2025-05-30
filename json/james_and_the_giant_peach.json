@@ -1,0 +1,4152 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-30T10:19:29",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 45444,
+    "completion_tokens": 30243,
+    "total_tokens": 75687
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "enormous",
+          "eng_definition": "very large or big",
+          "kor_definition": "아주 큰, 막대한"
+        },
+        {
+          "word": "escaped",
+          "eng_definition": "fled or got away from a place or situation",
+          "kor_definition": "도망쳤다, 탈출했다"
+        },
+        {
+          "word": "unfriendly",
+          "eng_definition": "not kind or welcoming",
+          "kor_definition": "우호적이지 않은, 불친절한"
+        },
+        {
+          "word": "ramshackle",
+          "eng_definition": "in a state of severe disrepair",
+          "kor_definition": "허술한, 초라한"
+        },
+        {
+          "word": "desolate",
+          "eng_definition": "deserted and lonely",
+          "kor_definition": "황량한, 버림받은"
+        },
+        {
+          "word": "mischief",
+          "eng_definition": "playful misbehavior that can cause trouble",
+          "kor_definition": "장난, 짖궂은 행동"
+        },
+        {
+          "word": "gazing",
+          "eng_definition": "staring steadily and intently",
+          "kor_definition": "응시하기"
+        },
+        {
+          "word": "forbidden",
+          "eng_definition": "not allowed",
+          "kor_definition": "금지된"
+        },
+        {
+          "word": "miserable",
+          "eng_definition": "very unhappy or uncomfortable",
+          "kor_definition": "비참한, 불행한"
+        },
+        {
+          "word": "landscape",
+          "eng_definition": "an area of land visible from one place",
+          "kor_definition": "경치, 풍경"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the main reason James's parents went to London?",
+          "options": [
+            "To attend a wedding",
+            "To visit friends",
+            "To go shopping",
+            "To explore the city"
+          ],
+          "answer": "To go shopping"
+        },
+        {
+          "question": "How did James's parents die?",
+          "options": [
+            "By an angry rhinoceros",
+            "In a fire",
+            "In a car accident",
+            "From illness"
+          ],
+          "answer": "By an angry rhinoceros"
+        },
+        {
+          "question": "What kind of house did James live in with his aunts?",
+          "options": [
+            "A ramshackle house",
+            "A castle",
+            "A cozy cottage",
+            "A modern apartment"
+          ],
+          "answer": "A ramshackle house"
+        },
+        {
+          "question": "What was the only tree in James's garden?",
+          "options": [
+            "An ancient peach tree",
+            "A cherry tree",
+            "An oak tree",
+            "A maple tree"
+          ],
+          "answer": "An ancient peach tree"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Who took care of James after his parents died?",
+          "answer": "His aunts, Aunt Sponge and Aunt Spiker."
+        },
+        {
+          "question": "Describe James's feelings while living with his aunts.",
+          "answer": "He felt sad, lonely, and unhappy because he was mistreated and had no friends or toys."
+        },
+        {
+          "question": "What did James often do while standing at the bottom of the garden?",
+          "answer": "He gazed wistfully at the woods, fields, and ocean below him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "peculiar",
+          "eng_definition": "unusual or strange",
+          "kor_definition": "특이한, 이상한"
+        },
+        {
+          "word": "fantastically",
+          "eng_definition": "in a wonderful or extraordinary way",
+          "kor_definition": "환상적으로, 굉장히"
+        },
+        {
+          "word": "blazing",
+          "eng_definition": "very hot and bright",
+          "kor_definition": "타오르는, 매우 뜨거운"
+        },
+        {
+          "word": "deck-chairs",
+          "eng_definition": "chairs used for relaxing outdoors, often on a deck or patio",
+          "kor_definition": "데크 의자, 야외용 의자"
+        },
+        {
+          "word": "sipping",
+          "eng_definition": "drinking slowly or in small amounts",
+          "kor_definition": "홀짝이기, 천천히 마시기"
+        },
+        {
+          "word": "soggy",
+          "eng_definition": "wet and soft in a way that is unpleasant",
+          "kor_definition": "축축한, 눅눅한"
+        },
+        {
+          "word": "spectacles",
+          "eng_definition": "glasses worn to see better",
+          "kor_definition": "안경"
+        },
+        {
+          "word": "overboiled",
+          "eng_definition": "cooked too much, resulting in a mushy texture",
+          "kor_definition": "너무 삶아서 흐물흐물한"
+        },
+        {
+          "word": "overwhelmed",
+          "eng_definition": "feeling very emotional or unable to cope",
+          "kor_definition": "압도당한, 감당하기 어려운"
+        },
+        {
+          "word": "clump",
+          "eng_definition": "a small group of trees or bushes growing closely together",
+          "kor_definition": "덩어리, 군집"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is James doing in the garden?",
+          "options": [
+            "Planting flowers",
+            "Playing with friends",
+            "Chopping wood",
+            "Swimming"
+          ],
+          "answer": "Chopping wood"
+        },
+        {
+          "question": "How does Aunt Sponge describe her face?",
+          "options": [
+            "Like a mirror",
+            "Like a sunny day",
+            "Like a boiled cabbage",
+            "Like a rose"
+          ],
+          "answer": "Like a boiled cabbage"
+        },
+        {
+          "question": "What does Aunt Spiker think she looks like?",
+          "options": [
+            "A fairy",
+            "A Frankenstein",
+            "A movie star",
+            "A beautiful princess"
+          ],
+          "answer": "A Frankenstein"
+        },
+        {
+          "question": "How does James feel when he is working in the garden?",
+          "options": [
+            "Hot, tired, and unhappy",
+            "Confused and distracted",
+            "Happy and excited",
+            "Cold and energetic"
+          ],
+          "answer": "Hot, tired, and unhappy"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does James begin to cry while working in the garden?",
+          "answer": "He feels lonely and unhappy because he wishes he could go to the seaside with his friends."
+        },
+        {
+          "question": "What are Aunt Sponge and Aunt Spiker doing while James works?",
+          "answer": "They are sitting in deck-chairs, drinking lemonade, and talking about their appearances."
+        },
+        {
+          "question": "How does James react when Aunt Spiker orders him to be beaten?",
+          "answer": "He looks at her with frightened eyes and runs away to hide."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "peculiar",
+          "eng_definition": "strange or odd; unusual",
+          "kor_definition": "이상한, 특이한"
+        },
+        {
+          "word": "rustling",
+          "eng_definition": "the sound of things gently moving or rubbing together",
+          "kor_definition": "바스락거리는 소리"
+        },
+        {
+          "word": "bushes",
+          "eng_definition": "shrubs or small trees growing close together",
+          "kor_definition": "덤불, 관목"
+        },
+        {
+          "word": "bristly",
+          "eng_definition": "covered with or resembling stiff, short hairs or bristles",
+          "kor_definition": "짧고 뻣뻣한 털이 나 있는"
+        },
+        {
+          "word": "creaky",
+          "eng_definition": "making a high-pitched, squeaking sound",
+          "kor_definition": "삐걱거리는"
+        },
+        {
+          "word": "luminous",
+          "eng_definition": "emitting light; shining",
+          "kor_definition": "빛나는, 발광하는"
+        },
+        {
+          "word": "mildewed",
+          "eng_definition": "affected by mold or fungus; damp and musty",
+          "kor_definition": "곰팡이에 감염된, 곰팡내 나는"
+        },
+        {
+          "word": "crystals",
+          "eng_definition": "solid substances with a regular, repeating internal structure",
+          "kor_definition": "결정체, 크리스탈"
+        },
+        {
+          "word": "power",
+          "eng_definition": "the ability or capacity to do something or act in a particular way",
+          "kor_definition": "힘, 능력"
+        },
+        {
+          "word": "magic",
+          "eng_definition": "the use of supernatural powers to produce extraordinary effects",
+          "kor_definition": "마법, 마술"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What kind of suit was the old man wearing?",
+          "options": [
+            "A dark-green suit",
+            "A bright yellow jacket",
+            "A plain gray coat",
+            "Red and white stripes"
+          ],
+          "answer": "A dark-green suit"
+        },
+        {
+          "question": "What was inside the small white paper bag?",
+          "options": [
+            "A small toy",
+            "A bunch of flowers",
+            "Tiny green stones or crystals",
+            "A loaf of bread"
+          ],
+          "answer": "Tiny green stones or crystals"
+        },
+        {
+          "question": "What did the old man say about the green things in the bag?",
+          "options": [
+            "They are ordinary stones",
+            "They are worthless bits of glass",
+            "They are just shiny plastic",
+            "They have more magic and power than anything else in the world"
+          ],
+          "answer": "They have more magic and power than anything else in the world"
+        },
+        {
+          "question": "What did the old man do just before giving the bag to James?",
+          "options": [
+            "He waved his stick and jumped back",
+            "He started singing",
+            "He showed him a magic trick",
+            "He ran away"
+          ],
+          "answer": "He waved his stick and jumped back"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Describe the old man's appearance.",
+          "answer": "He was a small old man with a huge bald head, a face covered with bristly black whiskers, and he wore a dark-green suit."
+        },
+        {
+          "question": "What did the old man claim was in the bag?",
+          "answer": "He claimed it contained magical green stones or crystals that had more power than anything else in the world."
+        },
+        {
+          "question": "What did the old man do right before giving the bag to James?",
+          "answer": "He waved his stick madly in the air and jumped back, showing excitement and mystery."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "clutching",
+          "eng_definition": "Holding tightly",
+          "kor_definition": "꼭 잡고 있는"
+        },
+        {
+          "word": "froth",
+          "eng_definition": "A mass of small bubbles on a liquid's surface",
+          "kor_definition": "거품"
+        },
+        {
+          "word": "bubble",
+          "eng_definition": "A thin sphere of liquid filled with air or gas",
+          "kor_definition": "거품, 비눗방울"
+        },
+        {
+          "word": "gulp",
+          "eng_definition": "To swallow quickly or in large mouthfuls",
+          "kor_definition": "꿀꺽 삼키다"
+        },
+        {
+          "word": "fabulous",
+          "eng_definition": "Extraordinarily good or wonderful",
+          "kor_definition": "환상적인, 멋진"
+        },
+        {
+          "word": "miserable",
+          "eng_definition": "Very unhappy or uncomfortable",
+          "kor_definition": "비참한, 불행한"
+        },
+        {
+          "word": "magic",
+          "eng_definition": "Supernatural power that makes impossible things happen",
+          "kor_definition": "마법"
+        },
+        {
+          "word": "disappear",
+          "eng_definition": "To vanish from sight",
+          "kor_definition": "사라지다"
+        },
+        {
+          "word": "escape",
+          "eng_definition": "To get away from a place or situation",
+          "kor_definition": "도망치다, 탈출하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What should James do first according to the old man?",
+          "options": [
+            "Sleep",
+            "Pour water into a jug",
+            "Eat the green things",
+            "Run away"
+          ],
+          "answer": "Pour water into a jug"
+        },
+        {
+          "question": "What will happen if James drinks the frothy water quickly?",
+          "options": [
+            "He will fall asleep",
+            "He will start to sing",
+            "He will feel happy",
+            "He will feel churning and boiling in his stomach"
+          ],
+          "answer": "He will feel churning and boiling in his stomach"
+        },
+        {
+          "question": "Why must James hold the bag tight?",
+          "options": [
+            "To open it later",
+            "To keep the green things inside",
+            "To prevent the magic from escaping",
+            "To carry it easily"
+          ],
+          "answer": "To prevent the magic from escaping"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What is the purpose of adding hairs from James's head to the water?",
+          "answer": "The hairs activate the magic of the green things in the water."
+        },
+        {
+          "question": "What might happen if the green things escape from the bag?",
+          "answer": "They could use their magic on someone else instead of James."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "scattered",
+          "eng_definition": "spread out randomly over a large area",
+          "kor_definition": "흩어진, 산재한"
+        },
+        {
+          "word": "wriggling",
+          "eng_definition": "twisting or squirming with quick movements",
+          "kor_definition": "꿈틀거리는"
+        },
+        {
+          "word": "burrowed",
+          "eng_definition": "made a hole or tunnel into the ground",
+          "kor_definition": "파고든, 굴을 판"
+        },
+        {
+          "word": "frantically",
+          "eng_definition": "done in a hurried, anxious, or desperate way",
+          "kor_definition": "미친 듯이, 필사적으로"
+        },
+        {
+          "word": "slipped",
+          "eng_definition": "lost footing and slid unintentionally",
+          "kor_definition": "미끄러졌다"
+        },
+        {
+          "word": "glaring",
+          "eng_definition": "staring angrily or fiercely",
+          "kor_definition": "노려보는, 똑바로 바라보는"
+        },
+        {
+          "word": "waddling",
+          "eng_definition": "walking with short steps and a swaying motion",
+          "kor_definition": "헤엄치듯 걷는, 뒤뚱뒤뚱 걷는"
+        },
+        {
+          "word": "punishment",
+          "eng_definition": "a penalty for doing something wrong",
+          "kor_definition": "처벌"
+        },
+        {
+          "word": "despair",
+          "eng_definition": "a feeling of complete hopelessness",
+          "kor_definition": "절망"
+        },
+        {
+          "word": "chopper",
+          "eng_definition": "a tool used for chopping or cutting",
+          "kor_definition": "도끼 또는 잘라내는 도구"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does James try to do after falling in the grass?",
+          "options": [
+            "Search for his treasures",
+            "Hide behind the bushes",
+            "Run to the house",
+            "Climb the peach tree"
+          ],
+          "answer": "Search for his treasures"
+        },
+        {
+          "question": "What is Aunt Spiker's instruction to James?",
+          "options": [
+            "Finish chopping the wood",
+            "Go to bed",
+            "Run around the garden",
+            "Eat dinner"
+          ],
+          "answer": "Finish chopping the wood"
+        },
+        {
+          "question": "What did James's treasures do when they hit the ground?",
+          "options": [
+            "They stayed still",
+            "They turned into insects",
+            "They sank into the soil",
+            "They flew away"
+          ],
+          "answer": "They sank into the soil"
+        },
+        {
+          "question": "According to the old man's rule, who gets the full power of the magic?",
+          "options": [
+            "The strongest animal",
+            "The first one they meet",
+            "The one who finds the most treasures",
+            "The oldest person"
+          ],
+          "answer": "The first one they meet"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was James feeling very sad at the end of the chapter?",
+          "answer": "Because he dropped his treasures and thought he would never have a happier life, only punishment and pain."
+        },
+        {
+          "question": "What happened to the tiny green things after James dropped them?",
+          "answer": "They sank into the earth and disappeared quickly into the soil."
+        },
+        {
+          "question": "What are some creatures living in the soil according to the chapter?",
+          "answer": "Earthworms, centipedes, and insects."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "branch",
+          "eng_definition": "a part of a tree that grows out from the trunk",
+          "kor_definition": "가지"
+        },
+        {
+          "word": "mistaken",
+          "eng_definition": "incorrect in understanding or judgment",
+          "kor_definition": "오해하는, 잘못된"
+        },
+        {
+          "word": "miserable",
+          "eng_definition": "very unhappy or uncomfortable",
+          "kor_definition": "비참한"
+        },
+        {
+          "word": "blossom",
+          "eng_definition": "a flower or a mass of flowers on a tree",
+          "kor_definition": "꽃"
+        },
+        {
+          "word": "tiptoe",
+          "eng_definition": "to walk quietly on the tips of the toes",
+          "kor_definition": "발끝으로 살금살금 걷다"
+        },
+        {
+          "word": "silence",
+          "eng_definition": "complete absence of sound",
+          "kor_definition": "침묵"
+        },
+        {
+          "word": "bulging",
+          "eng_definition": "swelling outward, sticking out",
+          "kor_definition": "불룩한"
+        },
+        {
+          "word": "miracle",
+          "eng_definition": "an extraordinary event that cannot be explained by natural laws",
+          "kor_definition": "기적"
+        },
+        {
+          "word": "swelling",
+          "eng_definition": "an abnormal enlargement or bulge",
+          "kor_definition": "부기, 부풀기"
+        },
+        {
+          "word": "blaze",
+          "eng_definition": "to shine brightly and intensely",
+          "kor_definition": "타오르다, 빛나다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Aunt Spiker see growing on the tree?",
+          "options": [
+            "A bird",
+            "A fruit bowl",
+            "A peach",
+            "A flower"
+          ],
+          "answer": "A peach"
+        },
+        {
+          "question": "How does James feel about the peach growing on the tree?",
+          "options": [
+            "He is angry",
+            "He is indifferent",
+            "He is scared",
+            "He is surprised"
+          ],
+          "answer": "He is surprised"
+        },
+        {
+          "question": "What are Aunt Sponge and Aunt Spiker planning to do with the peach?",
+          "options": [
+            "Throw it away",
+            "Eat it together",
+            "Give it to a friend",
+            "Plant it in the garden"
+          ],
+          "answer": "Eat it together"
+        },
+        {
+          "question": "What indicates that something unusual is happening?",
+          "options": [
+            "The tree is growing rapidly",
+            "It starts to rain",
+            "The birds are singing",
+            "The wind is blowing"
+          ],
+          "answer": "The tree is growing rapidly"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does James think something peculiar is about to happen?",
+          "answer": "Because he feels it in the air and notices everything is still and quiet."
+        },
+        {
+          "question": "What does Aunt Spiker exclaim when she sees the peach growing?",
+          "answer": "She says, 'It's growing! It's getting bigger and bigger!'"
+        },
+        {
+          "question": "How does James react when he sees the peach start to grow?",
+          "answer": "He is amazed and watches closely as the peach bulges and swells."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "glowing",
+          "eng_definition": "shining with a soft light",
+          "kor_definition": "빛나는, 빛나는 상태의"
+        },
+        {
+          "word": "extraordinary",
+          "eng_definition": "very unusual or remarkable",
+          "kor_definition": "비범한, 이례적인"
+        },
+        {
+          "word": "swelling",
+          "eng_definition": "becoming larger or rounder",
+          "kor_definition": "부풀어 오름, 부기"
+        },
+        {
+          "word": "dangle",
+          "eng_definition": "hang or swing loosely",
+          "kor_definition": "늘어뜨리다, 매달리다"
+        },
+        {
+          "word": "branch",
+          "eng_definition": "a part of a tree that grows out from the trunk",
+          "kor_definition": "가지, 가지 부분"
+        },
+        {
+          "word": "weigh",
+          "eng_definition": "to have a certain weight",
+          "kor_definition": "무게를 재다, 무게가 ~이다"
+        },
+        {
+          "word": "massive",
+          "eng_definition": "large and heavy",
+          "kor_definition": "거대한, 엄청난"
+        },
+        {
+          "word": "inspect",
+          "eng_definition": "look at carefully",
+          "kor_definition": "정밀하게 조사하다"
+        },
+        {
+          "word": "ripe",
+          "eng_definition": "fully grown and ready to eat",
+          "kor_definition": "익은, 잘 익은"
+        },
+        {
+          "word": "handle",
+          "eng_definition": "to manage or deal with",
+          "kor_definition": "다루다, 처리하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the color of the peach's skin?",
+          "options": [
+            "Blue and green",
+            "Dark purple",
+            "Butter yellow with pink and red patches",
+            "Bright orange"
+          ],
+          "answer": "Butter yellow with pink and red patches"
+        },
+        {
+          "question": "What did Aunt Sponge want to do with the peach?",
+          "options": [
+            "Sell it at the market",
+            "Plant it in the garden",
+            "Eat a large piece of it",
+            "Use it as a boat"
+          ],
+          "answer": "Eat a large piece of it"
+        },
+        {
+          "question": "How did James feel about the growing peach?",
+          "options": [
+            "Bored",
+            "Spellbound and amazed",
+            "Angry",
+            "Confused"
+          ],
+          "answer": "Spellbound and amazed"
+        },
+        {
+          "question": "What was the size of the peach when it finally rested on the ground?",
+          "options": [
+            "As big as a car",
+            "As small as a melon",
+            "As tiny as a berry",
+            "As tall and wide as a small house"
+          ],
+          "answer": "As tall and wide as a small house"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why were Aunt Sponge and Aunt Spiker cautious when inspecting the peach?",
+          "answer": "Because they were unsure if it was dead or alive and didn't want it to fall or break."
+        },
+        {
+          "question": "Describe the appearance of the peach's skin.",
+          "answer": "The skin was a rich buttery yellow with patches of bright pink and red."
+        },
+        {
+          "question": "What did Aunt Spiker suggest doing with the peach, and why?",
+          "answer": "She suggested getting a shovel to cut a piece of it for eating, because it was ripe and perfect for eating."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "spread",
+          "eng_definition": "to extend over a large or increasing area",
+          "kor_definition": "퍼지다, 확산되다"
+        },
+        {
+          "word": "marvel",
+          "eng_definition": "a wonderful or astonishing thing",
+          "kor_definition": "경이로운 것, 놀라운 것"
+        },
+        {
+          "word": "scrambling",
+          "eng_definition": "to move hurriedly or clumsily from or into a particular place",
+          "kor_definition": "서두르며 기어가다, 허둥지둥 움직이다"
+        },
+        {
+          "word": "fence",
+          "eng_definition": "a structure that encloses an area, typically outdoors, made of posts and wire or wood",
+          "kor_definition": "울타리, 펜스"
+        },
+        {
+          "word": "stationed",
+          "eng_definition": "to assign someone to a specific place for a purpose",
+          "kor_definition": "배치하다, 파견하다"
+        },
+        {
+          "word": "seething",
+          "eng_definition": "full of intense but unexpressed anger or activity",
+          "kor_definition": "끓어오르는, 격렬한"
+        },
+        {
+          "word": "shoving",
+          "eng_definition": "pushing someone or something forcefully",
+          "kor_definition": "밀치기, 밀침"
+        },
+        {
+          "word": "locked",
+          "eng_definition": "secured with a key so that it cannot be opened",
+          "kor_definition": "잠긴, 잠그다"
+        },
+        {
+          "word": "peeped",
+          "eng_definition": "looked quickly and secretly",
+          "kor_definition": "슬쩍보다, 들여다보다"
+        },
+        {
+          "word": "mess",
+          "eng_definition": "a state of disorder or untidiness",
+          "kor_definition": "어질러진 상태, 엉망"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Aunt Sponge and Aunt Spiker build a fence around the peach?",
+          "options": [
+            "To protect the peach",
+            "To decorate the garden",
+            "To keep James inside",
+            "To keep the crowd out"
+          ],
+          "answer": "To protect the peach"
+        },
+        {
+          "question": "How did the reporters and cameramen get into the hill?",
+          "options": [
+            "They arrived by car",
+            "They climbed the hill",
+            "They dug tunnels",
+            "They landed helicopters"
+          ],
+          "answer": "They landed helicopters"
+        },
+        {
+          "question": "What did James want to do while he was locked in his room?",
+          "options": [
+            "Meet other children",
+            "Go to bed",
+            "Play outside",
+            "Help with tickets"
+          ],
+          "answer": "Meet other children"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was James locked in his bedroom?",
+          "answer": "Because Aunt Spiker thought he would get in the way of the crowd and cause trouble."
+        },
+        {
+          "question": "What did the aunts make James do after the crowd left?",
+          "answer": "They made him clean up the mess of banana skins, orange peel, and paper."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "trembling",
+          "eng_definition": "shaking slightly, often because of fear or cold",
+          "kor_definition": "떨리는, 흔들리는"
+        },
+        {
+          "word": "overhead",
+          "eng_definition": "above head level; in the sky",
+          "kor_definition": "머리 위에, 하늘에"
+        },
+        {
+          "word": "shadow",
+          "eng_definition": "a dark shape made when something blocks light",
+          "kor_definition": "그림자"
+        },
+        {
+          "word": "dazzling",
+          "eng_definition": "extremely bright or impressive; stunning",
+          "kor_definition": "눈부신, 황홀한"
+        },
+        {
+          "word": "mysterious",
+          "eng_definition": "difficult to understand or explain; secretive",
+          "kor_definition": "신비로운, 불가사의한"
+        },
+        {
+          "word": "twinkling",
+          "eng_definition": "shining with a flickering light, like stars",
+          "kor_definition": "반짝이는"
+        },
+        {
+          "word": "magnet",
+          "eng_definition": "a material or object that produces a magnetic field to attract certain metals",
+          "kor_definition": "자석"
+        },
+        {
+          "word": "bulging",
+          "eng_definition": "swelling outward or protruding",
+          "kor_definition": "불룩한, 부풀어 오른"
+        },
+        {
+          "word": "furry",
+          "eng_definition": "covered with fur or having a soft hair-like covering",
+          "kor_definition": "털이 많은, 털로 뒤덮인"
+        },
+        {
+          "word": "dew",
+          "eng_definition": "tiny drops of water that form on surfaces at night",
+          "kor_definition": "이슬"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is James feeling when he stands outside in the garden?",
+          "options": [
+            "Angry and shouting",
+            "Tired and sleepy",
+            "Hungry and trembling",
+            "Happy and excited"
+          ],
+          "answer": "Hungry and trembling"
+        },
+        {
+          "question": "What does James notice beside him and below him when touching the peach?",
+          "options": [
+            "A small animal",
+            "A flower",
+            "A shiny stone",
+            "A hole in the side of the peach"
+          ],
+          "answer": "A hole in the side of the peach"
+        },
+        {
+          "question": "What is the moon doing in the sky?",
+          "options": [
+            "Setting",
+            "Disappearing",
+            "Rising",
+            "Riding high"
+          ],
+          "answer": "Riding high"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How does the garden look under the moonlight?",
+          "answer": "It looks soft, silver, and magical, with sparkling dew and shadows."
+        },
+        {
+          "question": "What does James do when he reaches the giant peach?",
+          "answer": "He touches it gently and notices the hole in its side."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "damp",
+          "eng_definition": "slightly wet or moist",
+          "kor_definition": "약간 젖은, 축축한"
+        },
+        {
+          "word": "murky",
+          "eng_definition": "dark, cloudy, and difficult to see through",
+          "kor_definition": "어둡고 흐린, 탁한"
+        },
+        {
+          "word": "bittersweet",
+          "eng_definition": "having both a bitter and a sweet taste or feeling",
+          "kor_definition": "씁쓸하면서도 달콤한"
+        },
+        {
+          "word": "soggy",
+          "eng_definition": "wet and soft, often in an unpleasant way",
+          "kor_definition": "축축하고 눅눅한"
+        },
+        {
+          "word": "juicy",
+          "eng_definition": "full of juice; moist and flavorful",
+          "kor_definition": "즙이 많은"
+        },
+        {
+          "word": "grooves",
+          "eng_definition": "long, narrow cut or depression in a surface",
+          "kor_definition": "홈, 깊은 홈이 파인 선"
+        },
+        {
+          "word": "disappeared",
+          "eng_definition": "vanished or ceased to be visible",
+          "kor_definition": "사라졌다"
+        },
+        {
+          "word": "horror",
+          "eng_definition": "a feeling of great fear or shock",
+          "kor_definition": "공포"
+        },
+        {
+          "word": "glanced",
+          "eng_definition": "looked quickly or briefly",
+          "kor_definition": "슬쩍 흘긋 보다"
+        },
+        {
+          "word": "solid",
+          "eng_definition": "firm and stable in shape; not liquid or gas",
+          "kor_definition": "단단한, 고체의"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did James initially think the hole was?",
+          "options": [
+            "A tunnel made by an animal",
+            "A crack in the ground",
+            "A hollow tree",
+            "A burrow made by a dog"
+          ],
+          "answer": "A tunnel made by an animal"
+        },
+        {
+          "question": "What did James find when he reached the stone in the peach?",
+          "options": [
+            "A small door",
+            "A fruit fly",
+            "A treasure chest",
+            "A spider web"
+          ],
+          "answer": "A small door"
+        },
+        {
+          "question": "How did James feel when he saw the speakers?",
+          "options": [
+            "Excited",
+            "Horrified",
+            "Confused",
+            "Happy"
+          ],
+          "answer": "Horrified"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What does James discover about the hole he crawled into?",
+          "answer": "He discovers it is a tunnel leading toward the center of the peach."
+        },
+        {
+          "question": "How does James react when he sees the speakers?",
+          "answer": "He is frightened and his face turns white with horror."
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "creatures",
+          "eng_definition": "Living beings, especially animals or imaginary beings",
+          "kor_definition": "생물, 특히 동물 또는 가상 생물"
+        },
+        {
+          "word": "reclining",
+          "eng_definition": "Lying back or resting in a relaxed position",
+          "kor_definition": "누워 있거나 기대어 편안히 쉬는 상태"
+        },
+        {
+          "word": "squatting",
+          "eng_definition": "Crouching close to the ground with knees bent",
+          "kor_definition": "무릎을 굽히고 낮은 자세로 앉거나 웅크리는 것"
+        },
+        {
+          "word": "terrifying",
+          "eng_definition": "Causing extreme fear or dread",
+          "kor_definition": "극심한 공포를 유발하는 것"
+        },
+        {
+          "word": "famished",
+          "eng_definition": "Extremely hungry",
+          "kor_definition": "매우 배고픈 상태"
+        },
+        {
+          "word": "delicately",
+          "eng_definition": "In a gentle or fragile manner",
+          "kor_definition": "부드럽거나 섬세하게"
+        },
+        {
+          "word": "faint",
+          "eng_definition": "To lose consciousness temporarily",
+          "kor_definition": "일시적으로 의식을 잃다"
+        },
+        {
+          "word": "glassy",
+          "eng_definition": "Having a shiny, smooth surface like glass",
+          "kor_definition": "유리처럼 반짝이고 매끄러운 표면의"
+        },
+        {
+          "word": "horrible",
+          "eng_definition": "Shocking or disgusting",
+          "kor_definition": "충격적이거나 혐오스러운"
+        },
+        {
+          "word": "cheer up",
+          "eng_definition": "To become happier or more hopeful",
+          "kor_definition": "더 행복하거나 희망차게 되다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does the word 'reclining' mean?",
+          "options": [
+            "Running quickly",
+            "Lying back or resting",
+            "Jumping high",
+            "Standing straight"
+          ],
+          "answer": "Lying back or resting"
+        },
+        {
+          "question": "Why was James frightened in the story?",
+          "options": [
+            "Because the creatures were large and frightening",
+            "Because he was sleepy",
+            "Because he wanted to eat",
+            "Because the creatures were small"
+          ],
+          "answer": "Because the creatures were large and frightening"
+        },
+        {
+          "question": "What does the phrase 'in the same boat' mean?",
+          "options": [
+            "They are in the same situation",
+            "They are swimming",
+            "They are lost",
+            "They are on a real boat"
+          ],
+          "answer": "They are in the same situation"
+        },
+        {
+          "question": "What did the creatures say about hurting James?",
+          "options": [
+            "They planned to hurt him",
+            "They wanted to play a trick",
+            "They were hungry for revenge",
+            "They wouldn't dream of hurting him"
+          ],
+          "answer": "They wouldn't dream of hurting him"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What is an insect? Give an example from the story.",
+          "answer": "An insect is a small creature, like a grasshopper. In the story, there was a large grasshopper that looked like a dog."
+        },
+        {
+          "question": "Why was James so frightened when he saw the creatures?",
+          "answer": "Because the creatures were very large and looked frightening, especially in the greenish light."
+        },
+        {
+          "question": "What does the phrase 'we're all in the same boat' mean?",
+          "answer": "It means that everyone is in the same situation or facing the same problem."
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "disagreeable",
+          "eng_definition": "Unpleasant or unfriendly; hard to get along with.",
+          "kor_definition": "불쾌한, 심술궂은"
+        },
+        {
+          "word": "knelt",
+          "eng_definition": "Bended the knees and lowered the body to the ground.",
+          "kor_definition": "무릎을 꿇었다"
+        },
+        {
+          "word": "proudly",
+          "eng_definition": "In a way that shows satisfaction or self-respect.",
+          "kor_definition": "자랑스럽게"
+        },
+        {
+          "word": "scornful",
+          "eng_definition": "Showing contempt or derision.",
+          "kor_definition": "경멸하는"
+        },
+        {
+          "word": "withered",
+          "eng_definition": "Shriveled or dried up, especially from age or lack of moisture.",
+          "kor_definition": "시든"
+        },
+        {
+          "word": "hysterics",
+          "eng_definition": "Uncontrollable laughter or emotion.",
+          "kor_definition": "히스테리, 통제할 수 없는 웃음이나 감정"
+        },
+        {
+          "word": "announced",
+          "eng_definition": "Made a public or formal statement about something.",
+          "kor_definition": "발표했다"
+        },
+        {
+          "word": "suddenly",
+          "eng_definition": "Happening quickly and unexpectedly.",
+          "kor_definition": "갑자기"
+        },
+        {
+          "word": "cried",
+          "eng_definition": "Loudly expressed emotion or pain, often by shouting or tears.",
+          "kor_definition": "울었다"
+        },
+        {
+          "word": "wriggling",
+          "eng_definition": "Twisting and turning with quick, writhing movements.",
+          "kor_definition": "꿈틀거리다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the Centipede proud of?",
+          "options": [
+            "Having a tiny stone or crystal",
+            "Being a musician",
+            "Having a lot of legs",
+            "Having no legs"
+          ],
+          "answer": "Having a lot of legs"
+        },
+        {
+          "question": "What did the Earthworm say about having no legs?",
+          "options": [
+            "It is impossible to move without legs",
+            "It is marvelous to walk",
+            "It is marvelous to have no legs and walk the same",
+            "It is marvelous to slither"
+          ],
+          "answer": "It is marvelous to have no legs and walk the same"
+        },
+        {
+          "question": "What did the Old-Green-Grasshopper claim to be?",
+          "options": [
+            "A musician",
+            "A centipede",
+            "A pest",
+            "A gardener"
+          ],
+          "answer": "A musician"
+        },
+        {
+          "question": "Why did the Ladybug smile at James?",
+          "options": [
+            "Because the Centipede was laughing",
+            "Because he was brave",
+            "Because James liked bugs",
+            "Because the Centipede was proud"
+          ],
+          "answer": "Because the Centipede was proud"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did James decide he liked the Centipede?",
+          "answer": "Because the Centipede was funny and made him laugh."
+        },
+        {
+          "question": "What did the Centipede say about swallowing green things?",
+          "answer": "He said he swallowed three and others did too when they were in the garden."
+        },
+        {
+          "question": "What did the Old-Green-Grasshopper want everyone to do at the end?",
+          "answer": "He wanted everyone to get some sleep because they had a tough day ahead."
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "suspended",
+          "eng_definition": "hung from above without support from below",
+          "kor_definition": "매달린, 매달아 놓은"
+        },
+        {
+          "word": "hammock",
+          "eng_definition": "a bed made of canvas or rope mesh and suspended between two points",
+          "kor_definition": "해먹, 그네 침대"
+        },
+        {
+          "word": "gossamer",
+          "eng_definition": "a fine, filmy substance made of cobwebs or similar material",
+          "kor_definition": "거미줄 같은 섬유, 가는 거미줄"
+        },
+        {
+          "word": "knots",
+          "eng_definition": "tied loops of rope or string",
+          "kor_definition": "매듭"
+        },
+        {
+          "word": "ambled",
+          "eng_definition": "walked slowly and lazily",
+          "kor_definition": "느리게 걷다, 느긋하게 걷다"
+        },
+        {
+          "word": "coiled",
+          "eng_definition": "arranged or wound into a continuous spiral",
+          "kor_definition": "감긴, 소용돌이 모양의"
+        },
+        {
+          "word": "glow-worm",
+          "eng_definition": "a luminous insect that produces light, usually without wings",
+          "kor_definition": "반딧불이, 빛나는 애벌레"
+        },
+        {
+          "word": "terrible",
+          "eng_definition": "causing fear or dread; very bad",
+          "kor_definition": "무서운, 끔찍한"
+        },
+        {
+          "word": "arguing",
+          "eng_definition": "discussing or debating in a heated manner",
+          "kor_definition": "논쟁, 언쟁"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the bed made of in Chapter 13?",
+          "options": [
+            "Silk",
+            "Gossamer",
+            "Cotton",
+            "Wood"
+          ],
+          "answer": "Gossamer"
+        },
+        {
+          "question": "How did Miss Spider make the beds?",
+          "options": [
+            "Using cloth and thread",
+            "Spinning webs into hammocks",
+            "Using a sewing machine",
+            "Carrying furniture"
+          ],
+          "answer": "Spinning webs into hammocks"
+        },
+        {
+          "question": "What was unusual about the Glow-worm?",
+          "options": [
+            "It was a fly without wings that shined",
+            "It was a bird",
+            "It was a human",
+            "It was a tiny dragon"
+          ],
+          "answer": "It was a fly without wings that shined"
+        },
+        {
+          "question": "How did James feel about his new friends at the end of the chapter?",
+          "options": [
+            "He liked them very much",
+            "He wanted to leave",
+            "He was scared",
+            "He disliked them"
+          ],
+          "answer": "He liked them very much"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What material did Miss Spider use to spin the hammock beds?",
+          "answer": "She used gossamer, a fine, silky thread."
+        },
+        {
+          "question": "Why did the Centipede want the light turned out?",
+          "answer": "Because it was late at night and he wanted to sleep."
+        },
+        {
+          "question": "What did James think of the Glow-worm's light?",
+          "answer": "He thought it looked like a giant fly with its tail on fire and was very bright."
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "heave",
+          "eng_definition": "a sudden upward or outward movement",
+          "kor_definition": "갑자기 위로 또는 밖으로 움직이다"
+        },
+        {
+          "word": "ghastly",
+          "eng_definition": "horrible; shocking",
+          "kor_definition": "무서운; 충격적인"
+        },
+        {
+          "word": "desolate",
+          "eng_definition": " deserted; bleak",
+          "kor_definition": "황폐한; 적막한"
+        },
+        {
+          "word": "lurch",
+          "eng_definition": "to move suddenly or unsteadily",
+          "kor_definition": "갑자기 또는 불안정하게 흔들리다"
+        },
+        {
+          "word": "nibble",
+          "eng_definition": "to take small bites",
+          "kor_definition": "작은 물기로 깨물다"
+        },
+        {
+          "word": "tremor",
+          "eng_definition": "a shaking or trembling movement",
+          "kor_definition": "떨림 또는 흔들림"
+        },
+        {
+          "word": "frenzied",
+          "eng_definition": " wildly excited or uncontrolled",
+          "kor_definition": "광란의; 제어되지 않는"
+        },
+        {
+          "word": "stinging",
+          "eng_definition": "causing a sharp, burning pain",
+          "kor_definition": "날카롭거나 따끔거리는"
+        },
+        {
+          "word": "fury",
+          "eng_definition": "extreme anger",
+          "kor_definition": "극심한 분노"
+        },
+        {
+          "word": "plunge",
+          "eng_definition": "to jump or dive quickly",
+          "kor_definition": "갑자기 뛰어들다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What causes the peach to start rolling away?",
+          "options": [
+            "The stem is cut by the Centipede",
+            "James pushes it",
+            "The wind blows it",
+            "A storm hits the garden"
+          ],
+          "answer": "The stem is cut by the Centipede"
+        },
+        {
+          "question": "Who is the first to shout that they are off?",
+          "options": [
+            "The Centipede",
+            "The Ladybug",
+            "James",
+            "The Old-Green-Grasshopper"
+          ],
+          "answer": "The Old-Green-Grasshopper"
+        },
+        {
+          "question": "What does the Ladybug suggest is stopping the peach from rolling?",
+          "options": [
+            "A magic spell",
+            "The roots of the tree",
+            "The thick stem attaching it to the tree",
+            "A rock underneath"
+          ],
+          "answer": "The thick stem attaching it to the tree"
+        },
+        {
+          "question": "What kind of places does the Centipede say they might see?",
+          "options": [
+            "Marshlands",
+            "Empty deserts",
+            "Friendly villages",
+            "Terrible monsters and marvelous creatures"
+          ],
+          "answer": "Terrible monsters and marvelous creatures"
+        },
+        {
+          "question": "What happens to Aunt Sponge and Aunt Spiker when the peach rolls over them?",
+          "options": [
+            "They jump out of the way",
+            "They chase after it",
+            "They get crushed and flattened",
+            "They climb onto the peach"
+          ],
+          "answer": "They get crushed and flattened"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does the peach start to move?",
+          "answer": "Because the Centipede cuts the stem that attaches it to the tree."
+        },
+        {
+          "question": "How do Aunt Sponge and Aunt Spiker react when they see the peach coming?",
+          "answer": "They scream, panic, and try to run away."
+        },
+        {
+          "question": "What does the Ladybug say about the places they might visit?",
+          "answer": "She says they may see marvelous places and strange creatures, like dragons or unicorns."
+        },
+        {
+          "question": "What is the final outcome for Aunt Sponge and Aunt Spiker?",
+          "answer": "They are crushed when the peach rolls over them."
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "plunging",
+          "eng_definition": "falling quickly and suddenly",
+          "kor_definition": "갑자기 떨어지거나 밀려 내려가는 것"
+        },
+        {
+          "word": "terrific",
+          "eng_definition": "very great or intense",
+          "kor_definition": "매우 크거나 강한"
+        },
+        {
+          "word": "scattered",
+          "eng_definition": "spread out in different directions",
+          "kor_definition": "흩어지거나 흩뿌려진"
+        },
+        {
+          "word": "flattening",
+          "eng_definition": "making something flat or level",
+          "kor_definition": "평평하게 만들기"
+        },
+        {
+          "word": "seething",
+          "eng_definition": "being in a state of agitation or excitement",
+          "kor_definition": "끓거나 부글부글 끓는 상태"
+        },
+        {
+          "word": "destruction",
+          "eng_definition": "the act of destroying or ruining",
+          "kor_definition": "파괴 또는 훼손하는 것"
+        },
+        {
+          "word": "suspended",
+          "eng_definition": "hanging or floating in the air",
+          "kor_definition": "공중에 매달린 또는 떠 있는 상태"
+        },
+        {
+          "word": "colossal",
+          "eng_definition": "very large or enormous",
+          "kor_definition": "거대하거나 엄청난"
+        },
+        {
+          "word": "splash",
+          "eng_definition": "a sound or action of liquid hitting a surface",
+          "kor_definition": "물이나 액체가 튀거나 부딪히는 소리 또는 움직임"
+        },
+        {
+          "word": "floating",
+          "eng_definition": "resting on or in the surface of a liquid without sinking",
+          "kor_definition": "액체 표면에 떠 있거나 떠 있는 것"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did the peach break through at the beginning of the story?",
+          "options": [
+            "A fence",
+            "A garden",
+            "A wall",
+            "A river"
+          ],
+          "answer": "A garden"
+        },
+        {
+          "question": "What was flowing out of the factory after the peach went through?",
+          "options": [
+            "Oil",
+            "Melted chocolate",
+            "Sand",
+            "Water"
+          ],
+          "answer": "Melted chocolate"
+        },
+        {
+          "question": "What natural feature is described as being hundreds of feet high and located in England?",
+          "options": [
+            "The Alps",
+            "The White Cliffs",
+            "The Grand Canyon",
+            "The Matterhorn"
+          ],
+          "answer": "The White Cliffs"
+        },
+        {
+          "question": "What happened to the peach when it reached the ocean?",
+          "options": [
+            "It floated on the water",
+            "It disappeared into the water",
+            "It sank immediately",
+            "It turned into a fish"
+          ],
+          "answer": "It floated on the water"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did animals in the countryside panic?",
+          "answer": "Because the peach was rolling through and knocking everything over, frightening the animals."
+        },
+        {
+          "question": "What caused the chocolate factory to have holes in its wall?",
+          "answer": "The peach crashed through the factory wall, causing the melted chocolate to pour out."
+        },
+        {
+          "question": "What is the significance of the White Cliffs in the story?",
+          "answer": "They are the famous cliffs that the peach was approaching before falling into the ocean, symbolizing the end of its journey."
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "chaos",
+          "eng_definition": "Complete disorder and confusion",
+          "kor_definition": "혼돈, 대혼란"
+        },
+        {
+          "word": "battered",
+          "eng_definition": "Lying damaged or hurt",
+          "kor_definition": "심하게 다친, 구타당한"
+        },
+        {
+          "word": "tangled",
+          "eng_definition": "Twisted together in a messy way",
+          "kor_definition": "엉킨, 뒤얽힌"
+        },
+        {
+          "word": "plunging",
+          "eng_definition": "Falling or moving downward suddenly",
+          "kor_definition": "급강하하는, 뛰어내리다"
+        },
+        {
+          "word": "rattled",
+          "eng_definition": "Made a series of short, sharp knocking sounds",
+          "kor_definition": "덜컹거리다, 달그락거리다"
+        },
+        {
+          "word": "disentangle",
+          "eng_definition": "To free from knots or tangles",
+          "kor_definition": "풀다, 풀어 헤치다"
+        },
+        {
+          "word": "gloomily",
+          "eng_definition": "In a sad or depressed manner",
+          "kor_definition": "침울하게, 우울하게"
+        },
+        {
+          "word": "bobbling",
+          "eng_definition": "Moving up and down lightly or irregularly",
+          "kor_definition": "좌우로 흔들리다, 흔들리며 움직이다"
+        },
+        {
+          "word": "vertically",
+          "eng_definition": "In a straight up and down direction",
+          "kor_definition": "수직으로"
+        },
+        {
+          "word": "promised land",
+          "eng_definition": "A place believed to be perfect or ideal in the future",
+          "kor_definition": "약속의 땅, 이상적인 곳"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused the room to become dark during the chaos?",
+          "options": [
+            "A storm outside",
+            "The room was always dark",
+            "Something went wrong with the Glow-worm's lighting system",
+            "The lights went out intentionally"
+          ],
+          "answer": "Something went wrong with the Glow-worm's lighting system"
+        },
+        {
+          "question": "Why did the Centipede refuse to go outside barefoot?",
+          "options": [
+            "He didn't like the dark",
+            "He wanted his boots on first",
+            "He was afraid of bugs",
+            "He didn't want to get his boots dirty"
+          ],
+          "answer": "He wanted his boots on first"
+        },
+        {
+          "question": "What did Miss Spider do to prepare for going outside?",
+          "options": [
+            "She set about weaving a rope-ladder",
+            "She closed her eyes",
+            "She got herself a hat",
+            "She packed a bag"
+          ],
+          "answer": "She set about weaving a rope-ladder"
+        },
+        {
+          "question": "Where did the characters think they might be?",
+          "options": [
+            "At the bottom of a coal mine",
+            "At the top of a mountain",
+            "In a zoo",
+            "In a castle"
+          ],
+          "answer": "At the bottom of a coal mine"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What was the main problem during the journey inside the peach?",
+          "answer": "They experienced chaos, being flung around and in darkness due to the tumbling and the broken lighting system."
+        },
+        {
+          "question": "How did the characters finally see after the room went dark?",
+          "answer": "The Glow-worm’s tail glimmered with a faint greenish light that gradually grew stronger."
+        },
+        {
+          "question": "What did the characters plan to do after the chaos ended?",
+          "answer": "They decided to go upstairs and look around from the top of the peach."
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "current",
+          "eng_definition": "a steady flow of water or air in a particular direction",
+          "kor_definition": "물이나 공기의 일정한 흐름"
+        },
+        {
+          "word": "float",
+          "eng_definition": "to stay on the surface of a liquid without sinking",
+          "kor_definition": "액체 표면에 떠 있다"
+        },
+        {
+          "word": "starve",
+          "eng_definition": "to suffer or die from hunger",
+          "kor_definition": "굶주림으로 인해 고통받거나 죽다"
+        },
+        {
+          "word": "gigantic",
+          "eng_definition": "very large or enormous",
+          "kor_definition": "매우 크거나 거대한"
+        },
+        {
+          "word": "delightful",
+          "eng_definition": "very pleasing or charming",
+          "kor_definition": "매우 즐겁거나 매력적인"
+        },
+        {
+          "word": "scrumptious",
+          "eng_definition": "tasty and delicious",
+          "kor_definition": "맛있고 즐거운"
+        },
+        {
+          "word": "bursts",
+          "eng_definition": "to suddenly break open or explode with force",
+          "kor_definition": "갑자기 힘차게 터지거나 폭발하다"
+        },
+        {
+          "word": "feeling",
+          "eng_definition": "an emotional state or sensation",
+          "kor_definition": "감정 상태 또는 감각"
+        },
+        {
+          "word": "massive",
+          "eng_definition": "large and heavy or solid",
+          "kor_definition": "크고 무겁거나 단단한"
+        },
+        {
+          "word": "gleaming",
+          "eng_definition": "shining with a soft and diffused light",
+          "kor_definition": "부드럽고 산뜻하게 빛나는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused the peach to be in the middle of the sea?",
+          "options": [
+            "It fell from the sky",
+            "A giant bird carried it",
+            "It was part of a game",
+            "A strong current and wind"
+          ],
+          "answer": "A strong current and wind"
+        },
+        {
+          "question": "How are the characters floating on the peach?",
+          "options": [
+            "They are drowning",
+            "They are floating beautifully",
+            "They are sitting on the ground",
+            "They are sinking"
+          ],
+          "answer": "They are floating beautifully"
+        },
+        {
+          "question": "What do the characters decide to do with the peach?",
+          "options": [
+            "Eat it",
+            "Sell it",
+            "Drop it into the water",
+            "Leave it alone"
+          ],
+          "answer": "Eat it"
+        },
+        {
+          "question": "Why does James say they will not sink?",
+          "options": [
+            "Because they are on land",
+            "Because they are floating",
+            "Because they are tied to a boat",
+            "Because the peach is made of metal"
+          ],
+          "answer": "Because they are floating"
+        },
+        {
+          "question": "What is the main reason the characters are happy at the end?",
+          "options": [
+            "They ate the peach",
+            "They are going to sleep",
+            "They are safe and have food",
+            "They found land"
+          ],
+          "answer": "They are safe and have food"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How do the characters feel about their situation after they realize they are floating on the peach?",
+          "answer": "They are relieved and happy because they realize they are floating and safe."
+        },
+        {
+          "question": "What does James suggest they do to survive?",
+          "answer": "He suggests they eat parts of the peach for food."
+        },
+        {
+          "question": "What do the characters enjoy about the peach at the end?",
+          "answer": "They enjoy the delicious taste of the peach and feel happy."
+        },
+        {
+          "question": "Why does the Centipede burst into song?",
+          "answer": "Because he is excited about how delicious the peach is and wants to share his joy."
+        }
+      ]
+    },
+    {
+      "chapter_number": 19,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "gliding",
+          "eng_definition": "sliding smoothly over a surface",
+          "kor_definition": "매끄럽게 미끄러지는 것"
+        },
+        {
+          "word": "cruising",
+          "eng_definition": "moving slowly and smoothly",
+          "kor_definition": "느리게 부드럽게 움직이는 것"
+        },
+        {
+          "word": "clustered",
+          "eng_definition": "gathered closely together",
+          "kor_definition": "밀집하여 모여 있는 것"
+        },
+        {
+          "word": "pandemonium",
+          "eng_definition": "a state of chaos or wild noise",
+          "kor_definition": "혼란 또는 혼돈의 상태"
+        },
+        {
+          "word": "lunge",
+          "eng_definition": "a sudden forward movement",
+          "kor_definition": "갑작스러운 전진 동작"
+        },
+        {
+          "word": "peered",
+          "eng_definition": "looked intently or carefully",
+          "kor_definition": "집중하거나 자세히 봄"
+        },
+        {
+          "word": "fury",
+          "eng_definition": "intense anger or violence",
+          "kor_definition": "격렬한 분노 또는 폭력"
+        },
+        {
+          "word": "appealing",
+          "eng_definition": "attractive or interesting",
+          "kor_definition": "매력적이거나 흥미로운"
+        },
+        {
+          "word": "threshing",
+          "eng_definition": "beating or pounding",
+          "kor_definition": "때리거나 두드리는 것"
+        },
+        {
+          "word": "anxious",
+          "eng_definition": "worried or uneasy",
+          "kor_definition": "걱정하거나 불안한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What are the creatures in the water initially mistaken for?",
+          "options": [
+            "Seals",
+            "Whales",
+            "Sharks",
+            "Dolphins"
+          ],
+          "answer": "Sharks"
+        },
+        {
+          "question": "How do the sharks attack the peach?",
+          "options": [
+            "By jumping out of the water",
+            "By circling and attacking furiously",
+            "By hiding underneath",
+            "By swimming away"
+          ],
+          "answer": "By circling and attacking furiously"
+        },
+        {
+          "question": "What is the main problem faced by the characters?",
+          "options": [
+            "They are lost in the forest",
+            "Sharks are attacking the peach",
+            "They are trapped in a cave",
+            "A storm is coming"
+          ],
+          "answer": "Sharks are attacking the peach"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why are the characters afraid of the sharks?",
+          "answer": "Because the sharks are attacking the peach and they fear they will be eaten."
+        },
+        {
+          "question": "What does Miss Spider want James to do?",
+          "answer": "She wants James to think of a way to escape from the sharks."
+        }
+      ]
+    },
+    {
+      "chapter_number": 20,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "threshing",
+          "eng_definition": "The sound or action of something being shaken or moved vigorously, often in water.",
+          "kor_definition": "채찍질하다, 두드리다"
+        },
+        {
+          "word": "coaxing",
+          "eng_definition": "Gentle urging or persuading someone to do something.",
+          "kor_definition": "부드럽게 설득하는 것"
+        },
+        {
+          "word": "frantic",
+          "eng_definition": "Extremely worried or frightened; panicked.",
+          "kor_definition": "미친 듯이 서두르는, 광란의"
+        },
+        {
+          "word": "murmured",
+          "eng_definition": "Spoke softly or quietly.",
+          "kor_definition": "낮게 중얼거리다"
+        },
+        {
+          "word": "loop",
+          "eng_definition": "A shape produced by a curve that bends around and crosses itself.",
+          "kor_definition": "고리, 매듭"
+        },
+        {
+          "word": "hooking",
+          "eng_definition": "Attaching or catching with a hook or similar device.",
+          "kor_definition": "갈고리로 걸기, 매달기"
+        },
+        {
+          "word": "juiciest",
+          "eng_definition": "Most full of juice; very juicy.",
+          "kor_definition": "가장 즙이 많은"
+        },
+        {
+          "word": "pecked",
+          "eng_definition": "Touched or struck repeatedly, like a bird pecking at food.",
+          "kor_definition": "쪼다, 쪼아 먹다"
+        },
+        {
+          "word": "martyr",
+          "eng_definition": "A person who sacrifices themselves for a cause.",
+          "kor_definition": "순교자, 희생자"
+        },
+        {
+          "word": "baits",
+          "eng_definition": "Food or other lure used to attract animals or birds.",
+          "kor_definition": "미끼"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is James planning to do with the seagulls?",
+          "options": [
+            "Use them to lift the peach out of the water",
+            "Make them nests",
+            "Use them to carry a message",
+            "Feed them to the sharks"
+          ],
+          "answer": "Use them to lift the peach out of the water"
+        },
+        {
+          "question": "Why does James want to spin a strong thread?",
+          "options": [
+            "To make a net",
+            "To lift the peach out of the water",
+            "To catch fish",
+            "To sew clothes"
+          ],
+          "answer": "To lift the peach out of the water"
+        },
+        {
+          "question": "What does James use as bait for the seagulls?",
+          "options": [
+            "A juicy apple",
+            "A shiny object",
+            "A piece of bread",
+            "The Earthworm"
+          ],
+          "answer": "The Earthworm"
+        },
+        {
+          "question": "What is the main obstacle James faces in his plan?",
+          "options": [
+            "Getting the sharks away",
+            "Finding enough seagulls",
+            "Locating a big enough peach",
+            "Getting the string to be strong enough"
+          ],
+          "answer": "Getting the string to be strong enough"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does James think seagulls are suitable for lifting the peach?",
+          "answer": "Because seagulls have more lifting power than balloons, and there are many of them available."
+        },
+        {
+          "question": "What is James's plan for using the seagulls to lift the peach?",
+          "answer": "He plans to loop a string around each seagull's neck, tie it to the peach stem, and use enough seagulls to lift the peach out of the water."
+        },
+        {
+          "question": "Why does the Earthworm refuse to be bait?",
+          "answer": "Because he is afraid of being pecked to death by the seagulls."
+        }
+      ]
+    },
+    {
+      "chapter_number": 21,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "brilliant",
+          "eng_definition": "very bright or intelligent",
+          "kor_definition": "매우 밝거나 똑똑한"
+        },
+        {
+          "word": "genius",
+          "eng_definition": "a person with extraordinary intelligence or talent",
+          "kor_definition": "비범한 지능이나 재능을 가진 사람"
+        },
+        {
+          "word": "wailed",
+          "eng_definition": "cried out loudly, often in pain or distress",
+          "kor_definition": "크게 울부짖다"
+        },
+        {
+          "word": "pecked",
+          "eng_definition": "hit or strike with a quick, light tap, usually with a beak or pointed object",
+          "kor_definition": "가볍게 쪼다"
+        },
+        {
+          "word": "boiling",
+          "eng_definition": "the process of heating a liquid until it turns to vapor",
+          "kor_definition": "액체를 끓게 하다"
+        },
+        {
+          "word": "sinking",
+          "eng_definition": "going down below the surface of water or other liquid",
+          "kor_definition": "가라앉다"
+        },
+        {
+          "word": "action stations",
+          "eng_definition": "a command for everyone to prepare for immediate action or danger",
+          "kor_definition": "즉각 행동하거나 위기에 대비하라는 명령"
+        },
+        {
+          "word": "scuttled",
+          "eng_definition": "moved quickly and hurriedly",
+          "kor_definition": "서둘러 움직이다"
+        },
+        {
+          "word": "hurry",
+          "eng_definition": "to do something quickly",
+          "kor_definition": "서두르다"
+        },
+        {
+          "word": "spin",
+          "eng_definition": "to twist or turn fibers into thread or silk",
+          "kor_definition": "섬유를 실이나 비단으로 뽑아내다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did James call himself when he gave the orders?",
+          "options": [
+            "The Leader",
+            "The Captain",
+            "The Commander",
+            "The Captain"
+          ],
+          "answer": "The Captain"
+        },
+        {
+          "question": "What did James tell the Silkworm to do?",
+          "options": [
+            "Sleep",
+            "Eat",
+            "Spin as never before",
+            "Rest"
+          ],
+          "answer": "Spin as never before"
+        },
+        {
+          "question": "Why was the Earthworm worried?",
+          "options": [
+            "It would fall into the water",
+            "It would get lost",
+            "It would be cold",
+            "It would be pecked to death"
+          ],
+          "answer": "It would be pecked to death"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did James order all the characters to go below deck except Earthworm?",
+          "answer": "Because they needed to prepare for the sharks and danger around the peach."
+        },
+        {
+          "question": "What was the main goal James wanted everyone to do immediately?",
+          "answer": "He wanted them to spin silk quickly to save their lives."
+        }
+      ]
+    },
+    {
+      "chapter_number": 22,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "innocently",
+          "eng_definition": "in a harmless or pure way",
+          "kor_definition": "순진하게, 무죄로"
+        },
+        {
+          "word": "dangling",
+          "eng_definition": "hanging loosely or swinging",
+          "kor_definition": "매달려 있는"
+        },
+        {
+          "word": "exhorting",
+          "eng_definition": "urging or encouraging strongly",
+          "kor_definition": "권고하거나 격려하는"
+        },
+        {
+          "word": "faintly",
+          "eng_definition": "in a weak or slight way",
+          "kor_definition": "희미하게, 약하게"
+        },
+        {
+          "word": "tethered",
+          "eng_definition": "attached or confined with a rope or chain",
+          "kor_definition": "묶인, 매여 있는"
+        },
+        {
+          "word": "hovered",
+          "eng_definition": "stayed suspended in the air",
+          "kor_definition": "공중에 떠 있었다"
+        },
+        {
+          "word": "delicately",
+          "eng_definition": "in a careful and gentle manner",
+          "kor_definition": "섬세하게, 조심스럽게"
+        },
+        {
+          "word": "straining",
+          "eng_definition": "making great effort",
+          "kor_definition": "애쓰는, 힘쓰는"
+        },
+        {
+          "word": "fabulous",
+          "eng_definition": "extraordinarily good or wonderful",
+          "kor_definition": "환상적인, 멋진"
+        },
+        {
+          "word": "majestically",
+          "eng_definition": "in a grand or dignified manner",
+          "kor_definition": "장엄하게, 위엄 있게"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was James holding in his hands during the seagull rescue?",
+          "options": [
+            "A fishing net",
+            "A loop of silk string",
+            "A stick",
+            "A bucket"
+          ],
+          "answer": "A loop of silk string"
+        },
+        {
+          "question": "How many seagulls did James manage to catch and tether to the peach?",
+          "options": [
+            "400",
+            "500",
+            "600",
+            "300"
+          ],
+          "answer": "500"
+        },
+        {
+          "question": "What was the main purpose of the seagulls in the story?",
+          "options": [
+            "To scare the characters",
+            "To eat the peach",
+            "To build a nest",
+            "To lift the peach out of the water"
+          ],
+          "answer": "To lift the peach out of the water"
+        },
+        {
+          "question": "What animal was lighting up the room inside the peach?",
+          "options": [
+            "Centipede",
+            "Spider",
+            "Firefly",
+            "Glow-worm"
+          ],
+          "answer": "Glow-worm"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did James tie the silk string to the stem of the peach?",
+          "answer": "To help lift the peach out of the water with the seagulls' help."
+        },
+        {
+          "question": "Describe how the peach is described as balancing at the end of the story.",
+          "answer": "It is like a delicately balanced scale that needs only a tiny push to tip one way or the other."
+        },
+        {
+          "question": "What was the final outcome for the giant peach?",
+          "answer": "It rose majestically out of the water, climbing toward the heavens like a golden balloon."
+        }
+      ]
+    },
+    {
+      "chapter_number": 23,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "ascent",
+          "eng_definition": "the act of rising or climbing upward",
+          "kor_definition": "상승, 오름"
+        },
+        {
+          "word": "inspection",
+          "eng_definition": "careful examination or scrutiny",
+          "kor_definition": "검사, 점검"
+        },
+        {
+          "word": "exhausted",
+          "eng_definition": "very tired or worn out",
+          "kor_definition": "기진맥진한, 지친"
+        },
+        {
+          "word": "miraculous",
+          "eng_definition": "wonderful or extraordinary, as if by magic",
+          "kor_definition": "기적 같은, 놀라운"
+        },
+        {
+          "word": "froth",
+          "eng_definition": "a mass of small bubbles on the surface of a liquid",
+          "kor_definition": "거품"
+        },
+        {
+          "word": "imagine",
+          "eng_definition": "to form a mental picture or idea of something",
+          "kor_definition": "상상하다"
+        },
+        {
+          "word": "funnel",
+          "eng_definition": "a tube or pipe that is wide at the top and narrow at the bottom, used to guide liquid or powder into a small opening",
+          "kor_definition": "깔때기"
+        },
+        {
+          "word": "gaping",
+          "eng_definition": "wide open; staring with mouth open",
+          "kor_definition": "벌어진, 우뚝 벌어진"
+        },
+        {
+          "word": "colossal",
+          "eng_definition": "extremely large or great",
+          "kor_definition": "거대한, 엄청난"
+        },
+        {
+          "word": "telescope",
+          "eng_definition": "an optical instrument used to see distant objects",
+          "kor_definition": "망원경"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Miss Spider do to check the damage on the peach?",
+          "options": [
+            "She sent a bird to look",
+            "She called the others to look inside",
+            "She jumped off with a silk thread",
+            "She cut the peach open"
+          ],
+          "answer": "She jumped off with a silk thread"
+        },
+        {
+          "question": "Why did the sharks not do much damage to the peach?",
+          "options": [
+            "They didn't want to damage the peach",
+            "Their long noses made it impossible for them to bite the smooth surface",
+            "They were too small",
+            "They were afraid of the spiders"
+          ],
+          "answer": "Their long noses made it impossible for them to bite the smooth surface"
+        },
+        {
+          "question": "What did the ship below them turn out to be?",
+          "options": [
+            "A submarine",
+            "The Queen Mary ocean liner",
+            "A small boat",
+            "A giant floating island"
+          ],
+          "answer": "The Queen Mary ocean liner"
+        },
+        {
+          "question": "What was the captain of the ship worried about?",
+          "options": [
+            "That the round object was a secret weapon",
+            "That they would crash",
+            "That they would run out of fuel",
+            "That they were being attacked"
+          ],
+          "answer": "That the round object was a secret weapon"
+        },
+        {
+          "question": "What did the captain see through the telescope?",
+          "options": [
+            "A tiny bird",
+            "A school of birds",
+            "A school of fish",
+            "A little boy, a ladybug, a grasshopper, a spider, and a centipede"
+          ],
+          "answer": "A little boy, a ladybug, a grasshopper, a spider, and a centipede"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Miss Spider say the damage to the peach was minimal?",
+          "answer": "Because the sharks' teeth couldn't really damage the smooth surface of the peach."
+        },
+        {
+          "question": "What did the sharks do that made the others think they caused damage?",
+          "answer": "They churned the water into froth and opened and shut their mouths, which looked like damage."
+        },
+        {
+          "question": "Why did the characters think they were sinking?",
+          "answer": "They might have imagined it because sharks couldn't actually damage the peach."
+        },
+        {
+          "question": "What was the captain's reaction to seeing the round object?",
+          "answer": "He thought it was a secret weapon and wanted to warn the country."
+        }
+      ]
+    },
+    {
+      "chapter_number": 24,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "swaying",
+          "eng_definition": "moving gently back and forth",
+          "kor_definition": "부드럽게 흔들리는 것"
+        },
+        {
+          "word": "spellbound",
+          "eng_definition": "completely captivated or fascinated",
+          "kor_definition": "완전히 매혹된 상태"
+        },
+        {
+          "word": "harmonies",
+          "eng_definition": "combinations of musical notes played or sung at the same time",
+          "kor_definition": "화음, 조화"
+        },
+        {
+          "word": "instrument",
+          "eng_definition": "a tool or device used to produce music",
+          "kor_definition": "악기"
+        },
+        {
+          "word": "bow",
+          "eng_definition": "a curved stick with horsehair used to play certain string instruments",
+          "kor_definition": "활"
+        },
+        {
+          "word": "feeler",
+          "eng_definition": "a thin, sensory appendage on some insects",
+          "kor_definition": "감각기관인 촉각체"
+        },
+        {
+          "word": "rubber",
+          "eng_definition": "something that produces sound by friction",
+          "kor_definition": "문지르는 것"
+        },
+        {
+          "word": "ridiculous",
+          "eng_definition": "very silly or unreasonable",
+          "kor_definition": "말도 안 되는, 우스꽝스러운"
+        },
+        {
+          "word": "tummy",
+          "eng_definition": "informal word for stomach",
+          "kor_definition": "배, 복부"
+        },
+        {
+          "word": "scornfully",
+          "eng_definition": "in a way that shows disrespect or disdain",
+          "kor_definition": "경멸스럽게, 무시하며"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What musical instrument does the Old-Green-Grasshopper play?",
+          "options": [
+            "Violin",
+            "Guitar",
+            "Flute",
+            "Piano"
+          ],
+          "answer": "Violin"
+        },
+        {
+          "question": "Why does the Old-Green-Grasshopper say he is a 'short-horn' grasshopper?",
+          "options": [
+            "Because he plays short tunes",
+            "Because he is small",
+            "Because he has short legs",
+            "Because he has short feelers"
+          ],
+          "answer": "Because he has short feelers"
+        },
+        {
+          "question": "What does the centipede think about ears on the sides of the head?",
+          "options": [
+            "They look funny",
+            "They look ridiculous",
+            "They are strange",
+            "They are useful"
+          ],
+          "answer": "They look ridiculous"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How does the Old-Green-Grasshopper produce music?",
+          "answer": "He uses his back leg as a bow and the edge of his wing as strings, like a violin."
+        },
+        {
+          "question": "Where do the 'long-horned' grasshoppers keep their ears?",
+          "answer": "In their legs, just below the knees."
+        },
+        {
+          "question": "What does the Old-Green-Grasshopper say about things we haven't wondered about yet?",
+          "answer": "He says there are many things in the world that we haven't started wondering about."
+        }
+      ]
+    },
+    {
+      "chapter_number": 25,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "extraordinary",
+          "eng_definition": "Very unusual or remarkable.",
+          "kor_definition": "매우 특이하거나 놀라운"
+        },
+        {
+          "word": "crumbly",
+          "eng_definition": "Easily breaking into small pieces.",
+          "kor_definition": "잘 부서지는, 부스러지기 쉬운"
+        },
+        {
+          "word": "essential",
+          "eng_definition": "Absolutely necessary; extremely important.",
+          "kor_definition": "필수적인, 없어서는 안 될"
+        },
+        {
+          "word": "modestly",
+          "eng_definition": "In a humble or unassuming way.",
+          "kor_definition": "겸손하게, 수줍게"
+        },
+        {
+          "word": "saucy",
+          "eng_definition": "Rude or impertinent; lively or bold.",
+          "kor_definition": "건방진, 뻔뻔한"
+        },
+        {
+          "word": "ill-mannered",
+          "eng_definition": "Having bad manners or rude behavior.",
+          "kor_definition": "버릇이 나쁜"
+        },
+        {
+          "word": "ghastly",
+          "eng_definition": "Causing horror or fear; ghostly.",
+          "kor_definition": "무섭거나 소름끼치는"
+        },
+        {
+          "word": "poke",
+          "eng_definition": "To prod or push with a finger or object.",
+          "kor_definition": "찌르다, 밀다"
+        },
+        {
+          "word": "snigger",
+          "eng_definition": "To laugh quietly and disrespectfully.",
+          "kor_definition": "킥킥 웃다, 조용히 비웃다"
+        },
+        {
+          "word": "alter",
+          "eng_definition": "To change or modify.",
+          "kor_definition": "바꾸다, 변경하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does the Earthworm do that is considered extraordinary?",
+          "options": [
+            "It builds houses",
+            "It passes soil through its body",
+            "It flies in the air",
+            "It sings beautiful songs"
+          ],
+          "answer": "It passes soil through its body"
+        },
+        {
+          "question": "Why do farmers love Ladybugs?",
+          "options": [
+            "They gobble up harmful insects",
+            "They make honey",
+            "They scare away pests",
+            "They eat crops"
+          ],
+          "answer": "They gobble up harmful insects"
+        },
+        {
+          "question": "What is a common misconception about Ladybugs?",
+          "options": [
+            "You can tell their age by spots",
+            "They are all black",
+            "They change spots with age",
+            "They only live in forests"
+          ],
+          "answer": "You can tell their age by spots"
+        },
+        {
+          "question": "What does Miss Spider do that is helpful?",
+          "options": [
+            "Makes honey",
+            "Eats plants",
+            "Builds webs for fun",
+            "Catches flies and mosquitoes"
+          ],
+          "answer": "Catches flies and mosquitoes"
+        },
+        {
+          "question": "What is the Centipede proud of?",
+          "options": [
+            "Being a pest",
+            "Having many legs",
+            "Singing songs",
+            "Being loved by everyone"
+          ],
+          "answer": "Being a pest"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does the Earthworm say it passes soil through its body?",
+          "answer": "To help farmers make the soil light and crumbly so plants can grow well."
+        },
+        {
+          "question": "How do Ladybugs help farmers?",
+          "answer": "They eat harmful insects that damage crops."
+        },
+        {
+          "question": "What is the significance of the spots on a Ladybug?",
+          "answer": "They show which branch of the family the Ladybug belongs to; they do not change with age."
+        },
+        {
+          "question": "Why is the Centipede proud of being a pest?",
+          "answer": "Because it helps keep harmful insects away and considers it a valuable role."
+        }
+      ]
+    },
+    {
+      "chapter_number": 26,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "teetering",
+          "eng_definition": "balancing unsteadily, wobbling",
+          "kor_definition": "비틀거리며 균형을 잡는 것"
+        },
+        {
+          "word": "brink",
+          "eng_definition": "the edge of something, especially something dangerous",
+          "kor_definition": "위험한 것의 가장자리"
+        },
+        {
+          "word": "tumblimg",
+          "eng_definition": "falling or rolling over and over",
+          "kor_definition": "구르거나 넘어지는 것"
+        },
+        {
+          "word": "dripping-wet",
+          "eng_definition": "completely soaked with water",
+          "kor_definition": "물에 흠뻑 젖은"
+        },
+        {
+          "word": "haul",
+          "eng_definition": "to pull or drag with effort",
+          "kor_definition": "힘을 써서 끌거나 잡아당기다"
+        },
+        {
+          "word": "flood",
+          "eng_definition": "a large amount of water covering an area",
+          "kor_definition": "큰 홍수, 범람"
+        },
+        {
+          "word": "unwise",
+          "eng_definition": "not sensible or showing poor judgment",
+          "kor_definition": "현명하지 않은"
+        },
+        {
+          "word": "celebration",
+          "eng_definition": "a joyful occasion or gathering to honor something",
+          "kor_definition": "축하, 기념행사"
+        },
+        {
+          "word": "precious",
+          "eng_definition": "highly valued or loved",
+          "kor_definition": "귀중한, 소중한"
+        },
+        {
+          "word": "safe",
+          "eng_definition": "free from danger or harm",
+          "kor_definition": "안전한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused the Centipede to fall from the peach?",
+          "options": [
+            "He slipped on the silk",
+            "He was pushed by other insects",
+            "He went too close to the edge and teetered",
+            "He jumped intentionally"
+          ],
+          "answer": "He went too close to the edge and teetered"
+        },
+        {
+          "question": "How did James rescue the Centipede?",
+          "options": [
+            "He tied himself to the silk and climbed down",
+            "He called for help",
+            "He pushed him off the peach",
+            "He threw a ladder"
+          ],
+          "answer": "He tied himself to the silk and climbed down"
+        },
+        {
+          "question": "What was the Old-Green-Grasshopper playing during the sad moment?",
+          "options": [
+            "A lullaby",
+            "A Funeral March",
+            "A happy tune",
+            "A lively dance"
+          ],
+          "answer": "A Funeral March"
+        },
+        {
+          "question": "Why did Miss Spider suggest going below the peach?",
+          "options": [
+            "To find more food",
+            "To stay warm and safe overnight",
+            "Because they wanted to sleep",
+            "Because it was too dark outside"
+          ],
+          "answer": "To stay warm and safe overnight"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was everyone crying at the end of the chapter?",
+          "answer": "They were crying because the Centipede fell and everyone was sad about him."
+        },
+        {
+          "question": "How did James find the Centipede after he fell?",
+          "answer": "James swam in the Atlantic Ocean to find him and pulled him up with the silk."
+        },
+        {
+          "question": "What do the characters decide to do at the end of the chapter?",
+          "answer": "They decide to stay up on the peach through the night and keep watch for safety."
+        }
+      ]
+    },
+    {
+      "chapter_number": 27,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "overwhelming",
+          "eng_definition": "Very intense or powerful; too much to handle.",
+          "kor_definition": "압도적인, 너무 강력한"
+        },
+        {
+          "word": "eerie",
+          "eng_definition": "Strange and frightening.",
+          "kor_definition": "기묘하고 오싹한"
+        },
+        {
+          "word": "drifted",
+          "eng_definition": "Moved slowly and smoothly through the air or water.",
+          "kor_definition": "떠다녔다, 표류했다"
+        },
+        {
+          "word": "wispy",
+          "eng_definition": "Thin and light; delicate.",
+          "kor_definition": "가느다란, 연약한"
+        },
+        {
+          "word": "shadowy",
+          "eng_definition": "Dim or not clearly visible; mysterious.",
+          "kor_definition": "그림자가 드리운, 흐릿한"
+        },
+        {
+          "word": "marbles",
+          "eng_definition": "Small glass balls used in games, here referring to cloud bits shaped like balls.",
+          "kor_definition": "구슬, 구슬 모양의 조각들"
+        },
+        {
+          "word": "shovels",
+          "eng_definition": "Tools for digging or moving loose material.",
+          "kor_definition": "삽"
+        },
+        {
+          "word": "cracked",
+          "eng_definition": "Broken or split with a line.",
+          "kor_definition": "갈라진, 금이 간"
+        },
+        {
+          "word": "trembling",
+          "eng_definition": "Shaking slightly, usually from fear or cold.",
+          "kor_definition": "떨고 있는"
+        },
+        {
+          "word": "silhouette",
+          "eng_definition": "A dark shape seen against a brighter background.",
+          "kor_definition": "실루엣, 윤곽"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was floating along during the night in the story?",
+          "options": [
+            "A spaceship",
+            "An airplane",
+            "A giant peach",
+            "A cloud"
+          ],
+          "answer": "A giant peach"
+        },
+        {
+          "question": "What did the Cloud-Men use to make hailstones?",
+          "options": [
+            "Ice cubes",
+            "Snow",
+            "Water balloons",
+            "Cloud marbles"
+          ],
+          "answer": "Cloud marbles"
+        },
+        {
+          "question": "Why did James tell the Centipede to be quiet?",
+          "options": [
+            "Because the Cloud-Men might hear him",
+            "Because he was singing",
+            "Because he was hungry",
+            "Because he wanted to sleep"
+          ],
+          "answer": "Because the Cloud-Men might hear him"
+        },
+        {
+          "question": "What did the Cloud-Men do when they saw the peach?",
+          "options": [
+            "They ran away",
+            "They looked surprised and froze",
+            "They attacked the peach",
+            "They started dancing"
+          ],
+          "answer": "They looked surprised and froze"
+        },
+        {
+          "question": "What was the Cloud-Men practicing for?",
+          "options": [
+            "Autumn",
+            "Summer",
+            "Spring",
+            "Winter"
+          ],
+          "answer": "Winter"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What did the Cloud-Men do with the cloud bits?",
+          "answer": "They rolled them into marbles and threw them into space."
+        },
+        {
+          "question": "How did the Cloud-Men react when the Centipede yelled at them?",
+          "answer": "They jumped and looked surprised, then started throwing hailstones."
+        },
+        {
+          "question": "Why did James and his friends go inside the peach's tunnel?",
+          "answer": "Because the Cloud-Men were throwing hailstones and it was dangerous outside."
+        },
+        {
+          "question": "What did the seagulls do when the Cloud-Men started throwing hailstones?",
+          "answer": "They pulled the peach away and helped protect James and his friends."
+        }
+      ]
+    },
+    {
+      "chapter_number": 28,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "shimmering",
+          "eng_definition": "shining with a flickering or wavering light",
+          "kor_definition": "반짝이는, 희미하게 빛나는"
+        },
+        {
+          "word": "colossal",
+          "eng_definition": "extremely large or great",
+          "kor_definition": "거대한, 엄청난"
+        },
+        {
+          "word": "hypnotized",
+          "eng_definition": "so fascinated that one cannot think or focus clearly",
+          "kor_definition": "최면 상태에 빠진, 매혹된"
+        },
+        {
+          "word": "tangled",
+          "eng_definition": "twisted together into a confusing mass",
+          "kor_definition": "엉킨, 뒤엉킨"
+        },
+        {
+          "word": "frenzy",
+          "eng_definition": "a state of uncontrolled excitement or wild behavior",
+          "kor_definition": "광란, 열광"
+        },
+        {
+          "word": "tumbling",
+          "eng_definition": "falling or rolling suddenly and uncontrollably",
+          "kor_definition": "구르기, 떨어지기"
+        },
+        {
+          "word": "infuriated",
+          "eng_definition": "made extremely angry",
+          "kor_definition": "격분한, 화가 난"
+        },
+        {
+          "word": "mercilessly",
+          "eng_definition": "in a way that shows no mercy or pity",
+          "kor_definition": "무자비하게, 냉혹하게"
+        },
+        {
+          "word": "pelted",
+          "eng_definition": "thrown repeatedly and violently",
+          "kor_definition": "내리치다, 퍼붓다"
+        },
+        {
+          "word": "dodge",
+          "eng_definition": "to avoid something quickly by moving aside",
+          "kor_definition": "피하다, 몸을 비키다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did the Cloud-Men use to paint the rainbow?",
+          "options": [
+            "Sand and stones",
+            "Paint and brushes",
+            "Clouds and wind",
+            "Water and brushes"
+          ],
+          "answer": "Paint and brushes"
+        },
+        {
+          "question": "What happened to the rainbow when the peach crashed into it?",
+          "options": [
+            "It fell to the ground",
+            "It turned into a cloud",
+            "It became two pieces",
+            "It disappeared"
+          ],
+          "answer": "It became two pieces"
+        },
+        {
+          "question": "How did the Cloud-Man get pulled up by the seagull?",
+          "options": [
+            "He was carried by a seagull",
+            "He jumped into the water",
+            "He climbed a rope",
+            "He flew himself"
+          ],
+          "answer": "He was carried by a seagull"
+        },
+        {
+          "question": "What did the Cloud-Men throw at the travelers?",
+          "options": [
+            "Lanterns",
+            "Objects like paint buckets and rotten eggs",
+            "Feathers",
+            "Flowers"
+          ],
+          "answer": "Objects like paint buckets and rotten eggs"
+        },
+        {
+          "question": "Why did the Centipede scream with anger?",
+          "options": [
+            "He got lost",
+            "He lost his tail",
+            "He was covered in paint and couldn’t move",
+            "He saw a monster"
+          ],
+          "answer": "He was covered in paint and couldn’t move"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did the travelers think the rainbow was special?",
+          "answer": "Because it was being painted by Cloud-Men and was very colorful and beautiful."
+        },
+        {
+          "question": "How did James and his friends manage to save themselves from the Cloud-Man?",
+          "answer": "The Centipede bit through the silk string, causing the Cloud-Man to be pulled away by a seagull."
+        },
+        {
+          "question": "What caused the rainbow to break into two pieces?",
+          "answer": "The peach crashed into the rainbow, snapping it in the middle."
+        },
+        {
+          "question": "What was the biggest challenge the travelers faced on the cloud?",
+          "answer": "They had to avoid the Cloud-Men who threw objects at them and tried to catch the peach."
+        }
+      ]
+    },
+    {
+      "chapter_number": 29,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "horrible",
+          "eng_definition": "causing horror or dislike",
+          "kor_definition": "무서운, 끔찍한"
+        },
+        {
+          "word": "wretched",
+          "eng_definition": "very bad or miserable",
+          "kor_definition": "비참한, 형편없는"
+        },
+        {
+          "word": "encased",
+          "eng_definition": "surrounded or covered completely",
+          "kor_definition": "감싸인, 둘러싸인"
+        },
+        {
+          "word": "gurgling",
+          "eng_definition": "making a bubbling or splashing sound",
+          "kor_definition": "거품이 일거나 졸졸 흐르는 소리"
+        },
+        {
+          "word": "detest",
+          "eng_definition": "hate intensely",
+          "kor_definition": "몹시 싫어하다"
+        },
+        {
+          "word": "upside down",
+          "eng_definition": "with the top at the bottom",
+          "kor_definition": "거꾸로, 뒤집혀서"
+        },
+        {
+          "word": "peeling",
+          "eng_definition": "removing the outer layer",
+          "kor_definition": "껍질 벗기기"
+        },
+        {
+          "word": "proposal",
+          "eng_definition": "a plan or suggestion",
+          "kor_definition": "제안, 계획"
+        },
+        {
+          "word": "inside out",
+          "eng_definition": "with the inner surface facing outward",
+          "kor_definition": "속이 바깥으로 나오게"
+        },
+        {
+          "word": "shouting",
+          "eng_definition": "calling out loudly",
+          "kor_definition": "소리치기"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the problem with the Centipede after being painted?",
+          "options": [
+            "He turned into a statue",
+            "He flew away",
+            "He was purple and stiff",
+            "He was covered in mud"
+          ],
+          "answer": "He was purple and stiff"
+        },
+        {
+          "question": "What did Miss Spider compare the paint to?",
+          "options": [
+            "Mud",
+            "A spider web",
+            "Rainbow",
+            "A cake"
+          ],
+          "answer": "Rainbow"
+        },
+        {
+          "question": "What did the Earthworm say might happen to the Centipede?",
+          "options": [
+            "He will fly",
+            "He will grow bigger",
+            "He will turn into a statue",
+            "He will become a butterfly"
+          ],
+          "answer": "He will turn into a statue"
+        },
+        {
+          "question": "What was James's reaction at the end of the passage?",
+          "options": [
+            "He ignored the noise",
+            "He started crying",
+            "He went to sleep",
+            "He heard a voice shouting"
+          ],
+          "answer": "He heard a voice shouting"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Miss Spider feel sorry for the Centipede?",
+          "answer": "Because he was covered in rainbow-paint and looked very stiff and hurt."
+        },
+        {
+          "question": "What humorous idea did the Earthworm suggest for removing the paint?",
+          "answer": "Pulling out his tongue and turning him inside out."
+        },
+        {
+          "question": "What does the phrase 'inside out' mean in this context?",
+          "answer": "Turning the Centipede so that his inner side is facing outward, like turning his skin inside out."
+        }
+      ]
+    },
+    {
+      "chapter_number": 30,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "deluge",
+          "eng_definition": "a severe flood or rainstorm",
+          "kor_definition": "홍수, 폭우"
+        },
+        {
+          "word": "rumble",
+          "eng_definition": "a continuous deep, resonant sound",
+          "kor_definition": "우르릉거리는 소리"
+        },
+        {
+          "word": "swirling",
+          "eng_definition": "moving in a circular or twisting motion",
+          "kor_definition": "소용돌이치는"
+        },
+        {
+          "word": "thundery",
+          "eng_definition": "having the qualities of thunder; loud and rumbling",
+          "kor_definition": "천둥 소리가 나는"
+        },
+        {
+          "word": "splitting",
+          "eng_definition": "breaking or opening apart",
+          "kor_definition": "쪼개지거나 갈라지는"
+        },
+        {
+          "word": "pouring",
+          "eng_definition": "flowing rapidly in a steady stream",
+          "kor_definition": "쏟아지는"
+        },
+        {
+          "word": "gasped",
+          "eng_definition": "breathed in suddenly and loudly",
+          "kor_definition": "헐떡이며 숨을 들이쉬다"
+        },
+        {
+          "word": "somersaults",
+          "eng_definition": "a movement in which a person rolls forward or backward in the air",
+          "kor_definition": "공중에서 몸을 구르기"
+        },
+        {
+          "word": "mysterious",
+          "eng_definition": "difficult to understand or explain; full of mystery",
+          "kor_definition": "신비로운, 불가사의한"
+        },
+        {
+          "word": "pinned",
+          "eng_definition": "held in place with a pin or similar object",
+          "kor_definition": "핀으로 고정된"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What animal shouted, 'On with the faucets!'?",
+          "options": [
+            "Cloud-Man",
+            "Old-Green-Grasshopper",
+            "Earthworm",
+            "Miss Spider"
+          ],
+          "answer": "Cloud-Man"
+        },
+        {
+          "question": "What caused the water to come down from the cloud?",
+          "options": [
+            "The sea was nearby",
+            "The cloud split and burst open",
+            "A faucet was turned on",
+            "It started snowing"
+          ],
+          "answer": "The cloud split and burst open"
+        },
+        {
+          "question": "How did the characters feel during the rainstorm?",
+          "options": [
+            "They felt happy and dancing",
+            "They ignored the rain",
+            "They started singing and playing",
+            "They shrieked with fear and groped for something to hold"
+          ],
+          "answer": "They shrieked with fear and groped for something to hold"
+        },
+        {
+          "question": "What did the Centipede do after the storm stopped?",
+          "options": [
+            "He fell asleep",
+            "He hid in a corner",
+            "He danced and sang happily",
+            "He cried loudly"
+          ],
+          "answer": "He danced and sang happily"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What was the main cause of the storm in the story?",
+          "answer": "The cloud opened and released a huge mass of water, causing a storm."
+        },
+        {
+          "question": "How did the characters react to being caught in the rain?",
+          "answer": "They shrieked with fear, groped for something to hold, and felt overwhelmed by the rain."
+        },
+        {
+          "question": "What change happened to the Centipede after the rainstorm?",
+          "answer": "The Centipede was washed clean, could move again, and was very happy."
+        }
+      ]
+    },
+    {
+      "chapter_number": 31,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "seagulls",
+          "eng_definition": "birds that fly near the sea, often scavenging for food",
+          "kor_definition": "갈매기, 바닷가 주변에서 나는 새"
+        },
+        {
+          "word": "glimpses",
+          "eng_definition": "brief or partial views",
+          "kor_definition": "언뜻 봄, 잠깐 보는 것"
+        },
+        {
+          "word": "clouds",
+          "eng_definition": "visible masses of condensed water vapor floating in the sky",
+          "kor_definition": "구름, 하늘에 떠 있는 수증기 덩어리"
+        },
+        {
+          "word": "ghostly",
+          "eng_definition": "like a ghost; very pale or faint",
+          "kor_definition": "유령 같은, 희미한"
+        },
+        {
+          "word": "frost",
+          "eng_definition": "covered with tiny ice crystals that form on surfaces when it's cold",
+          "kor_definition": "서리, 차가운 날씨에 생기는 얼음 결정"
+        },
+        {
+          "word": "tornado",
+          "eng_definition": "a violent, twisting windstorm forming a funnel shape",
+          "kor_definition": "토네이도, 회오리바람"
+        },
+        {
+          "word": "hollow",
+          "eng_definition": "an empty space inside something",
+          "kor_definition": "속이 빈, 구멍이 있는"
+        },
+        {
+          "word": "swooping",
+          "eng_definition": "to move rapidly downward through the air",
+          "kor_definition": "낙하하는 듯이 급강하하다"
+        },
+        {
+          "word": "melancholy",
+          "eng_definition": "a feeling of deep sadness or pensiveness",
+          "kor_definition": "우울, 슬픔"
+        },
+        {
+          "word": "horizon",
+          "eng_definition": "the line where the earth or sea appears to meet the sky",
+          "kor_definition": "수평선, 지평선"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What are the Cloud-Men doing in their city?",
+          "options": [
+            "Flying with seagulls",
+            "Building houses",
+            "Sleeping in caves",
+            "Manufacturing storms and tornadoes"
+          ],
+          "answer": "Manufacturing storms and tornadoes"
+        },
+        {
+          "question": "What creature swooped down toward the travelers?",
+          "options": [
+            "A flying dragon",
+            "A gray batlike creature",
+            "A large butterfly",
+            "A friendly bird"
+          ],
+          "answer": "A gray batlike creature"
+        },
+        {
+          "question": "What are the Cloud-Men's wives doing at the cave entrances?",
+          "options": [
+            "Cooking snowballs on stoves",
+            "Fishing in the clouds",
+            "Making snowmen",
+            "Frying snowballs for dinner"
+          ],
+          "answer": "Frying snowballs for dinner"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why are the seagulls flying faster and faster?",
+          "answer": "They want to get out of the stormy area because they are frightened."
+        },
+        {
+          "question": "What does the travelers see as the sun rises?",
+          "answer": "They see the sun coming up over the horizon, marking a new day."
+        }
+      ]
+    },
+    {
+      "chapter_number": 32,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "cramped",
+          "eng_definition": "Uncomfortably small or tight.",
+          "kor_definition": "비좁거나 답답한"
+        },
+        {
+          "word": "shouted",
+          "eng_definition": "Spoke loudly or excitedly.",
+          "kor_definition": "큰소리로 외쳤다"
+        },
+        {
+          "word": "enormous",
+          "eng_definition": "Very large or huge.",
+          "kor_definition": "매우 큰, 거대한"
+        },
+        {
+          "word": "glistening",
+          "eng_definition": "Shining with reflected light.",
+          "kor_definition": "반짝이는"
+        },
+        {
+          "word": "pavements",
+          "eng_definition": "Walkways or sidewalks beside roads.",
+          "kor_definition": "인도, 보도"
+        },
+        {
+          "word": "skyscrapers",
+          "eng_definition": "Very tall buildings.",
+          "kor_definition": "초고층 빌딩"
+        },
+        {
+          "word": "Atlantic Ocean",
+          "eng_definition": "The large ocean between America and Europe/Africa.",
+          "kor_definition": "대서양"
+        },
+        {
+          "word": "gently",
+          "eng_definition": "In a soft or mild manner.",
+          "kor_definition": "부드럽게, 살살"
+        },
+        {
+          "word": "strings",
+          "eng_definition": "Thin cords or threads used to tie or hold things together.",
+          "kor_definition": "끈, 줄"
+        },
+        {
+          "word": "bite",
+          "eng_definition": "Use teeth to cut into or grip something.",
+          "kor_definition": "물다, 깨물다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did the characters see from the peach?",
+          "options": [
+            "A forest",
+            "A mountain range",
+            "A city below",
+            "A desert"
+          ],
+          "answer": "A city below"
+        },
+        {
+          "question": "How do the characters plan to get down to the ground?",
+          "options": [
+            "Cutting loose seagulls",
+            "Jumping directly",
+            "Waiting for a plane",
+            "Using a parachute"
+          ],
+          "answer": "Cutting loose seagulls"
+        },
+        {
+          "question": "What do the characters believe they have crossed?",
+          "options": [
+            "The Atlantic Ocean",
+            "The Sahara Desert",
+            "The Pacific Ocean",
+            "The Himalayas"
+          ],
+          "answer": "The Atlantic Ocean"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do the characters think they are in America?",
+          "answer": "Because they see skyscrapers and realize they crossed the Atlantic Ocean overnight."
+        },
+        {
+          "question": "What is the plan to get down from the sky?",
+          "answer": "They plan to cut loose seagulls so they can descend slowly and gently, with the help of the Centipede biting through the strings."
+        }
+      ]
+    },
+    {
+      "chapter_number": 33,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "pandemonium",
+          "eng_definition": "wild uproar and chaos",
+          "kor_definition": "대혼란, 아수라장"
+        },
+        {
+          "word": "hovering",
+          "eng_definition": "staying in one place in the air",
+          "kor_definition": "공중에 떠 있는"
+        },
+        {
+          "word": "siren",
+          "eng_definition": "a device that makes a loud warning sound",
+          "kor_definition": "경보장치, 사이렌"
+        },
+        {
+          "word": "interrupted",
+          "eng_definition": "stopped temporarily",
+          "kor_definition": "중단된, 방해받은"
+        },
+        {
+          "word": "population",
+          "eng_definition": "the people living in an area",
+          "kor_definition": "인구"
+        },
+        {
+          "word": "subway",
+          "eng_definition": "an underground train system",
+          "kor_definition": "지하철"
+        },
+        {
+          "word": "summon",
+          "eng_definition": "to call or send for someone or something",
+          "kor_definition": "소환하다, 부르다"
+        },
+        {
+          "word": "alarm",
+          "eng_definition": "a warning signal",
+          "kor_definition": "경보, 경고"
+        },
+        {
+          "word": "vast",
+          "eng_definition": "very large in size or amount",
+          "kor_definition": "광대한, 방대한"
+        },
+        {
+          "word": "moment",
+          "eng_definition": "a very short period of time",
+          "kor_definition": "순간"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was seen hovering over Manhattan in Chapter 33?",
+          "options": [
+            "A round ball as big as a house",
+            "A spaceship",
+            "A giant balloon",
+            "A flying car"
+          ],
+          "answer": "A round ball as big as a house"
+        },
+        {
+          "question": "What did the people in New York do when they saw the hovering object?",
+          "options": [
+            "Started dancing",
+            "Went to the park",
+            "Stayed at home",
+            "Looked up and ran for the subway"
+          ],
+          "answer": "Looked up and ran for the subway"
+        },
+        {
+          "question": "Who did the Mayor of New York call for help?",
+          "options": [
+            "The Police Chief",
+            "The President of the United States",
+            "The Governor",
+            "The Fire Department"
+          ],
+          "answer": "The President of the United States"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What was the people’s reaction to the hovering object?",
+          "answer": "They panicked and ran for cover, heading to the subway."
+        },
+        {
+          "question": "Why was the alarm sounded across all fifty states?",
+          "answer": "Because everyone was warned about the huge bomb hovering over New York City, which might go off at any moment."
+        }
+      ]
+    },
+    {
+      "chapter_number": 34,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "seagull",
+          "eng_definition": "a bird that lives near the sea and flies over the water",
+          "kor_definition": "바닷가에 사는 새, 갈매기"
+        },
+        {
+          "word": "silk",
+          "eng_definition": "a soft, shiny fiber made by silkworms, used to make fabrics",
+          "kor_definition": "비단, 실크"
+        },
+        {
+          "word": "tumble",
+          "eng_definition": "to fall suddenly and helplessly",
+          "kor_definition": "넘어지다, 굴러떨어지다"
+        },
+        {
+          "word": "plane",
+          "eng_definition": "a vehicle that flies in the air with wings and engines",
+          "kor_definition": "비행기"
+        },
+        {
+          "word": "dangle",
+          "eng_definition": "to hang loosely, swinging back and forth",
+          "kor_definition": "늘어뜨리다, 매달리다"
+        },
+        {
+          "word": "toss",
+          "eng_definition": "to throw lightly or casually",
+          "kor_definition": "던지다, 가볍게 던지다"
+        },
+        {
+          "word": "glide",
+          "eng_definition": "to move smoothly and quietly",
+          "kor_definition": "매끄럽게 미끄러지다"
+        },
+        {
+          "word": "descending",
+          "eng_definition": "moving downward",
+          "kor_definition": "내려가는, 하강하는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused the peach to start falling?",
+          "options": [
+            "A storm hitting the peach",
+            "The plane slicing the strings",
+            "The animals pulling the strings",
+            "A windstorm"
+          ],
+          "answer": "The plane slicing the strings"
+        },
+        {
+          "question": "Why did the seagulls break away from the peach?",
+          "options": [
+            "Because it sank",
+            "Because they wanted to fly away",
+            "Because the strings were cut",
+            "Because they were scared of the plane"
+          ],
+          "answer": "Because the strings were cut"
+        },
+        {
+          "question": "What did James tell the animals to do before they arrived?",
+          "options": [
+            "Polish their shoes",
+            "Jump out",
+            "Sing a song",
+            "Eat lunch"
+          ],
+          "answer": "Polish their shoes"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was the peach losing height gradually?",
+          "answer": "Because the strings holding it were cut by the plane, causing it to fall."
+        },
+        {
+          "question": "What was the animals' reaction when they saw the plane?",
+          "answer": "They cried out for help and realized they were losing control of the peach."
+        }
+      ]
+    },
+    {
+      "chapter_number": 35,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "plummeted",
+          "eng_definition": "Fell straight down at high speed",
+          "kor_definition": "급락했다"
+        },
+        {
+          "word": "clinging",
+          "eng_definition": "Holding tightly onto something",
+          "kor_definition": "꼭 붙잡기"
+        },
+        {
+          "word": "stupor",
+          "eng_definition": "A state of near-unconsciousness or insensibility",
+          "kor_definition": "의식이 희미한 상태"
+        },
+        {
+          "word": "shelters",
+          "eng_definition": "Places of safety or refuge",
+          "kor_definition": "대피소"
+        },
+        {
+          "word": "smash",
+          "eng_definition": "Break into pieces with force",
+          "kor_definition": "부수다"
+        },
+        {
+          "word": "racing",
+          "eng_definition": "Moving quickly and swiftly",
+          "kor_definition": "달리기"
+        },
+        {
+          "word": "end",
+          "eng_definition": "The final part or conclusion",
+          "kor_definition": "끝"
+        },
+        {
+          "word": "sky",
+          "eng_definition": "The expanse above the Earth where clouds and the sun are visible",
+          "kor_definition": "하늘"
+        },
+        {
+          "word": "brooding",
+          "eng_definition": "Thinking deeply or worrying",
+          "kor_definition": "심사숙고하는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was falling from the sky in the story?",
+          "options": [
+            "A airplane",
+            "A bird",
+            "A balloon",
+            "A peach"
+          ],
+          "answer": "A peach"
+        },
+        {
+          "question": "What did people do when they saw the falling object?",
+          "options": [
+            "They danced",
+            "They screamed and prayed",
+            "They ignored it",
+            "They took pictures"
+          ],
+          "answer": "They screamed and prayed"
+        },
+        {
+          "question": "What did the people in the city think the falling object was?",
+          "options": [
+            "A kite",
+            "A giant ball",
+            "A spaceship",
+            "The biggest bomb"
+          ],
+          "answer": "The biggest bomb"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What was the main event happening in the story?",
+          "answer": "A large peach was falling rapidly towards the earth, causing panic among the people."
+        },
+        {
+          "question": "How did the people feel during the final moments of the story?",
+          "answer": "They were holding their breath and waiting anxiously for what would happen next."
+        }
+      ]
+    },
+    {
+      "chapter_number": 36,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "clinging",
+          "eng_definition": "holding on tightly to something",
+          "kor_definition": "꼭 붙잡고 있는 것"
+        },
+        {
+          "word": "skyscrapers",
+          "eng_definition": "very tall buildings",
+          "kor_definition": "초고층 빌딩"
+        },
+        {
+          "word": "tapered",
+          "eng_definition": "gradually narrowing towards the end",
+          "kor_definition": "점점 좁아지는"
+        },
+        {
+          "word": "precisely",
+          "eng_definition": "exactly; accurately",
+          "kor_definition": "정확하게"
+        },
+        {
+          "word": "squelch",
+          "eng_definition": "a squishy sound when something is crushed or pressed",
+          "kor_definition": "짜내는 소리"
+        },
+        {
+          "word": "pinnacle",
+          "eng_definition": "the highest point or peak",
+          "kor_definition": "정상, 절정"
+        },
+        {
+          "word": "empire",
+          "eng_definition": "a large group of countries or regions ruled by one leader",
+          "kor_definition": "제국"
+        },
+        {
+          "word": "needle",
+          "eng_definition": "a thin, pointed instrument or object",
+          "kor_definition": "바늘"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was James clinging to when he said goodbye?",
+          "options": [
+            "To a building",
+            "To his friends",
+            "To the stem of the falling peach",
+            "To a tree branch"
+          ],
+          "answer": "To the stem of the falling peach"
+        },
+        {
+          "question": "What shape did most skyscrapers have?",
+          "options": [
+            "Curved roofs",
+            "Triangular peaks",
+            "Square flat tops",
+            "Round tops"
+          ],
+          "answer": "Square flat tops"
+        },
+        {
+          "question": "Where did the peach finally land?",
+          "options": [
+            "On the ground",
+            "On a cloud",
+            "In the river",
+            "On top of the tallest building"
+          ],
+          "answer": "On top of the tallest building"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What does the word 'pinnacle' mean in the story?",
+          "answer": "It means the highest point or peak, in this case the top of the Empire State Building."
+        },
+        {
+          "question": "Why was the top of the tallest skyscraper described as tapered?",
+          "answer": "Because it gradually narrowed into a sharp point, like a needle."
+        }
+      ]
+    },
+    {
+      "chapter_number": 37,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "shelters",
+          "eng_definition": "Places providing protection, especially during danger or attack.",
+          "kor_definition": "피난처, 은신처"
+        },
+        {
+          "word": "gape",
+          "eng_definition": "To stare with an open mouth out of surprise or wonder.",
+          "kor_definition": "입을 벌리고 바라보다"
+        },
+        {
+          "word": "marvel",
+          "eng_definition": "A wonderful or astonishing thing.",
+          "kor_definition": "경이로운 것, 놀라운 것"
+        },
+        {
+          "word": "observation",
+          "eng_definition": "The act of carefully watching or noticing.",
+          "kor_definition": "관찰, 주시"
+        },
+        {
+          "word": "commotion",
+          "eng_definition": "A state of confused and noisy disturbance.",
+          "kor_definition": "소란, 소동"
+        },
+        {
+          "word": "faint",
+          "eng_definition": "To lose consciousness temporarily.",
+          "kor_definition": "기절하다, 실신하다"
+        },
+        {
+          "word": "grinning",
+          "eng_definition": "Smiling broadly, often showing teeth.",
+          "kor_definition": "활짝 웃는 모습"
+        },
+        {
+          "word": "gruesome",
+          "eng_definition": "Causing horror or disgust.",
+          "kor_definition": "소름끼치는, 끔찍한"
+        },
+        {
+          "word": "fierce",
+          "eng_definition": "Very violent or intense.",
+          "kor_definition": "사나운, 맹렬한"
+        },
+        {
+          "word": "fabulous",
+          "eng_definition": "Extraordinarily good or wonderful.",
+          "kor_definition": "멋진, 황금같은"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did the people initially think the object on top of the building was?",
+          "options": [
+            "A bird",
+            "A bomb",
+            "A plane",
+            "A kite"
+          ],
+          "answer": "A bomb"
+        },
+        {
+          "question": "Who was the first creature to appear over the side of the peach?",
+          "options": [
+            "Miss Spider",
+            "The Old-Green-Grasshopper",
+            "The Centipede",
+            "The Ladybug"
+          ],
+          "answer": "The Centipede"
+        },
+        {
+          "question": "What did the police and firemen think the creature was at first?",
+          "options": [
+            "A dragon or monster",
+            "A bird",
+            "A lost tourist",
+            "A friendly alien"
+          ],
+          "answer": "A dragon or monster"
+        },
+        {
+          "question": "How did James introduce the Earthworm?",
+          "options": [
+            "As a dancer",
+            "As a builder",
+            "As a digger of land and soil enhancer",
+            "As a singer"
+          ],
+          "answer": "As a digger of land and soil enhancer"
+        },
+        {
+          "question": "What unique feature did James mention about the Glow-worm?",
+          "options": [
+            "It can fly",
+            "It can light up without electricity",
+            "It can swim",
+            "It can sing"
+          ],
+          "answer": "It can light up without electricity"
+        },
+        {
+          "question": "What was the crowd’s reaction when the children’s creatures were introduced?",
+          "options": [
+            "They ran away",
+            "They cheered and clapped",
+            "They ignored them",
+            "They booed"
+          ],
+          "answer": "They cheered and clapped"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did the policemen and firemen faint?",
+          "answer": "They fainted because they saw the scary-looking creatures like the Scorpula and Knid."
+        },
+        {
+          "question": "What did James say about the creatures’ origins?",
+          "answer": "James said they came from thousands of miles away, from outer space."
+        },
+        {
+          "question": "How did James describe the Earthworm?",
+          "answer": "He said the Earthworm is good for digging land and making soils better."
+        },
+        {
+          "question": "What was the reaction of the crowd when the creatures were introduced?",
+          "answer": "They cheered, clapped, and showed excitement for the creatures."
+        },
+        {
+          "question": "What did James want the policemen and firemen to do at the end?",
+          "answer": "He wanted them to believe that the creatures were friendly and not dangerous."
+        }
+      ]
+    },
+    {
+      "chapter_number": 38,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "hero",
+          "eng_definition": "a person admired for bravery or achievement",
+          "kor_definition": "영웅; 용감하거나 업적을 인정받는 사람"
+        },
+        {
+          "word": "escorted",
+          "eng_definition": "guided or accompanied someone somewhere",
+          "kor_definition": "호위하다; 안내하다"
+        },
+        {
+          "word": "parade",
+          "eng_definition": "a public celebration with marching and displays",
+          "kor_definition": "퍼레이드; 거리 행진과 축하 행렬"
+        },
+        {
+          "word": "limousine",
+          "eng_definition": "a large, luxurious car",
+          "kor_definition": "리무진; 고급 승용차"
+        },
+        {
+          "word": "procession",
+          "eng_definition": "a group of people moving forward in an organized way",
+          "kor_definition": "행렬; 체계적으로 이동하는 사람들의 집단"
+        },
+        {
+          "word": "exploded",
+          "eng_definition": "burst outward with force",
+          "kor_definition": "폭발하다; 강하게 터지다"
+        },
+        {
+          "word": "feast",
+          "eng_definition": "a large meal or celebration with lots of food",
+          "kor_definition": "잔치; 많은 음식이 제공되는 축제"
+        },
+        {
+          "word": "descended",
+          "eng_definition": "moved downward from a higher place",
+          "kor_definition": "내려오다; 높은 곳에서 아래로 이동하다"
+        },
+        {
+          "word": "shiny",
+          "eng_definition": "reflecting light brightly",
+          "kor_definition": "반짝이는; 빛을 반사하는 모습"
+        },
+        {
+          "word": "trail",
+          "eng_definition": "a path or track left behind",
+          "kor_definition": "자국; 뒤에 남은 길이나 흔적"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What event was held after the giant peach was lowered to the ground?",
+          "options": [
+            "A swimming competition",
+            "A musical concert",
+            "A ticker-tape parade",
+            "A fireworks show"
+          ],
+          "answer": "A ticker-tape parade"
+        },
+        {
+          "question": "Who made a speech of welcome at the City Hall?",
+          "options": [
+            "A school teacher",
+            "The President",
+            "A famous actor",
+            "The Mayor of New York"
+          ],
+          "answer": "The Mayor of New York"
+        },
+        {
+          "question": "What did the children do when they saw the giant peach?",
+          "options": [
+            "They took pictures",
+            "They ran away",
+            "They started eating it",
+            "They threw stones"
+          ],
+          "answer": "They started eating it"
+        },
+        {
+          "question": "What was left on the truck after the peach was eaten?",
+          "options": [
+            "A big brown stone",
+            "A piece of paper",
+            "A small apple",
+            "A seed"
+          ],
+          "answer": "A big brown stone"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did everyone become a hero in the story?",
+          "answer": "Because they helped bring the giant peach to New York and made the celebration possible."
+        },
+        {
+          "question": "What did James tell the children about the peach?",
+          "answer": "He told them they could eat all they wanted because it wouldn't last forever."
+        },
+        {
+          "question": "How did the children react to the giant peach?",
+          "answer": "They were very excited, ran onto the truck, and started eating it, chasing after it in a long trail."
+        }
+      ]
+    },
+    {
+      "chapter_number": 39,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "journey",
+          "eng_definition": "a trip from one place to another",
+          "kor_definition": "여행, 여정"
+        },
+        {
+          "word": "successful",
+          "eng_definition": "having achieved success; prosperous",
+          "kor_definition": "성공한"
+        },
+        {
+          "word": "Vice-President-in-Charge-of-Sales",
+          "eng_definition": "a senior executive responsible for sales in a company",
+          "kor_definition": "영업 책임 부사장"
+        },
+        {
+          "word": "employed",
+          "eng_definition": "hired or engaged to work for someone",
+          "kor_definition": "고용된"
+        },
+        {
+          "word": "factory",
+          "eng_definition": "a building where goods are manufactured",
+          "kor_definition": "공장"
+        },
+        {
+          "word": "monument",
+          "eng_definition": "a structure or statue built to honor a person or event",
+          "kor_definition": "기념물, 기념비"
+        },
+        {
+          "word": "resting",
+          "eng_definition": "lying or leaning in a relaxed position",
+          "kor_definition": "쉬고 있는, 기대어 쉬는"
+        },
+        {
+          "word": "gossip",
+          "eng_definition": "casual or unconstrained conversation about other people",
+          "kor_definition": "수다, 험담"
+        },
+        {
+          "word": "adventures",
+          "eng_definition": "exciting or unusual experiences or activities",
+          "kor_definition": "모험"
+        },
+        {
+          "word": "loneliest",
+          "eng_definition": "most alone or isolated",
+          "kor_definition": "가장 외로운"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What position did the Centipede hold in the new country?",
+          "options": [
+            "Mayor",
+            "Teacher",
+            "Chef",
+            "Vice-President-in-Charge-of-Sales"
+          ],
+          "answer": "Vice-President-in-Charge-of-Sales"
+        },
+        {
+          "question": "What did the Glow-worm become inside?",
+          "options": [
+            "A light inside the torch on the Statue of Liberty",
+            "A light on a torch",
+            "A lamp in a house",
+            "A star in the sky"
+          ],
+          "answer": "A light inside the torch on the Statue of Liberty"
+        },
+        {
+          "question": "Who did the Ladybug marry?",
+          "options": [
+            "A shopkeeper",
+            "A famous musician",
+            "The Head of the Fire Department",
+            "A brave knight"
+          ],
+          "answer": "The Head of the Fire Department"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Where is the peach stone monument located?",
+          "answer": "It is located in Central Park."
+        },
+        {
+          "question": "Why did James decide to write his story as a book?",
+          "answer": "Because many children loved hearing about his adventures and he wanted to share his story."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1330 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-29T01:35:47",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 17793,
+    "completion_tokens": 9910,
+    "total_tokens": 27703
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "hatch",
+          "eng_definition": "to emerge from an egg",
+          "kor_definition": "알에서 나오다"
+        },
+        {
+          "word": "bargain",
+          "eng_definition": "an agreement between two or more people; something bought at a good price",
+          "kor_definition": "협상, 흥정; 좋은 가격에 산 것"
+        },
+        {
+          "word": "slim",
+          "eng_definition": "thin or slender",
+          "kor_definition": "날씬한, 호리호리한"
+        },
+        {
+          "word": "verge",
+          "eng_definition": "the edge or border of something",
+          "kor_definition": "가장자리, 경계"
+        },
+        {
+          "word": "argue",
+          "eng_definition": "to have a disagreement or heated discussion",
+          "kor_definition": "논쟁하다"
+        },
+        {
+          "word": "cavity",
+          "eng_definition": "a hole or hollow space, especially in teeth",
+          "kor_definition": "충치, 구멍"
+        },
+        {
+          "word": "stunt",
+          "eng_definition": "to hinder the growth or development of something",
+          "kor_definition": "성장을 방해하다"
+        },
+        {
+          "word": "pantry",
+          "eng_definition": "a small room or closet where food is stored",
+          "kor_definition": "식료품 저장실"
+        },
+        {
+          "word": "sprinkle",
+          "eng_definition": "to scatter small pieces of a substance over something",
+          "kor_definition": "뿌리다, 흩뿌리다"
+        },
+        {
+          "word": "fudge",
+          "eng_definition": "a soft, sweet candy made from sugar, butter, and milk",
+          "kor_definition": "푸딩, 부드러운 사탕"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does the word 'hatch' mean in the context of the story?",
+          "options": [
+            "To decide something",
+            "To grow from a bean",
+            "To emerge from an egg",
+            "To hide away"
+          ],
+          "answer": "To emerge from an egg"
+        },
+        {
+          "question": "How is Henry Green's love for chocolate described?",
+          "options": [
+            "He likes it only on special occasions",
+            "He loves it more than any other boy in the world",
+            "He avoids eating too much chocolate",
+            "He thinks chocolate is unhealthy"
+          ],
+          "answer": "He loves it more than any other boy in the world"
+        },
+        {
+          "question": "What kind of breakfast does Elizabeth usually have?",
+          "options": [
+            "Plain toast and jam",
+            "Buttery toast and milk",
+            "Chocolate cake and milk",
+            "Fried eggs"
+          ],
+          "answer": "Buttery toast and milk"
+        },
+        {
+          "question": "Why did Henry's parents let him eat so much chocolate?",
+          "options": [
+            "Because they wanted him to grow taller",
+            "Because they knew it was healthy",
+            "Because they also loved chocolate",
+            "Because they were not as wise as they were kind"
+          ],
+          "answer": "Because they were not as wise as they were kind"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Describe Henry Green's family members.",
+          "answer": "Henry has a tall, lean father with glasses, a slim mother named Enid, an older brother Mark who is ten, and a very old sister Elizabeth who is almost fourteen."
+        },
+        {
+          "question": "What are some of Henry's favorite foods?",
+          "answer": "Henry loves chocolate in many forms, including chocolate cake, cocoa-crispy cereal, chocolate pudding, ice cream, cookies, and candies."
+        },
+        {
+          "question": "What are some benefits of Henry's love for chocolate mentioned in the story?",
+          "answer": "Chocolate doesn't make him fat, hurt his teeth, stunt his growth, harm his skin, or give him bellyaches."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "hurry",
+          "eng_definition": "to move quickly; to do something fast",
+          "kor_definition": "서두르다"
+        },
+        {
+          "word": "polite",
+          "eng_definition": "showing good manners and respect to others",
+          "kor_definition": "공손한, 예의 바른"
+        },
+        {
+          "word": "shoving",
+          "eng_definition": "pushing someone roughly or without care",
+          "kor_definition": "밀기"
+        },
+        {
+          "word": "concentrate",
+          "eng_definition": "to focus all your attention on something",
+          "kor_definition": "집중하다"
+        },
+        {
+          "word": "freckles",
+          "eng_definition": "small brown spots on the skin",
+          "kor_definition": "주근깨"
+        },
+        {
+          "word": "drill",
+          "eng_definition": "a method of practicing something repeatedly",
+          "kor_definition": "연습, 반복 연습"
+        },
+        {
+          "word": "strange",
+          "eng_definition": "unusual or different from what is normal",
+          "kor_definition": "이상한"
+        },
+        {
+          "word": "detective",
+          "eng_definition": "a person who investigates mysteries or crimes",
+          "kor_definition": "형사, 탐정"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Henry do before leaving for school?",
+          "options": [
+            "He watched TV",
+            "He played outside",
+            "He brushed his teeth",
+            "He ate a chocolate cookie"
+          ],
+          "answer": "He ate a chocolate cookie"
+        },
+        {
+          "question": "How did Mrs. Macintosh describe the traffic light for the Greens?",
+          "options": [
+            "It changed colors quickly",
+            "It was always green",
+            "It was always yellow",
+            "It was always red"
+          ],
+          "answer": "It was always green"
+        },
+        {
+          "question": "What was unusual about Henry during the day?",
+          "options": [
+            "He was late to class",
+            "He lost his books",
+            "He was very loud",
+            "He felt strange and different"
+          ],
+          "answer": "He felt strange and different"
+        },
+        {
+          "question": "What did Henry notice on his arm in math class?",
+          "options": [
+            "Little brown freckles",
+            "A scar",
+            "A bruise",
+            "A rash"
+          ],
+          "answer": "Little brown freckles"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Henry feel strange all morning?",
+          "answer": "Because he had a strange feeling that something was going to happen and noticed freckles on his skin."
+        },
+        {
+          "question": "What did Henry do with the chocolate kisses in the morning?",
+          "answer": "He ate two kisses after removing their silver wrapping and kept some in his pocket."
+        },
+        {
+          "question": "What was Henry’s reaction to Mrs. Kimmelfarber’s question about what was left after subtraction?",
+          "answer": "He joked that he would have little brown spots all over, referring to his freckles."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "giggle",
+          "eng_definition": "to laugh in a light, silly way",
+          "kor_definition": "작게 웃다"
+        },
+        {
+          "word": "chortled",
+          "eng_definition": "laughed loudly and joyfully",
+          "kor_definition": "크게 웃다"
+        },
+        {
+          "word": "ruler",
+          "eng_definition": "a straight strip of material used for measuring or drawing straight lines",
+          "kor_definition": "자, 규칙자"
+        },
+        {
+          "word": "freckles",
+          "eng_definition": "small brown spots on the skin caused by melanin",
+          "kor_definition": "주근깨"
+        },
+        {
+          "word": "phenomenon",
+          "eng_definition": "an observable event or occurrence",
+          "kor_definition": "현상"
+        },
+        {
+          "word": "prodded",
+          "eng_definition": "poked or jabbed with a finger or object",
+          "kor_definition": "찌르다, 밀다"
+        },
+        {
+          "word": "sniffed",
+          "eng_definition": "to breathe in through the nose to smell something",
+          "kor_definition": "킁킁 냄새를 맡다"
+        },
+        {
+          "word": "delicate",
+          "eng_definition": "easily broken or damaged; fragile",
+          "kor_definition": "섬세한, 연약한"
+        },
+        {
+          "word": "trickle",
+          "eng_definition": "to flow slowly in small amounts",
+          "kor_definition": "흐르다, 흘러내리다"
+        },
+        {
+          "word": "phenomenon",
+          "eng_definition": "a remarkable event or situation that is observed",
+          "kor_definition": "현상"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused Henry to turn red and Mrs. Kimmelfarber to turn white?",
+          "options": [
+            "He saw something unexpected on his arm",
+            "He was embarrassed",
+            "He was laughing too loudly",
+            "He dropped his book"
+          ],
+          "answer": "He saw something unexpected on his arm"
+        },
+        {
+          "question": "What did Mrs. Kimmelfarber initially think Henry's spots were?",
+          "options": [
+            "Chicken pox",
+            "Allergic reaction",
+            "Measles",
+            "Freckles"
+          ],
+          "answer": "Measles"
+        },
+        {
+          "question": "What did Mr. Pangalos finally identify Henry's spots as?",
+          "options": [
+            "Rash from allergy",
+            "Chicken pox",
+            "Freckles",
+            "Measles"
+          ],
+          "answer": "Freckles"
+        },
+        {
+          "question": "How did Henry feel when he saw his face after the spots appeared?",
+          "options": [
+            "Nervous and scared",
+            "Relieved",
+            "Happy and excited",
+            "Confident"
+          ],
+          "answer": "Nervous and scared"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mrs. Kimmelfarber call Mr. Pangalos?",
+          "answer": "She wanted him to look at Henry's spots to identify if they were contagious or not."
+        },
+        {
+          "question": "What was Henry's reaction when he saw the spots on his face?",
+          "answer": "He felt as if his heart was about to drop and felt very worried."
+        },
+        {
+          "question": "What did the spots on Henry's arm turn out to be?",
+          "answer": "They were freckles."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "germs",
+          "eng_definition": "Microscopic organisms that can cause disease.",
+          "kor_definition": "병을 일으킬 수 있는 미생물"
+        },
+        {
+          "word": "spot",
+          "eng_definition": "A small, round mark on the skin.",
+          "kor_definition": "작고 둥근 피부의 자국"
+        },
+        {
+          "word": "rash",
+          "eng_definition": "A skin condition with red or brown spots or bumps.",
+          "kor_definition": "피부에 빨간 또는 갈색 반점이나 부기"
+        },
+        {
+          "word": "peculiar",
+          "eng_definition": "Strange or unusual.",
+          "kor_definition": "이상하거나 특이한"
+        },
+        {
+          "word": "dizzy",
+          "eng_definition": "Feeling like everything is spinning or unsteady.",
+          "kor_definition": "어지럽거나 균형 잡기 어려운 상태"
+        },
+        {
+          "word": "infirmary",
+          "eng_definition": "A small hospital or clinic, especially in a school.",
+          "kor_definition": "작은 병원 또는 학교 내 진료소"
+        },
+        {
+          "word": "specs",
+          "eng_definition": "Short for spectacles; glasses.",
+          "kor_definition": "안경을 의미하는 짧은 표현"
+        },
+        {
+          "word": "popping",
+          "eng_definition": "Making a short, sharp sound like a small burst.",
+          "kor_definition": "짧고 날카로운 터지는 소리"
+        },
+        {
+          "word": "steady",
+          "eng_definition": "To make or become fixed, balanced, or constant.",
+          "kor_definition": "고정되거나 일정하게 유지하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Nurse Molly Farthing say about dirt?",
+          "options": [
+            "It smells good",
+            "It is harmless",
+            "It makes people happy",
+            "It breeds germs"
+          ],
+          "answer": "It breeds germs"
+        },
+        {
+          "question": "What is Henry's skin condition called in the story?",
+          "options": [
+            "Chicken pox",
+            "Measles",
+            "Sunburn",
+            "An unidentified rash"
+          ],
+          "answer": "An unidentified rash"
+        },
+        {
+          "question": "What does Henry feel when his spots start popping?",
+          "options": [
+            "Excited",
+            "Hungry",
+            "Confused",
+            "Frightened"
+          ],
+          "answer": "Frightened"
+        },
+        {
+          "question": "How does Nurse Farthing try to make Henry feel better?",
+          "options": [
+            "She takes him outside",
+            "She runs her fingers through his hair and pats his neck",
+            "She gives him candy",
+            "She tells him to go home"
+          ],
+          "answer": "She runs her fingers through his hair and pats his neck"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Nurse Farthing want the children to wipe their feet?",
+          "answer": "To keep the infirmary clean and prevent germs from spreading."
+        },
+        {
+          "question": "What does Henry notice happening to his spots?",
+          "answer": "They are growing bigger and popping out all over his body."
+        },
+        {
+          "question": "How does Nurse Farthing reassure Henry during his illness?",
+          "answer": "She tells him it’s not serious and comforts him, making him feel safer."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "examine",
+          "eng_definition": "to look at closely and carefully",
+          "kor_definition": "자세히 조사하다"
+        },
+        {
+          "word": "rash",
+          "eng_definition": "a red or irritated skin condition",
+          "kor_definition": "발진, 피부의 붉은 반점"
+        },
+        {
+          "word": "magnifying glass",
+          "eng_definition": "a glass tool used to make things appear larger",
+          "kor_definition": "돋보기"
+        },
+        {
+          "word": "confused",
+          "eng_definition": "unable to think clearly or understand",
+          "kor_definition": "혼란스러운, 혼동된"
+        },
+        {
+          "word": "assistant",
+          "eng_definition": "a person who helps or supports someone else",
+          "kor_definition": "조수, 도우미"
+        },
+        {
+          "word": "puffy",
+          "eng_definition": "swollen or inflated-looking",
+          "kor_definition": "부푼, 부풀어 오른"
+        },
+        {
+          "word": "cotton swab",
+          "eng_definition": "a small stick with cotton at the end used for cleaning or sampling",
+          "kor_definition": "면봉"
+        },
+        {
+          "word": "chocolate",
+          "eng_definition": "a sweet food made from cacao",
+          "kor_definition": "초콜릿"
+        },
+        {
+          "word": "pestle",
+          "eng_definition": "a tool used to crush or grind substances",
+          "kor_definition": "망치, 절구공이"
+        },
+        {
+          "word": "ambulance",
+          "eng_definition": "a vehicle that transports sick or injured people to the hospital",
+          "kor_definition": "구급차"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Henry doing when he arrived at the hospital?",
+          "options": [
+            "He was playing outside.",
+            "He was riding a bike.",
+            "He was sick and being taken there.",
+            "He was visiting a friend."
+          ],
+          "answer": "He was sick and being taken there."
+        },
+        {
+          "question": "What did Dr. Fargo discover about Henry’s brown spots?",
+          "options": [
+            "They were caused by a rash.",
+            "They were actually chocolate.",
+            "They were a sign of an allergy.",
+            "They were a new disease."
+          ],
+          "answer": "They were actually chocolate."
+        },
+        {
+          "question": "How did Nurse Farthing help Henry during the hospital visit?",
+          "options": [
+            "She held his hand and stayed calm.",
+            "She called his parents.",
+            "She gave him medicine.",
+            "She ignored him."
+          ],
+          "answer": "She held his hand and stayed calm."
+        },
+        {
+          "question": "What surprised everyone about Henry’s condition?",
+          "options": [
+            "He had a rash that wouldn’t go away.",
+            "He had a fever.",
+            "He was allergic to chocolate.",
+            "He was actually a walking candy bar."
+          ],
+          "answer": "He was actually a walking candy bar."
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Henry hold Nurse Farthing’s hand during the trip to the hospital?",
+          "answer": "Because her hand felt cool and made him feel better."
+        },
+        {
+          "question": "What did Dr. Fargo compare Henry’s spots to, and what was the real cause?",
+          "answer": "He initially thought they were a rash, but they were actually chocolate."
+        },
+        {
+          "question": "What lesson can we learn from Henry’s story about surprises and appearances?",
+          "answer": "Sometimes things are not what they seem, and appearances can be deceiving."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "pincushion",
+          "eng_definition": "a small cushion with pins stuck into it, used for holding pins and needles while sewing",
+          "kor_definition": "핀을 꽂는 작은 쿠션"
+        },
+        {
+          "word": "prodding",
+          "eng_definition": "poking or jabbing with a pointed object",
+          "kor_definition": "찌르거나 쿡 찌르기"
+        },
+        {
+          "word": "bolted",
+          "eng_definition": "ran away quickly and suddenly",
+          "kor_definition": "갑자기 달아나다"
+        },
+        {
+          "word": "corridor",
+          "eng_definition": "a long passage in a building leading to rooms",
+          "kor_definition": "복도, 회랑"
+        },
+        {
+          "word": "siren",
+          "eng_definition": "a loud warning sound, often from a machine or vehicle",
+          "kor_definition": "경보음, 사이렌"
+        },
+        {
+          "word": "predicament",
+          "eng_definition": "a difficult, unpleasant, or embarrassing situation",
+          "kor_definition": "곤경, 곤란한 상황"
+        },
+        {
+          "word": "hysterical",
+          "eng_definition": "extremely funny or in a state of uncontrolled emotion",
+          "kor_definition": "극도로 흥분하거나 웃는 상태"
+        },
+        {
+          "word": "dim",
+          "eng_definition": "not bright or clear",
+          "kor_definition": "희미한"
+        },
+        {
+          "word": "disappear",
+          "eng_definition": "to cease to be visible or to exist",
+          "kor_definition": "사라지다"
+        },
+        {
+          "word": "braver",
+          "eng_definition": "more courageous or less afraid",
+          "kor_definition": "더 용감한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Dr. Fargo talk about during the scene?",
+          "options": [
+            "Henry’s recent illness",
+            "Chocolate Fever, a new disease",
+            "A new hospital opening",
+            "A new kind of medicine"
+          ],
+          "answer": "Chocolate Fever, a new disease"
+        },
+        {
+          "question": "Why did Henry run away from the hospital?",
+          "options": [
+            "He was playing a game",
+            "He was hungry",
+            "He wanted to visit his friend",
+            "He was afraid and wanted to escape"
+          ],
+          "answer": "He was afraid and wanted to escape"
+        },
+        {
+          "question": "How did Henry escape from the hospital staff?",
+          "options": [
+            "He hid in a closet",
+            "He was carried out by nurses",
+            "He asked for help",
+            "He jumped off the examining table and ran"
+          ],
+          "answer": "He jumped off the examining table and ran"
+        },
+        {
+          "question": "What did Henry do at the end of the chapter?",
+          "options": [
+            "He decided to stay in the hospital",
+            "He went back home",
+            "He called his parents",
+            "He lay down to rest and thought about traveling"
+          ],
+          "answer": "He lay down to rest and thought about traveling"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Henry crying in the garage?",
+          "answer": "He was sad, lost, and hopeless about his situation."
+        },
+        {
+          "question": "What were Henry’s feelings about going back to the hospital?",
+          "answer": "He was determined never to go back and felt he had to escape."
+        },
+        {
+          "question": "What did Henry notice about his arm, and how did he feel about it?",
+          "answer": "He saw the big brown spots and began to hate them, feeling angry about his condition."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "garage",
+          "eng_definition": "a building or part of a building for parking or repairing vehicles",
+          "kor_definition": "차고; 차량을 주차하거나 수리하는 곳"
+        },
+        {
+          "word": "cautiously",
+          "eng_definition": "in a careful or wary manner",
+          "kor_definition": "조심스럽게"
+        },
+        {
+          "word": "surrounded",
+          "eng_definition": "completely enclosed or encircled",
+          "kor_definition": "둘러싸인, 포위된"
+        },
+        {
+          "word": "pimples",
+          "eng_definition": "small raised spots on the skin, often caused by acne",
+          "kor_definition": "여드름, 뾰루지"
+        },
+        {
+          "word": "warts",
+          "eng_definition": "small, hard, benign growths on the skin caused by a virus",
+          "kor_definition": "사마귀"
+        },
+        {
+          "word": "disgusting",
+          "eng_definition": "causing a strong feeling of dislike or nausea",
+          "kor_definition": "역겨운"
+        },
+        {
+          "word": "revolting",
+          "eng_definition": "causing intense disgust or repulsion",
+          "kor_definition": "역겹거나 혐오스러운"
+        },
+        {
+          "word": "silence",
+          "eng_definition": "the complete absence of sound",
+          "kor_definition": "침묵"
+        },
+        {
+          "word": "bluffing",
+          "eng_definition": "pretending to have a stronger position or knowledge than one actually has",
+          "kor_definition": "허세 부리기, 협박하기"
+        },
+        {
+          "word": "disease",
+          "eng_definition": "a disorder of structure or function in a human, animal, or plant",
+          "kor_definition": "질병"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is Henry trying to avoid while walking in the streets?",
+          "options": [
+            "Getting a snack",
+            "Going to school",
+            "Being noticed by people",
+            "Finding his friends"
+          ],
+          "answer": "Being noticed by people"
+        },
+        {
+          "question": "How do the boys in the schoolyard initially react to Henry?",
+          "options": [
+            "They ignore him",
+            "They ask him to play basketball",
+            "They surround him and call him names",
+            "They run away"
+          ],
+          "answer": "They surround him and call him names"
+        },
+        {
+          "question": "What does Henry claim to have to scare the boys away?",
+          "options": [
+            "A rare disease called Chocolate Fever",
+            "A magic spell",
+            "A big dog",
+            "A police badge"
+          ],
+          "answer": "A rare disease called Chocolate Fever"
+        },
+        {
+          "question": "What is Henry's real concern as he walks away from the schoolyard?",
+          "options": [
+            "That he will get lost",
+            "That the boys will follow him",
+            "That they will tell everyone he ran away",
+            "That the police will catch him"
+          ],
+          "answer": "That the police will catch him"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Henry keep walking quickly through the schoolyard?",
+          "answer": "He wants to avoid the boys who are surrounding him and calling him names."
+        },
+        {
+          "question": "What does Henry threaten the boys with to make them stay away?",
+          "answer": "He says he has Chocolate Fever and will die if they touch him."
+        },
+        {
+          "question": "What false information do the boys hear about Henry from the radio?",
+          "answer": "They hear that he ran away from a hospital and police are looking for him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "superhighway",
+          "eng_definition": "a very large and busy highway or expressway",
+          "kor_definition": "초고속도로"
+        },
+        {
+          "word": "bunk",
+          "eng_definition": "a bed, especially a built-in or upper bed in a ship, train, or other vehicle",
+          "kor_definition": "이층 침대"
+        },
+        {
+          "word": "diesel",
+          "eng_definition": "a type of engine that uses diesel fuel; also the fuel itself",
+          "kor_definition": "디젤 엔진, 디젤 연료"
+        },
+        {
+          "word": "spots",
+          "eng_definition": "small, round marks or patches on something, often on skin",
+          "kor_definition": "반점, 점"
+        },
+        {
+          "word": "coveralls",
+          "eng_definition": "a one-piece protective suit worn over clothes",
+          "kor_definition": "작업복, 커버올"
+        },
+        {
+          "word": "picnic basket",
+          "eng_definition": "a basket used to carry food and drinks for a picnic",
+          "kor_definition": "피크닉 바구니"
+        },
+        {
+          "word": "fever",
+          "eng_definition": "an abnormally high body temperature",
+          "kor_definition": "열, 열병"
+        },
+        {
+          "word": "freak",
+          "eng_definition": "a person who is very unusual or different from others",
+          "kor_definition": "괴짜, 기이한 사람"
+        },
+        {
+          "word": "proud",
+          "eng_definition": "feeling deep pleasure or satisfaction as a result of achievements or qualities",
+          "kor_definition": "자랑스러워하는"
+        },
+        {
+          "word": "respect",
+          "eng_definition": "to admire someone and treat them with consideration",
+          "kor_definition": "존경하다, 존중하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What kind of vehicle is Mac driving?",
+          "options": [
+            "A bicycle",
+            "A car",
+            "A truck",
+            "A motorcycle"
+          ],
+          "answer": "A truck"
+        },
+        {
+          "question": "What does Henry say he likes?",
+          "options": [
+            "Bright colors",
+            "The light",
+            "The dark",
+            "Music"
+          ],
+          "answer": "The dark"
+        },
+        {
+          "question": "What is Henry’s disease called?",
+          "options": [
+            "Chicken Pox",
+            "Chocolate Fever",
+            "Measles",
+            "Flu"
+          ],
+          "answer": "Chocolate Fever"
+        },
+        {
+          "question": "What does Mac suggest they do first?",
+          "options": [
+            "Visit a doctor",
+            "Go to a hospital",
+            "Drive to a telephone",
+            "Go home"
+          ],
+          "answer": "Drive to a telephone"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Henry feel he is a freak?",
+          "answer": "Because he has big brown spots all over his body due to Chocolate Fever, which makes him feel ugly and different."
+        },
+        {
+          "question": "How does Mac try to make Henry feel better about his spots?",
+          "answer": "Mac tells Henry that being unique or special is okay, and he shares his own experience of being stared at because he is black, which made him proud."
+        },
+        {
+          "question": "What does Mac want to do after they finish eating?",
+          "answer": "Mac wants to drive to a telephone to call Henry’s parents and help him get back to them."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "hijacked",
+          "eng_definition": "To illegally seize a vehicle or cargo by force.",
+          "kor_definition": "강제로 차량이나 화물을 탈취하는 것"
+        },
+        {
+          "word": "robbery",
+          "eng_definition": "The act of stealing from someone using force or threats.",
+          "kor_definition": "폭력이나 협박을 사용한 강도 행위"
+        },
+        {
+          "word": "seizure",
+          "eng_definition": "The act of taking control of something by force.",
+          "kor_definition": "무력을 사용하여 무언가를 장악하는 것"
+        },
+        {
+          "word": "thieves",
+          "eng_definition": "People who steal something illegally.",
+          "kor_definition": "불법으로 무언가를 훔치는 사람들"
+        },
+        {
+          "word": "lopsided",
+          "eng_definition": "Uneven or not symmetrical.",
+          "kor_definition": "비대칭이거나 균형이 맞지 않는"
+        },
+        {
+          "word": "polite",
+          "eng_definition": "Being respectful and courteous.",
+          "kor_definition": "공손하고 예의 바른"
+        },
+        {
+          "word": "frustrated",
+          "eng_definition": "Feeling upset or annoyed because of inability to change or achieve something.",
+          "kor_definition": "무언가를 바꾸거나 성취하지 못해 속상하거나 짜증나는 상태"
+        },
+        {
+          "word": "dumbfounded",
+          "eng_definition": "Extremely surprised or shocked.",
+          "kor_definition": "매우 놀라거나 충격을 받은 상태"
+        },
+        {
+          "word": "rumbling",
+          "eng_definition": "Making a continuous deep, resonant sound.",
+          "kor_definition": "계속해서 깊고 울림이 있는 소리를 내는 것"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Mac Doused the cab lights to do?",
+          "options": [
+            "Turn off the engine",
+            "Turn on the lights",
+            "Prepare to start the diesel",
+            "Open the truck door"
+          ],
+          "answer": "Prepare to start the diesel"
+        },
+        {
+          "question": "What is the main reason Mac laughs during the hijacking?",
+          "options": [
+            "He finds out they are stealing candy bars",
+            "He is confused",
+            "He is angry",
+            "He is frightened"
+          ],
+          "answer": "He finds out they are stealing candy bars"
+        },
+        {
+          "question": "What do Louie and Lefty think they are hijacking?",
+          "options": [
+            "A shipment of jewelry",
+            "A cargo of expensive furs",
+            "A box of toys",
+            "A load of electronics"
+          ],
+          "answer": "A cargo of expensive furs"
+        },
+        {
+          "question": "What do Mac and Henry ultimately reveal they are carrying?",
+          "options": [
+            "Candy bars",
+            "Furs",
+            "Electronics",
+            "Jewelry"
+          ],
+          "answer": "Candy bars"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How do Louie and Lefty respond when Mac tells them they are breaking the law?",
+          "answer": "They say they are fracturing the law and continue with the hijacking."
+        },
+        {
+          "question": "Why does Mac start laughing during the hijacking?",
+          "answer": "Because he realizes they are stealing candy bars, not furs."
+        },
+        {
+          "question": "What does Mac suggest the thieves are making a mistake about?",
+          "answer": "He suggests they are mistaken about what they are stealing, thinking it's furs when it's actually candy bars."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "perch",
+          "eng_definition": "a spot from which someone can observe or rest",
+          "kor_definition": "관찰하거나 쉬기 위해 앉거나 서 있는 자리"
+        },
+        {
+          "word": "jolts",
+          "eng_definition": "sudden jerks or shocks",
+          "kor_definition": "갑작스러운 덜컥거림이나 충격"
+        },
+        {
+          "word": "hideout",
+          "eng_definition": "a secret place where someone hides",
+          "kor_definition": "누군가 숨기 위해 숨긴 은신처"
+        },
+        {
+          "word": "desolate",
+          "eng_definition": "empty and lonely; bleak",
+          "kor_definition": "텅 비고 쓸쓸한; 황량한"
+        },
+        {
+          "word": "prodded",
+          "eng_definition": "pushed or poked gently to encourage action",
+          "kor_definition": "살짝 밀거나 쿡 찌르다"
+        },
+        {
+          "word": "mirth",
+          "eng_definition": "happiness or amusement, especially expressed with laughter",
+          "kor_definition": "행복 또는 즐거움, 특히 웃음으로 표현되는 것"
+        },
+        {
+          "word": "confused",
+          "eng_definition": "unable to think clearly or understand",
+          "kor_definition": "생각이 분명하지 않거나 이해하지 못하는 상태"
+        },
+        {
+          "word": "riot",
+          "eng_definition": "a wild, chaotic, or noisy disturbance",
+          "kor_definition": "혼란스럽고 소란스러운 폭동"
+        },
+        {
+          "word": "handcuffed",
+          "eng_definition": "secured with metal restraints around the wrists",
+          "kor_definition": "손목에 금속 수갑을 채운 상태"
+        },
+        {
+          "word": "puzzling",
+          "eng_definition": "causing confusion or curiosity",
+          "kor_definition": "혼란이나 호기심을 일으키는 것"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Lefty doing during the trip?",
+          "options": [
+            "Driving very carefully",
+            "Eating candy bars",
+            "Talking to the police",
+            "Sleeping in the back"
+          ],
+          "answer": "Driving very carefully"
+        },
+        {
+          "question": "What happened when the dogs attacked the cabin?",
+          "options": [
+            "Louie shot the dogs",
+            "Louie and Lefty ran away",
+            "A German shepherd led the dogs inside",
+            "The dogs ignored the cabin"
+          ],
+          "answer": "A German shepherd led the dogs inside"
+        },
+        {
+          "question": "What did Mac say he would do if someone tried to hurt Henry?",
+          "options": [
+            "Call the police",
+            "Lay them out flat",
+            "Run away",
+            "Hide behind the door"
+          ],
+          "answer": "Lay them out flat"
+        },
+        {
+          "question": "Why were the dogs behaving strangely?",
+          "options": [
+            "They were following a scent",
+            "They were playing",
+            "They were hungry",
+            "They smelled candy"
+          ],
+          "answer": "They were following a scent"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Where did Mac say they were?",
+          "answer": "They were far out in the country, a long way from nowhere."
+        },
+        {
+          "question": "What did Henry find funny during the dog attack?",
+          "answer": "He found it funny that the dogs were licking him and making him laugh."
+        },
+        {
+          "question": "What was the main reason Mac was confident during the confrontation?",
+          "answer": "Because he was ready to protect Henry and had guns in each hand."
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "distributing",
+          "eng_definition": "the act of giving out or sharing something among many people",
+          "kor_definition": "배포하는 것; 분배하는 것"
+        },
+        {
+          "word": "warehouse",
+          "eng_definition": "a building where goods are stored before being sold or distributed",
+          "kor_definition": "창고; 저장고"
+        },
+        {
+          "word": "spectacles",
+          "eng_definition": "glasses worn to improve vision or for decoration",
+          "kor_definition": "안경; 안경테"
+        },
+        {
+          "word": "cozy",
+          "eng_definition": "comfortable and warm",
+          "kor_definition": "아늑한; 편안한"
+        },
+        {
+          "word": "interested",
+          "eng_definition": "wanting to learn more about something or someone",
+          "kor_definition": "관심이 있는"
+        },
+        {
+          "word": "freak",
+          "eng_definition": "a person or thing that is very unusual or abnormal",
+          "kor_definition": "이상한 사람; 괴물"
+        },
+        {
+          "word": "lesson",
+          "eng_definition": "a period of learning or teaching",
+          "kor_definition": "수업; 교훈"
+        },
+        {
+          "word": "opposite",
+          "eng_definition": "completely different or contrary",
+          "kor_definition": "반대의; 정반대"
+        },
+        {
+          "word": "cure",
+          "eng_definition": "a way to heal or make someone healthy again",
+          "kor_definition": "치료; 치유"
+        },
+        {
+          "word": "happiness",
+          "eng_definition": "a feeling of being happy or joyful",
+          "kor_definition": "행복; 기쁨"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Alfred Cane's nickname?",
+          "options": [
+            "Sugar",
+            "Candy",
+            "Choco",
+            "Fudge"
+          ],
+          "answer": "Sugar"
+        },
+        {
+          "question": "What did Alfred Cane give Henry to help cure his Chocolate Fever?",
+          "options": [
+            "Vanilla pills",
+            "Chocolate syrup",
+            "Caramel candy",
+            "Chocolate bars"
+          ],
+          "answer": "Vanilla pills"
+        },
+        {
+          "question": "What lesson did the boy Alfred Cane knew have to learn?",
+          "options": [
+            "Never eat sweets",
+            "Eat more chocolate",
+            "Share candy with friends",
+            "Eat less chocolate and learn moderation"
+          ],
+          "answer": "Eat less chocolate and learn moderation"
+        },
+        {
+          "question": "According to Mr. Cane, what is the opposite of chocolate?",
+          "options": [
+            "Mint",
+            "Strawberry",
+            "Vanilla",
+            "Lemon"
+          ],
+          "answer": "Vanilla"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Henry visit Mr. Cane?",
+          "answer": "Henry visited Mr. Cane to talk about his Chocolate Fever and ask for help."
+        },
+        {
+          "question": "What two parts made up Henry’s cure for Chocolate Fever?",
+          "answer": "The first part was eating less chocolate, and the second was taking vanilla pills."
+        },
+        {
+          "question": "What lesson did Mr. Cane share through his story?",
+          "answer": "He taught that people should learn moderation and not overindulge in sweets like chocolate."
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "shaking",
+          "eng_definition": "to move up and down or from side to side quickly",
+          "kor_definition": "흔들기"
+        },
+        {
+          "word": "belonged",
+          "eng_definition": "to be the property of someone or be in a certain place",
+          "kor_definition": "속하다, 소유하다"
+        },
+        {
+          "word": "dressing gown",
+          "eng_definition": "a loose outer garment worn at home, especially in the morning or evening",
+          "kor_definition": "목욕 가운, 드레스 가운"
+        },
+        {
+          "word": "hijacking",
+          "eng_definition": "to take control of a vehicle, aircraft, or ship illegally",
+          "kor_definition": "납치, 탈취"
+        },
+        {
+          "word": "award",
+          "eng_definition": "a prize or recognition given for achievement",
+          "kor_definition": "상, 상금"
+        },
+        {
+          "word": "swell",
+          "eng_definition": "used to express approval or excitement",
+          "kor_definition": "멋지다, 훌륭하다"
+        },
+        {
+          "word": "sprinkle",
+          "eng_definition": "to scatter small drops or particles of a substance over something",
+          "kor_definition": "뿌리다, 흩뿌리다"
+        },
+        {
+          "word": "spark",
+          "eng_definition": "a small fiery particle or a small bright flash of light",
+          "kor_definition": "불꽃, 번뜩임"
+        },
+        {
+          "word": "overdo",
+          "eng_definition": "to do something to excess; to go beyond the proper limit",
+          "kor_definition": "과하게 하다, 지나치다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Mrs. Green gently do to Henry at the beginning of the chapter?",
+          "options": [
+            "Takes his temperature",
+            "Wakes him up loudly",
+            "Gives him a hug",
+            "Shakes his shoulder"
+          ],
+          "answer": "Shakes his shoulder"
+        },
+        {
+          "question": "Why is Henry's father excited about the letter from the candy bar company?",
+          "options": [
+            "Because Henry won a race",
+            "Because Henry helped foil a hijacking",
+            "Because Henry cleaned his room",
+            "Because Henry got a new toy"
+          ],
+          "answer": "Because Henry helped foil a hijacking"
+        },
+        {
+          "question": "What does Henry decide to put on his pancakes instead of chocolate syrup?",
+          "options": [
+            "Honey",
+            "Maple syrup",
+            "Butter",
+            "Strawberry jam"
+          ],
+          "answer": "Maple syrup"
+        },
+        {
+          "question": "What does Henry wonder about cinnamon?",
+          "options": [
+            "If it can make you run faster",
+            "If it tastes like vanilla",
+            "If it is bad for your teeth",
+            "If you can have too much"
+          ],
+          "answer": "If you can have too much"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How does Henry feel about being back in his own bed?",
+          "answer": "He feels good and happy to be home."
+        },
+        {
+          "question": "What special treat does Mrs. Green give Henry with his pancakes?",
+          "answer": "Chocolate syrup."
+        },
+        {
+          "question": "What new flavor does Henry try on his pancakes, and what does he think of it?",
+          "answer": "He tries cinnamon and thinks it is very good."
+        }
+      ]
+    }
+  ]
+}

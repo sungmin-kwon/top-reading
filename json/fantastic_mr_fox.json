@@ -1,0 +1,1880 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-29T17:41:07",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 18450,
+    "completion_tokens": 13716,
+    "total_tokens": 32166
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "The Three Farmers",
+      "vocabulary": [
+        {
+          "word": "farms",
+          "eng_definition": "Pieces of land used for growing crops or raising animals.",
+          "kor_definition": "농장, 밭"
+        },
+        {
+          "word": "owners",
+          "eng_definition": "People who possess or have control over something.",
+          "kor_definition": "소유자, 주인"
+        },
+        {
+          "word": "nasty",
+          "eng_definition": "Unpleasant or mean in behavior.",
+          "kor_definition": "불쾌한, 못된"
+        },
+        {
+          "word": "enormously",
+          "eng_definition": "To a very great extent or degree.",
+          "kor_definition": "엄청나게"
+        },
+        {
+          "word": "doughnuts",
+          "eng_definition": "Sweet, fried rings or balls of dough.",
+          "kor_definition": "도넛"
+        },
+        {
+          "word": "paste",
+          "eng_definition": "A soft, wet substance made by crushing or mixing ingredients.",
+          "kor_definition": "반죽, 페이스트"
+        },
+        {
+          "word": "orchard",
+          "eng_definition": "A piece of land planted with fruit trees.",
+          "kor_definition": "과수원"
+        },
+        {
+          "word": "cider",
+          "eng_definition": "A drink made from fermented apple juice.",
+          "kor_definition": "사과주"
+        },
+        {
+          "word": "cleverest",
+          "eng_definition": "Most intelligent or quick-witted.",
+          "kor_definition": "가장 영리한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What kind of farmer was Farmer Boggis?",
+          "options": [
+            "A goose farmer",
+            "A turkey farmer",
+            "A duck farmer",
+            "A chicken farmer"
+          ],
+          "answer": "A chicken farmer"
+        },
+        {
+          "question": "What food did Farmer Bunce eat every day?",
+          "options": [
+            "Doughnuts and goose-livers",
+            "Apple cider",
+            "Boiled chickens",
+            "Turkey and apples"
+          ],
+          "answer": "Doughnuts and goose-livers"
+        },
+        {
+          "question": "Which farmer was the cleverest of the three?",
+          "options": [
+            "Farmer Boggis",
+            "All were equally clever",
+            "Farmer Bean",
+            "Farmer Bunce"
+          ],
+          "answer": "Farmer Bean"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Farmer Boggis fat?",
+          "answer": "Because he ate three boiled chickens with dumplings every day."
+        },
+        {
+          "question": "What made Farmer Bean different from the others?",
+          "answer": "He was very thin and drank gallons of cider instead of eating food."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Mr Fox",
+      "vocabulary": [
+        {
+          "word": "valley",
+          "eng_definition": "a low area of land between hills or mountains",
+          "kor_definition": "계곡, 골짜기"
+        },
+        {
+          "word": "hole",
+          "eng_definition": "an opening or empty space in something",
+          "kor_definition": "구멍"
+        },
+        {
+          "word": "creep",
+          "eng_definition": "to move slowly and carefully",
+          "kor_definition": "살금살금 움직이다"
+        },
+        {
+          "word": "rage",
+          "eng_definition": "a strong feeling of anger",
+          "kor_definition": "분노, 격노"
+        },
+        {
+          "word": "approach",
+          "eng_definition": "to come near or nearer to something or someone",
+          "kor_definition": "다가가다"
+        },
+        {
+          "word": "lurking",
+          "eng_definition": "hiding or waiting secretly, often to do something bad",
+          "kor_definition": "숨어 기다리기"
+        },
+        {
+          "word": "delicately",
+          "eng_definition": "in a careful and gentle way",
+          "kor_definition": "섬세하게, 조심스럽게"
+        },
+        {
+          "word": "crafty",
+          "eng_definition": "being clever at tricking others",
+          "kor_definition": "교활한, 약삭빠른"
+        },
+        {
+          "word": "strategy",
+          "eng_definition": "a plan to achieve a goal",
+          "kor_definition": "전략, 계략"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What animal does Mr Fox try to steal from the farms?",
+          "options": [
+            "A horse",
+            "A pig",
+            "A cow",
+            "A chicken"
+          ],
+          "answer": "A chicken"
+        },
+        {
+          "question": "How does Mr Fox avoid being caught by the farmers?",
+          "options": [
+            "He flies away",
+            "He swims across the river",
+            "He approaches with the wind in his face",
+            "He hides in a tree"
+          ],
+          "answer": "He approaches with the wind in his face"
+        },
+        {
+          "question": "Where is Mr Fox's hole located?",
+          "options": [
+            "Under a huge tree in the wood",
+            "Under a big rock",
+            "In a barn",
+            "Near a river"
+          ],
+          "answer": "Under a huge tree in the wood"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why is Mr Fox able to steal animals from the farms without being caught?",
+          "answer": "Because he approaches with the wind in his face, which helps him smell the farmers and avoid detection."
+        },
+        {
+          "question": "What plan does Bean suggest to catch Mr Fox?",
+          "answer": "He suggests hiding outside Mr Fox's hole and waiting for him to come out, then shooting him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "The Shooting",
+      "vocabulary": [
+        {
+          "word": "crept",
+          "eng_definition": "moved quietly and carefully",
+          "kor_definition": "살금살금 움직였다"
+        },
+        {
+          "word": "sniffed",
+          "eng_definition": "smelled by taking air into the nose",
+          "kor_definition": "코로 냄새를 맡았다"
+        },
+        {
+          "word": "rustling",
+          "eng_definition": "a soft, muffled crackling sound",
+          "kor_definition": "바스락거리는 소리"
+        },
+        {
+          "word": "glint",
+          "eng_definition": "a small flash of light",
+          "kor_definition": "반짝임"
+        },
+        {
+          "word": "twitch",
+          "eng_definition": "a quick, sudden movement",
+          "kor_definition": "깜짝 움직임"
+        },
+        {
+          "word": "exploded",
+          "eng_definition": "burst with a loud noise",
+          "kor_definition": "폭발했다"
+        },
+        {
+          "word": "bloodstained",
+          "eng_definition": "covered with blood",
+          "kor_definition": "피 묻은"
+        },
+        {
+          "word": "missed",
+          "eng_definition": "failed to hit or catch",
+          "kor_definition": "놓쳤다"
+        },
+        {
+          "word": "dig",
+          "eng_definition": "to break up and move earth with a tool",
+          "kor_definition": "파내다"
+        },
+        {
+          "word": "poked",
+          "eng_definition": "to jab or prod with a finger or object",
+          "kor_definition": "찌르다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Mr. Fox smell from the farmers?",
+          "options": [
+            "Clean water",
+            "Rotten chicken-skins",
+            "Sweet flowers",
+            "Fresh bread"
+          ],
+          "answer": "Rotten chicken-skins"
+        },
+        {
+          "question": "Where are the farmers waiting for Mr. Fox?",
+          "options": [
+            "Inside the house",
+            "In the barn",
+            "Behind trees outside his hole",
+            "On the road"
+          ],
+          "answer": "Behind trees outside his hole"
+        },
+        {
+          "question": "What does Mr. Fox see shining behind a tree?",
+          "options": [
+            "A sword",
+            "A flashlight",
+            "A shiny coin",
+            "A gun barrel"
+          ],
+          "answer": "A gun barrel"
+        },
+        {
+          "question": "What do the farmers do after shooting at Mr. Fox?",
+          "options": [
+            "Run away",
+            "Call the police",
+            "Celebrate",
+            "Walk toward the hole"
+          ],
+          "answer": "Walk toward the hole"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Mr. Fox decide to come out of his hole?",
+          "answer": "He notices the shiny surface and hears a noise, so he cautiously checks outside."
+        },
+        {
+          "question": "What do the farmers hope to do after missing Mr. Fox?",
+          "answer": "They plan to dig him out of his hole."
+        },
+        {
+          "question": "How long might it take for Mr. Fox to come out again?",
+          "answer": "It may take at least three days before he gets hungry enough to come out."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "The Terrible Shovels",
+      "vocabulary": [
+        {
+          "word": "stump",
+          "eng_definition": "the bottom part of a tree or a cut branch",
+          "kor_definition": "그루터기, 나무의 밑둥"
+        },
+        {
+          "word": "bleeding",
+          "eng_definition": "the process of losing blood from the body",
+          "kor_definition": "출혈, 피가 나는 상태"
+        },
+        {
+          "word": "glum",
+          "eng_definition": "looking or feeling sad or dejected",
+          "kor_definition": "침울한, 우울한"
+        },
+        {
+          "word": "dozed",
+          "eng_definition": "fell into a light sleep",
+          "kor_definition": "졸다, 가볍게 잠들다"
+        },
+        {
+          "word": "scraping",
+          "eng_definition": "the act of removing or cleaning by rubbing against a rough surface",
+          "kor_definition": "긁기, 문지르기"
+        },
+        {
+          "word": "furiously",
+          "eng_definition": "in a very angry or intense manner",
+          "kor_definition": "격렬하게, 맹렬히"
+        },
+        {
+          "word": "electric effect",
+          "eng_definition": "a sudden strong emotional or physical reaction",
+          "kor_definition": "전기 충격과 같은 강한 반응"
+        },
+        {
+          "word": "dig",
+          "eng_definition": "to break up and move soil using hands or tools",
+          "kor_definition": "파다, 캐다"
+        },
+        {
+          "word": "fainter",
+          "eng_definition": "becoming less clear or loud",
+          "kor_definition": "점점 희미해지는, 약해지는"
+        },
+        {
+          "word": "panting",
+          "eng_definition": "breathing quickly and heavily",
+          "kor_definition": "헐떡이는, 헐떡거리며 숨쉬기"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What injury did Mr. Fox suffer?",
+          "options": [
+            "A lost paw",
+            "A cut on his tail",
+            "A hurt paw",
+            "A broken leg"
+          ],
+          "answer": "A cut on his tail"
+        },
+        {
+          "question": "Why did Mr. Fox decide to dig quickly?",
+          "options": [
+            "Because he wanted to find food",
+            "Because the shovels were digging into their hole",
+            "Because he wanted to escape the rain",
+            "Because he was bored"
+          ],
+          "answer": "Because the shovels were digging into their hole"
+        },
+        {
+          "question": "How did Mr. Fox plan to escape the danger?",
+          "options": [
+            "By hiding underground",
+            "By running away",
+            "By fighting the men",
+            "By digging a tunnel deeper"
+          ],
+          "answer": "By digging a tunnel deeper"
+        },
+        {
+          "question": "What was the main reason Mrs. Fox was worried?",
+          "options": [
+            "The men would kill them",
+            "It would rain",
+            "They would run out of food",
+            "The children would get lost"
+          ],
+          "answer": "The men would kill them"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Mr. Fox unable to sleep after his tail was injured?",
+          "answer": "Because he was in pain from his injured tail."
+        },
+        {
+          "question": "What did Mr. Fox realize he could do to escape the danger?",
+          "answer": "He realized that a fox can dig faster than a man and decided to dig a tunnel to escape."
+        },
+        {
+          "question": "How did Mrs. Fox show her love and appreciation for Mr. Fox?",
+          "answer": "She praised him as a fantastic fox and expressed her love for him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "The Terrible Tractors",
+      "vocabulary": [
+        {
+          "word": "tunnel",
+          "eng_definition": "a passage dug underground or through an obstacle",
+          "kor_definition": "터널, 굴"
+        },
+        {
+          "word": "digging",
+          "eng_definition": "the act of breaking up and moving earth with tools or machinery",
+          "kor_definition": "파기, 굴착"
+        },
+        {
+          "word": "cider",
+          "eng_definition": "an alcoholic drink made from fermented apple juice",
+          "kor_definition": "사이다 (사과주)"
+        },
+        {
+          "word": "clogged",
+          "eng_definition": "blocked or obstructed",
+          "kor_definition": "막힌, 막혀있는"
+        },
+        {
+          "word": "mechanical shovels",
+          "eng_definition": "machines used for digging, with a mechanical arm and scoop",
+          "kor_definition": "기계식 삽"
+        },
+        {
+          "word": "toppled",
+          "eng_definition": "fell over or caused to fall",
+          "kor_definition": "뒤집히다, 넘어지다"
+        },
+        {
+          "word": "mammoth",
+          "eng_definition": "something very large or enormous",
+          "kor_definition": "거대한, 엄청난"
+        },
+        {
+          "word": "clanging",
+          "eng_definition": "a loud, resonant sound, usually metal hitting metal",
+          "kor_definition": "쾅 하는 소리"
+        },
+        {
+          "word": "earthquake",
+          "eng_definition": "a sudden shaking of the ground caused by movement of the earth's crust",
+          "kor_definition": "지진"
+        },
+        {
+          "word": "fledgling",
+          "eng_definition": "a young bird that has just acquired its feathers and is learning to fly",
+          "kor_definition": "어린 새, 미숙한 새"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What are Boggis, Bunce, and Bean doing at the beginning of the chapter?",
+          "options": [
+            "Building a house",
+            "Chasing the foxes",
+            "Digging a hole",
+            "Cooking dinner"
+          ],
+          "answer": "Digging a hole"
+        },
+        {
+          "question": "Why is Bean deaf?",
+          "options": [
+            "He had an ear infection",
+            "He was born deaf",
+            "His ears were clogged with muck and wax",
+            "He listened to loud music"
+          ],
+          "answer": "His ears were clogged with muck and wax"
+        },
+        {
+          "question": "What do the tractors do to the hill?",
+          "options": [
+            "Create a pond",
+            "Plant trees",
+            "Topple the big tree and dig the hill",
+            "Build a road"
+          ],
+          "answer": "Topple the big tree and dig the hill"
+        },
+        {
+          "question": "What do the foxes think is happening underground?",
+          "options": [
+            "A fire",
+            "A storm",
+            "A flood",
+            "An earthquake"
+          ],
+          "answer": "An earthquake"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What is Bean's plan to catch the fox?",
+          "answer": "He wants to use mechanical shovels and machines to dig him out."
+        },
+        {
+          "question": "How do the foxes realize the danger they are in?",
+          "answer": "They see daylight and hear the noise of the tractors, understanding the tunnel is collapsing."
+        },
+        {
+          "question": "What is the mood of the story during the tractor attack?",
+          "answer": "The mood is tense and chaotic as the machines destroy the hill and threaten the foxes."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "The Race",
+      "vocabulary": [
+        {
+          "word": "desperate",
+          "eng_definition": "feeling or showing a hopeless sense that a situation is so bad as to be impossible to deal with",
+          "kor_definition": "절망적인, 필사적인"
+        },
+        {
+          "word": "clanking",
+          "eng_definition": "making a loud, metallic sound",
+          "kor_definition": "딸랑거리는 소리"
+        },
+        {
+          "word": "shovel",
+          "eng_definition": "a tool with a broad blade and a handle, used for digging or moving earth",
+          "kor_definition": "삽"
+        },
+        {
+          "word": "crater",
+          "eng_definition": "a large hole in the ground caused by an explosion or the impact of a meteorite",
+          "kor_definition": "화산 분화구, 분화구"
+        },
+        {
+          "word": "fury",
+          "eng_definition": "intense anger",
+          "kor_definition": "격노, 분노"
+        },
+        {
+          "word": "obstinate",
+          "eng_definition": "stubborn and refusing to change opinion or behavior",
+          "kor_definition": "완고한, 고집 센"
+        },
+        {
+          "word": "villages",
+          "eng_definition": "small communities or groups of houses in rural areas",
+          "kor_definition": "마을들"
+        },
+        {
+          "word": "jeered",
+          "eng_definition": "made rude or mocking remarks",
+          "kor_definition": "조롱하다, 비웃다"
+        },
+        {
+          "word": "extraordinary",
+          "eng_definition": "very unusual or remarkable",
+          "kor_definition": "비범한, 특별한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What were the machines trying to do in the story?",
+          "options": [
+            "Dig into the hill to catch the foxes",
+            "Help the foxes escape",
+            "Plant trees",
+            "Dig a hole for fun"
+          ],
+          "answer": "Dig into the hill to catch the foxes"
+        },
+        {
+          "question": "How did the farmers react when people came to see the hill?",
+          "options": [
+            "They became more furious and obstinate",
+            "They ran away",
+            "They ignored the crowd",
+            "They stopped digging"
+          ],
+          "answer": "They became more furious and obstinate"
+        },
+        {
+          "question": "What did Boggis shout at the end?",
+          "options": [
+            "You will never come around my farm again",
+            "Let’s go home",
+            "We’re going to catch the fox",
+            "We will stop now"
+          ],
+          "answer": "You will never come around my farm again"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did the crowd come to see the hill?",
+          "answer": "They came to see the large hole made by the machines and the effort to catch the fox."
+        },
+        {
+          "question": "How did the farmers feel at the end of the story?",
+          "answer": "They were more furious and determined not to give up until they caught the fox."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "Well Never Let Him Go",
+      "vocabulary": [
+        {
+          "word": "tractor",
+          "eng_definition": "A large machine used in farming to pull heavy loads or plow fields.",
+          "kor_definition": "농사에 사용되는 대형 기계로, 무거운 짐을 끌거나 밭을 갈 때 사용됩니다."
+        },
+        {
+          "word": "hole",
+          "eng_definition": "An opening or empty space in something.",
+          "kor_definition": "무언가의 구멍이나 빈 공간."
+        },
+        {
+          "word": "rage",
+          "eng_definition": "A strong feeling of anger.",
+          "kor_definition": "강한 분노의 감정."
+        },
+        {
+          "word": "curse",
+          "eng_definition": "To wish or say that something bad will happen to someone.",
+          "kor_definition": "나쁜 일이 일어나기를 바라고 말하는 것."
+        },
+        {
+          "word": "oath",
+          "eng_definition": "A solemn promise.",
+          "kor_definition": "엄숙한 약속."
+        },
+        {
+          "word": "swore",
+          "eng_definition": "Past tense of swear, meaning to make a serious promise or curse.",
+          "kor_definition": "맹세하다 또는 욕설을 하다의 과거형."
+        },
+        {
+          "word": "starve",
+          "eng_definition": "To suffer or die from lack of food.",
+          "kor_definition": "음식이 부족해서 고통받거나 죽다."
+        },
+        {
+          "word": "camp",
+          "eng_definition": "To stay or set up a temporary home in a place, often outdoors.",
+          "kor_definition": "어디에 임시로 집을 마련하거나 머무르다."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Bean and Bunce decide to do with the fox?",
+          "options": [
+            "Let him go free",
+            "Ignore him",
+            "Starve him out",
+            "Catch him immediately"
+          ],
+          "answer": "Starve him out"
+        },
+        {
+          "question": "Why was Bunce running away in the story?",
+          "options": [
+            "He was scared to go down the hole",
+            "He was hungry",
+            "He was tired",
+            "He wanted to go home"
+          ],
+          "answer": "He was scared to go down the hole"
+        },
+        {
+          "question": "What does the phrase 'swore a solemn oath' mean?",
+          "options": [
+            "Made a serious promise",
+            "Said a bad word",
+            "Yelled loudly",
+            "Laughed loudly"
+          ],
+          "answer": "Made a serious promise"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What plan do the men have to catch the fox?",
+          "answer": "They plan to starve the fox out by camped watching the hole until he comes out."
+        },
+        {
+          "question": "Why were Bean and the others angry at the fox?",
+          "answer": "Because the fox was causing trouble for them and they wanted to catch him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "The Foxes Begin To Starve",
+      "vocabulary": [
+        {
+          "word": "crater",
+          "eng_definition": "a large hole in the ground caused by an explosion or a volcano",
+          "kor_definition": "분화구, 화산 분화구"
+        },
+        {
+          "word": "surround",
+          "eng_definition": "to enclose on all sides",
+          "kor_definition": "둘러싸다"
+        },
+        {
+          "word": "supper",
+          "eng_definition": "the evening meal",
+          "kor_definition": "저녁 식사"
+        },
+        {
+          "word": "wafted",
+          "eng_definition": "moved gently through the air",
+          "kor_definition": "부드럽게 퍼지다, 떠다니다"
+        },
+        {
+          "word": "pretending",
+          "eng_definition": "acting as if something is true when it is not",
+          "kor_definition": "가장하다, 꾸미다"
+        },
+        {
+          "word": "armored",
+          "eng_definition": "protected with weapons or armor",
+          "kor_definition": "갑옷을 입은, 무장한"
+        },
+        {
+          "word": "sniff",
+          "eng_definition": "to smell by taking air in through the nose",
+          "kor_definition": "냄새를 맡다"
+        },
+        {
+          "word": "tightly",
+          "eng_definition": "firmly or closely",
+          "kor_definition": "단단히, 꽉"
+        },
+        {
+          "word": "escape",
+          "eng_definition": "to get away from a place or person",
+          "kor_definition": "도망가다, 탈출하다"
+        },
+        {
+          "word": "horrible",
+          "eng_definition": "causing horror or disgust",
+          "kor_definition": "무서운, 끔찍한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Boggis have for supper?",
+          "options": [
+            "Two gallons of cider",
+            "Six doughnuts filled with goose-liver paste",
+            "Three boiled chickens with dumplings",
+            "A big steak"
+          ],
+          "answer": "Three boiled chickens with dumplings"
+        },
+        {
+          "question": "How many men did Bean say he had working on his farm?",
+          "options": [
+            "Thirty-six",
+            "Thirty-seven",
+            "Thirty-four",
+            "Thirty-five"
+          ],
+          "answer": "Thirty-seven"
+        },
+        {
+          "question": "What method did the farmers use to watch the fox’s hole?",
+          "options": [
+            "They sent a dog to find the fox",
+            "They dug a new tunnel",
+            "They switched on headlamps and took turns watching",
+            "They used binoculars"
+          ],
+          "answer": "They switched on headlamps and took turns watching"
+        },
+        {
+          "question": "What did Mr. Fox do every so often during the watch?",
+          "options": [
+            "He crept closer to the tunnel and sniffed",
+            "He made loud noises",
+            "He attacked the farmers",
+            "He ran away"
+          ],
+          "answer": "He crept closer to the tunnel and sniffed"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mrs. Fox tell her children not to snatch the food?",
+          "answer": "Because the farmers wanted to trap them and it wouldn't be safe."
+        },
+        {
+          "question": "How did the farmers plan to prevent the fox from escaping?",
+          "answer": "They ordered many men to surround the hill with guns and weapons."
+        },
+        {
+          "question": "What did Mr. Fox say he could smell from a mile away?",
+          "answer": "He could smell the smell of Bean's stinks."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "Mr Fox Has A Plan",
+      "vocabulary": [
+        {
+          "word": "waiting-game",
+          "eng_definition": "A period of waiting or patience until something happens.",
+          "kor_definition": "기다림 게임, 어떤 일이 일어나기를 기다리는 시간."
+        },
+        {
+          "word": "starving",
+          "eng_definition": "Suffering or dying from lack of food.",
+          "kor_definition": "굶주림, 음식이 부족해서 고통받거나 죽는 것."
+        },
+        {
+          "word": "dash",
+          "eng_definition": "A quick run or sudden movement.",
+          "kor_definition": "질주, 빠른 달리기 또는 갑작스런 움직임."
+        },
+        {
+          "word": "desperately",
+          "eng_definition": "In a way that shows great urgency or need.",
+          "kor_definition": "절박하게, 매우 긴급하거나 간절하게."
+        },
+        {
+          "word": "spark",
+          "eng_definition": "A small bright flash or a sign of excitement.",
+          "kor_definition": "불꽃, 작은 빛 또는 흥분의 신호."
+        },
+        {
+          "word": "digging",
+          "eng_definition": "Breaking up and moving earth with tools or hands.",
+          "kor_definition": "파기, 도구나 손으로 흙을 파내는 것."
+        },
+        {
+          "word": "undefeated",
+          "eng_definition": "Not defeated; never lost a contest.",
+          "kor_definition": "무패의, 패배하지 않은 상태."
+        },
+        {
+          "word": "weak",
+          "eng_definition": "Lacking strength or energy.",
+          "kor_definition": "약한, 힘이나 에너지가 부족한 상태."
+        },
+        {
+          "word": "sigh",
+          "eng_definition": "To exhale audibly, often to show tiredness or relief.",
+          "kor_definition": "한숨쉬기, 피로하거나 안도할 때 내뱉는 숨."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What are the foxes trying to do in this chapter?",
+          "options": [
+            "Escape from the hunters",
+            "Come up with a plan to survive",
+            "Find food in the forest",
+            "Build a new home"
+          ],
+          "answer": "Come up with a plan to survive"
+        },
+        {
+          "question": "Why is Mrs. Fox weak at the end of the chapter?",
+          "options": [
+            "She is suffering from lack of food and water",
+            "She is afraid",
+            "She is tired from digging",
+            "She is injured"
+          ],
+          "answer": "She is suffering from lack of food and water"
+        },
+        {
+          "question": "What does Mr. Fox decide to do at the end of the chapter?",
+          "options": [
+            "Run away alone",
+            "Give up and stay in the tunnel",
+            "Make a plan to escape with his family",
+            "Wait for help"
+          ],
+          "answer": "Make a plan to escape with his family"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What is Mr. Fox's idea to escape?",
+          "answer": "He plans to dig his way out with his family."
+        },
+        {
+          "question": "How do the Small Foxes feel despite being weak and hungry?",
+          "answer": "They are still brave and determined to escape."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "Boggiss Chicken House Number One",
+      "vocabulary": [
+        {
+          "word": "courage",
+          "eng_definition": "the ability to do something difficult or scary without giving up",
+          "kor_definition": "용기; 두렵거나 어려운 일을 포기하지 않고 하는 힘"
+        },
+        {
+          "word": "murky",
+          "eng_definition": "dark, gloomy, and not clear",
+          "kor_definition": "어둡고 흐린; 명확하지 않은"
+        },
+        {
+          "word": "peep",
+          "eng_definition": "a quick or secret look",
+          "kor_definition": "엿보기; 살짝 훔쳐보는 것"
+        },
+        {
+          "word": "plank",
+          "eng_definition": "a long, flat piece of wood",
+          "kor_definition": "널빤지; 긴 나무 판자"
+        },
+        {
+          "word": "teeming",
+          "eng_definition": "full of many things or people; overflowing",
+          "kor_definition": "가득 차 있는; 넘쳐나는"
+        },
+        {
+          "word": "slope",
+          "eng_definition": "to bend or slant downward or upward",
+          "kor_definition": "경사지다; 기울다"
+        },
+        {
+          "word": "distraught",
+          "eng_definition": "deeply upset or agitated",
+          "kor_definition": "심란한; 매우 불안한"
+        },
+        {
+          "word": "flick",
+          "eng_definition": "to make a quick, sudden movement with a part of the body or object",
+          "kor_definition": "튀기다; 휙 움직이다"
+        },
+        {
+          "word": "feast",
+          "eng_definition": "a large meal with many different types of food",
+          "kor_definition": "잔칫상; 풍성한 식사"
+        },
+        {
+          "word": "arrangements",
+          "eng_definition": "plans or preparations made in advance",
+          "kor_definition": "준비; 준비된 계획"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Mr. Fox trying to find in the tunnel?",
+          "options": [
+            "A house above ground",
+            "A treasure chest",
+            "A hidden trap",
+            "A secret passage to another place"
+          ],
+          "answer": "A house above ground"
+        },
+        {
+          "question": "How did Mr. Fox know they were under someone's house?",
+          "options": [
+            "He found wooden planks above their heads",
+            "He heard people talking",
+            "He saw a window",
+            "He saw a chimney"
+          ],
+          "answer": "He found wooden planks above their heads"
+        },
+        {
+          "question": "What did Mr. Fox do after climbing up through the floorboards?",
+          "options": [
+            "He hid again",
+            "He called the police",
+            "He ran away",
+            "He started dancing with joy"
+          ],
+          "answer": "He started dancing with joy"
+        },
+        {
+          "question": "What was inside the chicken house?",
+          "options": [
+            "A group of foxes",
+            "A lot of vegetables",
+            "Thousands of chickens",
+            "A bunch of eggs"
+          ],
+          "answer": "Thousands of chickens"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mr. Fox not tell the children where they were going?",
+          "answer": "Because it was a wonderful place that would make them crazy with excitement, and if they knew, they might get disappointed if they couldn't reach it."
+        },
+        {
+          "question": "What strategy did Mr. Fox use to catch chickens?",
+          "answer": "He carefully climbed into the chicken house, pushed up the floorboards, and quietly caught three hens to take back."
+        },
+        {
+          "question": "What should the children do after catching the chickens?",
+          "answer": "They should take the chickens back to their mother and prepare a feast."
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_title": "A Surprise For Mrs Fox",
+      "vocabulary": [
+        {
+          "word": "plump",
+          "eng_definition": "round and full in shape",
+          "kor_definition": "통통한, 포동포동한"
+        },
+        {
+          "word": "bursting",
+          "eng_definition": "breaking open suddenly",
+          "kor_definition": "갑자기 터지는"
+        },
+        {
+          "word": "murmured",
+          "eng_definition": "spoke softly or quietly",
+          "kor_definition": "속삭이듯 말하다"
+        },
+        {
+          "word": "feast",
+          "eng_definition": "a large meal with many different foods",
+          "kor_definition": "잔칫상, 성대한 만찬"
+        },
+        {
+          "word": "strength",
+          "eng_definition": "the quality or state of being strong",
+          "kor_definition": "힘, 체력"
+        },
+        {
+          "word": "darlings",
+          "eng_definition": "dear or beloved ones",
+          "kor_definition": "사랑하는 사람들, 애칭"
+        },
+        {
+          "word": "tunnelled",
+          "eng_definition": "made a passage or hole underground",
+          "kor_definition": "지하로 터널을 뚫다"
+        },
+        {
+          "word": "dig",
+          "eng_definition": "break up and move earth with a tool or machine",
+          "kor_definition": "파다"
+        },
+        {
+          "word": "question",
+          "eng_definition": "a sentence or phrase used to find out information",
+          "kor_definition": "질문"
+        },
+        {
+          "word": "easy as pie",
+          "eng_definition": "very simple or easy to do",
+          "kor_definition": "매우 쉽다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why was the Small Fox so happy at the beginning of the chapter?",
+          "options": [
+            "He saw his friends.",
+            "He was lost in the forest.",
+            "He was carrying hens to Mrs. Fox.",
+            "He found treasure."
+          ],
+          "answer": "He was carrying hens to Mrs. Fox."
+        },
+        {
+          "question": "Where did the Small Fox find the chickens?",
+          "options": [
+            "In his backyard.",
+            "In the barn.",
+            "Under a tree.",
+            "In Boggis’s Chicken House."
+          ],
+          "answer": "In Boggis’s Chicken House."
+        },
+        {
+          "question": "What does Mr. Fox plan to do next?",
+          "options": [
+            "Visit Mrs. Fox.",
+            "Go to sleep.",
+            "Dig another tunnel.",
+            "Eat the chickens."
+          ],
+          "answer": "Dig another tunnel."
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How did the Small Fox help Mrs. Fox?",
+          "answer": "He brought her chickens from Boggis’s Chicken House."
+        },
+        {
+          "question": "What does Mr. Fox say about the next part of their plan?",
+          "answer": "He says it will be as easy as pie to dig another tunnel."
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_title": "Badger",
+      "vocabulary": [
+        {
+          "word": "feast",
+          "eng_definition": "a large meal with many different dishes, often to celebrate something",
+          "kor_definition": "잔치, 성대한 식사"
+        },
+        {
+          "word": "digging",
+          "eng_definition": "the act of breaking up and moving soil using tools",
+          "kor_definition": "파기, 파헤침"
+        },
+        {
+          "word": "chaos",
+          "eng_definition": "complete disorder and confusion",
+          "kor_definition": "혼란, 무질서"
+        },
+        {
+          "word": "furry",
+          "eng_definition": "covered with fur or hair like a coat of animal hair",
+          "kor_definition": "털이 많은, 털로 덮인"
+        },
+        {
+          "word": "excitedly",
+          "eng_definition": "in a way that shows enthusiasm or eagerness",
+          "kor_definition": "흥분하여, 신나서"
+        },
+        {
+          "word": "sneak",
+          "eng_definition": "to move quietly and secretly to avoid being seen or heard",
+          "kor_definition": "몰래 움직이다, 살금살금 가다"
+        },
+        {
+          "word": "disappear",
+          "eng_definition": "to vanish or cease to be visible",
+          "kor_definition": "사라지다, 없어지다"
+        },
+        {
+          "word": "invited",
+          "eng_definition": "asked someone to join or attend something",
+          "kor_definition": "초대받은"
+        },
+        {
+          "word": "tunnel",
+          "eng_definition": "an underground passage dug through soil or rock",
+          "kor_definition": "터널, 굴"
+        },
+        {
+          "word": "weak",
+          "eng_definition": "lacking strength or power",
+          "kor_definition": "약한, 힘이 없는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What are Mr. Fox and the Small Foxes digging for?",
+          "options": [
+            "A new house",
+            "A feast of chickens",
+            "A treasure",
+            "A river"
+          ],
+          "answer": "A feast of chickens"
+        },
+        {
+          "question": "Why are the farmers and men with guns a problem for the animals?",
+          "options": [
+            "They are building a school",
+            "They are planting trees",
+            "They are trying to catch the animals",
+            "They want to help"
+          ],
+          "answer": "They are trying to catch the animals"
+        },
+        {
+          "question": "What does Mr. Fox invite Badger and others to do?",
+          "options": [
+            "Start digging",
+            "Go home",
+            "Hide in the tunnel",
+            "Join a fox’s feast"
+          ],
+          "answer": "Join a fox’s feast"
+        },
+        {
+          "question": "Where have Mr. Fox and the Small Badger just been?",
+          "options": [
+            "Inside Boggis’s Chicken House",
+            "In the forest",
+            "In a barn",
+            "At a river"
+          ],
+          "answer": "Inside Boggis’s Chicken House"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why is Badger worried about the situation on the hill?",
+          "answer": "Because half the wood has disappeared, men with guns are everywhere, and they can't get out or find food."
+        },
+        {
+          "question": "What does Mr. Fox plan to do to help the animals?",
+          "answer": "He plans to have a feast and use the tunnel to escape from the farmers."
+        },
+        {
+          "question": "How does Mr. Fox reassure Badger about the feast?",
+          "answer": "He tells Badger everyone is invited, and they will share the chickens and have a good time."
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "chapter_title": "Bunces Giant Storehouse",
+      "vocabulary": [
+        {
+          "word": "storehouse",
+          "eng_definition": "a building where supplies, food, or goods are stored",
+          "kor_definition": "창고, 저장소"
+        },
+        {
+          "word": "piled",
+          "eng_definition": "stacked or heaped up",
+          "kor_definition": "쌓인, 쌓아 올린"
+        },
+        {
+          "word": "rafter",
+          "eng_definition": "a structural member that supports the roof",
+          "kor_definition": "서까래, 지붕 들보"
+        },
+        {
+          "word": "dangle",
+          "eng_definition": "to hang down loosely",
+          "kor_definition": "늘어지다, 매달리다"
+        },
+        {
+          "word": "plump",
+          "eng_definition": "having a full, rounded shape; pleasantly fat",
+          "kor_definition": "통통한, 포동포동한"
+        },
+        {
+          "word": "expert",
+          "eng_definition": "a person with special skill or knowledge",
+          "kor_definition": "전문가"
+        },
+        {
+          "word": "neat",
+          "eng_definition": "tidy and organized",
+          "kor_definition": "깔끔한, 정돈된"
+        },
+        {
+          "word": "twitching",
+          "eng_definition": "making small sudden movements",
+          "kor_definition": "찡긋하는, 경련하는"
+        },
+        {
+          "word": "load",
+          "eng_definition": "to put a large amount of something onto or into something",
+          "kor_definition": "실어나르다, 싣다"
+        },
+        {
+          "word": "dinner",
+          "eng_definition": "the main meal of the day, usually in the evening",
+          "kor_definition": "저녁 식사"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is Bunce's storehouse mainly filled with?",
+          "options": [
+            "Books and supplies",
+            "Ducks, geese, hams, and bacon",
+            "Tools and farming equipment",
+            "Furniture and decorations"
+          ],
+          "answer": "Ducks, geese, hams, and bacon"
+        },
+        {
+          "question": "Why does Mr. Fox say they must be neat and tidy when taking the food?",
+          "options": [
+            "To avoid making noise",
+            "To hide what they are doing from Bunce",
+            "To keep the food fresh",
+            "To impress the other animals"
+          ],
+          "answer": "To hide what they are doing from Bunce"
+        },
+        {
+          "question": "What do the Small Foxes take for the rabbits?",
+          "options": [
+            "Apples",
+            "Carrots and apples",
+            "Carrots",
+            "Meat"
+          ],
+          "answer": "Carrots"
+        },
+        {
+          "question": "What do Mr. Fox and the animals use to carry the food out of the storehouse?",
+          "options": [
+            "Push-carts",
+            "Sacks",
+            "Backpacks",
+            "Baskets"
+          ],
+          "answer": "Push-carts"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do the Small Foxes and Badger rush to help Mr. Fox load the food?",
+          "answer": "Because they are hungry and excited about the delicious food they are stealing."
+        },
+        {
+          "question": "How does Mr. Fox ensure that their theft remains a secret?",
+          "answer": "He carefully puts the floorboards back into place so no one can see they were moved."
+        },
+        {
+          "question": "What is the main reason Mr. Fox wants to take only a few choice items from Bunce’s storehouse?",
+          "answer": "To avoid being caught and to keep their theft a secret."
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "chapter_title": "Badger Has Doubts",
+      "vocabulary": [
+        {
+          "word": "Doubts",
+          "eng_definition": "Feelings of uncertainty or lack of conviction.",
+          "kor_definition": "의심, 망설임"
+        },
+        {
+          "word": "Tunnel",
+          "eng_definition": "A passage dug through or under something.",
+          "kor_definition": "터널"
+        },
+        {
+          "word": "Respectable",
+          "eng_definition": "Considered proper or acceptable; worthy of respect.",
+          "kor_definition": "존경받을 만한, 점잖은"
+        },
+        {
+          "word": "Stoop",
+          "eng_definition": "To bend forward and down.",
+          "kor_definition": "구부리다, 몸을 숙이다"
+        },
+        {
+          "word": "Horrible",
+          "eng_definition": "Causing horror or disgust.",
+          "kor_definition": "끔찍한, 소름끼치는"
+        },
+        {
+          "word": "Brick",
+          "eng_definition": "A rectangular block used for building walls.",
+          "kor_definition": "벽돌"
+        },
+        {
+          "word": "Wall",
+          "eng_definition": "A structure that encloses or divides an area.",
+          "kor_definition": "벽, 담"
+        },
+        {
+          "word": "Underground",
+          "eng_definition": "Below the surface of the ground.",
+          "kor_definition": "지하의, 지하에"
+        },
+        {
+          "word": "Bricks",
+          "eng_definition": "Multiple blocks used in building walls.",
+          "kor_definition": "벽돌들"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What animal is the main focus of the story?",
+          "options": [
+            "Bear",
+            "Rabbit",
+            "Fox",
+            "Badger"
+          ],
+          "answer": "Badger"
+        },
+        {
+          "question": "What are Mr. Fox and Badger digging for?",
+          "options": [
+            "A treasure chest",
+            "A food storage",
+            "A secret animal meeting",
+            "A tunnel to another place"
+          ],
+          "answer": "A tunnel to another place"
+        },
+        {
+          "question": "What is blocking the tunnel?",
+          "options": [
+            "A brick wall",
+            "A river",
+            "A stone door",
+            "A big tree"
+          ],
+          "answer": "A brick wall"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Mr. Fox say they won’t kill Boggis, Bunce, and Bean?",
+          "answer": "Because they are peaceful and do not want to stoop to the level of the farmers."
+        },
+        {
+          "question": "What does Badger find when he hits his paws against the wall?",
+          "answer": "He finds a solid brick wall blocking their way underground."
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "chapter_title": "Beans Secret Cider Cellar",
+      "vocabulary": [
+        {
+          "word": "crumbly",
+          "eng_definition": "easily breaking into small pieces",
+          "kor_definition": "부서지기 쉬운"
+        },
+        {
+          "word": "popped",
+          "eng_definition": "suddenly appeared or sprang out",
+          "kor_definition": "갑자기 나타난"
+        },
+        {
+          "word": "snapped",
+          "eng_definition": "said sharply or quickly",
+          "kor_definition": "날카롭게 말하다"
+        },
+        {
+          "word": "shrieked",
+          "eng_definition": "cried out loudly",
+          "kor_definition": "날카롭게 소리치다"
+        },
+        {
+          "word": "glistening",
+          "eng_definition": "shining with a sparkling light",
+          "kor_definition": "반짝이는"
+        },
+        {
+          "word": "gurgled",
+          "eng_definition": "made a bubbling sound",
+          "kor_definition": "거품이 이는 소리를 내다"
+        },
+        {
+          "word": "fizzed",
+          "eng_definition": "bubbled or hissed",
+          "kor_definition": "거품이 일다, fizz"
+        },
+        {
+          "word": "perched",
+          "eng_definition": "sitting or resting on something high",
+          "kor_definition": "높은 곳에 앉아 있다"
+        },
+        {
+          "word": "sucked",
+          "eng_definition": "pulled in by creating a vacuum with the mouth",
+          "kor_definition": "빨아들이다"
+        },
+        {
+          "word": "fabulous",
+          "eng_definition": "extraordinary or wonderful",
+          "kor_definition": "멋진, 환상적인"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Mr. Fox do to find the secret cellar?",
+          "options": [
+            "He loosened a brick",
+            "He climbed through a window",
+            "He used a key",
+            "He knocked down the wall"
+          ],
+          "answer": "He loosened a brick"
+        },
+        {
+          "question": "What is stored in the jars found in the cellar?",
+          "options": [
+            "Water",
+            "Honey",
+            "Cider",
+            "Juice"
+          ],
+          "answer": "Cider"
+        },
+        {
+          "question": "Why did Rat stop Mr. Fox from taking the cider?",
+          "options": [
+            "He was afraid of being caught",
+            "He wanted to keep it for himself",
+            "He was drunk",
+            "He wanted to share"
+          ],
+          "answer": "He was afraid of being caught"
+        },
+        {
+          "question": "What is special about the cider in the cellar?",
+          "options": [
+            "It is sweet and mild",
+            "It is store-bought",
+            "It is home-brewed and fiery",
+            "It is weak and fizzy"
+          ],
+          "answer": "It is home-brewed and fiery"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mr. Fox and his friends go into the cellar?",
+          "answer": "They went into the cellar to find the secret cider stash."
+        },
+        {
+          "question": "How did Rat try to hide the cider from others?",
+          "answer": "Rat used a rubber tube to suck out the cider from the jar."
+        },
+        {
+          "question": "What effect did the cider have on Mr. Fox, Badger, and the Smallest Fox?",
+          "answer": "They found the cider to be very strong and delicious, and it made them feel excited and happy."
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "chapter_title": "The Woman",
+      "vocabulary": [
+        {
+          "word": "crouched",
+          "eng_definition": "to bend low with the body close to the ground",
+          "kor_definition": "몸을 낮춰 웅크리다"
+        },
+        {
+          "word": "shelter",
+          "eng_definition": "a place that provides protection from danger or weather",
+          "kor_definition": "보호하는 장소, 피난처"
+        },
+        {
+          "word": "peering",
+          "eng_definition": "looking intently or searchingly",
+          "kor_definition": "응시하다, 자세히 들여다보다"
+        },
+        {
+          "word": "cellar",
+          "eng_definition": "a room below ground level used for storage",
+          "kor_definition": "지하실"
+        },
+        {
+          "word": "rolling-pin",
+          "eng_definition": "a cylindrical tool used to flatten dough",
+          "kor_definition": "밀대, 반죽을 펴는 도구"
+        },
+        {
+          "word": "souvenir",
+          "eng_definition": "a keepsake or memento to remember a place or event",
+          "kor_definition": "기념품"
+        },
+        {
+          "word": "poison",
+          "eng_definition": "a substance that can cause harm or death",
+          "kor_definition": "독, 유독물"
+        },
+        {
+          "word": "nabbed",
+          "eng_definition": "caught or seized, especially by law enforcement",
+          "kor_definition": "체포되다, 잡히다"
+        },
+        {
+          "word": "bandits",
+          "eng_definition": "criminals who rob or attack people",
+          "kor_definition": "도적, 산적"
+        },
+        {
+          "word": "shrieked",
+          "eng_definition": "to cry out loudly in fear or pain",
+          "kor_definition": "날카롭게 외치다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Mr Fox and the animals hide behind?",
+          "options": [
+            "A row of big cider jars",
+            "A table",
+            "A bookshelf",
+            "A sofa"
+          ],
+          "answer": "A row of big cider jars"
+        },
+        {
+          "question": "Why did the woman want the fox’s tail?",
+          "options": [
+            "To eat it",
+            "To hang on the wall",
+            "As a souvenir",
+            "To make a necklace"
+          ],
+          "answer": "As a souvenir"
+        },
+        {
+          "question": "What was the woman carrying in her hand?",
+          "options": [
+            "A knife",
+            "A basket",
+            "A rolling-pin",
+            "A flashlight"
+          ],
+          "answer": "A rolling-pin"
+        },
+        {
+          "question": "What did Rat say about the poison?",
+          "options": [
+            "He would be poisoned",
+            "He would eat it",
+            "He was watching her put it down",
+            "He would sell it"
+          ],
+          "answer": "He was watching her put it down"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mr Fox and the animals decide to run away?",
+          "answer": "Because the woman was coming into the cellar and might see them."
+        },
+        {
+          "question": "What happened to the fox's tail?",
+          "answer": "It was shot to pieces and ruined."
+        },
+        {
+          "question": "What does Mr Fox say about Rat's behavior?",
+          "answer": "He tells Rat to stay out of their place and not to come back."
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "chapter_title": "The Great Feast",
+      "vocabulary": [
+        {
+          "word": "feast",
+          "eng_definition": "a large meal with many different dishes",
+          "kor_definition": "축제; 잔치, 연회"
+        },
+        {
+          "word": "ravenous",
+          "eng_definition": "extremely hungry",
+          "kor_definition": "대단히 배고픈"
+        },
+        {
+          "word": "courtesy",
+          "eng_definition": "politeness or good manners",
+          "kor_definition": "예의, 공손"
+        },
+        {
+          "word": "belch",
+          "eng_definition": "to burp loudly",
+          "kor_definition": "트림하다"
+        },
+        {
+          "word": "set-up",
+          "eng_definition": "a planned arrangement or system",
+          "kor_definition": "설정, 배치"
+        },
+        {
+          "word": "diggers",
+          "eng_definition": "animals or people who dig or burrow into the ground",
+          "kor_definition": "파는 동물 또는 사람들"
+        },
+        {
+          "word": "enemies",
+          "eng_definition": "people or animals that are against or oppose others",
+          "kor_definition": "적, 적대자"
+        },
+        {
+          "word": "storehouses",
+          "eng_definition": "places where supplies or food are stored",
+          "kor_definition": "창고, 저장고"
+        },
+        {
+          "word": "cheering",
+          "eng_definition": "showing happiness or approval with shouts or clapping",
+          "kor_definition": "환호, 격려"
+        },
+        {
+          "word": "underground",
+          "eng_definition": "below the surface of the ground",
+          "kor_definition": "지하의"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Mr Fox and the animals find at the end of the tunnel?",
+          "options": [
+            "A new river",
+            "A mountain",
+            "A large feast",
+            "A treasure chest"
+          ],
+          "answer": "A large feast"
+        },
+        {
+          "question": "Why do the animals prefer to stay in their tunnel setup?",
+          "options": [
+            "They are searching for more food",
+            "They are afraid of outside enemies",
+            "They love underground life",
+            "They want to go on adventures"
+          ],
+          "answer": "They are afraid of outside enemies"
+        },
+        {
+          "question": "What did Mr Fox propose to the other animals?",
+          "options": [
+            "To leave and find new homes",
+            "To stay in the tunnel forever",
+            "To build a new village above ground",
+            "To go out and explore"
+          ],
+          "answer": "To stay in the tunnel forever"
+        },
+        {
+          "question": "Who was thanked for saving the animals' lives?",
+          "options": [
+            "Mr Bean",
+            "Mr Bunce",
+            "Mr Fox",
+            "Mr Boggis"
+          ],
+          "answer": "Mr Fox"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What did Mr Fox say about the outside world?",
+          "answer": "He said the outside is full of enemies and they hate going out, only doing so to find food."
+        },
+        {
+          "question": "How did the animals react after the feast?",
+          "answer": "They cheered, hugged each other, and celebrated the idea of staying safe in their tunnel home."
+        },
+        {
+          "question": "What are Mr Fox's plans for the future?",
+          "answer": "He plans to make a little underground village with houses for each animal and go shopping every day to eat like kings."
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "chapter_title": "Still Waiting",
+      "vocabulary": [
+        {
+          "word": "tents",
+          "eng_definition": "Portable shelters made of fabric supported by poles.",
+          "kor_definition": "천막, 텐트"
+        },
+        {
+          "word": "trickling",
+          "eng_definition": "Flowing slowly in drops or a thin stream.",
+          "kor_definition": "흐르다, 똑똑 떨어지다"
+        },
+        {
+          "word": "famished",
+          "eng_definition": "Extremely hungry.",
+          "kor_definition": "아주 배고픈"
+        },
+        {
+          "word": "dash",
+          "eng_definition": "A quick run or sudden movement.",
+          "kor_definition": "전력 질주, 돌진"
+        },
+        {
+          "word": "lap",
+          "eng_definition": "The upper part of the thighs of a person when sitting down.",
+          "kor_definition": "무릎 위, 허벅지 위"
+        },
+        {
+          "word": "began",
+          "eng_definition": "Started to do something.",
+          "kor_definition": "시작하다"
+        },
+        {
+          "word": "waiting",
+          "eng_definition": "Remaining in one place until an expected event happens.",
+          "kor_definition": "기다리다"
+        },
+        {
+          "word": "outside",
+          "eng_definition": "The outer side or surface of something.",
+          "kor_definition": "밖에, 외부에"
+        },
+        {
+          "word": "rain",
+          "eng_definition": "Water falling from the clouds in drops.",
+          "kor_definition": "비"
+        },
+        {
+          "word": "brute",
+          "eng_definition": "A savagely violent person or animal.",
+          "kor_definition": "야수, 흉포한 사람 또는 동물"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What are Boggis, Bunce, and Bean sitting with outside the fox’s hole?",
+          "options": [
+            "With their guns on their laps",
+            "Sleeping in tents",
+            "Eating dinner",
+            "Walking around"
+          ],
+          "answer": "With their guns on their laps"
+        },
+        {
+          "question": "What does Bunce suggest about the fox?",
+          "options": [
+            "It is making noise",
+            "It is hiding in a tree",
+            "It is asleep",
+            "It must be very hungry"
+          ],
+          "answer": "It must be very hungry"
+        },
+        {
+          "question": "What are Boggis, Bunce, and Bean doing in this chapter?",
+          "options": [
+            "Eating food",
+            "Chasing the fox",
+            "Building a new tent",
+            "Waiting for the fox to come out"
+          ],
+          "answer": "Waiting for the fox to come out"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Where are Boggis, Bunce, and Bean sitting?",
+          "answer": "They are sitting beside their tents outside the fox’s hole."
+        },
+        {
+          "question": "What are they waiting for?",
+          "answer": "They are waiting for the fox to come out of its hole."
+        }
+      ]
+    }
+  ]
+}

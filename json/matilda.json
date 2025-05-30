@@ -1,0 +1,3025 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-29T11:59:29",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 60831,
+    "completion_tokens": 22062,
+    "total_tokens": 82893
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "The Reader Of Books",
+      "vocabulary": [
+        {
+          "word": "adulation",
+          "eng_definition": "excessive admiration or praise",
+          "kor_definition": "과도한 칭찬, 아첨"
+        },
+        {
+          "word": "twaddle",
+          "eng_definition": "silly or trivial talk or writing",
+          "kor_definition": "허튼소리, 쓸데없는 말"
+        },
+        {
+          "word": "scorchers",
+          "eng_definition": "severe or witty remarks, especially in reports",
+          "kor_definition": "신랄한 비평 또는 말"
+        },
+        {
+          "word": "natural history",
+          "eng_definition": "the scientific study of plants, animals, and the environment",
+          "kor_definition": "자연사, 자연에 관한 학문"
+        },
+        {
+          "word": "chrysalis",
+          "eng_definition": "a pupa of a butterfly or moth; a stage of development",
+          "kor_definition": "번데기, 잠자리의 번데기"
+        },
+        {
+          "word": "nimble",
+          "eng_definition": "quick and light in movement or action",
+          "kor_definition": "민첩한, 빠른"
+        },
+        {
+          "word": "doting",
+          "eng_definition": "excessively loving or indulgent",
+          "kor_definition": "극진히 사랑하는, 애정을 쏟는"
+        },
+        {
+          "word": "formidable",
+          "eng_definition": "inspiring fear or respect through size, power, or skill",
+          "kor_definition": "어마어마한, 무서운"
+        },
+        {
+          "word": "fascination",
+          "eng_definition": "the state of being fascinated or captivated",
+          "kor_definition": "매혹, 흥미"
+        },
+        {
+          "word": "interfere",
+          "eng_definition": "to involve oneself in a matter without being asked or needed",
+          "kor_definition": "간섭하다, 참견하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the main theme of the chapter?",
+          "options": [
+            "Parental attitudes towards children",
+            "The importance of school education",
+            "The history of libraries",
+            "Children's love of reading"
+          ],
+          "answer": "Parental attitudes towards children"
+        },
+        {
+          "question": "How do Matilda's parents feel about her reading?",
+          "options": [
+            "They ignore her",
+            "They encourage her",
+            "They discourage her",
+            "They read with her"
+          ],
+          "answer": "They discourage her"
+        },
+        {
+          "question": "What does Mrs. Phelps suggest about books?",
+          "options": [
+            "They are only for children",
+            "They can be borrowed from the library",
+            "They are not useful",
+            "They are too difficult for children"
+          ],
+          "answer": "They can be borrowed from the library"
+        },
+        {
+          "question": "What kind of books does Matilda enjoy reading?",
+          "options": [
+            "Magazines",
+            "Children's fairy tales",
+            "Realistic stories for grown-ups",
+            "Only picture books"
+          ],
+          "answer": "Realistic stories for grown-ups"
+        },
+        {
+          "question": "Why does Mrs. Phelps think it’s good that Matilda reads so much?",
+          "options": [
+            "She doesn't like other children",
+            "She will become a teacher",
+            "She wants to be famous",
+            "She is developing her imagination and knowledge"
+          ],
+          "answer": "She is developing her imagination and knowledge"
+        },
+        {
+          "question": "What is Matilda's favorite book mentioned in the chapter?",
+          "options": [
+            "Jane Eyre",
+            "Animal Farm",
+            "Great Expectations",
+            "The Old Man and the Sea"
+          ],
+          "answer": "Great Expectations"
+        },
+        {
+          "question": "What does Mrs. Phelps compare reading to?",
+          "options": [
+            "Washing clothes",
+            "Traveling",
+            "Eating",
+            "Music"
+          ],
+          "answer": "Music"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How do Matilda’s parents view her?",
+          "answer": "They see her as noisy and nothing special, often calling her a chatterbox and not encouraging her reading."
+        },
+        {
+          "question": "What motivates Matilda to go to the library?",
+          "answer": "Her desire to read more interesting books and her love of reading."
+        },
+        {
+          "question": "Describe how Matilda learns to read.",
+          "answer": "She teaches herself by studying newspapers and magazines around the house."
+        },
+        {
+          "question": "What kind of books does Matilda prefer?",
+          "answer": "She prefers books for grown-ups and enjoys classics like Great Expectations."
+        },
+        {
+          "question": "How does Mrs. Phelps react to Matilda’s reading achievements?",
+          "answer": "She is amazed and proud but chooses to keep her own excitement to herself."
+        },
+        {
+          "question": "What lesson about reading can be learned from Matilda’s story?",
+          "answer": "That curiosity and a love of books can help children learn and develop beyond expectations."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Mr Wormwood The Great Car Dealer",
+      "vocabulary": [
+        {
+          "word": "dealer",
+          "eng_definition": "a person or business that buys and sells goods, especially cars",
+          "kor_definition": "중개상, 판매상"
+        },
+        {
+          "word": "sawdust",
+          "eng_definition": "small particles of wood from a sawmill",
+          "kor_definition": "톱밥"
+        },
+        {
+          "word": "ignorant",
+          "eng_definition": "lacking knowledge or awareness in general",
+          "kor_definition": "무지한, 무식한"
+        },
+        {
+          "word": "boast",
+          "eng_definition": "to talk with pride about achievements or possessions",
+          "kor_definition": "자랑하다"
+        },
+        {
+          "word": "dishonest",
+          "eng_definition": "not truthful or fair; cheating",
+          "kor_definition": "부정직한, 정직하지 않은"
+        },
+        {
+          "word": "tamper",
+          "eng_definition": "to interfere with something in a way that causes damage or alteration",
+          "kor_definition": "함부로 만지거나 조작하다"
+        },
+        {
+          "word": "mileage",
+          "eng_definition": "the distance a vehicle has traveled, often shown on a speedometer",
+          "kor_definition": "주행 거리"
+        },
+        {
+          "word": "fiddle",
+          "eng_definition": "to manipulate or tamper with something dishonestly",
+          "kor_definition": "속이다, 조작하다"
+        },
+        {
+          "word": "electric drill",
+          "eng_definition": "a power tool used for drilling holes, often at high speed",
+          "kor_definition": "전기 드릴"
+        },
+        {
+          "word": "suppers",
+          "eng_definition": "evening meals",
+          "kor_definition": "저녁 식사"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Mr. Wormwood use sawdust for?",
+          "options": [
+            "To hide dents",
+            "To clean cars",
+            "To decorate cars",
+            "To help sell cars"
+          ],
+          "answer": "To help sell cars"
+        },
+        {
+          "question": "How does Mr. Wormwood cheat when changing the mileage on cars?",
+          "options": [
+            "He replaces the speedometer",
+            "He drives the car backwards",
+            "He resets the speedometer",
+            "He disconnects the cable and uses a drill to turn it backwards"
+          ],
+          "answer": "He disconnects the cable and uses a drill to turn it backwards"
+        },
+        {
+          "question": "What is Matilda’s opinion about her father’s business practices?",
+          "options": [
+            "She approves of them",
+            "She finds them dishonest and disgusting",
+            "She thinks they are honest",
+            "She is unaware of them"
+          ],
+          "answer": "She finds them dishonest and disgusting"
+        },
+        {
+          "question": "What does Matilda wish her parents would do instead of cheating?",
+          "options": [
+            "Work harder",
+            "Watch more TV",
+            "Buy more cars",
+            "Read books like Dickens or Kipling"
+          ],
+          "answer": "Read books like Dickens or Kipling"
+        },
+        {
+          "question": "What is Matilda’s plan for dealing with her parents’ behavior?",
+          "options": [
+            "Ignore them",
+            "Run away from home",
+            "Get her own back in some way",
+            "Tell the police"
+          ],
+          "answer": "Get her own back in some way"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Mr. Wormwood use sawdust in his cars?",
+          "answer": "He uses sawdust mixed with oil to make worn-out gears run smoothly temporarily."
+        },
+        {
+          "question": "How does Mr. Wormwood tamper with the mileage of cars?",
+          "answer": "He disconnects the speedometer cable and uses a high-speed drill to turn the mileage backwards."
+        },
+        {
+          "question": "What is Matilda’s feeling towards her parents’ dishonest business practices?",
+          "answer": "She finds them dishonest and feels disgusted by them."
+        },
+        {
+          "question": "What decision does Matilda make at the end of the chapter?",
+          "answer": "She decides to get her own back when her parents are mean to her, to help her tolerate their behavior."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "The Hat And The Superglue",
+      "vocabulary": [
+        {
+          "word": "cloakroom",
+          "eng_definition": "a room for hanging coats and storing personal items",
+          "kor_definition": "옷장실, 벨트룸"
+        },
+        {
+          "word": "peg",
+          "eng_definition": "a small hook for hanging things on",
+          "kor_definition": "못, 걸이"
+        },
+        {
+          "word": "rakish",
+          "eng_definition": "having a confident and stylish appearance",
+          "kor_definition": "멋지고 자신감 있는"
+        },
+        {
+          "word": "Superglue",
+          "eng_definition": "a very strong adhesive used to bond materials quickly",
+          "kor_definition": "초강력 접착제"
+        },
+        {
+          "word": "operation",
+          "eng_definition": "a process or action performed to achieve a result",
+          "kor_definition": "작업, 수술"
+        },
+        {
+          "word": "suspicion",
+          "eng_definition": "a feeling that someone might be guilty of something",
+          "kor_definition": "의심"
+        },
+        {
+          "word": "label",
+          "eng_definition": "a piece of paper or material attached to something to give information",
+          "kor_definition": "라벨, 표"
+        },
+        {
+          "word": "fiddling",
+          "eng_definition": "touching or adjusting something in a nervous or impatient way",
+          "kor_definition": "만지작거리기"
+        },
+        {
+          "word": "slip off",
+          "eng_definition": "to come off or move away smoothly",
+          "kor_definition": "미끄러지듯 벗어나다"
+        },
+        {
+          "word": "leathery",
+          "eng_definition": "having the texture or appearance of leather",
+          "kor_definition": "가죽 같은"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What type of hat did Mr. Wormwood wear?",
+          "options": [
+            "Pork-pie hat",
+            "Fedora",
+            "Beanie",
+            "Baseball cap"
+          ],
+          "answer": "Pork-pie hat"
+        },
+        {
+          "question": "What did Matilda use to glue the hat?",
+          "options": [
+            "Superglue",
+            "White glue",
+            "Duct tape",
+            "Glue stick"
+          ],
+          "answer": "Superglue"
+        },
+        {
+          "question": "Why couldn't Mr. Wormwood remove the hat?",
+          "options": [
+            "He forgot how to take it off",
+            "It was glued on",
+            "It was stuck with tape",
+            "It was too tight"
+          ],
+          "answer": "It was glued on"
+        },
+        {
+          "question": "What happened to the hat after Mrs. Wormwood cut it off?",
+          "options": [
+            "It was still stuck to his hair",
+            "It was repaired",
+            "It was completely destroyed",
+            "It was left in pieces"
+          ],
+          "answer": "It was left in pieces"
+        },
+        {
+          "question": "What did Matilda say about the bits of glue on Mr. Wormwood's forehead?",
+          "options": [
+            "He looked like a fairy",
+            "He looked like a monster",
+            "He looked like a ghost",
+            "He looked like he had lice"
+          ],
+          "answer": "He looked like he had lice"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mr. Wormwood keep his hat on all day?",
+          "answer": "Because the superglue made it impossible to remove."
+        },
+        {
+          "question": "What lesson did Mr. Wormwood learn from the incident?",
+          "answer": "He learned to read the label and follow instructions carefully."
+        },
+        {
+          "question": "How did Mrs. Wormwood remove the glued hat?",
+          "answer": "She cut it off with scissors, bit by bit."
+        },
+        {
+          "question": "What did Matilda compare Mr. Wormwood's bald patches to?",
+          "answer": "She said it looked like a monk with a bald white ring."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "The Ghost",
+      "vocabulary": [
+        {
+          "word": "chastened",
+          "eng_definition": "made less proud or confident, often by punishment or disappointment",
+          "kor_definition": "벌하거나 실망시켜 겸손하게 만들다"
+        },
+        {
+          "word": "simmer down",
+          "eng_definition": "calm down, become less angry or excited",
+          "kor_definition": "진정하다, 차분해지다"
+        },
+        {
+          "word": "infuriated",
+          "eng_definition": "extremely angry",
+          "kor_definition": "매우 화나게 하다"
+        },
+        {
+          "word": "jealousy",
+          "eng_definition": "the feeling of envy or resentment towards someone else's possessions or qualities",
+          "kor_definition": "질투, 부러움"
+        },
+        {
+          "word": "marvellous",
+          "eng_definition": "extremely good or wonderful",
+          "kor_definition": "매우 훌륭한, 경이로운"
+        },
+        {
+          "word": "investigated",
+          "eng_definition": "carried out a systematic inquiry or examination",
+          "kor_definition": "조사하다"
+        },
+        {
+          "word": "haunted",
+          "eng_definition": "frequently visited or inhabited by ghosts",
+          "kor_definition": "귀신이 출몰하는, 유령이 있는"
+        },
+        {
+          "word": "sooty",
+          "eng_definition": "covered with black or dark ash or dirt",
+          "kor_definition": "그을린, 재 더러져 검어진"
+        },
+        {
+          "word": "slammed",
+          "eng_definition": "shut forcefully and loudly",
+          "kor_definition": "세게 닫다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the reason Mr. Wormwood was irritable?",
+          "options": [
+            "He was happy",
+            "He had a good day at the garage",
+            "He was irritable after a bad day at work",
+            "He was tired"
+          ],
+          "answer": "He was irritable after a bad day at work"
+        },
+        {
+          "question": "What did Matilda do with the parrot?",
+          "options": [
+            "Wedged it up the chimney and out of sight",
+            "Kept it in her room",
+            "Let it fly away",
+            "Gave it to her teacher"
+          ],
+          "answer": "Wedged it up the chimney and out of sight"
+        },
+        {
+          "question": "How did the family react when they heard the voice in the house?",
+          "options": [
+            "They called the police",
+            "They believed burglars were inside",
+            "They thought it was a ghost",
+            "They ignored it"
+          ],
+          "answer": "They believed burglars were inside"
+        },
+        {
+          "question": "What was the parrot's name?",
+          "options": [
+            "Polly",
+            "Chopper",
+            "Rex",
+            "Tweety"
+          ],
+          "answer": "Chopper"
+        },
+        {
+          "question": "What was Matilda's plan after seeing the ghost?",
+          "options": [
+            "To investigate further",
+            "To devise a punishment for her parents",
+            "To run away from home",
+            "To call the police"
+          ],
+          "answer": "To devise a punishment for her parents"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Mr. Wormwood tear pages out of the book?",
+          "answer": "Because he thought the book was trash and didn't want Matilda to read it."
+        },
+        {
+          "question": "How did Matilda hide the parrot after taking it from Fred's house?",
+          "answer": "She wedged it up the chimney and out of sight."
+        },
+        {
+          "question": "What caused the family to believe there was a ghost in the house?",
+          "answer": "They heard a spooky voice calling 'Hullo, hullo, hullo' from the dining-room."
+        },
+        {
+          "question": "What was Matilda's attitude when her father ripped apart her book?",
+          "answer": "She remained very still and thoughtful, understanding that crying or sulking wouldn't help."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Arithmetic",
+      "vocabulary": [
+        {
+          "word": "arithmetic",
+          "eng_definition": "The branch of mathematics dealing with numbers and calculations.",
+          "kor_definition": "수학의 한 분야로, 숫자와 계산을 다룸."
+        },
+        {
+          "word": "obliged",
+          "eng_definition": "Required to do something; compelled.",
+          "kor_definition": "어쩔 수 없이 해야 하는; 강요당하는."
+        },
+        {
+          "word": "bearable",
+          "eng_definition": "Able to be endured or tolerated.",
+          "kor_definition": "견딜 수 있는, 참을 만한."
+        },
+        {
+          "word": "splendid",
+          "eng_definition": "Magnificent; very impressive.",
+          "kor_definition": "눈부신, 훌륭한."
+        },
+        {
+          "word": "diddle",
+          "eng_definition": "To cheat or swindle someone.",
+          "kor_definition": "속이거나 사기를 치다."
+        },
+        {
+          "word": "profit",
+          "eng_definition": "The money gained from business after costs are subtracted.",
+          "kor_definition": "이익, 수익."
+        },
+        {
+          "word": "diligence",
+          "eng_definition": "Constant and earnest effort to accomplish something.",
+          "kor_definition": "성실함, 근면."
+        },
+        {
+          "word": "oblivious",
+          "eng_definition": "Unaware of or paying no attention to something.",
+          "kor_definition": "무감각한, 알아채지 못하는."
+        },
+        {
+          "word": "cunning",
+          "eng_definition": "Having or showing skill in achieving one’s ends by deceit or evasion.",
+          "kor_definition": "약삭빠른, 교활한."
+        },
+        {
+          "word": "civil",
+          "eng_definition": "Polite and courteous; not rude or aggressive.",
+          "kor_definition": "공손한, 예의 바른."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Matilda invent to cope with her family?",
+          "options": [
+            "A magic spell",
+            "A storybook",
+            "A new game",
+            "A cooking recipe"
+          ],
+          "answer": "A new game"
+        },
+        {
+          "question": "How does Matilda's father usually try to cheat in his business?",
+          "options": [
+            "Faking documents",
+            "Using fake cars",
+            "Diddling the customer by underquoting",
+            "Stealing money"
+          ],
+          "answer": "Diddling the customer by underquoting"
+        },
+        {
+          "question": "What is Matilda’s main power that she uses to outsmart her family?",
+          "options": [
+            "Her strength",
+            "Her cleverness",
+            "Her magic",
+            "Her speed"
+          ],
+          "answer": "Her cleverness"
+        },
+        {
+          "question": "What was the father's response when Matilda correctly calculated his profit?",
+          "options": [
+            "He congratulated her",
+            "He told her a joke",
+            "He shouted and accused her of cheating",
+            "He ignored her"
+          ],
+          "answer": "He shouted and accused her of cheating"
+        },
+        {
+          "question": "What does the mother usually do after bingo?",
+          "options": [
+            "Go to bed",
+            "Clean the house",
+            "Buy fish and chips",
+            "Cook dinner"
+          ],
+          "answer": "Buy fish and chips"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Matilda invent punishments for her parents?",
+          "answer": "To make her life more bearable and cope with their unkindness."
+        },
+        {
+          "question": "How does Mr. Wormwood try to cheat in his car business?",
+          "answer": "He underquotes the selling price to make the profit seem less and tricks customers."
+        },
+        {
+          "question": "What does Matilda tell her father about his profit calculation?",
+          "answer": "She tells him the correct total profit, which makes him accuse her of cheating."
+        },
+        {
+          "question": "Why does Mrs. Wormwood often buy fish and chips instead of cooking?",
+          "answer": "Because bingo leaves her exhausted physically and emotionally, so she prefers quick food."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "The Platinum-Blond Man",
+      "vocabulary": [
+        {
+          "word": "foulness",
+          "eng_definition": "the state of being very unpleasant or offensive",
+          "kor_definition": "불쾌함, 역겨움"
+        },
+        {
+          "word": "dye",
+          "eng_definition": "a substance used to change the color of something, especially hair or fabric",
+          "kor_definition": "염료, 물감"
+        },
+        {
+          "word": "peroxide",
+          "eng_definition": "a chemical compound often used in hair bleaching and disinfecting",
+          "kor_definition": "과산화수소"
+        },
+        {
+          "word": "tincture",
+          "eng_definition": "a solution of a medicinal substance in alcohol or water",
+          "kor_definition": "약용액"
+        },
+        {
+          "word": "scalp",
+          "eng_definition": "the skin on the head where hair grows",
+          "kor_definition": "두피"
+        },
+        {
+          "word": "disinfect",
+          "eng_definition": "to clean something in order to destroy bacteria or viruses",
+          "kor_definition": "소독하다"
+        },
+        {
+          "word": "blond",
+          "eng_definition": "having light-colored hair",
+          "kor_definition": "금발의"
+        },
+        {
+          "word": "splash",
+          "eng_definition": "to cause liquid to scatter and splash outward",
+          "kor_definition": "튀기다, 튀기기"
+        },
+        {
+          "word": "appointment",
+          "eng_definition": "a scheduled meeting or arrangement to see someone or do something",
+          "kor_definition": "약속, 예약"
+        },
+        {
+          "word": "frenzied",
+          "eng_definition": "done in a wild, uncontrolled manner",
+          "kor_definition": "광란의, 미친 듯한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Mrs. Wormwood's hair color?",
+          "options": [
+            "Brown",
+            "Blonde",
+            "Black",
+            "Red"
+          ],
+          "answer": "Blonde"
+        },
+        {
+          "question": "What did Matilda use to change her father's hair dye?",
+          "options": [
+            "Soap",
+            "Her mother's hair dye",
+            "Water",
+            "Vinegar"
+          ],
+          "answer": "Her mother's hair dye"
+        },
+        {
+          "question": "What caution was written on the hair dye bottle?",
+          "options": [
+            "Keep away from water",
+            "Keep away from children",
+            "Use only once",
+            "Store in the fridge"
+          ],
+          "answer": "Keep away from children"
+        },
+        {
+          "question": "What did Mr. Wormwood think about his hair?",
+          "options": [
+            "It was weak",
+            "It was bright and strong",
+            "It was bald",
+            "It was greasy"
+          ],
+          "answer": "It was bright and strong"
+        },
+        {
+          "question": "What chemical was responsible for changing Mr. Wormwood's hair color?",
+          "options": [
+            "Peroxide",
+            "Alcohol",
+            "Vinegar",
+            "Lemon juice"
+          ],
+          "answer": "Peroxide"
+        },
+        {
+          "question": "What did Matilda suggest her father do after the hair dye accident?",
+          "options": [
+            "Go to the doctor",
+            "Wash it with soap and water",
+            "Trim his hair",
+            "Use more dye"
+          ],
+          "answer": "Wash it with soap and water"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Matilda change her father's hair dye?",
+          "answer": "She wanted to prank him because she thought his hair looked silly."
+        },
+        {
+          "question": "What happened when Mr. Wormwood saw his hair after dyeing?",
+          "answer": "He was shocked to see it turned a dirty silver color and thought he looked terrible."
+        },
+        {
+          "question": "Why was the mother upset about her husband's hair?",
+          "answer": "Because he used her strong hair dye and ended up with a strange color and possible hair loss."
+        },
+        {
+          "question": "What chemical is used in hair dye that can be harmful?",
+          "answer": "Peroxide"
+        },
+        {
+          "question": "What lesson might Matilda be learning from this story?",
+          "answer": "That making silly decisions can lead to unexpected and funny consequences."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "Miss Honey",
+      "vocabulary": [
+        {
+          "word": "formidable",
+          "eng_definition": "causing fear or respect through being impressively large, powerful, or capable",
+          "kor_definition": "무서운, 위협적인"
+        },
+        {
+          "word": "supreme",
+          "eng_definition": "highest in rank or authority",
+          "kor_definition": "최고의, 최상의"
+        },
+        {
+          "word": "menace",
+          "eng_definition": "a person or thing that is likely to cause harm; a threat",
+          "kor_definition": "위협, 협박"
+        },
+        {
+          "word": "eccentricities",
+          "eng_definition": "unusual or odd behaviors or qualities",
+          "kor_definition": "별난 행동, 색다른 특징"
+        },
+        {
+          "word": "tangible",
+          "eng_definition": "able to be touched or felt; real",
+          "kor_definition": "만질 수 있는, 실체가 있는"
+        },
+        {
+          "word": "liquidise",
+          "eng_definition": "to make liquid or turn into a liquid",
+          "kor_definition": "액체로 만들다"
+        },
+        {
+          "word": "prodogy",
+          "eng_definition": "a young person with exceptional qualities or talent",
+          "kor_definition": "천재, 신동"
+        },
+        {
+          "word": "astonishment",
+          "eng_definition": "great surprise or amazement",
+          "kor_definition": "놀람, 경악"
+        },
+        {
+          "word": "astounded",
+          "eng_definition": "surprised or amazed greatly",
+          "kor_definition": "깜짝 놀란, 매우 놀란"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the name of the school where Matilda starts her education?",
+          "options": [
+            "Sunnydale School",
+            "Crunchem Hall Primary School",
+            "Greenwood Elementary",
+            "Maple Leaf School"
+          ],
+          "answer": "Crunchem Hall Primary School"
+        },
+        {
+          "question": "Who is the head teacher of Crunchem Hall Primary School?",
+          "options": [
+            "Miss Honey",
+            "Mrs. Phelps",
+            "Miss Jennifer",
+            "Miss Trunchbull"
+          ],
+          "answer": "Miss Trunchbull"
+        },
+        {
+          "question": "How old was Matilda when she entered school?",
+          "options": [
+            "Four",
+            "Five and a half",
+            "Five",
+            "Six"
+          ],
+          "answer": "Five and a half"
+        },
+        {
+          "question": "What is Miss Honey's attitude towards the children?",
+          "options": [
+            "Indifferent",
+            "Mild and kind",
+            "Strict and harsh",
+            "Tough and strict"
+          ],
+          "answer": "Mild and kind"
+        },
+        {
+          "question": "What does Miss Honey expect the children to learn by the end of the week?",
+          "options": [
+            "Reading comprehension",
+            "Two-times table",
+            "The alphabet",
+            "History facts"
+          ],
+          "answer": "Two-times table"
+        },
+        {
+          "question": "What extraordinary skill does Matilda demonstrate?",
+          "options": [
+            "Multiplying large numbers instantly",
+            "Singing beautifully",
+            "Drawing perfect pictures",
+            "Running very fast"
+          ],
+          "answer": "Multiplying large numbers instantly"
+        },
+        {
+          "question": "What type of poetry does Matilda read aloud?",
+          "options": [
+            "Limerick",
+            "Haiku",
+            "Haiku",
+            "Sonnet"
+          ],
+          "answer": "Limerick"
+        },
+        {
+          "question": "What is Matilda's favorite kind of children's books?",
+          "options": [
+            "Mystery",
+            "Science books",
+            "Histories",
+            "Funny books"
+          ],
+          "answer": "Funny books"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Matilda late on her first day of school?",
+          "answer": "Her parents forgot to make proper arrangements in advance."
+        },
+        {
+          "question": "Describe Miss Trunchbull.",
+          "answer": "She is a gigantic, fierce, tyrannical woman who frightens everyone."
+        },
+        {
+          "question": "How does Matilda demonstrate her multiplication skill?",
+          "answer": "She can multiply large numbers instantly and accurately in her head."
+        },
+        {
+          "question": "What does Miss Honey think about Matilda's abilities?",
+          "answer": "She is amazed and considers her a child genius or prodigy."
+        },
+        {
+          "question": "What does Matilda say about children's books?",
+          "answer": "Children love funny bits in books because they are not as serious as grown-ups."
+        },
+        {
+          "question": "What is the limerick Matilda wrote about Miss Honey?",
+          "answer": "It humorously questions whether there are many young girls as lovely as her."
+        },
+        {
+          "question": "Who helps Matilda choose books from the library?",
+          "answer": "Mrs. Phelps"
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "The Trunchbull",
+      "vocabulary": [
+        {
+          "word": "form",
+          "eng_definition": "a class or group of students in a school",
+          "kor_definition": "반, 학급"
+        },
+        {
+          "word": "extraordinary",
+          "eng_definition": "very unusual or remarkable",
+          "kor_definition": "이상한, 비범한"
+        },
+        {
+          "word": "formidable",
+          "eng_definition": "causing fear or respect because of size or strength",
+          "kor_definition": "무서운, 강력한"
+        },
+        {
+          "word": "obstinate",
+          "eng_definition": "stubborn and difficult to change",
+          "kor_definition": "완고한, 고집 센"
+        },
+        {
+          "word": "bark",
+          "eng_definition": "to speak sharply or aggressively",
+          "kor_definition": "짖다, 고함치다"
+        },
+        {
+          "word": "bellow",
+          "eng_definition": "to shout loudly",
+          "kor_definition": "고함치다, 소리치다"
+        },
+        {
+          "word": "gigantic",
+          "eng_definition": "extremely large or huge",
+          "kor_definition": "거대한, 엄청난"
+        },
+        {
+          "word": "breeches",
+          "eng_definition": "short pants that fit tightly from waist to knees",
+          "kor_definition": "바지, 숏팬츠"
+        },
+        {
+          "word": "scowling",
+          "eng_definition": "frowning or looking angry",
+          "kor_definition": "찡그리며 노려보는"
+        },
+        {
+          "word": "helpless",
+          "eng_definition": "unable to help oneself or act without aid",
+          "kor_definition": "무력한, 의지할 곳 없는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is Miss Trunchbull's personality like?",
+          "options": [
+            "Gentle and understanding",
+            "Kind and caring",
+            "Sympathetic and fair",
+            "Formidable and intimidating"
+          ],
+          "answer": "Formidable and intimidating"
+        },
+        {
+          "question": "What kind of athlete was Miss Trunchbull in the past?",
+          "options": [
+            "A basketball player",
+            "A famous athlete",
+            "A swimmer",
+            "A dancer"
+          ],
+          "answer": "A famous athlete"
+        },
+        {
+          "question": "Why does Miss Trunchbull dislike children, especially girls?",
+          "options": [
+            "Because she is kind and gentle",
+            "Because she finds them dangerous and hard to squash",
+            "Because she was once a girl",
+            "Because she loves boys more"
+          ],
+          "answer": "Because she finds them dangerous and hard to squash"
+        },
+        {
+          "question": "What does Miss Honey want to do for Matilda?",
+          "options": [
+            "Place her in the top form",
+            "Ignore her",
+            "Send her home",
+            "Expel her"
+          ],
+          "answer": "Place her in the top form"
+        },
+        {
+          "question": "How does Miss Trunchbull feel about Matilda being a genius?",
+          "options": [
+            "She believes it's true",
+            "She is amazed and supports her",
+            "She dismisses it as nonsense",
+            "She is proud of her"
+          ],
+          "answer": "She dismisses it as nonsense"
+        },
+        {
+          "question": "What rule does Miss Trunchbull mention about children in her school?",
+          "options": [
+            "Children can move up forms if they are smart",
+            "Children must stay in their own age groups",
+            "Children can choose their own classes",
+            "Children can switch schools easily"
+          ],
+          "answer": "Children must stay in their own age groups"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Miss Honey want to move Matilda to the top form?",
+          "answer": "Because Matilda is a genius and she wants her to be with children her own age who are more suitable for her abilities."
+        },
+        {
+          "question": "How does Miss Trunchbull describe bad girls?",
+          "answer": "She says they are more dangerous than bad boys and harder to squash, comparing them to bluebottles."
+        },
+        {
+          "question": "What is Miss Trunchbull's opinion about children in her school?",
+          "answer": "She believes children should stay in their own age groups and considers it inappropriate for young children to be with older students."
+        },
+        {
+          "question": "What does Miss Trunchbull threaten to do to Matilda?",
+          "answer": "She threatens to roast her bottom with a birch and belt and wishes she could punish her with a beating."
+        },
+        {
+          "question": "How does Miss Honey feel about Miss Trunchbull's attitude?",
+          "answer": "She feels depressed but determined to find a way to help Matilda despite the intimidating behavior of Miss Trunchbull."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "The Parents",
+      "vocabulary": [
+        {
+          "word": "emerged",
+          "eng_definition": "came out or appeared",
+          "kor_definition": "나타났다, 출현했다"
+        },
+        {
+          "word": "senior",
+          "eng_definition": "older or higher in rank or level",
+          "kor_definition": "상급, 고위의"
+        },
+        {
+          "word": "absorbed",
+          "eng_definition": "fully engaged or occupied",
+          "kor_definition": "몰두한, 흡수된"
+        },
+        {
+          "word": "secret",
+          "eng_definition": "something kept hidden or private",
+          "kor_definition": "비밀의"
+        },
+        {
+          "word": "remarkable",
+          "eng_definition": "worthy of attention; extraordinary",
+          "kor_definition": "주목할 만한, 놀랄 만한"
+        },
+        {
+          "word": "presumed",
+          "eng_definition": "assumed to be true without proof",
+          "kor_definition": "추정하다, 가정하다"
+        },
+        {
+          "word": "convincing",
+          "eng_definition": "persuasive; believable",
+          "kor_definition": "설득력 있는"
+        },
+        {
+          "word": "inconvenient",
+          "eng_definition": "causing trouble or difficulty",
+          "kor_definition": "불편한, 곤란한"
+        },
+        {
+          "word": "brilliant",
+          "eng_definition": "very bright or intelligent",
+          "kor_definition": "훌륭한, 뛰어난"
+        },
+        {
+          "word": "coaching",
+          "eng_definition": "training or teaching",
+          "kor_definition": "지도, 연수"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Miss Honey first do when she left the Headmistress's study?",
+          "options": [
+            "Borrowed textbooks from teachers",
+            "Went to the library",
+            "Visited Matilda's house",
+            "Went to the playground"
+          ],
+          "answer": "Borrowed textbooks from teachers"
+        },
+        {
+          "question": "Why did Miss Honey decide to talk to Matilda's parents?",
+          "options": [
+            "To discuss Matilda's talents",
+            "To invite them to school",
+            "To complain about her teaching",
+            "To borrow books from them"
+          ],
+          "answer": "To discuss Matilda's talents"
+        },
+        {
+          "question": "What is Mr Wormwood's attitude towards reading books?",
+          "options": [
+            "He reads only technical manuals",
+            "He reads every day",
+            "He doesn't believe in reading",
+            "He loves reading"
+          ],
+          "answer": "He doesn't believe in reading"
+        },
+        {
+          "question": "How does Mrs Wormwood view education for girls?",
+          "options": [
+            "As unnecessary",
+            "As very important",
+            "As secondary to looks",
+            "As the key to success"
+          ],
+          "answer": "As secondary to looks"
+        },
+        {
+          "question": "What special talent does Matilda have according to Miss Honey?",
+          "options": [
+            "Great athletic ability",
+            "Excellent artist",
+            "Mathematical genius",
+            "Musical talent"
+          ],
+          "answer": "Mathematical genius"
+        },
+        {
+          "question": "What does Mrs Wormwood think makes a girl attractive?",
+          "options": [
+            "Talent",
+            "Looks",
+            "Smartness",
+            "Books"
+          ],
+          "answer": "Looks"
+        },
+        {
+          "question": "What is Miss Honey's opinion of Matilda's reading ability?",
+          "options": [
+            "She can only read simple words",
+            "She doesn't like reading",
+            "She is average",
+            "She is very talented"
+          ],
+          "answer": "She is very talented"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Miss Honey want to speak with Matilda's parents?",
+          "answer": "Because she believes Matilda has remarkable talents that her parents are unaware of."
+        },
+        {
+          "question": "How does Mr Wormwood feel about university education?",
+          "answer": "He thinks university education is unnecessary and bad habits are learned there."
+        },
+        {
+          "question": "What does Miss Honey suggest about Matilda's future education?",
+          "answer": "She suggests that Matilda could be brought up to university standard with private tuition."
+        },
+        {
+          "question": "How do Mrs Wormwood and Mr Wormwood view the importance of books?",
+          "answer": "They do not believe in reading books and think looks are more important."
+        },
+        {
+          "question": "Describe Matilda's reading habits as mentioned by Miss Honey.",
+          "answer": "Matilda reads long adult novels and has read an astonishing number of books."
+        },
+        {
+          "question": "What is Miss Honey's overall impression of Matilda?",
+          "answer": "She thinks Matilda is very quiet, gentle, and a brilliant, talented child."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "Throwing The Hammer",
+      "vocabulary": [
+        {
+          "word": "brilliance",
+          "eng_definition": "exceptional brightness or intelligence",
+          "kor_definition": "훌륭한 빛이나 지능"
+        },
+        {
+          "word": "outward",
+          "eng_definition": "visible or apparent from the outside",
+          "kor_definition": "외부에서 보이는, 겉으로 드러나는"
+        },
+        {
+          "word": "gutsy",
+          "eng_definition": "courageous and determined",
+          "kor_definition": "용감하고 단호한"
+        },
+        {
+          "word": "filter",
+          "eng_definition": "to pass through or to be transmitted gradually",
+          "kor_definition": "걸러지다, 서서히 전달되다"
+        },
+        {
+          "word": "confronted",
+          "eng_definition": "faced or dealt with directly",
+          "kor_definition": "직면하거나 대면하다"
+        },
+        {
+          "word": "narrow",
+          "eng_definition": "not wide; limited in width",
+          "kor_definition": "좁은"
+        },
+        {
+          "word": "glanced",
+          "eng_definition": "to look quickly or briefly",
+          "kor_definition": "빠르게 흘긋보다"
+        },
+        {
+          "word": "parabola",
+          "eng_definition": "a symmetrical open curve, like a U shape",
+          "kor_definition": "포물선, U자형 곡선"
+        },
+        {
+          "word": "formidable",
+          "eng_definition": "inspiring fear or respect due to size or power",
+          "kor_definition": "무서운, 위압적인"
+        },
+        {
+          "word": "sauntered",
+          "eng_definition": "walked in a slow, relaxed manner",
+          "kor_definition": "느리게 산책하듯 걸어가다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "How is Matilda described in the beginning?",
+          "options": [
+            "As a girl who loves to show off",
+            "As a rebellious teenager",
+            "As a perfectly normal five-and-a-half-year-old girl",
+            "As a very loud and showy girl"
+          ],
+          "answer": "As a perfectly normal five-and-a-half-year-old girl"
+        },
+        {
+          "question": "What is Lavender's personality like?",
+          "options": [
+            "Gutsy and adventurous",
+            "Timid and shy",
+            "Very bossy",
+            "Lazy and uninterested"
+          ],
+          "answer": "Gutsy and adventurous"
+        },
+        {
+          "question": "What does Hortensia say about The Chokey?",
+          "options": [
+            "It's a very tall but narrow cupboard with glass and nails",
+            "It's a place where children go for fun",
+            "It's a cozy room",
+            "It's a secret hideout"
+          ],
+          "answer": "It's a very tall but narrow cupboard with glass and nails"
+        },
+        {
+          "question": "What did Hortensia put inside the knickers of the Trunchbull?",
+          "options": [
+            "Sand",
+            "Lemon juice",
+            "The Skin-Scorcher itching-powder",
+            "Sugar"
+          ],
+          "answer": "The Skin-Scorcher itching-powder"
+        },
+        {
+          "question": "What was Miss Trunchbull's reaction to Amanda's pigtails?",
+          "options": [
+            "She ignored them",
+            "She told her to chop them off and threw her in the air",
+            "She praised them",
+            "She gave her a prize"
+          ],
+          "answer": "She told her to chop them off and threw her in the air"
+        },
+        {
+          "question": "How did Amanda land after being thrown by Trunchbull?",
+          "options": [
+            "In a tree",
+            "In the classroom",
+            "On her head",
+            "On the grass after bouncing three times"
+          ],
+          "answer": "On the grass after bouncing three times"
+        },
+        {
+          "question": "What is the main reason Hortensia is proud of her arm?",
+          "options": [
+            "She can hit hard",
+            "She can run very fast",
+            "She threw the hammer in the Olympics",
+            "She can lift heavy objects"
+          ],
+          "answer": "She threw the hammer in the Olympics"
+        },
+        {
+          "question": "What do the children think of Miss Trunchbull?",
+          "options": [
+            "They love her",
+            "They think she's kind",
+            "They are scared of her",
+            "They ignore her"
+          ],
+          "answer": "They are scared of her"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How is Matilda's intelligence described?",
+          "answer": "Matilda is very intelligent but shows almost no outward signs of her brilliance."
+        },
+        {
+          "question": "Describe Lavender’s character.",
+          "answer": "Lavender is small, gutsy, adventurous, and a good friend to Matilda."
+        },
+        {
+          "question": "What is The Chokey?",
+          "answer": "The Chokey is a tall, narrow cupboard with glass and nails, used as a punishment room by Miss Trunchbull."
+        },
+        {
+          "question": "What did Hortensia do to get put in The Chokey the first time?",
+          "answer": "She poured half a tin of Golden Syrup on the seat of the chair where Miss Trunchbull was going to sit."
+        },
+        {
+          "question": "What is the significance of Hortensia’s story about the itching powder?",
+          "answer": "It shows her cleverness and bravery in playing a prank on Miss Trunchbull."
+        },
+        {
+          "question": "Why does Hortensia say children are involved in a war with Miss Trunchbull?",
+          "answer": "Because she treats children harshly, and they have to support each other to survive her punishments."
+        },
+        {
+          "question": "What is the main characteristic of Miss Trunchbull’s personality?",
+          "answer": "She is strict, aggressive, and feared by everyone at the school."
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_title": "Bruce Bogtrotter And The Cake",
+      "vocabulary": [
+        {
+          "word": "outrageous",
+          "eng_definition": "completely crazy or shocking; very bold or unusual",
+          "kor_definition": "기발한, 터무니없는"
+        },
+        {
+          "word": "apprehension",
+          "eng_definition": "fear or anxiety about something that might happen",
+          "kor_definition": "불안, 염려"
+        },
+        {
+          "word": "wary",
+          "eng_definition": "cautious and careful about possible dangers or problems",
+          "kor_definition": "조심하는, 방심하지 않는"
+        },
+        {
+          "word": "giggle",
+          "eng_definition": "to laugh in a silly or nervous way",
+          "kor_definition": "킥킥 웃다"
+        },
+        {
+          "word": "belch",
+          "eng_definition": "to expel gas noisily from the stomach through the mouth",
+          "kor_definition": "트림하다"
+        },
+        {
+          "word": "perseverance",
+          "eng_definition": "continued effort to do or achieve something despite difficulties",
+          "kor_definition": "인내, 끈기"
+        },
+        {
+          "word": "motionless",
+          "eng_definition": "not moving; still",
+          "kor_definition": "움직이지 않는, 정지된"
+        },
+        {
+          "word": "replete",
+          "eng_definition": "filled or well-supplied with something",
+          "kor_definition": "가득 찬, 충만한"
+        },
+        {
+          "word": "glare",
+          "eng_definition": "a fierce or angry stare",
+          "kor_definition": "노려봄, 눈부심"
+        },
+        {
+          "word": "lunge",
+          "eng_definition": "to move forward suddenly and forcefully",
+          "kor_definition": "몸을 내밀다, 돌진하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Bruce Bogtrotter accused of stealing?",
+          "options": [
+            "B) A slice of cake",
+            "C) A book",
+            "A) A bicycle",
+            "D) A hat"
+          ],
+          "answer": "B) A slice of cake"
+        },
+        {
+          "question": "What did the Headmistress carry in her right hand?",
+          "options": [
+            "A) A whip",
+            "C) A stick",
+            "D) A staff",
+            "B) A riding-crop"
+          ],
+          "answer": "B) A riding-crop"
+        },
+        {
+          "question": "How did the children feel about Bruce eating the cake?",
+          "options": [
+            "D) Angry",
+            "B) Disappointed",
+            "A) Indifferent",
+            "C) Supportive"
+          ],
+          "answer": "C) Supportive"
+        },
+        {
+          "question": "What was the size of the cake Bruce was made to eat?",
+          "options": [
+            "A) Small cupcake",
+            "C) A tiny slice",
+            "B) Eighteen inches in diameter",
+            "D) A single piece"
+          ],
+          "answer": "B) Eighteen inches in diameter"
+        },
+        {
+          "question": "What did the Trunchbull threaten to do if Bruce stopped eating?",
+          "options": [
+            "D) Take away his prize",
+            "C) Lock him in The Chokey",
+            "B) Send him home",
+            "A) Call his parents"
+          ],
+          "answer": "C) Lock him in The Chokey"
+        },
+        {
+          "question": "How did Bruce manage to continue eating the cake?",
+          "options": [
+            "C) He was determined to win",
+            "A) He was forced",
+            "B) He was very hungry",
+            "D) He didn't want to get in trouble"
+          ],
+          "answer": "C) He was determined to win"
+        },
+        {
+          "question": "What was the ultimate reaction of Bruce after finishing the cake?",
+          "options": [
+            "D) He fainted",
+            "C) He grinned with triumph",
+            "A) He was sick",
+            "B) He cried"
+          ],
+          "answer": "C) He grinned with triumph"
+        },
+        {
+          "question": "What did the Headmistress do at the end of the story?",
+          "options": [
+            "B) Gave him a prize",
+            "D) Marches off angrily",
+            "C) Threw the cake platter at him",
+            "A) Applauded Bruce"
+          ],
+          "answer": "D) Marches off angrily"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Matilda believe no parent would believe Lavender's story?",
+          "answer": "Because she says the story is too ridiculous and outrageous to be believed."
+        },
+        {
+          "question": "How does the Headmistress describe Bruce Bogtrotter during the accusation?",
+          "answer": "She calls him a thief, crook, pirate, brigand, and member of the Mafia."
+        },
+        {
+          "question": "What is the main reason Bruce is forced to eat the enormous cake?",
+          "answer": "Because he stole a slice of the Headmistress’s private cake and is being made to eat it as punishment."
+        },
+        {
+          "question": "How does Bruce demonstrate perseverance during the cake-eating contest?",
+          "answer": "He continues eating despite feeling sick and is determined to finish the cake."
+        },
+        {
+          "question": "What is the children's reaction as Bruce keeps eating the cake?",
+          "answer": "They are supportive and silently cheer him on, hoping he can succeed."
+        },
+        {
+          "question": "What does the story suggest about the Headmistress's character?",
+          "answer": "She is very strict, intimidating, and unpredictable, willing to punish harshly."
+        },
+        {
+          "question": "Describe how Bruce's attitude changes during the contest.",
+          "answer": "He initially struggles but gradually gains confidence and fights to complete eating the cake."
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_title": "Lavender",
+      "vocabulary": [
+        {
+          "word": "custom",
+          "eng_definition": "A traditional or usual way of doing something.",
+          "kor_definition": "관습, 풍습"
+        },
+        {
+          "word": "strict",
+          "eng_definition": "Demanding that rules are obeyed and punishing bad behavior.",
+          "kor_definition": "엄격한"
+        },
+        {
+          "word": "swot",
+          "eng_definition": "To study hard or revise intensively.",
+          "kor_definition": "열심히 공부하다"
+        },
+        {
+          "word": "scheming",
+          "eng_definition": "Making secret plans to do something.",
+          "kor_definition": "책략을 꾸미는, 계획하는"
+        },
+        {
+          "word": "exploits",
+          "eng_definition": "Brave or daring acts or deeds.",
+          "kor_definition": "모험, 업적"
+        },
+        {
+          "word": "murky",
+          "eng_definition": "Dark, gloomy, and unclear.",
+          "kor_definition": "흐릿한, 탁한"
+        },
+        {
+          "word": "harmless",
+          "eng_definition": "Not able to cause harm or injury.",
+          "kor_definition": "무해한"
+        },
+        {
+          "word": "thrashed",
+          "eng_definition": "Moved wildly or violently.",
+          "kor_definition": "세게 흔들리다"
+        },
+        {
+          "word": "plop",
+          "eng_definition": "A soft, sudden sound when something drops into water or a soft surface.",
+          "kor_definition": "톡 하고 떨어지는 소리"
+        },
+        {
+          "word": "damp",
+          "eng_definition": " Slightly wet or moist.",
+          "kor_definition": "축축한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is Miss Honey's custom at school?",
+          "options": [
+            "Taking over the class for one lesson each week",
+            "Having a weekly picnic",
+            "Ending lessons early",
+            "Changing classrooms every day"
+          ],
+          "answer": "Taking over the class for one lesson each week"
+        },
+        {
+          "question": "What does Miss Honey advise the children to prepare for her test?",
+          "options": [
+            "Their history facts",
+            "Their art projects",
+            "Their music practice",
+            "Their two-times table and spelling"
+          ],
+          "answer": "Their two-times table and spelling"
+        },
+        {
+          "question": "What animal does Lavender try to catch in her garden?",
+          "options": [
+            "A fish",
+            "A newt",
+            "A snake",
+            "A frog"
+          ],
+          "answer": "A newt"
+        },
+        {
+          "question": "How does Lavender catch the newt?",
+          "options": [
+            "With her hands",
+            "With a fishing rod",
+            "Using her school hat as a net",
+            "With a butterfly net"
+          ],
+          "answer": "Using her school hat as a net"
+        },
+        {
+          "question": "What does Lavender do with the newt after catching it?",
+          "options": [
+            "Puts it in a pencil-box filled with pond-weed and water",
+            "Puts it in a jar",
+            "Sets it free",
+            "Feeds it bread"
+          ],
+          "answer": "Puts it in a pencil-box filled with pond-weed and water"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Miss Honey warn the children about the Headmistress?",
+          "answer": "Because she is very strict, and the children must behave carefully to avoid her anger."
+        },
+        {
+          "question": "What is Lavender's secret plan involving the newt?",
+          "answer": "She plans to use the newt as a prank or trick during the Headmistress's lesson."
+        },
+        {
+          "question": "Why does Lavender decide to tell nobody about her plan?",
+          "answer": "She wants to keep it a secret so no one can blame her or tell on her."
+        },
+        {
+          "question": "What is the significance of the water jug in the story?",
+          "answer": "It is part of the Headmistress's lesson routine, and Lavender is responsible for bringing water for her."
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "chapter_title": "The Weekly Test",
+      "vocabulary": [
+        {
+          "word": "assembled",
+          "eng_definition": "gathered together in one place",
+          "kor_definition": "모이다, 집합하다"
+        },
+        {
+          "word": "distaste",
+          "eng_definition": "a feeling of dislike or disgust",
+          "kor_definition": "혐오, 불쾌감"
+        },
+        {
+          "word": "nauseating",
+          "eng_definition": "causing nausea or disgust",
+          "kor_definition": "역겹게 하는, 구역질나게 하는"
+        },
+        {
+          "word": "snorted",
+          "eng_definition": "made a sudden loud sound through the nose",
+          "kor_definition": "코를 훌쩍거리다, 코를 세차게 내뿜다"
+        },
+        {
+          "word": "bellowed",
+          "eng_definition": "shouted loudly",
+          "kor_definition": "고함치다, 울부짖다"
+        },
+        {
+          "word": "plummeted",
+          "eng_definition": "fell straight down at high speed",
+          "kor_definition": "급락하다, 곤두박질치다"
+        },
+        {
+          "word": "diabolical",
+          "eng_definition": "extremely wicked or cruel",
+          "kor_definition": "악마 같은, 사악한"
+        },
+        {
+          "word": "squealed",
+          "eng_definition": "made a high-pitched, sharp cry",
+          "kor_definition": "비명을 지르다"
+        },
+        {
+          "word": "crook",
+          "eng_definition": "a dishonest person, especially in business",
+          "kor_definition": "사기꾼, 부정직한 사람"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Who is Miss Trunchbull?",
+          "options": [
+            "A teacher",
+            "A visitor",
+            "A student",
+            "The Headmistress"
+          ],
+          "answer": "The Headmistress"
+        },
+        {
+          "question": "What does Miss Trunchbull think about small children?",
+          "options": [
+            "They should be kept out of sight",
+            "They should be loved",
+            "They are adorable",
+            "They are clever"
+          ],
+          "answer": "They should be kept out of sight"
+        },
+        {
+          "question": "How does Miss Trunchbull test the students' spelling?",
+          "options": [
+            "By singing a song",
+            "By giving them written tests",
+            "By using a quiz game",
+            "By asking questions"
+          ],
+          "answer": "By singing a song"
+        },
+        {
+          "question": "What word does Nigel say they learned to spell in class?",
+          "options": [
+            "Education",
+            "Success",
+            "Difficulty",
+            "Learning"
+          ],
+          "answer": "Difficulty"
+        },
+        {
+          "question": "What does Miss Trunchbull threaten to do if Rupert doesn't say the correct answer?",
+          "options": [
+            "Call his parents",
+            "Start jerking him up and down",
+            "Send him home",
+            "Expel him"
+          ],
+          "answer": "Start jerking him up and down"
+        },
+        {
+          "question": "What is Nigel’s father supposed to do according to Nigel?",
+          "options": [
+            "Be a doctor",
+            "Be a policeman",
+            "Be a thief",
+            "Be a teacher"
+          ],
+          "answer": "Be a doctor"
+        },
+        {
+          "question": "What does Miss Trunchbull think about clever children?",
+          "options": [
+            "They are crooked",
+            "They are kind",
+            "They are obedient",
+            "They are smart"
+          ],
+          "answer": "They are crooked"
+        },
+        {
+          "question": "How does Miss Trunchbull handle the boy Eric's ears?",
+          "options": [
+            "She pulls them",
+            "She pinches them",
+            "She cuts them",
+            "She pulls them off"
+          ],
+          "answer": "She pinches them"
+        },
+        {
+          "question": "What book does Miss Honey mention teaching in three minutes?",
+          "options": [
+            "Oliver Twist",
+            "David Copperfield",
+            "Nicholas Nickleby",
+            "Great Expectations"
+          ],
+          "answer": "Nicholas Nickleby"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Who is Miss Honey?",
+          "answer": "A kind teacher who teaches children words quickly and effectively."
+        },
+        {
+          "question": "What does Miss Trunchbull think about small children?",
+          "answer": "She believes small children should be kept out of sight and does not like them."
+        },
+        {
+          "question": "How does Miss Trunchbull test the class on multiplication?",
+          "answer": "She asks students questions like 'What is two sevens?' and expects correct answers."
+        },
+        {
+          "question": "What is Nigel's clever method for learning words?",
+          "answer": "Miss Honey teaches them a song about each word, which helps them learn quickly."
+        },
+        {
+          "question": "How does Miss Trunchbull punish Nigel for his answers?",
+          "answer": "She holds him by his ears and lifts him out of his seat."
+        },
+        {
+          "question": "What does Miss Trunchbull think about clever children?",
+          "answer": "She thinks they are crooked and has a negative attitude towards them."
+        },
+        {
+          "question": "What does Matilda say about reading Nicholas Nickleby?",
+          "answer": "She has read the book, even though the headmistress doubts it."
+        },
+        {
+          "question": "What is the general attitude of the Headmistress towards children?",
+          "answer": "She sees children as troublesome and believes in strict, harsh discipline."
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "chapter_title": "The First Miracle",
+      "vocabulary": [
+        {
+          "word": "disgusting",
+          "eng_definition": "something very unpleasant or repulsive",
+          "kor_definition": "역겹거나 혐오스러운"
+        },
+        {
+          "word": "bane",
+          "eng_definition": "a cause of great trouble or annoyance",
+          "kor_definition": "골칫거리, 고통의 원인"
+        },
+        {
+          "word": "spray",
+          "eng_definition": "a liquid sent out in a fine mist",
+          "kor_definition": "분무기, 스프레이"
+        },
+        {
+          "word": "sticky",
+          "eng_definition": "tending to adhere or cling to surfaces",
+          "kor_definition": "끈적이는"
+        },
+        {
+          "word": "terrorizing",
+          "eng_definition": "frightening or intimidating someone",
+          "kor_definition": "공포를 주는, 테러하는"
+        },
+        {
+          "word": "squirmed",
+          "eng_definition": "twisted or wriggled movements",
+          "kor_definition": "몸부림치다, 꿈틀거리다"
+        },
+        {
+          "word": "fury",
+          "eng_definition": "extreme anger or rage",
+          "kor_definition": "격노, 분노"
+        },
+        {
+          "word": "glare",
+          "eng_definition": "a fierce or angry look",
+          "kor_definition": "노려봄, 눈길"
+        },
+        {
+          "word": "quivering",
+          "eng_definition": "shaking slightly, trembling",
+          "kor_definition": "떨림, 떨다"
+        },
+        {
+          "word": "confident",
+          "eng_definition": "feeling sure of oneself",
+          "kor_definition": "자신감 있는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Miss Trunchbull threaten to do to Matilda?",
+          "options": [
+            "Send her to the head of the class",
+            "Give her a prize",
+            "Send her to a reformatory",
+            "Promote her"
+          ],
+          "answer": "Send her to a reformatory"
+        },
+        {
+          "question": "What animal appeared in the water jug?",
+          "options": [
+            "A frog",
+            "A newt",
+            "A fish",
+            "A turtle"
+          ],
+          "answer": "A newt"
+        },
+        {
+          "question": "How did Matilda make the glass topple over?",
+          "options": [
+            "By shouting",
+            "Using her eyes' power",
+            "By pushing it",
+            "Knocking it with her hand"
+          ],
+          "answer": "Using her eyes' power"
+        },
+        {
+          "question": "What was Miss Honey's response to the Trunchbull's accusation?",
+          "options": [
+            "She agreed",
+            "She lied",
+            "She vouched for the children",
+            "She remained silent"
+          ],
+          "answer": "She vouched for the children"
+        },
+        {
+          "question": "What feeling was Matilda experiencing as she stared at the glass?",
+          "options": [
+            "Fear",
+            "Sadness",
+            "Power and energy",
+            "Confusion"
+          ],
+          "answer": "Power and energy"
+        },
+        {
+          "question": "What did the Trunchbull do after her water glass was overturned?",
+          "options": [
+            "Shot out of her chair",
+            "Kept calm",
+            "Did nothing",
+            "Laughed"
+          ],
+          "answer": "Shot out of her chair"
+        },
+        {
+          "question": "What was the classroom atmosphere after the incident?",
+          "options": [
+            "Silent and stunned",
+            "Angry",
+            "Confused",
+            "Excited"
+          ],
+          "answer": "Silent and stunned"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Miss Honey think the Trunchbull was mad?",
+          "answer": "Because she made violent and unfair threats and jokes about children."
+        },
+        {
+          "question": "How did Matilda feel when accused of spilling water?",
+          "answer": "She felt calm and confident, knowing she hadn't done it."
+        },
+        {
+          "question": "What did Matilda use to topple the glass?",
+          "answer": "The power of her eyes and her concentration."
+        },
+        {
+          "question": "Why did Lavender pick up the newt?",
+          "answer": "Because she thought it was useful and decided to keep it for later."
+        },
+        {
+          "question": "How did the class react to the incident with the glass?",
+          "answer": "They were silent and in shock, not knowing what happened."
+        },
+        {
+          "question": "What does the story tell us about Matilda's character?",
+          "answer": "She is brave, clever, and has special powers of concentration and willpower."
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "chapter_title": "The Second Miracle",
+      "vocabulary": [
+        {
+          "word": "extraordinary",
+          "eng_definition": "very unusual or remarkable",
+          "kor_definition": "매우 특이하거나 놀라운"
+        },
+        {
+          "word": "confide",
+          "eng_definition": "to tell someone secret or private things",
+          "kor_definition": "비밀이나 개인적인 것을 누군가에게 털어놓다"
+        },
+        {
+          "word": "exalted",
+          "eng_definition": "raised in status or rank; very high or noble",
+          "kor_definition": "지위나 계급이 높아진; 매우 고귀한"
+        },
+        {
+          "word": "distraught",
+          "eng_definition": "deeply upset or agitated",
+          "kor_definition": "극도로 불안하거나 동요된"
+        },
+        {
+          "word": "miracle",
+          "eng_definition": "an extraordinary event that cannot be explained by natural laws",
+          "kor_definition": "자연 법칙으로는 설명할 수 없는 놀라운 사건"
+        },
+        {
+          "word": "fancy",
+          "eng_definition": "a feeling that you want to do or have something",
+          "kor_definition": "무언가를 하고 싶거나 갖고 싶은 느낌"
+        },
+        {
+          "word": "surge",
+          "eng_definition": "a sudden powerful forward or upward movement",
+          "kor_definition": "갑작스럽고 강력한 움직임"
+        },
+        {
+          "word": "transfigured",
+          "eng_definition": "completely changed in appearance or form",
+          "kor_definition": "완전히 모습이나 형상이 바뀐"
+        },
+        {
+          "word": "astonished",
+          "eng_definition": "very surprised or amazed",
+          "kor_definition": "매우 놀라거나 경이로운"
+        },
+        {
+          "word": "gape",
+          "eng_definition": "to stare with the mouth open wide in surprise or wonder",
+          "kor_definition": "놀라거나 경이로워서 입을 크게 벌리고 보다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Matilda decide to confide in Miss Honey?",
+          "options": [
+            "Because she wanted to show her magic tricks",
+            "Because she was afraid of her parents",
+            "Because she wanted to play outside",
+            "Because she needed help understanding what happened"
+          ],
+          "answer": "Because she needed help understanding what happened"
+        },
+        {
+          "question": "What did Matilda do with her eyes during the miracle?",
+          "options": [
+            "She blinked rapidly",
+            "She looked away quickly",
+            "She closed her eyes tightly",
+            "She stared and wished the glass to topple"
+          ],
+          "answer": "She stared and wished the glass to topple"
+        },
+        {
+          "question": "How did Miss Honey react after witnessing the miracle?",
+          "options": [
+            "She was speechless and astonished",
+            "She laughed loudly",
+            "She ignored it",
+            "She scolded Matilda"
+          ],
+          "answer": "She was speechless and astonished"
+        },
+        {
+          "question": "What did Matilda ask Miss Honey at the end?",
+          "options": [
+            "To practice magic again",
+            "To go to the circus",
+            "To have tea at her cottage",
+            "To tell everyone about her power"
+          ],
+          "answer": "To have tea at her cottage"
+        },
+        {
+          "question": "What feeling did Miss Honey experience during the miracle?",
+          "options": [
+            "Anger",
+            "Curiosity",
+            "Shock and amazement",
+            "Boredom"
+          ],
+          "answer": "Shock and amazement"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Matilda think her parents wouldn't believe her story?",
+          "answer": "Because they wouldn't realize how extraordinary the event was and might dismiss it."
+        },
+        {
+          "question": "What did Matilda say about her eyes and the miracle?",
+          "answer": "She said her eyes became hot and funny, and a power came out of them, causing the glass to topple."
+        },
+        {
+          "question": "How did Miss Honey feel after witnessing the miracle?",
+          "answer": "She was astonished, speechless, and amazed at what had happened."
+        },
+        {
+          "question": "What did Matilda request at the end of the chapter?",
+          "answer": "She asked Miss Honey to come to her cottage for tea and to keep her secret."
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "chapter_title": "Miss Honeys Cottage",
+      "vocabulary": [
+        {
+          "word": "phenomenon",
+          "eng_definition": "an observable event or, more generally, something that is impressive or extraordinary.",
+          "kor_definition": "현상; 관찰할 수 있는 사건 또는 일반적으로 인상적이거나 비범한 것"
+        },
+        {
+          "word": "precocious",
+          "eng_definition": "showing advanced abilities at a young age.",
+          "kor_definition": "조숙한; 어린 나이에 뛰어난 능력을 보여주는"
+        },
+        {
+          "word": "divine",
+          "eng_definition": "relating to a god or a deity; very heavenly or excellent.",
+          "kor_definition": "신성한; 신이나 신과 관련된; 매우 천국 같은 또는 뛰어난"
+        },
+        {
+          "word": "gush",
+          "eng_definition": "to flow out suddenly and in large quantities.",
+          "kor_definition": "분출하다; 갑자기 그리고 많은 양으로 흘러나오다"
+        },
+        {
+          "word": "wilderness",
+          "eng_definition": "a wild and uncultivated region, often remote and uninhabited.",
+          "kor_definition": "광야; 벌거숭이이고 미개한 지역, 종종 외지고 사람이 살지 않는 곳"
+        },
+        {
+          "word": "tread carefully",
+          "eng_definition": "to proceed cautiously and carefully.",
+          "kor_definition": "조심해서 걷다; 조심스럽고 신중하게 진행하다"
+        },
+        {
+          "word": "stupor",
+          "eng_definition": "a state of near-unconsciousness or insensibility.",
+          "kor_definition": "혼수상태; 거의 의식을 잃거나 무감각한 상태"
+        },
+        {
+          "word": "wither",
+          "eng_definition": "to become shrunken or dried up.",
+          "kor_definition": "시들다; 수축하거나 말라죽다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Where does Miss Honey live?",
+          "options": [
+            "In a farm-labourer's cottage",
+            "In a large house in the town",
+            "In a mansion",
+            "In an apartment block"
+          ],
+          "answer": "In a farm-labourer's cottage"
+        },
+        {
+          "question": "What does Matilda feel when she uses her power?",
+          "options": [
+            "Tired",
+            "Bored",
+            "Confused",
+            "Wildly animated"
+          ],
+          "answer": "Wildly animated"
+        },
+        {
+          "question": "What is the word 'phenomenon' used to describe in the story?",
+          "options": [
+            "A strange event",
+            "A mysterious force",
+            "A scientific principle",
+            "An unexplainable thing"
+          ],
+          "answer": "An unexplainable thing"
+        },
+        {
+          "question": "What does Miss Honey compare Matilda's house to?",
+          "options": [
+            "A fairy-tale house",
+            "A castle",
+            "A modern flat",
+            "A farm shed"
+          ],
+          "answer": "A fairy-tale house"
+        },
+        {
+          "question": "What does Miss Honey think about Matilda's power?",
+          "options": [
+            "That it is a trick",
+            "That it is divine",
+            "That it is evil",
+            "That it is dangerous"
+          ],
+          "answer": "That it is divine"
+        },
+        {
+          "question": "What kind of poem does Miss Honey recite?",
+          "options": [
+            "A humorous story",
+            "A romantic poem",
+            "A humorous poem",
+            "A nursery rhyme"
+          ],
+          "answer": "A romantic poem"
+        },
+        {
+          "question": "What does Miss Honey say about her living conditions?",
+          "options": [
+            "She lives in a flat",
+            "She lives in a big house",
+            "She lives in a hotel",
+            "She lives in a cottage"
+          ],
+          "answer": "She lives in a cottage"
+        },
+        {
+          "question": "What is the primary material of the cottage's walls?",
+          "options": [
+            "Whitewash",
+            "Wood",
+            "Stone",
+            "Brick"
+          ],
+          "answer": "Whitewash"
+        },
+        {
+          "question": "What does Matilda think about the house where Miss Honey lives?",
+          "options": [
+            "It looks like a fairy-tale house",
+            "It is very luxurious",
+            "It is very large",
+            "It looks modern"
+          ],
+          "answer": "It looks like a fairy-tale house"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Miss Honey advise Matilda to tread carefully?",
+          "answer": "Because they are dealing with mysterious and potentially powerful forces that they do not understand."
+        },
+        {
+          "question": "What does the poem recited by Miss Honey evoke in Matilda?",
+          "answer": "It moves her deeply and she feels it is like music."
+        },
+        {
+          "question": "How does Matilda describe her feelings when using her power?",
+          "answer": "She feels like she is flying past the stars on silver wings."
+        },
+        {
+          "question": "Why does Matilda think her house is strange?",
+          "answer": "Because it is very small and simple, and the environment is very different from her home."
+        },
+        {
+          "question": "What does Miss Honey say about her own living situation?",
+          "answer": "She says she lives alone in a small farm-labourer's cottage and is very poor."
+        },
+        {
+          "question": "What is the significance of the poem by Dylan Thomas for Miss Honey?",
+          "answer": "It is a favorite poem that she thinks of when she walks up her path, reflecting her romantic and poetic side."
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "chapter_title": "Miss Honeys Story",
+      "vocabulary": [
+        {
+          "word": "doubted",
+          "eng_definition": "to feel uncertain about something or to think that something may not be true",
+          "kor_definition": "의심하다, 확신하지 않다"
+        },
+        {
+          "word": "rigid",
+          "eng_definition": "stiff and not able to bend easily",
+          "kor_definition": "뻣뻣한, 유연하지 않은"
+        },
+        {
+          "word": "awkwardness",
+          "eng_definition": "the state of being uncomfortable or not smooth in social situations",
+          "kor_definition": "어색함, 난처함"
+        },
+        {
+          "word": "embarrassment",
+          "eng_definition": "a feeling of self-consciousness or shame",
+          "kor_definition": "당황, 난처함"
+        },
+        {
+          "word": "cowered",
+          "eng_definition": "to crouch down in fear or shame",
+          "kor_definition": "겁이 나서 몸을 움츠리다"
+        },
+        {
+          "word": "dominated",
+          "eng_definition": "to have control over someone or something",
+          "kor_definition": "지배하다, 통제하다"
+        },
+        {
+          "word": "forgery",
+          "eng_definition": "the act of making a fake copy of something in order to deceive",
+          "kor_definition": "위조, 위조품"
+        },
+        {
+          "word": "trust",
+          "eng_definition": "belief that someone or something is reliable or good",
+          "kor_definition": "신뢰, 믿음"
+        },
+        {
+          "word": "influence",
+          "eng_definition": "the power to have an effect on people or things",
+          "kor_definition": "영향력"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Matilda doubt about Miss Honey?",
+          "options": [
+            "Her honesty",
+            "Her salary",
+            "Her teaching skills",
+            "Her living conditions"
+          ],
+          "answer": "Her living conditions"
+        },
+        {
+          "question": "How does Miss Honey describe her house?",
+          "options": [
+            "Small and fancy",
+            "Modern and new",
+            "Luxurious",
+            "Large and old"
+          ],
+          "answer": "Large and old"
+        },
+        {
+          "question": "What was Miss Honey's childhood tragedy?",
+          "options": [
+            "She moved abroad",
+            "She lost her schooling",
+            "Her father died",
+            "Her house burned down"
+          ],
+          "answer": "Her father died"
+        },
+        {
+          "question": "Who is Miss Trunchbull?",
+          "options": [
+            "Matilda's mother",
+            "Miss Honey's aunt",
+            "The head of the school",
+            "Miss Honey's sister"
+          ],
+          "answer": "Miss Honey's aunt"
+        },
+        {
+          "question": "Why did Miss Honey not go to university?",
+          "options": [
+            "She didn't want to study",
+            "She was ill",
+            "She needed to work at home",
+            "She was too shy"
+          ],
+          "answer": "She needed to work at home"
+        },
+        {
+          "question": "What did Miss Honey do to escape her aunt's control?",
+          "options": [
+            "Moved abroad",
+            "Rented a cottage",
+            "Lied to her aunt",
+            "Went to university"
+          ],
+          "answer": "Rented a cottage"
+        },
+        {
+          "question": "How did Miss Honey pay her rent?",
+          "options": [
+            "With her salary",
+            "With her savings",
+            "With money from her parents",
+            "In advance for a year"
+          ],
+          "answer": "In advance for a year"
+        },
+        {
+          "question": "What does Matilda think about Miss Honey's bravery?",
+          "options": [
+            "She is foolish",
+            "She is brave",
+            "She is scared",
+            "She is careless"
+          ],
+          "answer": "She is brave"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Miss Honey say she is a 'grown-up child'?",
+          "answer": "Because her mind and reasoning are fully developed, even though she looks like a child."
+        },
+        {
+          "question": "What was the main reason Miss Honey could not leave her aunt earlier?",
+          "answer": "She was dominated and controlled by her aunt and needed a job to be independent."
+        },
+        {
+          "question": "How did Miss Honey finally manage to rent her own house?",
+          "answer": "She went to see a farmer, convinced him to rent her a cottage, and paid the rent in advance."
+        },
+        {
+          "question": "What did Miss Honey discover about her father's will?",
+          "answer": "It was never found, and her aunt might have forged a document claiming she owned the house."
+        },
+        {
+          "question": "Why does Miss Honey refuse to give up her teaching job?",
+          "answer": "Because she loves teaching and does not want to stop doing what she enjoys."
+        },
+        {
+          "question": "What is the main problem Miss Honey faces regarding her house?",
+          "answer": "Her aunt claims ownership using a forged will, and Miss Honey cannot prove her right to the house."
+        },
+        {
+          "question": "How does Matilda feel about Miss Honey after hearing her story?",
+          "answer": "Matilda sees Miss Honey as a heroine because of her bravery and resilience."
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "chapter_title": "The Names",
+      "vocabulary": [
+        {
+          "word": "terrified",
+          "eng_definition": "Very frightened or afraid",
+          "kor_definition": "매우 무서운, 겁먹은"
+        },
+        {
+          "word": "pigtails",
+          "eng_definition": "Tied sections of hair hanging on either side of the head",
+          "kor_definition": "양쪽으로 묶은 머리카락"
+        },
+        {
+          "word": "experiment",
+          "eng_definition": "A test or trial to discover something or to see what will happen",
+          "kor_definition": "실험, 시험"
+        },
+        {
+          "word": "cautiously",
+          "eng_definition": "In a careful and alert way to avoid danger or mistakes",
+          "kor_definition": "조심스럽게"
+        },
+        {
+          "word": "sensed",
+          "eng_definition": "Detected or felt something, especially through intuition or senses",
+          "kor_definition": "느끼다, 감지하다"
+        },
+        {
+          "word": "snippet",
+          "eng_definition": "A small piece or brief extract",
+          "kor_definition": "작은 조각, 발췌"
+        },
+        {
+          "word": "authority",
+          "eng_definition": "The power or right to give orders, make decisions, and enforce obedience",
+          "kor_definition": "권위, 권한"
+        },
+        {
+          "word": "pondered",
+          "eng_definition": "Thought about something carefully and thoroughly",
+          "kor_definition": "숙고하다"
+        },
+        {
+          "word": "promised",
+          "eng_definition": "Said that one will definitely do something",
+          "kor_definition": "약속하다"
+        },
+        {
+          "word": "silly",
+          "eng_definition": "Lacking in good sense or judgment; foolish",
+          "kor_definition": "어리석은, 바보 같은"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Matilda say she wanted to do after talking with Miss Honey?",
+          "options": [
+            "Visit her parents",
+            "Tell her friends",
+            "Go to school",
+            "Go home and think"
+          ],
+          "answer": "Go home and think"
+        },
+        {
+          "question": "What name did Miss Honey say her father called her at home?",
+          "options": [
+            "Agatha",
+            "Magnus",
+            "Matilda",
+            "Jenny"
+          ],
+          "answer": "Jenny"
+        },
+        {
+          "question": "What did Miss Trunchbull do to a girl in the playground?",
+          "options": [
+            "Gave her candy",
+            "Helped her cross the street",
+            "Gave her a prize",
+            "Grabbed her pigtails and threw her over the fence"
+          ],
+          "answer": "Grabbed her pigtails and threw her over the fence"
+        },
+        {
+          "question": "How did Miss Honey describe her feelings about Matilda's questions?",
+          "options": [
+            "Confused",
+            "Annoyed",
+            "Skeptical",
+            "Surprised"
+          ],
+          "answer": "Surprised"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Miss Honey want to forget what she told Matilda?",
+          "answer": "Because she thought it might cause trouble or be dangerous to remember."
+        },
+        {
+          "question": "What did Matilda say she could do with her eyes?",
+          "answer": "She said she could move and push things."
+        },
+        {
+          "question": "What was the main reason Matilda wanted to leave early?",
+          "answer": "She wanted to go home and think about what she had heard."
+        }
+      ]
+    },
+    {
+      "chapter_number": 19,
+      "chapter_title": "The Practice",
+      "vocabulary": [
+        {
+          "word": "practice",
+          "eng_definition": "repeated exercise to improve a skill",
+          "kor_definition": "연습, 실습"
+        },
+        {
+          "word": "determine",
+          "eng_definition": "to decide or conclude after consideration",
+          "kor_definition": "결정하다, 결심하다"
+        },
+        {
+          "word": "concentrate",
+          "eng_definition": "to focus all attention on something",
+          "kor_definition": "집중하다"
+        },
+        {
+          "word": "electricity",
+          "eng_definition": "a form of energy resulting from the movement of charged particles",
+          "kor_definition": "전기"
+        },
+        {
+          "word": "power",
+          "eng_definition": "the ability to do something or act in a particular way",
+          "kor_definition": "힘, 능력"
+        },
+        {
+          "word": "exhausted",
+          "eng_definition": "very tired or drained of energy",
+          "kor_definition": "기진맥진한, 피로한"
+        },
+        {
+          "word": "lift",
+          "eng_definition": "to raise or move something to a higher position",
+          "kor_definition": "들어올리다"
+        },
+        {
+          "word": "hold",
+          "eng_definition": "to keep or carry with one's hands or arms",
+          "kor_definition": "잡다, 붙잡다"
+        },
+        {
+          "word": "ethereal",
+          "eng_definition": "extremely delicate and light in a way that seems too perfect for this world",
+          "kor_definition": "천상의, 매우 아름답고 가벼운"
+        },
+        {
+          "word": "exactly",
+          "eng_definition": "precisely or accurately",
+          "kor_definition": "정확히"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Matilda use to practice her eye-power?",
+          "options": [
+            "A magic wand",
+            "A book",
+            "A cigar",
+            "A mirror"
+          ],
+          "answer": "A cigar"
+        },
+        {
+          "question": "How long was Matilda able to hold the cigar in the air after practicing?",
+          "options": [
+            "About one minute",
+            "About ten seconds",
+            "About ten minutes",
+            "About five seconds"
+          ],
+          "answer": "About one minute"
+        },
+        {
+          "question": "What does Matilda believe she needs to do to succeed?",
+          "options": [
+            "Practice and effort",
+            "Read a book",
+            "Give up",
+            "Ask for help"
+          ],
+          "answer": "Practice and effort"
+        },
+        {
+          "question": "What does Matilda want to do with her eye-power?",
+          "options": [
+            "Sleep",
+            "Burn things",
+            "See through walls",
+            "Move objects"
+          ],
+          "answer": "Move objects"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Matilda find practicing with the cigar enjoyable?",
+          "answer": "Because she felt a sense of power and saw her eye-power working."
+        },
+        {
+          "question": "What was Matilda's main goal in her practice?",
+          "answer": "To lift the cigar into the air and move it with her eye-power."
+        },
+        {
+          "question": "How did Matilda feel after successfully lifting the cigar for about a minute?",
+          "answer": "She felt excited and proud that she could do it with her eye-power."
+        }
+      ]
+    },
+    {
+      "chapter_number": 20,
+      "chapter_title": "The Third Miracle",
+      "vocabulary": [
+        {
+          "word": "apprehensive",
+          "eng_definition": "feeling anxious or fearful about something that might happen",
+          "kor_definition": "불안하거나 두려워하는 감정"
+        },
+        {
+          "word": "boomed",
+          "eng_definition": "made a loud, deep sound",
+          "kor_definition": "크고 깊은 소리를 냈다"
+        },
+        {
+          "word": "scowling",
+          "eng_definition": "frowning or looking angry",
+          "kor_definition": "찡그리거나 화난 표정을 짓다"
+        },
+        {
+          "word": "triumphant",
+          "eng_definition": "feeling or expressing joy because of success",
+          "kor_definition": "성공해서 기쁨을 느끼거나 표현하는"
+        },
+        {
+          "word": "hovering",
+          "eng_definition": "staying in one place in the air, floating",
+          "kor_definition": "공중에 떠서 머무르는 것"
+        },
+        {
+          "word": "elated",
+          "eng_definition": "very happy or proud",
+          "kor_definition": "매우 기쁘거나 자랑스러워 하는"
+        },
+        {
+          "word": "faint",
+          "eng_definition": "to lose consciousness temporarily",
+          "kor_definition": "일시적으로 의식을 잃다"
+        },
+        {
+          "word": "prostrate",
+          "eng_definition": "lying stretched out on the ground",
+          "kor_definition": "땅에 엎드린 상태"
+        },
+        {
+          "word": "surging",
+          "eng_definition": "rushing or flowing suddenly and strongly",
+          "kor_definition": "갑자기 강하게 흐르거나 밀려오는 것"
+        },
+        {
+          "word": "dazzling",
+          "eng_definition": "shining intensely, amazing to look at",
+          "kor_definition": "눈부시게 빛나거나 놀라운 광경"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What day was the story set on?",
+          "options": [
+            "Saturday",
+            "Thursday",
+            "Monday",
+            "Sunday"
+          ],
+          "answer": "Thursday"
+        },
+        {
+          "question": "Who is the Headmistress in the story?",
+          "options": [
+            "Miss Trunchbull",
+            "Miss Jones",
+            "Miss Smith",
+            "Miss Honey"
+          ],
+          "answer": "Miss Trunchbull"
+        },
+        {
+          "question": "What did Miss Trunchbull test the children on?",
+          "options": [
+            "History",
+            "Three-times table",
+            "Reading",
+            "Spelling"
+          ],
+          "answer": "Three-times table"
+        },
+        {
+          "question": "What unusual thing happened during the lesson?",
+          "options": [
+            "The chalk moved by itself",
+            "A loud noise occurred",
+            "The lights went out",
+            "A bird flew in"
+          ],
+          "answer": "The chalk moved by itself"
+        },
+        {
+          "question": "How did Nigel try to wake Miss Trunchbull?",
+          "options": [
+            "Shaking her",
+            "Tipping water on her",
+            "Calling her",
+            "Clapping loudly"
+          ],
+          "answer": "Tipping water on her"
+        },
+        {
+          "question": "What was Matilda feeling at the end of the chapter?",
+          "options": [
+            "Confused",
+            "Sad",
+            "Elated",
+            "Angry"
+          ],
+          "answer": "Elated"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was the class feeling tense before the lesson?",
+          "answer": "Because they knew the Headmistress would test them on the three-times table and were afraid of her."
+        },
+        {
+          "question": "What did Miss Honey do after the Headmistress fainted?",
+          "answer": "She ran to help her and asked the children to go outside."
+        },
+        {
+          "question": "How did Wilfred react when asked to recite the three-times table backwards?",
+          "answer": "He said he hadn't learned it backwards and was confused."
+        },
+        {
+          "question": "What did the chalk write on the blackboard?",
+          "answer": "It wrote something that startled everyone, including the Headmistress, and then broke."
+        },
+        {
+          "question": "What special power did Matilda seem to have?",
+          "answer": "She seemed to have the ability to move objects and make the chalk write by herself."
+        }
+      ]
+    },
+    {
+      "chapter_number": 21,
+      "chapter_title": "A New Home",
+      "vocabulary": [
+        {
+          "word": "fainting-fit",
+          "eng_definition": "a temporary loss of consciousness, often caused by a sudden drop in blood pressure or shock",
+          "kor_definition": "기절, 실신"
+        },
+        {
+          "word": "vanished",
+          "eng_definition": "disappeared suddenly and completely",
+          "kor_definition": "사라졌다"
+        },
+        {
+          "word": "solicitors",
+          "eng_definition": "lawyers who offer legal advice and prepare legal documents",
+          "kor_definition": "변호사, 법률 상담사"
+        },
+        {
+          "word": "testament",
+          "eng_definition": "a legal document stating a person's wishes about their property after death",
+          "kor_definition": "유언장"
+        },
+        {
+          "word": "vanished",
+          "eng_definition": "disappeared suddenly and completely",
+          "kor_definition": "사라졌다"
+        },
+        {
+          "word": "marvelous",
+          "eng_definition": "extremely good or wonderful; astonishing",
+          "kor_definition": "놀라운, 굉장한"
+        },
+        {
+          "word": "chaos",
+          "eng_definition": "complete disorder and confusion",
+          "kor_definition": "혼란, 대혼돈"
+        },
+        {
+          "word": "tuppence",
+          "eng_definition": "a small amount of money; a penny",
+          "kor_definition": "작은 돈, 페니"
+        },
+        {
+          "word": "scurrying",
+          "eng_definition": "moving quickly with short, hurried steps",
+          "kor_definition": "서둘러 가다"
+        },
+        {
+          "word": "disappearing",
+          "eng_definition": "ceasing to be visible; vanishing",
+          "kor_definition": "사라지고 있는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What happened to the Headmistress at the beginning of the chapter?",
+          "options": [
+            "She was promoted",
+            "She recovered from fainting and left",
+            "She was transferred to another school",
+            "She went on vacation"
+          ],
+          "answer": "She recovered from fainting and left"
+        },
+        {
+          "question": "Where did Mr. Trilby find Miss Trunchbull's house?",
+          "options": [
+            "In the woods behind the hills",
+            "In the city center",
+            "Next to the school",
+            "In the neighboring village"
+          ],
+          "answer": "In the woods behind the hills"
+        },
+        {
+          "question": "What did Miss Honey receive that revealed her inheritance?",
+          "options": [
+            "A phone call",
+            "A visit from the police",
+            "A letter from a firm of solicitors",
+            "An email from her father"
+          ],
+          "answer": "A letter from a firm of solicitors"
+        },
+        {
+          "question": "Why did Miss Honey believe Matilda's power to move objects was related to frustration?",
+          "options": [
+            "Because her brain was bubbling with energy due to boredom",
+            "Because she was angry",
+            "Because she was tired",
+            "Because she had a headache"
+          ],
+          "answer": "Because her brain was bubbling with energy due to boredom"
+        },
+        {
+          "question": "What did Matilda discover about the heart rate of a mouse?",
+          "options": [
+            "It beats 100 times a second",
+            "It beats 300 times a second",
+            "It beats 650 times a second",
+            "It beats 600 times a minute"
+          ],
+          "answer": "It beats 650 times a second"
+        },
+        {
+          "question": "What was Matilda's reaction to her parents leaving for Spain?",
+          "options": [
+            "She decided to come with them",
+            "She begged to stay with Miss Honey",
+            "She was indifferent",
+            "She was happy"
+          ],
+          "answer": "She begged to stay with Miss Honey"
+        },
+        {
+          "question": "How did Miss Honey feel about Matilda's desire to stay?",
+          "options": [
+            "She said it was impossible",
+            "She was angry",
+            "She was eager to help her stay",
+            "She was unwilling"
+          ],
+          "answer": "She was eager to help her stay"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What did Mr. Trilby find when he entered Miss Trunchbull's house?",
+          "answer": "He found it empty, with all the furniture in place but no clothes, underclothes, or shoes."
+        },
+        {
+          "question": "How did Miss Honey come to learn about her inheritance?",
+          "answer": "She received a letter from solicitors informing her about her late father's will, which revealed her ownership of The Red House and his savings."
+        },
+        {
+          "question": "Why did Matilda want to stay with Miss Honey instead of going to Spain?",
+          "answer": "Because she loved her home and school, and didn't want to leave her friends and Miss Honey."
+        },
+        {
+          "question": "What did Miss Honey say about Matilda's power to move objects?",
+          "answer": "She suggested it was caused by energy built up from frustration when she couldn't make things move in class."
+        },
+        {
+          "question": "What was Miss Honey's opinion about Matilda's interest in animals' heartbeats?",
+          "answer": "She found it fascinating and thought it showed Matilda's curiosity about everything."
+        },
+        {
+          "question": "What did Matilda do at the end of the chapter when she realized her parents were leaving?",
+          "answer": "She ran to Miss Honey and begged her to let her stay, and they rushed to stop her parents from leaving."
+        }
+      ]
+    }
+  ]
+}

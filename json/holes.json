@@ -1,0 +1,5763 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-29T23:32:56",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 68682,
+    "completion_tokens": 42430,
+    "total_tokens": 111112
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "wasteland",
+          "eng_definition": "an uncultivated or desolate area of land, often barren and empty",
+          "kor_definition": "황무지, 척박한 땅"
+        },
+        {
+          "word": "shriveled",
+          "eng_definition": "dried up and wrinkled, often due to lack of moisture",
+          "kor_definition": "쭈글쭈글한, 주름진"
+        },
+        {
+          "word": "hover",
+          "eng_definition": "to remain suspended in the air or stay close to a certain point",
+          "kor_definition": "머무르다, 맴돌다"
+        },
+        {
+          "word": "forbidden",
+          "eng_definition": "not allowed; prohibited",
+          "kor_definition": "금지된"
+        },
+        {
+          "word": "shade",
+          "eng_definition": "an area sheltered from direct sunlight",
+          "kor_definition": "그늘"
+        },
+        {
+          "word": "rattlesnake",
+          "eng_definition": "a venomous snake known for its rattle at the end of its tail",
+          "kor_definition": "방울뱀"
+        },
+        {
+          "word": "scorpion",
+          "eng_definition": "a predatory arachnid with a long segmented tail and pincers",
+          "kor_definition": "전갈"
+        },
+        {
+          "word": "bother",
+          "eng_definition": "to disturb or annoy",
+          "kor_definition": "귀찮게 하다, 괴롭히다"
+        },
+        {
+          "word": "death",
+          "eng_definition": "the end of life",
+          "kor_definition": "죽음"
+        },
+        {
+          "word": "recovering",
+          "eng_definition": "returning to health after illness or injury",
+          "kor_definition": "회복하는 중인"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the main reason the lake at Camp Green Lake has dried up?",
+          "options": [
+            "D) Construction",
+            "C) Flooding",
+            "A) A drought",
+            "B) Overfishing"
+          ],
+          "answer": "A) A drought"
+        },
+        {
+          "question": "Why are campers forbidden from lying in the hammock?",
+          "options": [
+            "D) It is reserved for visitors",
+            "B) It is broken",
+            "C) It is too high",
+            "A) It belongs to the Warden"
+          ],
+          "answer": "A) It belongs to the Warden"
+        },
+        {
+          "question": "What is considered the most dangerous thing that can happen to a camper?",
+          "options": [
+            "D) Falling into the lake",
+            "A) Being bitten by a rattlesnake",
+            "C) Being bitten by a yellow-spotted lizard",
+            "B) Getting lost"
+          ],
+          "answer": "C) Being bitten by a yellow-spotted lizard"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why is the lake described as a wasteland now?",
+          "answer": "Because the large lake dried up over a hundred years ago, leaving only a dry, flat area."
+        },
+        {
+          "question": "What should you do if bitten by a yellow-spotted lizard?",
+          "answer": "There is nothing you can do; it is a deadly bite, and you will die."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "camp",
+          "eng_definition": "a place where children or young people stay for a period of time for recreation or education",
+          "kor_definition": "캠프, 야영장"
+        },
+        {
+          "word": "dig",
+          "eng_definition": "to break up and move earth with a tool such as a shovel",
+          "kor_definition": "파다, 파기"
+        },
+        {
+          "word": "choice",
+          "eng_definition": "the act of selecting among options",
+          "kor_definition": "선택, 선택권"
+        },
+        {
+          "word": "judge",
+          "eng_definition": "a person who makes decisions in a court of law",
+          "kor_definition": "판사"
+        },
+        {
+          "word": "poor",
+          "eng_definition": "having little money or few possessions",
+          "kor_definition": "가난한"
+        },
+        {
+          "word": "hot",
+          "eng_definition": "having a high temperature",
+          "kor_definition": "더운, 뜨거운"
+        },
+        {
+          "word": "bad boys",
+          "eng_definition": "children who behave badly or break rules",
+          "kor_definition": "나쁜 소년들"
+        },
+        {
+          "word": "turn into",
+          "eng_definition": "to become something different",
+          "kor_definition": "변하다, ~으로 바뀌다"
+        },
+        {
+          "word": "before",
+          "eng_definition": "earlier than a particular time",
+          "kor_definition": "이전에, 앞에"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why was Stanley Yelnats given a choice?",
+          "options": [
+            "He could go to camp or to jail",
+            "He could choose a new family",
+            "He could stay at home",
+            "He was asked to go to school"
+          ],
+          "answer": "He could go to camp or to jail"
+        },
+        {
+          "question": "What is Camp Green Lake known for?",
+          "options": [
+            "A camp for good boys",
+            "A fun vacation spot",
+            "A camp for bad boys",
+            "A school for students"
+          ],
+          "answer": "A camp for bad boys"
+        }
+      ],
+      "short_answer": {
+        "question": "Why do some people believe that digging holes at Camp Green Lake would turn bad boys into good boys?",
+        "answer": "Because they think that working hard in the hot sun will help them learn discipline and become better."
+      }
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "guard",
+          "eng_definition": "a person who protects or watches over something or someone",
+          "kor_definition": "경비원, 감시원"
+        },
+        {
+          "word": "handcuffed",
+          "eng_definition": "restrained with metal cuffs around the wrists",
+          "kor_definition": "수갑이 채워진"
+        },
+        {
+          "word": "stationery",
+          "eng_definition": "materials for writing or office use, such as paper, pens, and pencils",
+          "kor_definition": "문구류"
+        },
+        {
+          "word": "pretend",
+          "eng_definition": "to behave as if something is true when it is not",
+          "kor_definition": "가장하다, 꾸미다"
+        },
+        {
+          "word": "curse",
+          "eng_definition": "a word or phrase spoken to bring harm or bad luck",
+          "kor_definition": "저주"
+        },
+        {
+          "word": "fortune",
+          "eng_definition": "a large amount of money or wealth",
+          "kor_definition": "재산, 큰 돈"
+        },
+        {
+          "word": "inventor",
+          "eng_definition": "a person who creates new devices or ideas",
+          "kor_definition": "발명가"
+        },
+        {
+          "word": "desert",
+          "eng_definition": "a dry, barren area of land with little or no rainfall",
+          "kor_definition": "사막"
+        },
+        {
+          "word": "robbed",
+          "eng_definition": "to have taken something illegally from someone",
+          "kor_definition": "강탈당한, 약탈당한"
+        },
+        {
+          "word": "paved",
+          "eng_definition": "covered with a hard surface, like asphalt or concrete",
+          "kor_definition": "포장된"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the guard sitting with when Stanley looked at him?",
+          "options": [
+            "A cup of coffee",
+            "A book in his hands",
+            "A rifle across his lap",
+            "A radio"
+          ],
+          "answer": "A rifle across his lap"
+        },
+        {
+          "question": "Why was Stanley arrested?",
+          "options": [
+            "Because he broke a window",
+            "Because he ran away from camp",
+            "Because he was in the wrong place at the wrong time",
+            "Because he stole a pig"
+          ],
+          "answer": "Because he was in the wrong place at the wrong time"
+        },
+        {
+          "question": "What does Stanley's father like to say about failure?",
+          "options": [
+            "Failure is never acceptable",
+            "I learn from failure",
+            "Failure is a sign of weakness",
+            "Failure is the end"
+          ],
+          "answer": "I learn from failure"
+        },
+        {
+          "question": "Who is Kissin' Kate Barlow?",
+          "options": [
+            "A teacher",
+            "An outlaw who robbed Stanley's great-grandfather",
+            "A school principal",
+            "A singer"
+          ],
+          "answer": "An outlaw who robbed Stanley's great-grandfather"
+        },
+        {
+          "question": "What was Stanley's family trying to invent?",
+          "options": [
+            "A new video game",
+            "A new kind of bike",
+            "A way to recycle old sneakers",
+            "A flying car"
+          ],
+          "answer": "A way to recycle old sneakers"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley's family blame his great-great-grandfather?",
+          "answer": "Because he supposedly stole a pig and was cursed, leading to bad luck for the family."
+        },
+        {
+          "question": "What was Stanley's favorite part of his father's song?",
+          "answer": "When his father howled the word 'moon.'"
+        },
+        {
+          "question": "What does Stanley think about the curse in his family?",
+          "answer": "They don't believe in curses, but sometimes blame it when bad things happen."
+        },
+        {
+          "question": "What is the setting when the bus stops at the end of the chapter?",
+          "answer": "Camp Green Lake, which is not green and has no lake."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "dazed",
+          "eng_definition": "confused or stunned",
+          "kor_definition": "어리둥절한, 멍한"
+        },
+        {
+          "word": "handcuffs",
+          "eng_definition": "metal restraints for your wrists",
+          "kor_definition": "수갑"
+        },
+        {
+          "word": "barren",
+          "eng_definition": "empty and not producing anything",
+          "kor_definition": "불모의, 메마른"
+        },
+        {
+          "word": "desolate",
+          "eng_definition": "deserted and lonely",
+          "kor_definition": "황량한, 인적이 끊긴"
+        },
+        {
+          "word": "juvenile",
+          "eng_definition": "related to young people or minors",
+          "kor_definition": "청소년의, 미성년자의"
+        },
+        {
+          "word": "sign",
+          "eng_definition": "a notice or message written or printed",
+          "kor_definition": "표지판, 징후"
+        },
+        {
+          "word": "sacrifice",
+          "eng_definition": "to give up something for a greater good",
+          "kor_definition": "희생하다"
+        },
+        {
+          "word": "measuring stick",
+          "eng_definition": "a tool used to measure length",
+          "kor_definition": "측정용 막대기"
+        },
+        {
+          "word": "wastepaper basket",
+          "eng_definition": "a container for trash paper",
+          "kor_definition": "휴지통"
+        },
+        {
+          "word": "holster",
+          "eng_definition": "a case for carrying a gun",
+          "kor_definition": "권총집"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Stanley feel as he gets off the bus?",
+          "options": [
+            "Dazed",
+            "Angry",
+            "Happy",
+            "Excited"
+          ],
+          "answer": "Dazed"
+        },
+        {
+          "question": "What are the only plants near the camp?",
+          "options": [
+            "Two tall trees",
+            "Grass",
+            "Flowers",
+            "Weeds"
+          ],
+          "answer": "Two tall trees"
+        },
+        {
+          "question": "What must Stanley do each day at Camp Green Lake?",
+          "options": [
+            "Dig a hole",
+            "Run",
+            "Clean",
+            "Paint"
+          ],
+          "answer": "Dig a hole"
+        },
+        {
+          "question": "What is the purpose of the fence around the camp?",
+          "options": [
+            "There is no fence",
+            "To protect from weather",
+            "To keep kids in",
+            "To keep animals out"
+          ],
+          "answer": "There is no fence"
+        },
+        {
+          "question": "What is Mr. Sir's warning about running away?",
+          "options": [
+            "You will be shot",
+            "You will be caught",
+            "You will be buzzard food",
+            "You will be punished"
+          ],
+          "answer": "You will be buzzard food"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Mr. Sir say they start work early?",
+          "answer": "To avoid the hottest part of the day."
+        },
+        {
+          "question": "What does Stanley have to wear in camp?",
+          "answer": "An orange jumpsuit, T-shirt, socks, sneakers, and a cap."
+        },
+        {
+          "question": "What does Mr. Sir say about the water at the camp?",
+          "answer": "It's the only water for a hundred miles."
+        },
+        {
+          "question": "What must Stanley do if he finds something interesting while digging?",
+          "answer": "Report it to Mr. Sir or a counselor."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "tent",
+          "eng_definition": "a portable shelter made of fabric supported by poles",
+          "kor_definition": "텐트, 천막"
+        },
+        {
+          "word": "counselor",
+          "eng_definition": "a person who gives guidance and advice, especially in a camp setting",
+          "kor_definition": "상담원, 지도자"
+        },
+        {
+          "word": "shaved",
+          "eng_definition": "cut hair very close to the scalp",
+          "kor_definition": "밀어서 깎아낸, 면도한"
+        },
+        {
+          "word": "mistakes",
+          "eng_definition": "actions or decisions that are wrong or incorrect",
+          "kor_definition": "실수"
+        },
+        {
+          "word": "nicknames",
+          "eng_definition": "familiar or humorous names given instead of real names",
+          "kor_definition": "별명"
+        },
+        {
+          "word": "crate",
+          "eng_definition": "a large container used for storing or transporting items",
+          "kor_definition": "상자"
+        },
+        {
+          "word": "playfully",
+          "eng_definition": "done in a joking or teasing manner",
+          "kor_definition": "장난스럽게"
+        },
+        {
+          "word": "spigot",
+          "eng_definition": "a faucet or tap for controlling the flow of water",
+          "kor_definition": "수도꼭지"
+        },
+        {
+          "word": "terrified",
+          "eng_definition": "feeling extreme fear",
+          "kor_definition": "겁에 질린"
+        },
+        {
+          "word": "respect",
+          "eng_definition": "a feeling of admiration and high regard for someone",
+          "kor_definition": "존경"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was painted on each of the six tents?",
+          "options": [
+            "Letters A to F",
+            "Numbers 1 to 6",
+            "Animals",
+            "Colors"
+          ],
+          "answer": "Letters A to F"
+        },
+        {
+          "question": "Who was Stanley's counselor?",
+          "options": [
+            "Mr. Pendantski",
+            "Mr. Sir",
+            "Mr. Smith",
+            "Mr. Pendanski"
+          ],
+          "answer": "Mr. Pendanski"
+        },
+        {
+          "question": "What nickname did X-Ray give himself?",
+          "options": [
+            "X-Ray",
+            "Zigzag",
+            "Magnet",
+            "Squid"
+          ],
+          "answer": "X-Ray"
+        },
+        {
+          "question": "Why was Zero called Zero?",
+          "options": [
+            "Because he was the last to arrive",
+            "Because he was the smallest",
+            "Because he had nothing inside his head",
+            "Because he had no name"
+          ],
+          "answer": "Because he had nothing inside his head"
+        },
+        {
+          "question": "What did Theodore call himself?",
+          "options": [
+            "Mom",
+            "Theodore",
+            "Zero",
+            "Armpit"
+          ],
+          "answer": "Armpit"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Where was Stanley assigned to sleep?",
+          "answer": "In the cot that had been used by someone named Barf Bag."
+        },
+        {
+          "question": "What is the only rule at Camp Green Lake?",
+          "answer": "Don't upset the Warden."
+        },
+        {
+          "question": "How did Mr. Pendanski describe himself when talking to Stanley?",
+          "answer": "He said he was called Mom and that he prefers to use the names given by their parents."
+        },
+        {
+          "question": "What did Theodore do that made others complain about their 'home'?",
+          "answer": "He spat a thin line of saliva between his teeth."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "scarcity",
+          "eng_definition": "a state of being in short supply; shortage",
+          "kor_definition": "부족, 결핍"
+        },
+        {
+          "word": "automatic",
+          "eng_definition": "working by itself with little or no human control",
+          "kor_definition": "자동의, 자동 작동의"
+        },
+        {
+          "word": "suds",
+          "eng_definition": "a mass of bubbles formed in soap and water",
+          "kor_definition": "비누 거품"
+        },
+        {
+          "word": "testify",
+          "eng_definition": "to give evidence as a witness in a court of law",
+          "kor_definition": "증언하다"
+        },
+        {
+          "word": "desspicable",
+          "eng_definition": "deserving hatred or contempt; very bad",
+          "kor_definition": "비열한, 비참한"
+        },
+        {
+          "word": "invention",
+          "eng_definition": "the action of inventing something, typically a process or device",
+          "kor_definition": "발명, 창안"
+        },
+        {
+          "word": "coincidence",
+          "eng_definition": "a remarkable concurrence of events without apparent causal connection",
+          "kor_definition": "우연의 일치"
+        },
+        {
+          "word": "humiliating",
+          "eng_definition": "causing a person to feel ashamed or foolish",
+          "kor_definition": "굴욕감을 주는"
+        },
+        {
+          "word": "auctioned",
+          "eng_definition": "sold to the highest bidder at an auction",
+          "kor_definition": "경매에 부쳐진"
+        },
+        {
+          "word": "dispicable",
+          "eng_definition": "deserving to be despised or hated",
+          "kor_definition": "비열한, 혐오스러운"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why was Stanley only allowed a four-minute shower?",
+          "options": [
+            "Because the shower was broken",
+            "Because he was in a hurry",
+            "Because of the scarcity of water",
+            "Because there was plenty of water"
+          ],
+          "answer": "Because of the scarcity of water"
+        },
+        {
+          "question": "Whose sneakers did Stanley steal?",
+          "options": [
+            "Derrick Dunne's",
+            "His own",
+            "Clyde Livingston's",
+            "A random person's"
+          ],
+          "answer": "Clyde Livingston's"
+        },
+        {
+          "question": "What was Clyde Livingston famous for?",
+          "options": [
+            "Being a singer",
+            "Being a teacher",
+            "Being a baseball player",
+            "Being a movie star"
+          ],
+          "answer": "Being a baseball player"
+        },
+        {
+          "question": "What did Clyde Livingston donate his sneakers for?",
+          "options": [
+            "To himself",
+            "To help raise money for the homeless shelter",
+            "To a school",
+            "To a museum"
+          ],
+          "answer": "To help raise money for the homeless shelter"
+        },
+        {
+          "question": "What did the judge suggest as a punishment for Stanley?",
+          "options": [
+            "Jail",
+            "Camp Green Lake",
+            "Community service",
+            "Detention at school"
+          ],
+          "answer": "Camp Green Lake"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley think the sneakers falling from the sky was a sign?",
+          "answer": "Because his father was trying to recycle old sneakers and they fell unexpectedly, seeming like a gift from God."
+        },
+        {
+          "question": "What was Stanley's feeling about meeting Clyde Livingston?",
+          "answer": "He was excited because Clyde was his hero and a famous baseball player."
+        },
+        {
+          "question": "Why did the police arrest Stanley?",
+          "answer": "Because the sneakers had been stolen from the homeless shelter and Stanley was found with them."
+        },
+        {
+          "question": "What did the judge say about Stanley's crime?",
+          "answer": "That it was despicable because he stole shoes worth over five thousand dollars meant to help the homeless."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "shovel",
+          "eng_definition": "A tool with a broad blade and a handle, used for digging or moving earth.",
+          "kor_definition": "삽; 흙을 파거나 옮기는 데 쓰는 도구."
+        },
+        {
+          "word": "vibrations",
+          "eng_definition": "Rapid back-and-forth movements that cause a shaking or trembling sensation.",
+          "kor_definition": "진동; 빠른 앞뒤 움직임으로 인해 흔들리거나 떨리는 현상."
+        },
+        {
+          "word": "defective",
+          "eng_definition": "Having a fault or flaw that makes it not work properly.",
+          "kor_definition": "결함이 있는; 제대로 작동하지 않는 결점이 있는."
+        },
+        {
+          "word": "mound",
+          "eng_definition": "A rounded mass or pile of earth or other material.",
+          "kor_definition": "둥근 언덕; 흙이나 다른 재료로 만들어진 작은 언덕이나 더미."
+        },
+        {
+          "word": "crust",
+          "eng_definition": "A hardened outer layer, especially on the surface of earth or bread.",
+          "kor_definition": "껍질; 특히 흙 또는 빵 표면에 형성된 딱딱한 겉껍질."
+        },
+        {
+          "word": "blister",
+          "eng_definition": "A small bubble on the skin filled with fluid, caused by friction or burn.",
+          "kor_definition": "물집; 마찰이나 화상으로 인해 피부에 생긴 작은 액체가 찬 구슬."
+        },
+        {
+          "word": "curled",
+          "eng_definition": "Rolled or twisted into a spiral or ring shape.",
+          "kor_definition": "말린; 나선이나 원형으로 말리거나 꼬인 상태."
+        },
+        {
+          "word": "loose",
+          "eng_definition": "Not firmly fixed in place; able to move freely.",
+          "kor_definition": "느슨한; 단단히 고정되지 않은, 움직일 수 있는."
+        },
+        {
+          "word": "descendants",
+          "eng_definition": "People who are related to a particular ancestor; future generations.",
+          "kor_definition": "후손; 어떤 조상과 혈연관계에 있는 사람들 또는 다음 세대."
+        },
+        {
+          "word": "extravagant",
+          "eng_definition": "Excessive or unnecessary; going beyond what is reasonable.",
+          "kor_definition": "사치스러운; 과하거나 불필요한, 이성적인 범위를 넘는."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What tool is primarily used by Stanley in Chapter 7?",
+          "options": [
+            "A shovel",
+            "A hoe",
+            "A pickaxe",
+            "A hammer"
+          ],
+          "answer": "A shovel"
+        },
+        {
+          "question": "What causes vibrations in the shovel according to the chapter?",
+          "options": [
+            "The vibrations running up the shaft",
+            "The shovel breaking",
+            "The handle hitting a rock",
+            "The ground shaking"
+          ],
+          "answer": "The vibrations running up the shaft"
+        },
+        {
+          "question": "Why does X-Ray want the shortest shovel?",
+          "options": [
+            "Because it is lighter",
+            "To dig faster",
+            "To make his hole deeper",
+            "Because he claims it is shorter"
+          ],
+          "answer": "Because he claims it is shorter"
+        },
+        {
+          "question": "What are the boys digging for?",
+          "options": [
+            "Treasure",
+            "Rocks",
+            "Gold",
+            "Character building"
+          ],
+          "answer": "Character building"
+        },
+        {
+          "question": "What does Madame Zeroni advise Elya to do?",
+          "options": [
+            "Go to America",
+            "Carry her pig up the mountain",
+            "Marry Myra",
+            "Sell his pig"
+          ],
+          "answer": "Go to America"
+        },
+        {
+          "question": "What must Elya do to break the curse, according to Madame Zeroni?",
+          "options": [
+            "Find her son in America",
+            "Carry her up the mountain and sing",
+            "Plant a tree",
+            "Marry Myra"
+          ],
+          "answer": "Carry her up the mountain and sing"
+        },
+        {
+          "question": "How does Stanley feel about his first hole?",
+          "options": [
+            "Indifferent",
+            "Proud",
+            "Happy",
+            "Disappointed"
+          ],
+          "answer": "Disappointed"
+        },
+        {
+          "question": "What does Stanley notice about the dirt piles?",
+          "options": [
+            "They are too far away",
+            "They are too small",
+            "They are too deep",
+            "They are outside his circle"
+          ],
+          "answer": "They are outside his circle"
+        },
+        {
+          "question": "What does Elya name his son?",
+          "options": [
+            "Myra",
+            "Elya",
+            "Stanley",
+            "Zeroni"
+          ],
+          "answer": "Stanley"
+        },
+        {
+          "question": "Why does Elya decide to go to America?",
+          "options": [
+            "To find Madame Zeroni's son",
+            "To escape the curse",
+            "To work as a deck hand",
+            "To get married"
+          ],
+          "answer": "To escape the curse"
+        },
+        {
+          "question": "What does Myra's father ask her to do when choosing a husband?",
+          "options": [
+            "Choose the smartest",
+            "Choose based on a guess",
+            "Choose the richest",
+            "Choose based on weight of pigs"
+          ],
+          "answer": "Choose based on a guess"
+        },
+        {
+          "question": "What does Stanley do when he cannot lift himself out of the hole?",
+          "options": [
+            "Calls for help",
+            "Lies down",
+            "Starts crying",
+            "Uses his shovel to make footholds"
+          ],
+          "answer": "Uses his shovel to make footholds"
+        },
+        {
+          "question": "How does Stanley feel after finishing his hole?",
+          "options": [
+            "Indifferent",
+            "Angry",
+            "Proud",
+            "Tired"
+          ],
+          "answer": "Proud"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What is the purpose of digging in the story?",
+          "answer": "To build character."
+        },
+        {
+          "question": "Who is Madame Zeroni?",
+          "answer": "An old Egyptian woman who helps Elya and gives him advice."
+        },
+        {
+          "question": "What does Elya carry up the mountain for Myra?",
+          "answer": "A piglet."
+        },
+        {
+          "question": "Why does Elya decide to go to America?",
+          "answer": "To escape the curse and find a better future."
+        },
+        {
+          "question": "What does Madame Zeroni tell Elya about the curse?",
+          "answer": "That if he fails to carry her up the mountain and sing to her, his descendants will be doomed."
+        },
+        {
+          "question": "What does Stanley think about his first hole?",
+          "answer": "He is disappointed but proud that he dug it."
+        },
+        {
+          "question": "How does Stanley improve his digging technique?",
+          "answer": "He realizes his shovel fits in his hole and uses it to make footholds."
+        },
+        {
+          "question": "What is significant about Myra's decision on her birthday?",
+          "answer": "She decides whom to marry based on a number guess."
+        },
+        {
+          "question": "How does Elya's pig grow over time?",
+          "answer": "It gets fatter, and he gets stronger."
+        },
+        {
+          "question": "What does Elya promise Madame Zeroni?",
+          "answer": "To carry her up the mountain and sing to her."
+        },
+        {
+          "question": "What does Myra’s father think of the pigs?",
+          "answer": "They are the finest pigs he has ever seen."
+        },
+        {
+          "question": "What is Elya’s reason for feeling guilty later in the story?",
+          "answer": "He remembers he promised to carry Madame Zeroni but didn't."
+        },
+        {
+          "question": "How does Stanley feel after completing his hole?",
+          "answer": "He feels proud despite the small size."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "curses",
+          "eng_definition": "magic words or spells believed to bring bad luck or harm",
+          "kor_definition": "저주, 마법의 주문"
+        },
+        {
+          "word": "spots",
+          "eng_definition": "small, round marks or patches of color",
+          "kor_definition": "반점, 점"
+        },
+        {
+          "word": "leap",
+          "eng_definition": "to jump or spring a long way, to a great height, or with great force",
+          "kor_definition": "뛰다, 도약하다"
+        },
+        {
+          "word": "prey",
+          "eng_definition": "an animal hunted or caught for food",
+          "kor_definition": "먹이, 희생자"
+        },
+        {
+          "word": "protection",
+          "eng_definition": "the act of keeping someone or something safe from harm",
+          "kor_definition": "보호, 방어"
+        },
+        {
+          "word": "territory",
+          "eng_definition": "an area of land under the control of a particular animal or group",
+          "kor_definition": "영토, 영역"
+        },
+        {
+          "word": "attack",
+          "eng_definition": "to try to hurt or harm someone or something",
+          "kor_definition": "공격하다"
+        },
+        {
+          "word": "dangerous",
+          "eng_definition": "able or likely to cause harm or injury",
+          "kor_definition": "위험한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What do yellow-spotted lizards primarily eat?",
+          "options": [
+            "Large mammals",
+            "Small animals, insects, cactus thorns, and sunflower seed shells",
+            "Fish",
+            "Fruits and vegetables"
+          ],
+          "answer": "Small animals, insects, cactus thorns, and sunflower seed shells"
+        },
+        {
+          "question": "According to the text, why do yellow-spotted lizards live in holes?",
+          "options": [
+            "To find water",
+            "To stay warm",
+            "To get shade and protection from birds",
+            "To hide from humans"
+          ],
+          "answer": "To get shade and protection from birds"
+        }
+      ],
+      "short_answer": {
+        "question": "Why is it dangerous to get close to a yellow-spotted lizard?",
+        "answer": "Because its bite can be deadly, and it has dangerous features like black teeth and a milky white tongue."
+      }
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "evaporated",
+          "eng_definition": "turned into vapor and gone into the air",
+          "kor_definition": "증발된, 수증기로 변하여 사라진"
+        },
+        {
+          "word": "sprawled",
+          "eng_definition": "sit or lie with arms and legs spread out",
+          "kor_definition": "팔다리를 벌리고 앉거나 누운 상태"
+        },
+        {
+          "word": "initials",
+          "eng_definition": "the first letters of a person's name or a group",
+          "kor_definition": "이니셜, 이름이나 그룹의 첫 글자"
+        },
+        {
+          "word": "tore",
+          "eng_definition": "ripped or cut apart forcibly",
+          "kor_definition": "찢어진, 강제로 뜯어진"
+        },
+        {
+          "word": "radiated",
+          "eng_definition": "emitted energy or heat in rays or waves",
+          "kor_definition": "방사된, 빛이나 열을 방출하는"
+        },
+        {
+          "word": "wrecked",
+          "eng_definition": "damaged or destroyed completely",
+          "kor_definition": "파손된, 완전히 망가진"
+        },
+        {
+          "word": "leather",
+          "eng_definition": "material made from animal hide, used for furniture and clothing",
+          "kor_definition": "가죽, 동물 가죽으로 만든 재료"
+        },
+        {
+          "word": "serious",
+          "eng_definition": "thoughtful or worried; not joking",
+          "kor_definition": "진지한, 농담이 아닌"
+        },
+        {
+          "word": "commercial",
+          "eng_definition": "an advertisement on TV, radio, or the internet",
+          "kor_definition": "광고, 텔레비전, 라디오 또는 인터넷에서의 광고"
+        },
+        {
+          "word": "shrugged",
+          "eng_definition": "raised and lowered shoulders to show uncertainty or indifference",
+          "kor_definition": "어깨를 으쓱하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Stanley do after his shower?",
+          "options": [
+            "He eats dinner",
+            "He writes a letter",
+            "He goes to bed",
+            "He puts on his orange clothes"
+          ],
+          "answer": "He puts on his orange clothes"
+        },
+        {
+          "question": "What is broken in the wreck room?",
+          "options": [
+            "The walls",
+            "The TV, pinball machine, and furniture",
+            "The floor",
+            "The ceiling"
+          ],
+          "answer": "The TV, pinball machine, and furniture"
+        },
+        {
+          "question": "Who warns Stanley about the Caveman?",
+          "options": [
+            "Zero",
+            "X-Ray",
+            "Armpit",
+            "Squid"
+          ],
+          "answer": "X-Ray"
+        },
+        {
+          "question": "What does X-Ray say about digging holes?",
+          "options": [
+            "The fun is gone",
+            "It's easy",
+            "It's the best part of camp",
+            "It's boring"
+          ],
+          "answer": "The fun is gone"
+        },
+        {
+          "question": "What brand of shoes did Zero ask about?",
+          "options": [
+            "Adidas",
+            "Nike",
+            "Brand X",
+            "Reebok"
+          ],
+          "answer": "Brand X"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why didn't Stanley use soap during his shower?",
+          "answer": "He was too tired."
+        },
+        {
+          "question": "What did Stanley write a letter about?",
+          "answer": "He wrote about his first day at camp and that he made some friends."
+        },
+        {
+          "question": "How does Zero seem to feel when reading over Stanley’s letter?",
+          "answer": "He looks serious and almost angry."
+        },
+        {
+          "question": "What is the significance of the name 'Caveman' in the story?",
+          "answer": "It refers to Stanley's nickname and identity in the camp, symbolizing strength and toughness."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "ache",
+          "eng_definition": "a continuous pain or discomfort in a part of the body",
+          "kor_definition": "통증, 아픔"
+        },
+        {
+          "word": "shovel",
+          "eng_definition": "a tool with a broad blade and a handle, used for digging or moving material",
+          "kor_definition": "삽"
+        },
+        {
+          "word": "fossil",
+          "eng_definition": "the preserved remains or impression of a prehistoric organism",
+          "kor_definition": "화석"
+        },
+        {
+          "word": "burned",
+          "eng_definition": "damaged or injured by fire or heat",
+          "kor_definition": "타거나 화상을 입은"
+        },
+        {
+          "word": "peaked",
+          "eng_definition": "to appear at the top or apex of something",
+          "kor_definition": "꼭대기에 있거나 나타나다"
+        },
+        {
+          "word": "loosen",
+          "eng_definition": "to make or become less tight",
+          "kor_definition": "느슨하게 하다"
+        },
+        {
+          "word": "arced",
+          "eng_definition": "moved in a curved line or shape",
+          "kor_definition": "호를 그리며 움직이다"
+        },
+        {
+          "word": "bulge",
+          "eng_definition": "a swelling or protrusion",
+          "kor_definition": "부풀어 오른 부분"
+        },
+        {
+          "word": "lineup",
+          "eng_definition": "a line of people or things arranged in order",
+          "kor_definition": "줄, 차례"
+        },
+        {
+          "word": "interesting",
+          "eng_definition": "holding one's attention or curiosity",
+          "kor_definition": "흥미로운"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley find in the rock?",
+          "options": [
+            "A fossilized plant",
+            "A fish fossil",
+            "A shell",
+            "A piece of metal"
+          ],
+          "answer": "A fish fossil"
+        },
+        {
+          "question": "Why did Stanley want to hide his fossil?",
+          "options": [
+            "He was afraid others would take it",
+            "He was not interested in fossils",
+            "He thought it was worthless",
+            "He wanted to show everyone"
+          ],
+          "answer": "He was afraid others would take it"
+        },
+        {
+          "question": "What does Stanley think the area around him used to be?",
+          "options": [
+            "A desert",
+            "A forest",
+            "A city",
+            "A lake"
+          ],
+          "answer": "A lake"
+        },
+        {
+          "question": "What does Mr. Pendanski say about the fossil?",
+          "options": [
+            "He will give Stanley the day off",
+            "He wants to keep it",
+            "The Warden isn't interested",
+            "He is very interested"
+          ],
+          "answer": "The Warden isn't interested"
+        },
+        {
+          "question": "Who is always at the front of the line when getting water?",
+          "options": [
+            "Zigzag",
+            "Magnet",
+            "Armpit",
+            "X-Ray"
+          ],
+          "answer": "X-Ray"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Stanley's body aching in the morning?",
+          "answer": "Because he was digging holes under the hot sun, which made his muscles sore."
+        },
+        {
+          "question": "How did Stanley protect his hands while digging?",
+          "answer": "He used his cap to shield his hands from the sun and pain."
+        },
+        {
+          "question": "What did Stanley find next to his cap?",
+          "answer": "A flat rock with a fish fossil in it."
+        },
+        {
+          "question": "Why did Stanley toss the fossil face down into the dirt?",
+          "answer": "He wanted to hide its value and prevent others from taking it."
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "fossil",
+          "eng_definition": "the preserved remains or impression of a prehistoric organism",
+          "kor_definition": "화석, 선사 시대의 생물 흔적"
+        },
+        {
+          "word": "pried",
+          "eng_definition": "to force something open or apart",
+          "kor_definition": "열기 위해 힘껏 비틀다, 뜯다"
+        },
+        {
+          "word": "leader",
+          "eng_definition": "a person who leads or commands a group",
+          "kor_definition": "리더, 지도자"
+        },
+        {
+          "word": "surprising",
+          "eng_definition": "causing wonder or astonishment",
+          "kor_definition": "놀라운, 뜻밖의"
+        },
+        {
+          "word": "toughest",
+          "eng_definition": "most strong or resilient",
+          "kor_definition": "가장 강한, 가장 힘든"
+        },
+        {
+          "word": "remarkable",
+          "eng_definition": "worthy of attention; extraordinary",
+          "kor_definition": "주목할 만한, 놀라운"
+        },
+        {
+          "word": "suffering",
+          "eng_definition": "the state of undergoing pain or distress",
+          "kor_definition": "고통, 고뇌"
+        },
+        {
+          "word": "collar",
+          "eng_definition": "a band around the neck of an animal or person",
+          "kor_definition": "목걸이, 칼라"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does X-Ray say his name means in pig latin?",
+          "options": [
+            "C) Rexx",
+            "B) Rexy",
+            "A) Rex",
+            "D) Rexer"
+          ],
+          "answer": "A) Rex"
+        },
+        {
+          "question": "Why does Stanley think X-Ray is the leader of the group?",
+          "options": [
+            "B) Because he is the smartest",
+            "A) Because he is the biggest",
+            "C) Because the others listen to him",
+            "D) Because he found the most fossils"
+          ],
+          "answer": "C) Because the others listen to him"
+        },
+        {
+          "question": "What does Stanley think about finding something interesting while digging?",
+          "options": [
+            "A) He expects to find something valuable",
+            "C) He is confident he will find a fossil",
+            "D) He wants to find a treasure",
+            "B) He doubts there is anything interesting"
+          ],
+          "answer": "B) He doubts there is anything interesting"
+        },
+        {
+          "question": "How does Stanley feel about Derrick Dunne at school compared to the boys at Camp Green Lake?",
+          "options": [
+            "A) Derrick is stronger than the boys at camp",
+            "C) The boys at camp are weaker than Derrick",
+            "D) Derrick is friends with the boys at camp",
+            "B) Derrick would be scared of the boys at camp"
+          ],
+          "answer": "B) Derrick would be scared of the boys at camp"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Stanley decide to let X-Ray have anything he might find?",
+          "answer": "Because he thinks it's more important for X-Ray to think he's a good guy if he wants to survive at camp."
+        },
+        {
+          "question": "How does Stanley feel about being called Caveman?",
+          "answer": "He feels glad because it shows they accept him as part of the group."
+        },
+        {
+          "question": "What mental image helps Stanley cope with his situation at camp?",
+          "answer": "He imagines the other boys beating up Derrick Dunne, which makes him feel better about his own suffering."
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "circle",
+          "eng_definition": "A round shape with no corners.",
+          "kor_definition": "모서리 없이 둥근 모양."
+        },
+        {
+          "word": "rest",
+          "eng_definition": "To relax or take a break from activity.",
+          "kor_definition": "휴식을 취하거나 활동을 멈추는 것."
+        },
+        {
+          "word": "goals",
+          "eng_definition": "Things you aim for or plan to achieve.",
+          "kor_definition": "목표 또는 성취하려는 계획."
+        },
+        {
+          "word": "accomplish",
+          "eng_definition": "To successfully complete or achieve something.",
+          "kor_definition": "성공적으로 완수하거나 이룩하다."
+        },
+        {
+          "word": "responsible",
+          "eng_definition": "Being accountable for one's actions.",
+          "kor_definition": "자신의 행동에 책임을 지는 것."
+        },
+        {
+          "word": "special",
+          "eng_definition": "Different from the usual; unique.",
+          "kor_definition": "평범하지 않고 독특한 것."
+        },
+        {
+          "word": "worthless",
+          "eng_definition": "Having no value or use.",
+          "kor_definition": "가치나 쓸모가 없는 것."
+        },
+        {
+          "word": "digging",
+          "eng_definition": "Breaking up and moving earth with a tool.",
+          "kor_definition": "도구를 사용하여 흙을 파헤치는 것."
+        },
+        {
+          "word": "smile",
+          "eng_definition": "A facial expression showing happiness or amusement.",
+          "kor_definition": "행복이나 즐거움을 보여주는 얼굴 표정."
+        },
+        {
+          "word": "laughter",
+          "eng_definition": "The sound or act of laughing.",
+          "kor_definition": "웃는 소리 또는 웃는 행동."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is Mr. Pendanski encouraging the boys to think about?",
+          "options": [
+            "How to dig faster",
+            "Their goals in life",
+            "What to eat for dinner",
+            "Their favorite movies"
+          ],
+          "answer": "Their goals in life"
+        },
+        {
+          "question": "What job does Magnet express interest in?",
+          "options": [
+            "Veterinarian",
+            "Chef",
+            "Firefighter",
+            "Teacher"
+          ],
+          "answer": "Veterinarian"
+        },
+        {
+          "question": "What does Stanley say he wants to do?",
+          "options": [
+            "Become a teacher",
+            "Be a doctor",
+            "Work for the FBI",
+            "Train animals for movies"
+          ],
+          "answer": "Train animals for movies"
+        },
+        {
+          "question": "What is Zero's favorite thing to do?",
+          "options": [
+            "Cook",
+            "Play basketball",
+            "Dig holes",
+            "Read books"
+          ],
+          "answer": "Dig holes"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Mr. Pendanski say Stanley is in the camp?",
+          "answer": "Because of his own actions and choices; he is responsible for himself."
+        },
+        {
+          "question": "What advice does Mr. Pendanski give about life?",
+          "answer": "He says to set goals, work hard, and not give up because life is about trying to accomplish things."
+        },
+        {
+          "question": "How does Zero feel when Mr. Pendanski calls him special?",
+          "answer": "Zero's face becomes serious and he glares, indicating he may feel proud or defensive."
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "dirt",
+          "eng_definition": "earth or soil",
+          "kor_definition": "흙, 토양"
+        },
+        {
+          "word": "shovel",
+          "eng_definition": "a tool for digging and lifting soil",
+          "kor_definition": "삽"
+        },
+        {
+          "word": "glisten",
+          "eng_definition": "to shine or sparkle",
+          "kor_definition": "반짝이다"
+        },
+        {
+          "word": "metallic",
+          "eng_definition": "having properties of metal; shiny and smooth",
+          "kor_definition": "금속 같은"
+        },
+        {
+          "word": "engraved",
+          "eng_definition": "carved or etched into a surface",
+          "kor_definition": "조각된, 새겨진"
+        },
+        {
+          "word": "fossil",
+          "eng_definition": "the preserved remains or impression of ancient organisms",
+          "kor_definition": "화석"
+        },
+        {
+          "word": "teasing",
+          "eng_definition": "making fun or provoking light-heartedly",
+          "kor_definition": "놀리거나 희롱하는 것"
+        },
+        {
+          "word": "caveman",
+          "eng_definition": "a prehistoric human or a primitive person",
+          "kor_definition": "구석기인, 원시인"
+        },
+        {
+          "word": "design",
+          "eng_definition": "a plan or drawing produced to show the look of something",
+          "kor_definition": "디자인, 도안"
+        },
+        {
+          "word": "secretly",
+          "eng_definition": "done without others knowing",
+          "kor_definition": "몰래, 은밀히"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley find buried in the dirt?",
+          "options": [
+            "A piece of cloth",
+            "A gold tube",
+            "A fossil",
+            "A book"
+          ],
+          "answer": "A gold tube"
+        },
+        {
+          "question": "What does Stanley think the tube might be?",
+          "options": [
+            "A shotgun shell",
+            "A toy",
+            "A piece of jewelry",
+            "A small bottle"
+          ],
+          "answer": "A shotgun shell"
+        },
+        {
+          "question": "Why does Stanley want to keep the tube for himself?",
+          "options": [
+            "Because he thinks it's valuable",
+            "Because he wants to give it to X-Ray",
+            "Because he lost it",
+            "Because he wants a day off"
+          ],
+          "answer": "Because he wants a day off"
+        },
+        {
+          "question": "How does Stanley feel about seeing the Warden?",
+          "options": [
+            "He is indifferent",
+            "He is excited",
+            "He is eager to see her",
+            "He is scared"
+          ],
+          "answer": "He is scared"
+        },
+        {
+          "question": "What does X-Ray plan to do with the tube?",
+          "options": [
+            "Show it to Mr. Sir",
+            "Throw it away",
+            "Hide it in his pocket",
+            "Show it to the Warden"
+          ],
+          "answer": "Show it to the Warden"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Stanley decide not to tell Zigzag about the tube?",
+          "answer": "Because he thought Zigzag might not notice the engraved design and he wanted to hide it."
+        },
+        {
+          "question": "What is the significance of the design on the tube?",
+          "answer": "It has a heart shape with the letters K B engraved, which might be important or meaningful."
+        },
+        {
+          "question": "Why does Stanley consider sneaking the tube to the Warden?",
+          "answer": "He thinks he might get the day off if he shows it directly to the Warden without others knowing."
+        },
+        {
+          "question": "How does Stanley feel about the Warden after almost two weeks at Camp Green Lake?",
+          "answer": "He feels that it's better not to see her and that it might be a good thing to avoid her."
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "cot",
+          "eng_definition": "a small bed with high sides, often used for children or in temporary accommodations",
+          "kor_definition": "간이 침대, 작은 침대"
+        },
+        {
+          "word": "grumbled",
+          "eng_definition": "complained in a low, annoyed voice",
+          "kor_definition": "투덜거리다, 불평하다"
+        },
+        {
+          "word": "piercing",
+          "eng_definition": "making a sharp or penetrating sound or feeling",
+          "kor_definition": "날카로운, 꿰뚫는"
+        },
+        {
+          "word": "distant",
+          "eng_definition": "far away in space or time",
+          "kor_definition": "멀리 떨어진"
+        },
+        {
+          "word": "examine",
+          "eng_definition": "look at carefully and in detail",
+          "kor_definition": "면밀히 조사하다"
+        },
+        {
+          "word": "studded",
+          "eng_definition": "decorated or embedded with small objects, such as stones or beads",
+          "kor_definition": "박힌, 장식된"
+        },
+        {
+          "word": "shaking",
+          "eng_definition": "moving up and down or side to side with small quick movements",
+          "kor_definition": "흔들기, 떨기"
+        },
+        {
+          "word": "authority",
+          "eng_definition": "the power or right to give orders, make decisions, or enforce obedience",
+          "kor_definition": "권위, 권한"
+        },
+        {
+          "word": "questioning",
+          "eng_definition": "asking questions or expressing doubt",
+          "kor_definition": "질문하는, 의심하는"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley use to dig his hole?",
+          "options": [
+            "A spade",
+            "A shovel",
+            "A pickaxe",
+            "A hammer"
+          ],
+          "answer": "A shovel"
+        },
+        {
+          "question": "Who found the gold tube?",
+          "options": [
+            "Stanley",
+            "X-Ray",
+            "The Warden",
+            "Mr. Sir"
+          ],
+          "answer": "X-Ray"
+        },
+        {
+          "question": "What is the Warden's attitude when she speaks?",
+          "options": [
+            "Soft and commanding",
+            "Shouting",
+            "Angry and loud",
+            "Laughing"
+          ],
+          "answer": "Soft and commanding"
+        },
+        {
+          "question": "Why does Mr. Pendanski fill the boys' canteens?",
+          "options": [
+            "Because they finished digging",
+            "Because they asked for water",
+            "Because the Warden told him to",
+            "Because they are thirsty"
+          ],
+          "answer": "Because the Warden told him to"
+        },
+        {
+          "question": "What does the Warden threaten Mr. Pendanski with?",
+          "options": [
+            "Firing him",
+            "Taking away his tools",
+            "Calling the police",
+            "Making him dig holes"
+          ],
+          "answer": "Making him dig holes"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Stanley confused about X-Ray?",
+          "answer": "Because X-Ray snapped at him and was acting suspicious about the tube."
+        },
+        {
+          "question": "What did the Warden do when she checked Stanley's canteen?",
+          "answer": "She shook it to listen for empty spaces and told him to fill it if it was empty."
+        },
+        {
+          "question": "What does the Warden say about the boys' work and drinking water?",
+          "answer": "She suggests they might have taken a drink since the canteens were last filled and emphasizes obedience."
+        },
+        {
+          "question": "How does the Warden demonstrate her authority?",
+          "answer": "She questions the boys, inspects their canteens, and commands Mr. Pendanski to fill them or face consequences."
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "canteens",
+          "eng_definition": "Containers for carrying water or other drinks, especially by campers or soldiers.",
+          "kor_definition": "물병, 캠핑이나 군인들이 물이나 음료를 담아 가지고 다니는 용기."
+        },
+        {
+          "word": "pitchfork",
+          "eng_definition": "A long-handled tool with two or three prongs used for lifting and throwing loose material such as hay or dirt.",
+          "kor_definition": "포크처럼 생긴 긴 손잡이 도구로, 건초나 흙 등을 들어올리거나 옮길 때 사용함."
+        },
+        {
+          "word": "digging",
+          "eng_definition": "The act of breaking up and removing earth to make a hole or tunnel.",
+          "kor_definition": "흙을 파서 구멍이나 터널을 만드는 행위."
+        },
+        {
+          "word": "wheelbarrow",
+          "eng_definition": "A small hand-propelled vehicle with a single wheel, used for carrying loads.",
+          "kor_definition": "손으로 밀거나 끄는 작은 바퀴 달린 운반용 차량."
+        },
+        {
+          "word": "excavated",
+          "eng_definition": "Carefully dug out or hollowed from the ground.",
+          "kor_definition": "땅속에서 조심스럽게 파내거나 발굴된 상태."
+        },
+        {
+          "word": "microphones",
+          "eng_definition": "Devices that capture sound and convert it into electrical signals.",
+          "kor_definition": "소리를 받아들이고 전기 신호로 변환하는 장치."
+        },
+        {
+          "word": "camper",
+          "eng_definition": "A person who stays outdoors in a tent or a recreational vehicle.",
+          "kor_definition": "야영하는 사람, 텐트 또는 캠핑카에 머무르는 사람."
+        },
+        {
+          "word": "hidden",
+          "eng_definition": "Not visible or apparent; concealed.",
+          "kor_definition": "보이지 않거나 드러나지 않는; 숨겨진."
+        },
+        {
+          "word": "character",
+          "eng_definition": "The qualities or traits that make a person or thing distinctive.",
+          "kor_definition": "사람이나 사물을 구별하는 성격이나 특성."
+        },
+        {
+          "word": "spot",
+          "eng_definition": "A particular place or location.",
+          "kor_definition": "특정한 장소 또는 위치."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did the Warden ask the boys to bring back after they drop off X-Ray?",
+          "options": [
+            "Shovels",
+            "Water bottles",
+            "Three wheelbarrows",
+            "Hats"
+          ],
+          "answer": "Three wheelbarrows"
+        },
+        {
+          "question": "Why does Stanley think the Warden might have hidden microphones and cameras?",
+          "options": [
+            "Because she is afraid of storms",
+            "Because she wants to listen to music",
+            "Because she likes gadgets",
+            "Because she watches them all the time"
+          ],
+          "answer": "Because she watches them all the time"
+        },
+        {
+          "question": "What are the boys digging for, according to the text?",
+          "options": [
+            "To make holes for fun",
+            "To find something they are looking for",
+            "To build character",
+            "To plant trees"
+          ],
+          "answer": "To find something they are looking for"
+        },
+        {
+          "question": "Who helps Zero with digging?",
+          "options": [
+            "Armpit",
+            "Squid",
+            "Magnet",
+            "Caveman"
+          ],
+          "answer": "Caveman"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Stanley think digging his own hole is harder than helping with others?",
+          "answer": "Because he has to do all the work himself, while helping spreads out the effort."
+        },
+        {
+          "question": "What does Zigzag say about the cameras and microphones?",
+          "answer": "He says they are tiny and hidden all over the place, watching everyone."
+        },
+        {
+          "question": "What does Stanley remember about the gold tube?",
+          "answer": "He remembers where he was digging when he found the gold tube and thinks about it."
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "wreck room",
+          "eng_definition": "A room where damaged or broken things are kept or repaired.",
+          "kor_definition": "파손된 물건들이 모여 있거나 수리되는 방."
+        },
+        {
+          "word": "bulky",
+          "eng_definition": "Large and taking up a lot of space.",
+          "kor_definition": "크고 공간을 많이 차지하는."
+        },
+        {
+          "word": "patience",
+          "eng_definition": "The ability to stay calm and not get angry when waiting or facing difficulties.",
+          "kor_definition": "참을성, 인내심."
+        },
+        {
+          "word": "dirt",
+          "eng_definition": "Earth or soil, often loose and not cleaned.",
+          "kor_definition": "흙, 진흙."
+        },
+        {
+          "word": "initials",
+          "eng_definition": "The first letters of a person's name or a phrase.",
+          "kor_definition": "이니셜, 머리글자."
+        },
+        {
+          "word": "evict",
+          "eng_definition": "To force someone to leave a property.",
+          "kor_definition": "퇴거시키다, 쫓아내다."
+        },
+        {
+          "word": "nursery rhyme",
+          "eng_definition": "A traditional poem or song for children.",
+          "kor_definition": "어린이를 위한 전래 동요."
+        },
+        {
+          "word": "recycle",
+          "eng_definition": "To process used materials so they can be used again.",
+          "kor_definition": "재활용하다."
+        },
+        {
+          "word": "sneakers",
+          "eng_definition": "Casual athletic shoes.",
+          "kor_definition": "운동화, 스니커즈."
+        },
+        {
+          "word": "eviction",
+          "eng_definition": "The act of removing someone from a property.",
+          "kor_definition": "퇴거, 강제 퇴실."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the Wreck Room?",
+          "options": [
+            "A library",
+            "A kitchen area",
+            "A place for repairing cars",
+            "A room with broken and damaged things"
+          ],
+          "answer": "A room with broken and damaged things"
+        },
+        {
+          "question": "Why did Stanley not dump dirt in the hole with the gold tube?",
+          "options": [
+            "He thought it was trash",
+            "He was careful and remembered where it was",
+            "He wanted to keep it for himself",
+            "He was told not to"
+          ],
+          "answer": "He was careful and remembered where it was"
+        },
+        {
+          "question": "What was the letter from Stanley's mother about?",
+          "options": [
+            "A family reunion",
+            "Recycling sneakers and their smell",
+            "Stanley's progress at camp",
+            "Her own travels"
+          ],
+          "answer": "Recycling sneakers and their smell"
+        },
+        {
+          "question": "What nursery rhyme does Zero mention?",
+          "options": [
+            "Twinkle Twinkle Little Star",
+            "Jack and Jill",
+            "Humpty Dumpty",
+            "Little Old Lady who Lived in a Shoe"
+          ],
+          "answer": "Little Old Lady who Lived in a Shoe"
+        },
+        {
+          "question": "Why are shovels locked up at night?",
+          "options": [
+            "To stop them from being used as weapons",
+            "To prevent theft",
+            "Because they are broken",
+            "For cleaning purposes"
+          ],
+          "answer": "To stop them from being used as weapons"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley want to tell the Warden where the tube was really found?",
+          "answer": "He wanted to be honest but was afraid of getting into trouble."
+        },
+        {
+          "question": "What does Stanley think the gold tube might be?",
+          "answer": "He thinks it might be the lid of a fancy gold pen."
+        },
+        {
+          "question": "How does Stanley describe his feelings about reciting nursery rhymes at camp?",
+          "answer": "He would feel pretty silly doing that."
+        },
+        {
+          "question": "Why did the Warden want the boys to work faster?",
+          "answer": "Because she was losing patience and wanted them to finish quickly."
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "widened",
+          "eng_definition": "made wider or broader",
+          "kor_definition": "더 넓어지다"
+        },
+        {
+          "word": "patience",
+          "eng_definition": "the ability to wait calmly for something",
+          "kor_definition": "인내심"
+        },
+        {
+          "word": "arrived",
+          "eng_definition": "came to a place",
+          "kor_definition": "도착했다"
+        },
+        {
+          "word": "jabbed",
+          "eng_definition": "poke or jab with a quick motion",
+          "kor_definition": "찌르다"
+        },
+        {
+          "word": "scooped",
+          "eng_definition": "shove or gather up with a scoop or shovel",
+          "kor_definition": "퍼내다, 푸다"
+        },
+        {
+          "word": "collapse",
+          "eng_definition": "fall down or give way suddenly",
+          "kor_definition": "무너지다"
+        },
+        {
+          "word": "bandage",
+          "eng_definition": "a strip of cloth used to cover a wound",
+          "kor_definition": "붕대"
+        },
+        {
+          "word": "dizzy",
+          "eng_definition": "feeling unsteady or faint",
+          "kor_definition": "어지러운"
+        },
+        {
+          "word": "shovel",
+          "eng_definition": "a tool used for digging or moving earth",
+          "kor_definition": "삽"
+        },
+        {
+          "word": "gash",
+          "eng_definition": "a long, deep cut",
+          "kor_definition": "칼자국, 깊은 상처"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused Stanley to fall in the hole?",
+          "options": [
+            "He was pushed",
+            "He slipped on mud",
+            "Zigzag's shovel hit him",
+            "He tripped over a rock"
+          ],
+          "answer": "Zigzag's shovel hit him"
+        },
+        {
+          "question": "How did Mr. Sir treat Stanley's wound?",
+          "options": [
+            "He used a bandage made from sunflower seed sack",
+            "He ignored it",
+            "He took him to the nurse",
+            "He applied water"
+          ],
+          "answer": "He used a bandage made from sunflower seed sack"
+        },
+        {
+          "question": "What did the Warden accuse the boys of doing?",
+          "options": [
+            "Not digging enough",
+            "Stealing tools",
+            "Doing nothing",
+            "Being too noisy"
+          ],
+          "answer": "Doing nothing"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley feel dizzy after being hit?",
+          "answer": "Because he was hurt and possibly lost some blood, which made him feel faint."
+        },
+        {
+          "question": "What does Zigzag mean when he says 'That's your dirt'?",
+          "answer": "He is claiming that the dirt Stanley is digging up is his, and he wants it back."
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "relief",
+          "eng_definition": "a feeling of comfort or reassurance after a stressful situation",
+          "kor_definition": "안도감, 위안"
+        },
+        {
+          "word": "throbbing",
+          "eng_definition": "pulsating with a steady beat",
+          "kor_definition": "고동치는, 욱신거리는"
+        },
+        {
+          "word": "callused",
+          "eng_definition": "having thickened and hardened skin from frequent use",
+          "kor_definition": "굳은, 두꺼워진 피부의"
+        },
+        {
+          "word": "challenging",
+          "eng_definition": "difficult in a way that tests someone's abilities",
+          "kor_definition": "도전적인, 힘든"
+        },
+        {
+          "word": "hardened",
+          "eng_definition": "become more tough or unfeeling",
+          "kor_definition": "경화된, 굳어진"
+        },
+        {
+          "word": "penetrating",
+          "eng_definition": "able to enter or pass through something; sharp or intense",
+          "kor_definition": "통과하는, 날카로운"
+        },
+        {
+          "word": "toughened",
+          "eng_definition": "made stronger or more resilient",
+          "kor_definition": "강화된, 단단해진"
+        },
+        {
+          "word": "moisture",
+          "eng_definition": "small amounts of water or other liquids present in or on something",
+          "kor_definition": "수분"
+        },
+        {
+          "word": "stamp",
+          "eng_definition": "a small piece of paper put on an envelope to pay for mailing",
+          "kor_definition": "우표, 도장"
+        },
+        {
+          "word": "envelope",
+          "eng_definition": "a flat paper container used to hold a letter",
+          "kor_definition": "봉투"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What activity did the boys do at the lake?",
+          "options": [
+            "Boating",
+            "Digging holes",
+            "Fishing",
+            "Swimming laps"
+          ],
+          "answer": "Digging holes"
+        },
+        {
+          "question": "Why did Stanley feel tired and sore?",
+          "options": [
+            "He was digging all day",
+            "He was climbing",
+            "He was running",
+            "He was swimming"
+          ],
+          "answer": "He was digging all day"
+        },
+        {
+          "question": "What does Zero want to learn?",
+          "options": [
+            "How to read and write",
+            "How to dig",
+            "How to swim",
+            "How to climb rocks"
+          ],
+          "answer": "How to read and write"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley stay in the tent after writing his letter?",
+          "answer": "He wanted to finish his letter privately so others wouldn't make fun of him."
+        },
+        {
+          "question": "What does Stanley mean when he says his heart has hardened?",
+          "answer": "He has become emotionally tough or less sensitive due to his difficult experiences."
+        }
+      ]
+    },
+    {
+      "chapter_number": 19,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "awakened",
+          "eng_definition": "to wake up from sleep",
+          "kor_definition": "깨다, 잠에서 깨다"
+        },
+        {
+          "word": "sniffed",
+          "eng_definition": "to smell by inhaling air through the nose",
+          "kor_definition": "킁킁 냄새를 맡다"
+        },
+        {
+          "word": "allergies",
+          "eng_definition": "immune system reactions to certain substances",
+          "kor_definition": "알레르기, 면역 반응"
+        },
+        {
+          "word": "dangerous",
+          "eng_definition": "likely to cause harm or injury",
+          "kor_definition": "위험한"
+        },
+        {
+          "word": "exhaust fumes",
+          "eng_definition": "gases expelled from a vehicle’s exhaust system",
+          "kor_definition": "배기가스"
+        },
+        {
+          "word": "sack",
+          "eng_definition": "a large bag used for carrying or storing things",
+          "kor_definition": "자루, 가방"
+        },
+        {
+          "word": "unthinkable",
+          "eng_definition": "impossible to imagine or believe",
+          "kor_definition": "생각할 수 없는, 믿기 힘든"
+        },
+        {
+          "word": "unearthed",
+          "eng_definition": "to dig up or uncover something buried",
+          "kor_definition": "발견하다, 파내다"
+        },
+        {
+          "word": "burlap",
+          "eng_definition": "a rough woven fabric, often made from jute or hemp",
+          "kor_definition": "황마, 마포"
+        },
+        {
+          "word": "appreciate",
+          "eng_definition": "to recognize the value or significance of something",
+          "kor_definition": "감사하다, 인정하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What woke Stanley up at the beginning of the chapter?",
+          "options": [
+            "A loud music",
+            "A bird chirping",
+            "A dream",
+            "A strange noise"
+          ],
+          "answer": "A strange noise"
+        },
+        {
+          "question": "Why did Stanley keep his mouth shut most of the time?",
+          "options": [
+            "He was busy digging",
+            "He was sleeping",
+            "He was afraid of saying the wrong thing",
+            "He was shy"
+          ],
+          "answer": "He was afraid of saying the wrong thing"
+        },
+        {
+          "question": "What did Magnet compare his fingers to?",
+          "options": [
+            "Magnets",
+            "Claws",
+            "Fingers",
+            "Wires"
+          ],
+          "answer": "Magnets"
+        },
+        {
+          "question": "What did Stanley find at the bottom of his hole?",
+          "options": [
+            "A rock",
+            "A corner of the sack",
+            "A seed",
+            "A coin"
+          ],
+          "answer": "A corner of the sack"
+        },
+        {
+          "question": "What did Mr. Sir want Stanley to do with the sunflower seeds?",
+          "options": [
+            "Plant them",
+            "Share with everyone",
+            "Eat them all",
+            "Dig them out and take them to the Warden"
+          ],
+          "answer": "Dig them out and take them to the Warden"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley feel good sitting inside the truck?",
+          "answer": "Because it was out of the sun and he could rest comfortably."
+        },
+        {
+          "question": "What mistake did Stanley think Zigzag made with the sack of seeds?",
+          "answer": "He thought Zigzag didn't roll up the top before throwing it."
+        },
+        {
+          "question": "How did Magnet describe his fingers?",
+          "answer": "He said his fingers are like little magnets."
+        },
+        {
+          "question": "What did Stanley do after spilling the seeds?",
+          "answer": "He tried to sweep the seeds back into the sack and bury them in the dirt."
+        }
+      ]
+    },
+    {
+      "chapter_number": 20,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "condemned",
+          "eng_definition": "sentenced to a punishment, often death",
+          "kor_definition": "선고받은, 종신형의"
+        },
+        {
+          "word": "dread",
+          "eng_definition": "a strong feeling of fear or worry",
+          "kor_definition": "공포, 두려움"
+        },
+        {
+          "word": "sack",
+          "eng_definition": "a large bag used for carrying items",
+          "kor_definition": "자루, 가방"
+        },
+        {
+          "word": "freckled",
+          "eng_definition": "having small brown spots on the skin",
+          "kor_definition": "주근깨가 있는"
+        },
+        {
+          "word": "makeup",
+          "eng_definition": "cosmetics applied to the face",
+          "kor_definition": "화장품"
+        },
+        {
+          "word": "venom",
+          "eng_definition": "poison injected by some animals like snakes",
+          "kor_definition": "독, 독액"
+        },
+        {
+          "word": "harmless",
+          "eng_definition": "not able to cause harm or damage",
+          "kor_definition": "해가 없는, 무해한"
+        },
+        {
+          "word": "toxic",
+          "eng_definition": "poisonous or deadly",
+          "kor_definition": "유독한, 독성의"
+        },
+        {
+          "word": "agony",
+          "eng_definition": "extreme pain or suffering",
+          "kor_definition": "극심한 고통"
+        },
+        {
+          "word": "writhed",
+          "eng_definition": "twisted or squirmed in pain or discomfort",
+          "kor_definition": "몸부림치다, 비틀거리다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What kind of trees were in the shade Stanley walked in?",
+          "options": [
+            "Oak trees",
+            "Maple trees",
+            "Birch trees",
+            "Pine trees"
+          ],
+          "answer": "Oak trees"
+        },
+        {
+          "question": "Why was Stanley surprised to see many holes near the cabin?",
+          "options": [
+            "He expected no holes close to the house",
+            "They were for digging a swimming pool",
+            "They were for planting flowers",
+            "He thought the holes were animal burrows"
+          ],
+          "answer": "He expected no holes close to the house"
+        },
+        {
+          "question": "What did Stanley steal from Mr. Sir?",
+          "options": [
+            "His shoes",
+            "His water bottle",
+            "His hat",
+            "His sunflower seeds"
+          ],
+          "answer": "His sunflower seeds"
+        },
+        {
+          "question": "What was inside the makeup case?",
+          "options": [
+            "Coins",
+            "Nail polish and lipstick",
+            "A letter",
+            "Jewelry"
+          ],
+          "answer": "Nail polish and lipstick"
+        },
+        {
+          "question": "What ingredient did the Warden use to make her nail polish?",
+          "options": [
+            "Lemon juice",
+            "Honey",
+            "Snake venom",
+            "Pearl powder"
+          ],
+          "answer": "Snake venom"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did the Warden show Stanley her nail polish?",
+          "answer": "To explain that she makes her own special nail polish using snake venom."
+        },
+        {
+          "question": "What happened to Mr. Sir when the venom was applied?",
+          "answer": "He screamed in pain and clutched his face, then fell over in agony."
+        },
+        {
+          "question": "What does Stanley suspect about the sunflower seed theft?",
+          "answer": "He thinks someone else stole the seeds and Caveman is covering for them."
+        },
+        {
+          "question": "What advice did the Warden give Stanley at the end?",
+          "answer": "She told him to go back to his hole because Mr. Sir was in pain."
+        }
+      ]
+    },
+    {
+      "chapter_number": 21,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "haze",
+          "eng_definition": "a slight obscuration of the lower atmosphere, typically caused by fine particles of dust, smoke, or moisture, making it difficult to see clearly",
+          "kor_definition": "안개, 희미한 연무"
+        },
+        {
+          "word": "desolate",
+          "eng_definition": " deserted and without inhabitants, bleak, and barren",
+          "kor_definition": "황량한, 버림받은"
+        },
+        {
+          "word": "refuge",
+          "eng_definition": "a condition of being safe or sheltered from pursuit, danger, or trouble",
+          "kor_definition": "피난처, 은신처"
+        },
+        {
+          "word": "coiled",
+          "eng_definition": "twisted into a spiral or ring shape",
+          "kor_definition": "감긴, 소용돌이 친"
+        },
+        {
+          "word": "rattling",
+          "eng_definition": "making a series of short, sharp knocking sounds",
+          "kor_definition": "딸랑거리는, 덜컹거리는"
+        },
+        {
+          "word": "rescue",
+          "eng_definition": "to save someone from a dangerous or distressing situation",
+          "kor_definition": "구조하다, 구출하다"
+        },
+        {
+          "word": "insane",
+          "eng_definition": "in a state of mind that prevents normal perception, behavior, or social interaction; seriously mentally ill",
+          "kor_definition": "미친, 정신이상인"
+        },
+        {
+          "word": "barren",
+          "eng_definition": " too poor to produce much or any vegetation; bleak and lifeless",
+          "kor_definition": "황량한, 메마른"
+        },
+        {
+          "word": "survive",
+          "eng_definition": "continue to live or exist, especially in spite of danger or hardship",
+          "kor_definition": "생존하다, 살아남다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Stanley find beneath his foot in the desert?",
+          "options": [
+            "A scorpion",
+            "A lizard",
+            "A rattlesnake",
+            "A rabbit"
+          ],
+          "answer": "A rattlesnake"
+        },
+        {
+          "question": "Why did Stanley smile at the end of the chapter?",
+          "options": [
+            "He found water",
+            "He saw a friend",
+            "He realized the other boys had dug his hole for him",
+            "He was happy to finish his hole"
+          ],
+          "answer": "He realized the other boys had dug his hole for him"
+        },
+        {
+          "question": "What did Stanley tell the Warden he stole?",
+          "options": [
+            "The sunflower seeds",
+            "The hat",
+            "The shovel",
+            "The water"
+          ],
+          "answer": "The sunflower seeds"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How did Stanley's great-grandfather reportedly survive for seventeen days in the desert?",
+          "answer": "He found refuge on God's thumb."
+        },
+        {
+          "question": "Why was Stanley surprised when he saw his hole was nearly finished?",
+          "answer": "Because he thought he had done it himself, but he realized the other boys had dug it for him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 22,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "smelly",
+          "eng_definition": "having a strong or unpleasant odor",
+          "kor_definition": "냄새 나는, 악취가 나는"
+        },
+        {
+          "word": "defiance",
+          "eng_definition": "open resistance; bold disobedience",
+          "kor_definition": "도전, 반항"
+        },
+        {
+          "word": "recited",
+          "eng_definition": "said aloud from memory",
+          "kor_definition": "암송하다, 낭송하다"
+        },
+        {
+          "word": "proper noun",
+          "eng_definition": "the name of a specific person, place, or thing",
+          "kor_definition": "고유명사, 고유 명칭"
+        },
+        {
+          "word": "multiplying",
+          "eng_definition": "the process of combining numbers to get a product",
+          "kor_definition": "곱하기, 곱셈"
+        },
+        {
+          "word": "astonishment",
+          "eng_definition": "great surprise or wonder",
+          "kor_definition": "놀람, 경악"
+        },
+        {
+          "word": "outlaw",
+          "eng_definition": "a person who has broken the law and is hiding or on the run",
+          "kor_definition": "무법자, 범법자"
+        },
+        {
+          "word": "lipstick",
+          "eng_definition": "cosmetic for coloring the lips",
+          "kor_definition": "립스틱"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why does Stanley think Zero likes to dig holes?",
+          "options": [
+            "Because Zero wants to find sunflower seeds",
+            "Because Zero is a mole",
+            "Because Zero eats dirt",
+            "Because Zero is bored"
+          ],
+          "answer": "Because Zero is a mole"
+        },
+        {
+          "question": "What does Stanley offer to teach Zero?",
+          "options": [
+            "Writing",
+            "Reading",
+            "Math",
+            "History"
+          ],
+          "answer": "Reading"
+        },
+        {
+          "question": "How many letters does Zero say he knows?",
+          "options": [
+            "26",
+            "26 or 52",
+            "10",
+            "52"
+          ],
+          "answer": "26"
+        },
+        {
+          "question": "What is the main reason Stanley wants to teach Zero?",
+          "options": [
+            "To distract Zero from digging",
+            "To help Zero read and learn",
+            "To make Zero thank him",
+            "To help Zero get better at digging"
+          ],
+          "answer": "To help Zero read and learn"
+        },
+        {
+          "question": "What does Stanley realize about the lipstick tube?",
+          "options": [
+            "It belonged to his mother",
+            "It belongs to Zero",
+            "It is just a random item",
+            "It belonged to Kate Barlow"
+          ],
+          "answer": "It belonged to Kate Barlow"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Zero not thank Stanley after Stanley helps him?",
+          "answer": "Zero is shy or doesn't show his feelings openly, but he appreciates Stanley's help."
+        },
+        {
+          "question": "What does Zero suggest about how to learn the alphabet?",
+          "answer": "He suggests they learn ten letters a day, five capital and five lowercase."
+        },
+        {
+          "question": "Why does Stanley think about teaching Zero to read?",
+          "answer": "He wants Zero to learn so he can read better, and he feels responsible for helping him."
+        },
+        {
+          "question": "What does the story imply about Zero's math abilities?",
+          "answer": "Zero is good at math and can figure out how long it will take to learn all the letters."
+        }
+      ]
+    },
+    {
+      "chapter_number": 23,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "sparkled",
+          "eng_definition": "shined brightly with flashes of light",
+          "kor_definition": "반짝였다"
+        },
+        {
+          "word": "blossoms",
+          "eng_definition": "flowering parts of a plant",
+          "kor_definition": "꽃, 꽃망울"
+        },
+        {
+          "word": "preserve",
+          "eng_definition": "to keep something safe and in good condition",
+          "kor_definition": "보존하다"
+        },
+        {
+          "word": "incurable",
+          "eng_definition": "not able to be cured",
+          "kor_definition": "치유할 수 없는"
+        },
+        {
+          "word": "leaked",
+          "eng_definition": "escaped through a hole or crack",
+          "kor_definition": "새어나왔다"
+        },
+        {
+          "word": "disrespectful",
+          "eng_definition": "lacking politeness or courtesy",
+          "kor_definition": "무례한"
+        },
+        {
+          "word": "spewed",
+          "eng_definition": "spouted out forcefully",
+          "kor_definition": "뿜어져 나왔다"
+        },
+        {
+          "word": "brag",
+          "eng_definition": "to boast about something",
+          "kor_definition": "자랑하다"
+        },
+        {
+          "word": "turn down",
+          "eng_definition": "to refuse or reject",
+          "kor_definition": "거절하다"
+        },
+        {
+          "word": "horrible",
+          "eng_definition": "very unpleasant or bad",
+          "kor_definition": "끔찍한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Green Lake known for a hundred and ten years ago?",
+          "options": [
+            "It was the largest lake in Texas",
+            "It was a dry desert area",
+            "It was the smallest lake in Texas",
+            "It was full of dirty water"
+          ],
+          "answer": "It was the largest lake in Texas"
+        },
+        {
+          "question": "Why did Miss Katherine Barlow's spiced peaches become special?",
+          "options": [
+            "They were the only peaches in town",
+            "They were made with sugar only",
+            "They took a long time to make",
+            "She kept her spice recipe secret"
+          ],
+          "answer": "She kept her spice recipe secret"
+        },
+        {
+          "question": "What was Trout Walker's real name?",
+          "options": [
+            "Charles Walker",
+            "Tommy Walker",
+            "Timothy Walker",
+            "Travis Walker"
+          ],
+          "answer": "Charles Walker"
+        },
+        {
+          "question": "What did Trout Walker often do during class?",
+          "options": [
+            "Pay close attention",
+            "Read quietly",
+            "Talk and be disrespectful",
+            "Help other students"
+          ],
+          "answer": "Talk and be disrespectful"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Miss Katherine Barlow loved by the children and adults?",
+          "answer": "Because she was a kind, knowledgeable, and lively teacher who cared for everyone."
+        },
+        {
+          "question": "What kind of prize was given at the Fourth of July picnic for the best peach pie?",
+          "answer": "A prize was awarded for the best peach pie and peach jam."
+        },
+        {
+          "question": "Why did Trout Walker think he could always get what he wanted?",
+          "answer": "Because he was used to getting everything he desired and was proud of it."
+        }
+      ]
+    },
+    {
+      "chapter_number": 24,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "swollen",
+          "eng_definition": "larger than normal because of an injury or illness",
+          "kor_definition": "부기거나 부풀어 오른 상태"
+        },
+        {
+          "word": "jagged",
+          "eng_definition": "having rough, sharp edges",
+          "kor_definition": "거칠고 뾰족한 가장자리가 있는"
+        },
+        {
+          "word": "scratched",
+          "eng_definition": "cut or irritated by scraping or rubbing",
+          "kor_definition": "긁혀서 상처 난"
+        },
+        {
+          "word": "gurgling",
+          "eng_definition": "a bubbling sound made by liquid",
+          "kor_definition": "거품이 일거나 부글부글 소리 나는 것"
+        },
+        {
+          "word": "parched",
+          "eng_definition": "extremely dry or thirsty",
+          "kor_definition": "매우 건조하거나 목마른 상태"
+        },
+        {
+          "word": "grotesque",
+          "eng_definition": "comically or repulsively ugly or distorted",
+          "kor_definition": "기괴하거나 보기 흉한"
+        },
+        {
+          "word": "absorb",
+          "eng_definition": "to soak up or take in",
+          "kor_definition": "흡수하다, 빨아들이다"
+        },
+        {
+          "word": "canteen",
+          "eng_definition": "a container for carrying water or other drinks",
+          "kor_definition": "음료수나 물을 담는 용기"
+        },
+        {
+          "word": "dirt",
+          "eng_definition": "earth or soil, especially when dirty",
+          "kor_definition": "흙, 진흙, 또는 더럽혀진 흙"
+        },
+        {
+          "word": "reflection",
+          "eng_definition": "an image or light thrown back from a surface",
+          "kor_definition": "반사, 반영"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused Mr. Sir's face to be swollen?",
+          "options": [
+            "He was sunburned",
+            "The Warden scratched him",
+            "He got hit by a rock",
+            "He fell into the lake"
+          ],
+          "answer": "The Warden scratched him"
+        },
+        {
+          "question": "What did Stanley do when Mr. Sir was filling his canteen?",
+          "options": [
+            "He drank all the water",
+            "He watched the water splash on the ground",
+            "He asked for more water",
+            "He ran away"
+          ],
+          "answer": "He watched the water splash on the ground"
+        },
+        {
+          "question": "How did the other boys avoid looking at Mr. Sir’s face?",
+          "options": [
+            "They looked away",
+            "They hid behind trees",
+            "They stared at him",
+            "They started laughing"
+          ],
+          "answer": "They looked away"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley keep his eyes down at breakfast?",
+          "answer": "He didn't want to look at Mr. Sir’s swollen face and hoped the problem would go away."
+        },
+        {
+          "question": "What does Stanley do to stay hydrated during the water truck visits?",
+          "answer": "He holds his canteen near the stream of water to catch some, but it mostly splashes on the ground."
+        }
+      ]
+    },
+    {
+      "chapter_number": 25,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "concoctions",
+          "eng_definition": "Mixtures of ingredients, often homemade or medicinal.",
+          "kor_definition": "혼합물, 특히 수제 또는 약용으로 만든 것"
+        },
+        {
+          "word": "leak",
+          "eng_definition": "To allow liquid or gas to escape through a hole or crack.",
+          "kor_definition": "새다, 틈이나 금으로 액체나 가스가 새어나오다"
+        },
+        {
+          "word": "valiant",
+          "eng_definition": "Brave or courageous.",
+          "kor_definition": "용감한, 용기 있는"
+        },
+        {
+          "word": "remarked",
+          "eng_definition": "Made a comment or statement.",
+          "kor_definition": "언급하다, 말을 하다"
+        },
+        {
+          "word": "admirer",
+          "eng_definition": "Someone who looks up to or respects someone or something.",
+          "kor_definition": "존경하거나 감탄하는 사람"
+        },
+        {
+          "word": "pitter-patter",
+          "eng_definition": "The quick, light sound of something soft hitting a surface, like rain.",
+          "kor_definition": "탁탁 소리, 가볍게 두드리는 소리"
+        },
+        {
+          "word": "distracted",
+          "eng_definition": "Unable to concentrate because of worry or other thoughts.",
+          "kor_definition": "산만한, 정신이 산만한"
+        },
+        {
+          "word": "fix",
+          "eng_definition": "To repair or mend something.",
+          "kor_definition": "수리하다, 고치다"
+        },
+        {
+          "word": "pursued",
+          "eng_definition": "Followed or chased after.",
+          "kor_definition": "추적하다, 쫓다"
+        },
+        {
+          "word": "tender",
+          "eng_definition": "Gentle and kind; soft or delicate.",
+          "kor_definition": "부드럽고 친절한, 연약한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What kind of animal is Mary Lou?",
+          "options": [
+            "A horse",
+            "A donkey",
+            "A dog",
+            "A cow"
+          ],
+          "answer": "A donkey"
+        },
+        {
+          "question": "Why was Sam not allowed to attend school?",
+          "options": [
+            "He was a teacher",
+            "He was too young",
+            "He was a Negro",
+            "He was sick"
+          ],
+          "answer": "He was a Negro"
+        },
+        {
+          "question": "What did Sam exchange for fixing the school roof?",
+          "options": [
+            "Jars of spiced peaches",
+            "Jars of honey",
+            "Onions",
+            "Money"
+          ],
+          "answer": "Jars of spiced peaches"
+        },
+        {
+          "question": "What was the main advice Sam gave for staying healthy?",
+          "options": [
+            "Eat plenty of onions",
+            "Drink milk",
+            "Eat vegetables",
+            "Exercise daily"
+          ],
+          "answer": "Eat plenty of onions"
+        },
+        {
+          "question": "How did Katherine feel at the end of the chapter?",
+          "options": [
+            "Heartbroken",
+            "Excited",
+            "Angry",
+            "Happy"
+          ],
+          "answer": "Heartbroken"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What did Sam claim about onions and aging?",
+          "answer": "He claimed that eating raw onions could help a person live to be 200 years old."
+        },
+        {
+          "question": "How did Sam help improve the schoolhouse?",
+          "answer": "He fixed the roof, windows, and door, and painted and decorated it."
+        },
+        {
+          "question": "What was Katherine's feelings towards Sam's help and their relationship?",
+          "answer": "She appreciated his help but was sad because she loved him and knew they couldn't be together."
+        },
+        {
+          "question": "What did Hattie Parker do at the end of the chapter?",
+          "answer": "She saw Katherine and Sam together and whispered that God would punish them."
+        }
+      ]
+    },
+    {
+      "chapter_number": 26,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "mob",
+          "eng_definition": "a large group of people gathered together, often in an unruly way",
+          "kor_definition": "군중, 떼, 무리"
+        },
+        {
+          "word": "storming",
+          "eng_definition": "to suddenly rush in forcefully or violently",
+          "kor_definition": "돌진하다, 급습하다"
+        },
+        {
+          "word": "declare",
+          "eng_definition": "to say something officially or publicly",
+          "kor_definition": "선언하다, 공표하다"
+        },
+        {
+          "word": "poisoning",
+          "eng_definition": "the act of harming or killing someone or something with poison",
+          "kor_definition": "독살, 독성"
+        },
+        {
+          "word": "destruction",
+          "eng_definition": "the act of causing so much damage that something no longer exists or cannot be repaired",
+          "kor_definition": "파괴, 소멸"
+        },
+        {
+          "word": "wriggle",
+          "eng_definition": "to twist or move the body with small quick movements",
+          "kor_definition": "몸을 비틀다, 꿈틀거리다"
+        },
+        {
+          "word": "law",
+          "eng_definition": "a system of rules created and enforced by a government",
+          "kor_definition": "법, 법률"
+        },
+        {
+          "word": "punish",
+          "eng_definition": "to cause pain or suffering as a penalty for a crime or offense",
+          "kor_definition": "처벌하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What caused the schoolhouse to catch fire?",
+          "options": [
+            "A cooking accident",
+            "A broken stove",
+            "A lightning strike",
+            "Someone saw the kissing and set it on fire"
+          ],
+          "answer": "Someone saw the kissing and set it on fire"
+        },
+        {
+          "question": "Who led the mob that stormed the school?",
+          "options": [
+            "Sheriff",
+            "Sam",
+            "Miss Katherine",
+            "Trout Walker"
+          ],
+          "answer": "Trout Walker"
+        },
+        {
+          "question": "What was Miss Katherine accused of poisoning?",
+          "options": [
+            "The town's water supply",
+            "Her own garden",
+            "The sheriff",
+            "The children’s brains with books"
+          ],
+          "answer": "The children’s brains with books"
+        },
+        {
+          "question": "What did Miss Katherine do after she shot the sheriff?",
+          "options": [
+            "Surrendered to the police",
+            "Fled the town",
+            "Was arrested",
+            "Gave him a kiss with lipstick"
+          ],
+          "answer": "Gave him a kiss with lipstick"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did everyone in Green Lake stop going to school?",
+          "answer": "Because the schoolteacher was accused of poisoning children's minds and the mob wanted to destroy the school."
+        },
+        {
+          "question": "How did Sam die?",
+          "answer": "Sam was shot and killed in the water when Trout Walker's boat smashed into his boat."
+        },
+        {
+          "question": "What happened to Kissin' Kate Barlow after she shot the sheriff?",
+          "answer": "She became a feared outlaw called Kissin' Kate Barlow and was known for her criminal acts for twenty years."
+        }
+      ]
+    },
+    {
+      "chapter_number": 27,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "dug",
+          "eng_definition": "to dig or excavate with a shovel",
+          "kor_definition": "삽으로 파다"
+        },
+        {
+          "word": "canteen",
+          "eng_definition": "a container for carrying water or other drinks",
+          "kor_definition": "물병, 휴대용 식수통"
+        },
+        {
+          "word": "scratched",
+          "eng_definition": "cut or damage the surface of something with a sharp object",
+          "kor_definition": "긁힌, 스크래치가 난"
+        },
+        {
+          "word": "mocked",
+          "eng_definition": "to make fun of or mimic someone in a hurtful way",
+          "kor_definition": "조롱하다, 흉내 내다"
+        },
+        {
+          "word": "rumbling",
+          "eng_definition": "a deep, continuous sound, like distant thunder",
+          "kor_definition": "우르릉거림, 꾸르륵하는 소리"
+        },
+        {
+          "word": "approaching",
+          "eng_definition": "coming nearer in distance or time",
+          "kor_definition": "다가오는"
+        },
+        {
+          "word": "puffy",
+          "eng_definition": "swollen or inflated in appearance",
+          "kor_definition": "부푼, 부풀어 오른"
+        },
+        {
+          "word": "teaching",
+          "eng_definition": "the act of instructing or educating",
+          "kor_definition": "가르침, 교육"
+        },
+        {
+          "word": "vile",
+          "eng_definition": "extremely unpleasant, disgusting, or morally bad",
+          "kor_definition": "더러운, 비열한"
+        },
+        {
+          "word": "smile",
+          "eng_definition": "a facial expression showing happiness or amusement",
+          "kor_definition": "미소"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Stanley leave water in his canteen instead of drinking it all at once?",
+          "options": [
+            "He wanted to save it for later.",
+            "He didn't like the taste.",
+            "He was waiting for someone.",
+            "He was afraid it might be contaminated."
+          ],
+          "answer": "He was afraid it might be contaminated."
+        },
+        {
+          "question": "What did Zero learn to write after Stanley taught him?",
+          "options": [
+            "The names of all the boys",
+            "His full name, Hector Zeroni",
+            "The alphabet from A to Z",
+            "A secret code"
+          ],
+          "answer": "His full name, Hector Zeroni"
+        },
+        {
+          "question": "What is the significance of Zero's name according to the story?",
+          "options": [
+            "It is his nickname from childhood.",
+            "It was given by the Warden.",
+            "It is the name of his family.",
+            "It symbolizes that he is 'nothing'."
+          ],
+          "answer": "It symbolizes that he is 'nothing'."
+        },
+        {
+          "question": "How did Mr. Sir treat Stanley’s canteen when he returned it?",
+          "options": [
+            "He threw it away.",
+            "He kept it for himself.",
+            "He held it up to his ear and shook it.",
+            "He dumped the water out."
+          ],
+          "answer": "He held it up to his ear and shook it."
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Stanley hesitant to drink from his canteen after Mr. Sir filled it?",
+          "answer": "He thought Mr. Sir might have contaminated it with something vile."
+        },
+        {
+          "question": "What did Stanley teach Zero to do after the alphabet?",
+          "answer": "He taught Zero to write his name, Hector Zeroni."
+        },
+        {
+          "question": "What does Zero's real name reveal about his character or background?",
+          "answer": "It shows that Zero considers himself to be 'nothing,' and he has a deeper identity beyond the nickname."
+        }
+      ]
+    },
+    {
+      "chapter_number": 28,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "ghost town",
+          "eng_definition": "a town that has been abandoned and has very few or no residents",
+          "kor_definition": "유령 도시, 사람이 거의 또는 전혀 없는 버려진 도시"
+        },
+        {
+          "word": "echoing",
+          "eng_definition": "repeating sound waves bouncing back",
+          "kor_definition": "메아리치는, 울려 퍼지는"
+        },
+        {
+          "word": "blurry",
+          "eng_definition": "unclearly or indistinctly visible or perceived",
+          "kor_definition": "흐릿한, 희미한"
+        },
+        {
+          "word": "loot",
+          "eng_definition": "stolen or stolen goods, especially valuables taken during a robbery",
+          "kor_definition": "전리품, 약탈품"
+        },
+        {
+          "word": "drought",
+          "eng_definition": "a prolonged period of abnormally low rainfall, leading to a shortage of water",
+          "kor_definition": "가뭄"
+        },
+        {
+          "word": "blistered",
+          "eng_definition": "covered with blisters or blisters forming on the skin",
+          "kor_definition": "물집이 생긴"
+        },
+        {
+          "word": "wasteland",
+          "eng_definition": "a barren or uncultivated area of land",
+          "kor_definition": "황무지, 폐허지"
+        },
+        {
+          "word": "jagged",
+          "eng_definition": "having rough, sharp edges or points",
+          "kor_definition": "톱니 모양의, 울퉁불퉁한"
+        },
+        {
+          "word": "shattered",
+          "eng_definition": "broken into many pieces",
+          "kor_definition": "산산조각난"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Where did Kate Barlow return after twenty years?",
+          "options": [
+            "Texas",
+            "Green Lake",
+            "Houston",
+            "Los Angeles"
+          ],
+          "answer": "Green Lake"
+        },
+        {
+          "question": "What was Kate Barlow living in when Trout Walker came to find her?",
+          "options": [
+            "A house",
+            "A tent",
+            "A school",
+            "An old cabin"
+          ],
+          "answer": "An old cabin"
+        },
+        {
+          "question": "What did Kate Barlow say she was feeling cold despite?",
+          "options": [
+            "Her heart",
+            "The weather",
+            "The water",
+            "The heat"
+          ],
+          "answer": "Her heart"
+        },
+        {
+          "question": "What did Trout Walker threaten to do to Kate?",
+          "options": [
+            "Take her to town",
+            "Blow her head off",
+            "Help her escape",
+            "Give her money"
+          ],
+          "answer": "Blow her head off"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Kate Barlow say she was crazy?",
+          "answer": "Because she was hearing Sam's voice and feeling cold while living alone for many years."
+        },
+        {
+          "question": "What did Linda Miller and Trout Walker want from Kate?",
+          "answer": "They wanted her to tell them where she buried the loot."
+        },
+        {
+          "question": "How did Kate Barlow die?",
+          "answer": "She died laughing while being threatened and hurt by Trout and Linda."
+        }
+      ]
+    },
+    {
+      "chapter_number": 29,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "humid",
+          "eng_definition": "containing a lot of moisture or water vapor in the air",
+          "kor_definition": "습한, 습기가 많은"
+        },
+        {
+          "word": "beads",
+          "eng_definition": "small drops of moisture, such as water or sweat",
+          "kor_definition": "방울, 구슬"
+        },
+        {
+          "word": "echoed",
+          "eng_definition": "repeated or reflected sound",
+          "kor_definition": "메아리쳤다"
+        },
+        {
+          "word": "storm",
+          "eng_definition": "a violent weather condition with strong winds, rain, thunder, or lightning",
+          "kor_definition": "폭풍, 폭우"
+        },
+        {
+          "word": "hazy",
+          "eng_definition": "not clear or transparent; misty",
+          "kor_definition": "흐릿한, 안개 낀"
+        },
+        {
+          "word": "formation",
+          "eng_definition": "the process of forming or the state of being formed",
+          "kor_definition": "형성, 구조"
+        },
+        {
+          "word": "delirious",
+          "eng_definition": "in an acutely disturbed state of mind characterized by restlessness, illusions, and incoherence",
+          "kor_definition": "섬망의, 망상에 빠진"
+        },
+        {
+          "word": "refuge",
+          "eng_definition": "a safe place or shelter from danger or distress",
+          "kor_definition": "피난처, 은신처"
+        },
+        {
+          "word": "stranded",
+          "eng_definition": "left helpless or in a difficult position, especially without resources or help",
+          "kor_definition": "좌초된, 버려진"
+        },
+        {
+          "word": "fist",
+          "eng_definition": "a hand clenched tightly into a ball",
+          "kor_definition": "주먹"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What natural event is occurring in the chapter?",
+          "options": [
+            "A drought",
+            "A tornado",
+            "A snowstorm",
+            "A thunderstorm"
+          ],
+          "answer": "A thunderstorm"
+        },
+        {
+          "question": "What did Stanley see on the mountain peak that looked like a fist?",
+          "options": [
+            "A bird",
+            "A cloud",
+            "A rock formation",
+            "A tree"
+          ],
+          "answer": "A rock formation"
+        },
+        {
+          "question": "What does Stanley's great-grandfather say he found refuge on?",
+          "options": [
+            "God's hand",
+            "Angel's wing",
+            "God's thumb",
+            "Heaven's cloud"
+          ],
+          "answer": "God's thumb"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley's great-grandfather say he found refuge on God's thumb?",
+          "answer": "He was delirious and might have been imagining it; it was a metaphor for his survival and hope."
+        },
+        {
+          "question": "What was the significance of the lightning coming out of the thumb in Stanley's mind?",
+          "answer": "It symbolized the power and presence of God, as if God's thumb was causing the lightning."
+        }
+      ]
+    },
+    {
+      "chapter_number": 31,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "angrily",
+          "eng_definition": "in a way that shows anger or annoyance",
+          "kor_definition": "화나거나 짜증을 내며"
+        },
+        {
+          "word": "refuge",
+          "eng_definition": "a safe place or shelter",
+          "kor_definition": "안전한 피난처"
+        },
+        {
+          "word": "dirt",
+          "eng_definition": "earth or soil",
+          "kor_definition": "흙"
+        },
+        {
+          "word": "climb",
+          "eng_definition": "to go up something using hands and feet",
+          "kor_definition": "오르다"
+        },
+        {
+          "word": "refuse",
+          "eng_definition": "to decline or say no to something",
+          "kor_definition": "거절하다"
+        },
+        {
+          "word": "guard",
+          "eng_definition": "a person who watches over or protects something",
+          "kor_definition": "경비원, 감시자"
+        },
+        {
+          "word": "swollen",
+          "eng_definition": "enlarged or puffed up because of injury or illness",
+          "kor_definition": "부은"
+        },
+        {
+          "word": "destroy",
+          "eng_definition": "to ruin or break completely",
+          "kor_definition": "파괴하다"
+        },
+        {
+          "word": "cross-references",
+          "eng_definition": "references in one part of a document that point to another part",
+          "kor_definition": "상호 참조"
+        },
+        {
+          "word": "records",
+          "eng_definition": "official documents or data about someone or something",
+          "kor_definition": "기록, 문서"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why was Stanley angry at himself?",
+          "options": [
+            "Because he lost his shovel",
+            "Because he found the gold tube",
+            "Because he was afraid of the Warden",
+            "Because Zero dug his hole for him"
+          ],
+          "answer": "Because Zero dug his hole for him"
+        },
+        {
+          "question": "What did Stanley consider doing to find Zero?",
+          "options": [
+            "Send a message to Zero",
+            "Ask the Warden for help",
+            "Climb Big Thumb",
+            "Give up and go home"
+          ],
+          "answer": "Climb Big Thumb"
+        },
+        {
+          "question": "What did Stanley think might be the purpose of Big Thumb?",
+          "options": [
+            "A natural water tower",
+            "A hiding spot for Zero",
+            "A dangerous mountain",
+            "A place to find gold"
+          ],
+          "answer": "A natural water tower"
+        },
+        {
+          "question": "What was the Warden's plan for Zero's records?",
+          "options": [
+            "To erase or hide them",
+            "To send them to Zero's family",
+            "To keep them safe",
+            "To publish them publicly"
+          ],
+          "answer": "To erase or hide them"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley consider making a deal with the Warden?",
+          "answer": "He thought he could tell her where he found the gold tube in exchange for not scratching Zero."
+        },
+        {
+          "question": "What did Stanley observe about Mr. Pendanski's condition?",
+          "answer": "He saw that Mr. Pendanski had two black eyes and a swollen face, indicating he was injured."
+        },
+        {
+          "question": "What does Stanley hope Zero has found on his own?",
+          "answer": "He hopes Zero has found God's thumb and possibly water, which would be a safe place."
+        }
+      ]
+    },
+    {
+      "chapter_number": 32,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "fidget",
+          "eng_definition": "to make small movements, especially of the hands and feet, through nervousness or impatience",
+          "kor_definition": "초조하거나 조급해서 손발을 가만히 두지 못하고 계속 움직이다"
+        },
+        {
+          "word": "vacancies",
+          "eng_definition": "empty spaces that can be filled; available positions or spots",
+          "kor_definition": "비어 있는 공간 또는 자리"
+        },
+        {
+          "word": "hot-wire",
+          "eng_definition": "to connect wires in a car's ignition system illegally to start the engine",
+          "kor_definition": "자동차 시동을 걸기 위해 불법으로 배선을 연결하다"
+        },
+        {
+          "word": "deserted",
+          "eng_definition": "abandoned or empty; not occupied",
+          "kor_definition": "버려지거나 사람이 없는"
+        },
+        {
+          "word": "lurch",
+          "eng_definition": "to make an abrupt, unsteady, or uncontrolled movement or series of movements",
+          "kor_definition": "갑작스럽고 불안정하거나 통제되지 않는 움직임"
+        },
+        {
+          "word": "lopsided",
+          "eng_definition": "having one side lower or smaller than the other; asymmetrical",
+          "kor_definition": "한쪽이 더 낮거나 작은 비대칭적인 상태"
+        },
+        {
+          "word": "revved",
+          "eng_definition": "caused an engine to operate at a high speed",
+          "kor_definition": "엔진을 고속으로 작동시키다"
+        },
+        {
+          "word": "lurked",
+          "eng_definition": "to remain hidden so as to wait in ambush or to stay out of sight",
+          "kor_definition": "숨거나 숨어서 기다리다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why was Twitch called 'Twitch'?",
+          "options": [
+            "Because he liked to run",
+            "Because he was very fast",
+            "Because he was always fidgeting",
+            "Because he was nervous"
+          ],
+          "answer": "Because he was always fidgeting"
+        },
+        {
+          "question": "What did Stanley try to do with the truck?",
+          "options": [
+            "Drive it to water",
+            "Fix it",
+            "Sell it",
+            "Hide it"
+          ],
+          "answer": "Drive it to water"
+        },
+        {
+          "question": "What happened when Stanley pressed the gas pedal?",
+          "options": [
+            "The truck went faster and faster",
+            "The truck started moving smoothly",
+            "The engine died",
+            "The truck stopped suddenly"
+          ],
+          "answer": "The truck went faster and faster"
+        },
+        {
+          "question": "How did Stanley feel after driving into the hole?",
+          "options": [
+            "Happy he escaped",
+            "Sore but not broken",
+            "Proud of himself",
+            "Excited for adventure"
+          ],
+          "answer": "Sore but not broken"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley feel he couldn't blame his grandfather this time?",
+          "answer": "Because he believed he was responsible for his own mistake of driving the truck into the hole."
+        },
+        {
+          "question": "What does the word 'lurch' mean in the context of the story?",
+          "answer": "It means to make a sudden, uncontrolled movement, like when the truck suddenly moved forward."
+        },
+        {
+          "question": "Why was Stanley's canteen described as 'empty, empty, empty' at the end?",
+          "answer": "Because it was strapped around his neck and banged against his chest, reminding him it had no water left."
+        }
+      ]
+    },
+    {
+      "chapter_number": 33,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "haze",
+          "eng_definition": "a thin fog or mist that reduces visibility",
+          "kor_definition": "안개, 희미한 안개"
+        },
+        {
+          "word": "refuge",
+          "eng_definition": "shelter or protection from danger or trouble",
+          "kor_definition": "피난처, 은신처"
+        },
+        {
+          "word": "systematic",
+          "eng_definition": "done according to a fixed plan or system",
+          "kor_definition": "체계적인, 계획된"
+        },
+        {
+          "word": "cluster",
+          "eng_definition": "a group of similar things close together",
+          "kor_definition": "무리, 집단"
+        },
+        {
+          "word": "leap",
+          "eng_definition": "to jump a long way or to a great height",
+          "kor_definition": "껑충 뛰다, 도약하다"
+        },
+        {
+          "word": "cautious",
+          "eng_definition": "careful to avoid danger or mistakes",
+          "kor_definition": "조심하는, 신중한"
+        },
+        {
+          "word": "mound",
+          "eng_definition": "a small hill or raised area of earth",
+          "kor_definition": "작은 언덕, 흙더미"
+        },
+        {
+          "word": "leapt",
+          "eng_definition": "past tense of leap; jumped suddenly or quickly",
+          "kor_definition": "뛰었다, 급히 뛰었다"
+        },
+        {
+          "word": "burlap",
+          "eng_definition": "a rough woven fabric, often used for sacks",
+          "kor_definition": "마초, 자루에 쓰이는 거친 천"
+        },
+        {
+          "word": "collected",
+          "eng_definition": "gathered or brought together",
+          "kor_definition": "모았다, 수집한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Stanley decide to walk in the chapter?",
+          "options": [
+            "To catch the truck",
+            "To reach Big Thumb quickly",
+            "To find water",
+            "To calm down and think clearly"
+          ],
+          "answer": "To calm down and think clearly"
+        },
+        {
+          "question": "What did Stanley find at the bottom of the hole?",
+          "options": [
+            "A sunflower seed",
+            "A water canteen",
+            "A piece of Kate Barlow's lipstick",
+            "A family of yellow-spotted lizards"
+          ],
+          "answer": "A family of yellow-spotted lizards"
+        },
+        {
+          "question": "What does the word 'systematic' mean in the story?",
+          "options": [
+            "Random and unplanned",
+            "Very messy",
+            "Careless and hurried",
+            "Done according to a fixed plan"
+          ],
+          "answer": "Done according to a fixed plan"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Stanley cautious around the holes?",
+          "answer": "Because he saw a family of dangerous yellow-spotted lizards at the bottom."
+        },
+        {
+          "question": "What did Stanley find that might be related to Magnet?",
+          "answer": "An empty sack of sunflower seeds, possibly the one Magnet stole."
+        }
+      ]
+    },
+    {
+      "chapter_number": 34,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "mirage",
+          "eng_definition": "an optical illusion caused by atmospheric conditions, making distant objects appear distorted or like water",
+          "kor_definition": "신기루, 환상"
+        },
+        {
+          "word": "haze",
+          "eng_definition": "a slight obscuration of the lower atmosphere, caused by dust, smoke, or moisture",
+          "kor_definition": "안개, 흐림"
+        },
+        {
+          "word": "shimmering",
+          "eng_definition": "shining with a flickering or wavering light",
+          "kor_definition": "깜빡이는 빛, 희미하게 빛나는"
+        },
+        {
+          "word": "ridge",
+          "eng_definition": "a long, narrow elevation of land; a chain of hills or mountains",
+          "kor_definition": "능선, 마루"
+        },
+        {
+          "word": "drought",
+          "eng_definition": "a prolonged period of abnormally low rainfall, leading to a shortage of water",
+          "kor_definition": "가뭄"
+        },
+        {
+          "word": "drenched",
+          "eng_definition": "wet thoroughly; soaked",
+          "kor_definition": "흠뻑 적신, 젖은"
+        },
+        {
+          "word": "tunnel",
+          "eng_definition": "an underground passage",
+          "kor_definition": "터널"
+        },
+        {
+          "word": "peel",
+          "eng_definition": "to strip off or remove the outer layer or skin",
+          "kor_definition": "껍질을 벗기다"
+        },
+        {
+          "word": "distraught",
+          "eng_definition": "deeply upset or agitated",
+          "kor_definition": "극도로 정신이 혼란한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was the main cause of the mirage the character saw?",
+          "options": [
+            "A hidden water source",
+            "Refraction of sunlight",
+            "Shimmering heat waves",
+            "Reflections from a lake"
+          ],
+          "answer": "Shimmering heat waves"
+        },
+        {
+          "question": "What object did the character find in the middle of the wasteland?",
+          "options": [
+            "A pile of rocks",
+            "A fallen tree",
+            "A building",
+            "A boat"
+          ],
+          "answer": "A boat"
+        },
+        {
+          "question": "What was the name painted on the boat?",
+          "options": [
+            "Mary Lou",
+            "Sunny Day",
+            "Desert Rose",
+            "Lost Hope"
+          ],
+          "answer": "Mary Lou"
+        },
+        {
+          "question": "What did the character hear coming from under the boat?",
+          "options": [
+            "A noise",
+            "A splash",
+            "Laughter",
+            "Silence"
+          ],
+          "answer": "A noise"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did the character decide to change direction and go toward the mysterious object?",
+          "answer": "Because he thought there was something interesting or important about it, even if it might not be anything real."
+        },
+        {
+          "question": "What does the boat being upside down suggest about its history in the story?",
+          "answer": "It suggests that the lake dried up and the boat was abandoned, possibly indicating a past water source that is now gone."
+        },
+        {
+          "question": "How does the character's perception of the mirage and the object reflect his situation?",
+          "answer": "It shows he is desperate and confused, trying to find hope or meaning in the nothingness around him."
+        }
+      ]
+    },
+    {
+      "chapter_number": 35,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "jack-o'-lantern",
+          "eng_definition": "A carved pumpkin with a face, lit from inside by a candle, used as a decoration for Halloween.",
+          "kor_definition": "호박등, 할로윈 때 장식하는 얼굴이 새겨진 호박등"
+        },
+        {
+          "word": "raspy",
+          "eng_definition": "Having a rough, harsh, or grating sound.",
+          "kor_definition": "거슬리고 거친 목소리의, 쉰 목소리의"
+        },
+        {
+          "word": "sploosh",
+          "eng_definition": "A slang term for a splash or a squishy, wet sound.",
+          "kor_definition": "철벅거림, 휘젓는 소리"
+        },
+        {
+          "word": "ventilation",
+          "eng_definition": "The circulation of fresh air to maintain a comfortable environment.",
+          "kor_definition": "환기, 통풍"
+        },
+        {
+          "word": "bacteria",
+          "eng_definition": "Microscopic organisms that can sometimes cause disease or decay.",
+          "kor_definition": "박테리아, 세균"
+        },
+        {
+          "word": "vowel",
+          "eng_definition": "A speech sound produced without blocking the airflow using the lips, teeth, or tongue, such as a, e, i, o, u.",
+          "kor_definition": "모음, 모음자"
+        },
+        {
+          "word": "consonant",
+          "eng_definition": "A speech sound produced by obstructing the airflow using the lips, teeth, or tongue.",
+          "kor_definition": "자음, 자음자"
+        },
+        {
+          "word": "moan",
+          "eng_definition": "A low, prolonged sound of pain, grief, or discomfort.",
+          "kor_definition": "신음, 신음소리"
+        },
+        {
+          "word": "mountain",
+          "eng_definition": "A large landform that rises prominently above the surrounding land, usually with a summit.",
+          "kor_definition": "산, 산맥"
+        },
+        {
+          "word": "fist",
+          "eng_definition": "A hand with fingers clenched tightly into a ball.",
+          "kor_definition": "주먹"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Zero's face resemble?",
+          "options": [
+            "A happy face",
+            "A smiling face",
+            "A scared face",
+            "A jack-o'-lantern"
+          ],
+          "answer": "A jack-o'-lantern"
+        },
+        {
+          "question": "Why is Stanley worried about drinking the sploosh?",
+          "options": [
+            "It is too hot",
+            "It looks like mud and could have bacteria",
+            "It might be poison",
+            "It tastes terrible"
+          ],
+          "answer": "It looks like mud and could have bacteria"
+        },
+        {
+          "question": "What is the name of the boat mentioned in the story?",
+          "options": [
+            "Sea Queen",
+            "Mary Lou",
+            "Lucky Lady",
+            "Sunny Sky"
+          ],
+          "answer": "Mary Lou"
+        },
+        {
+          "question": "What does Zero do when he sees the mountain?",
+          "options": [
+            "He runs away",
+            "He raises his thumb and studies it",
+            "He ignores it",
+            "He climbs it"
+          ],
+          "answer": "He raises his thumb and studies it"
+        },
+        {
+          "question": "What does Stanley think might be in the sploosh?",
+          "options": [
+            "Old bacteria-laden liquid",
+            "Honey",
+            "Fruit juice",
+            "Water from a river"
+          ],
+          "answer": "Old bacteria-laden liquid"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What physical condition does Zero appear to be in?",
+          "answer": "Zero looks very weak, with sunken eyes, pale lips, and is almost unable to move."
+        },
+        {
+          "question": "Why does Stanley hesitate to drink the sploosh?",
+          "answer": "Because it looks like mud and might contain harmful bacteria, and he's afraid of the broken glass."
+        },
+        {
+          "question": "What is the significance of the boat's name, Mary Lou?",
+          "answer": "It is the name painted on the boat, indicating its identity, and Zero studies the letters to understand the pronunciation."
+        },
+        {
+          "question": "What is Zero’s reaction when he looks at the mountain?",
+          "answer": "He studies it carefully, then raises his thumb and makes a fist, possibly indicating determination or a plan."
+        }
+      ]
+    },
+    {
+      "chapter_number": 36,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "burlap",
+          "eng_definition": "a coarse woven fabric usually made from jute or hemp",
+          "kor_definition": "마초 헴프 또는 견으로 만든 거친 직물"
+        },
+        {
+          "word": "sploosh",
+          "eng_definition": "a splashing or plunging sound or action",
+          "kor_definition": "철벅철벅 소리 또는 액체가 쏟아지는 것"
+        },
+        {
+          "word": "clutch",
+          "eng_definition": "to grasp or hold tightly",
+          "kor_definition": "단단히 잡거나 붙잡다"
+        },
+        {
+          "word": "frail",
+          "eng_definition": "weak or delicate in structure",
+          "kor_definition": "연약하거나 섬세한"
+        },
+        {
+          "word": "rut",
+          "eng_definition": "a groove or track in the ground",
+          "kor_definition": "땅에 난 홈이나 흔적"
+        },
+        {
+          "word": "protruding",
+          "eng_definition": "sticking out or projecting",
+          "kor_definition": "튀어나오거나 돌출된"
+        },
+        {
+          "word": "defy",
+          "eng_definition": "to openly resist or refuse to obey",
+          "kor_definition": "공개적으로 저항하거나 복종하지 않다"
+        },
+        {
+          "word": "gashes",
+          "eng_definition": "deep cuts or wounds",
+          "kor_definition": "깊은 상처 또는 베인 자국"
+        },
+        {
+          "word": "support",
+          "eng_definition": "to hold up or bear the weight of something",
+          "kor_definition": "지탱하거나 무게를 버티다"
+        },
+        {
+          "word": "exhausted",
+          "eng_definition": "very tired or drained of energy",
+          "kor_definition": "매우 피곤하거나 기운이 다 빠진"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley carry in his sack?",
+          "options": [
+            "Sand and stones",
+            "Water bottles",
+            "Four unbroken jars",
+            "Clothes"
+          ],
+          "answer": "Four unbroken jars"
+        },
+        {
+          "question": "Why did Zero clutch his stomach?",
+          "options": [
+            "He was cold",
+            "He was tired",
+            "He was hungry",
+            "He had an attack"
+          ],
+          "answer": "He had an attack"
+        },
+        {
+          "question": "What did Stanley spell to Zero to distract him?",
+          "options": [
+            "FUN",
+            "HELP",
+            "RUN",
+            "GO"
+          ],
+          "answer": "RUN"
+        },
+        {
+          "question": "What is Big Thumb in the story?",
+          "options": [
+            "A large thumb-shaped hill",
+            "A tree",
+            "A mountain",
+            "A large rock"
+          ],
+          "answer": "A large thumb-shaped hill"
+        },
+        {
+          "question": "How did Stanley help Zero climb the ledge?",
+          "options": [
+            "He used the shovel to support him",
+            "He pushed him",
+            "He carried him on his back",
+            "He threw a rope"
+          ],
+          "answer": "He used the shovel to support him"
+        },
+        {
+          "question": "What did Zero do after getting injured while climbing?",
+          "options": [
+            "He sucked his own blood",
+            "He rested and continued",
+            "He called for help",
+            "He gave up"
+          ],
+          "answer": "He sucked his own blood"
+        },
+        {
+          "question": "What did Stanley imagine about the top of Big Thumb?",
+          "options": [
+            "A lake",
+            "A treasure chest",
+            "An Italian restaurant",
+            "A house"
+          ],
+          "answer": "An Italian restaurant"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley think he might need the shovel to dig a grave?",
+          "answer": "Because Zero was injured and they were in danger of dying, so he thought Zero might die first."
+        },
+        {
+          "question": "What motivated Stanley to keep going despite feeling exhausted?",
+          "answer": "He wanted Zero to survive and believed they could reach safety together."
+        },
+        {
+          "question": "Why did Stanley think about his parents while struggling?",
+          "answer": "He was worried they wouldn't know what happened to him and would live with false hope."
+        },
+        {
+          "question": "What does the story suggest about Zero’s strength?",
+          "answer": "Despite being frail and injured, Zero kept helping Stanley and kept trying to climb."
+        },
+        {
+          "question": "How did spelling words help Zero?",
+          "answer": "It distracted him from his pain and weakness, giving him something to focus on."
+        },
+        {
+          "question": "What is the significance of the jars and the broken glass?",
+          "answer": "They might be used for tools like knives, and the broken glass could be useful for other purposes."
+        }
+      ]
+    },
+    {
+      "chapter_number": 37,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "refuge",
+          "eng_definition": "a safe place or shelter",
+          "kor_definition": "피난처, 은신처"
+        },
+        {
+          "word": "zigzagged",
+          "eng_definition": "moved back and forth in a pattern like a zigzag",
+          "kor_definition": "지그재그로 움직였다"
+        },
+        {
+          "word": "footholds",
+          "eng_definition": "secure places to step or hold on to",
+          "kor_definition": "발판, 디딤돌"
+        },
+        {
+          "word": "weeds",
+          "eng_definition": "unwanted plants growing among crops or on land",
+          "kor_definition": "잡초"
+        },
+        {
+          "word": "thorns",
+          "eng_definition": "sharp points on some plants that can hurt",
+          "kor_definition": "가시"
+        },
+        {
+          "word": "increment",
+          "eng_definition": "a small amount by which something increases",
+          "kor_definition": "증가, 증분"
+        },
+        {
+          "word": "gnats",
+          "eng_definition": "small flying insects that are attracted to sweat",
+          "kor_definition": "선충, 작은 파리"
+        },
+        {
+          "word": "splosh",
+          "eng_definition": "a soft, squishy sound or action, here meaning the contents of stomach being thrown up",
+          "kor_definition": "퍽퍽 쏟아지는 소리"
+        },
+        {
+          "word": "clown-like",
+          "eng_definition": "resembling a clown, often in appearance or expression",
+          "kor_definition": "광대 같은"
+        },
+        {
+          "word": "tangled",
+          "eng_definition": "twisted together in a messy way",
+          "kor_definition": "엉킨"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Stanley think they might be close to water?",
+          "options": [
+            "Because they saw a lake",
+            "Because they reached the mountain top",
+            "Because weeds and bugs appeared",
+            "Because they found a river"
+          ],
+          "answer": "Because weeds and bugs appeared"
+        },
+        {
+          "question": "What did Zero do when he made a horrible noise and grabbed his stomach?",
+          "options": [
+            "He started running",
+            "He fell asleep",
+            "He threw up",
+            "He called for help"
+          ],
+          "answer": "He threw up"
+        },
+        {
+          "question": "What does Stanley plan to give Zero after they reach water?",
+          "options": [
+            "A rest break",
+            "A new hat",
+            "A hot fudge sundae",
+            "A bottle of water"
+          ],
+          "answer": "A hot fudge sundae"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley think the weeds and bugs meant they were close to water?",
+          "answer": "Because weeds and bugs usually appear near water sources."
+        },
+        {
+          "question": "How did Zero respond when Stanley told him they were close to water?",
+          "answer": "Zero smiled and gave a thumbs-up before falling down."
+        }
+      ]
+    },
+    {
+      "chapter_number": 38,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "upright",
+          "eng_definition": "Standing straight up; vertical.",
+          "kor_definition": "똑바로 서 있는, 직립의"
+        },
+        {
+          "word": "dangling",
+          "eng_definition": "Hanging loosely or swinging freely.",
+          "kor_definition": "늘어져 있는, 매달려 있는"
+        },
+        {
+          "word": "tangled",
+          "eng_definition": "Twisted together in a messy way.",
+          "kor_definition": "엉킨, 뒤엉킨"
+        },
+        {
+          "word": "precipice",
+          "eng_definition": "A very steep cliff or face of a mountain.",
+          "kor_definition": "깎아지른 절벽, 벼랑"
+        },
+        {
+          "word": "despair",
+          "eng_definition": "The complete loss of hope.",
+          "kor_definition": "절망"
+        },
+        {
+          "word": "slipped",
+          "eng_definition": "Fell accidentally or suddenly.",
+          "kor_definition": "미끄러졌다, 미끄러지다"
+        },
+        {
+          "word": "soggy",
+          "eng_definition": "Wet and soft; soaked.",
+          "kor_definition": "축축한, 질척한"
+        },
+        {
+          "word": " scoop",
+          "eng_definition": "To pick up or remove something with a curved tool or hands.",
+          "kor_definition": "퍼서 담다, 뜨다"
+        },
+        {
+          "word": "onion",
+          "eng_definition": "A bulbous vegetable with a strong smell and taste, used in cooking.",
+          "kor_definition": "양파"
+        },
+        {
+          "word": "fudge sundae",
+          "eng_definition": "A dessert made of ice cream topped with hot fudge sauce.",
+          "kor_definition": "초콜릿 소스가 올라간 아이스크림 디저트"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Stanley do to Zero at the beginning of the chapter?",
+          "options": [
+            "He pushes Zero down the mountain.",
+            "He takes hold of Zero's forearms and helps him stand.",
+            "He leaves him behind.",
+            "He ignores Zero entirely."
+          ],
+          "answer": "He takes hold of Zero's forearms and helps him stand."
+        },
+        {
+          "question": "What does Stanley think the smell in the air is?",
+          "options": [
+            "The bitter smell of despair",
+            "Fresh water",
+            "The smell of flowers",
+            "Food cooking"
+          ],
+          "answer": "The bitter smell of despair"
+        },
+        {
+          "question": "What does Stanley find and eat in the muddy gully?",
+          "options": [
+            "An onion",
+            "A piece of bread",
+            "A candy bar",
+            "A fish"
+          ],
+          "answer": "An onion"
+        },
+        {
+          "question": "What does Stanley give to Zero at the end of the chapter?",
+          "options": [
+            "A hot fudge sundae",
+            "A new shirt",
+            "Water",
+            "A piece of bread"
+          ],
+          "answer": "A hot fudge sundae"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Stanley continue climbing despite the difficult conditions?",
+          "answer": "He wants to reach the top of Big Thumb and find water."
+        },
+        {
+          "question": "How does Stanley find water in the muddy gully?",
+          "answer": "He digs a hole in the moist ground and feels the water with his fingers and tongue."
+        },
+        {
+          "question": "What does the onion taste like, and how does Stanley feel after eating it?",
+          "answer": "The onion is hot and bitter, and Stanley feels its warmth moving down his throat and into his stomach."
+        }
+      ]
+    },
+    {
+      "chapter_number": 39,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "layered",
+          "eng_definition": "arranged in layers or levels",
+          "kor_definition": "층을 이루는, 겹겹이 쌓인"
+        },
+        {
+          "word": "streaked",
+          "eng_definition": "marked with lines or streaks of a different color",
+          "kor_definition": "줄무늬가 있는, 줄무늬가 생긴"
+        },
+        {
+          "word": "precipice",
+          "eng_definition": "a very steep rock face or cliff",
+          "kor_definition": "절벽, 벼랑"
+        },
+        {
+          "word": "filtered",
+          "eng_definition": "passed through a device to remove impurities or particles",
+          "kor_definition": "여과된, 걸러진"
+        },
+        {
+          "word": "groan",
+          "eng_definition": "a deep, inarticulate sound of pain or distress",
+          "kor_definition": "신음소리, 탄식"
+        },
+        {
+          "word": "delirious",
+          "eng_definition": "in an acutely disturbed state of mind due to illness or intoxication",
+          "kor_definition": "망상에 빠진, 혼란한"
+        },
+        {
+          "word": "confession",
+          "eng_definition": "a formal admission of guilt or truth",
+          "kor_definition": "자백, 고백"
+        },
+        {
+          "word": "relaxed",
+          "eng_definition": "becoming less tense or anxious",
+          "kor_definition": "이완된, 긴장이 풀린"
+        },
+        {
+          "word": "generations",
+          "eng_definition": "a group of individuals born and living at about the same time",
+          "kor_definition": "세대, 출생 연대"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What kind of landscape does Stanley wake up in?",
+          "options": [
+            "A desert",
+            "A forest",
+            "A city",
+            "A meadow"
+          ],
+          "answer": "A meadow"
+        },
+        {
+          "question": "What does Zero confess to Stanley?",
+          "options": [
+            "He took Stanley's shoes",
+            "He ate Stanley's food",
+            "He took the water",
+            "He took Stanley's hat"
+          ],
+          "answer": "He took Stanley's shoes"
+        },
+        {
+          "question": "Why does Stanley hesitate to go back down the mountain?",
+          "options": [
+            "He can't find his shoes",
+            "He lost the trail",
+            "He is afraid of the dark",
+            "He doesn't want to leave Zero"
+          ],
+          "answer": "He doesn't want to leave Zero"
+        },
+        {
+          "question": "What does Stanley sing to Zero as he falls asleep?",
+          "options": [
+            "A lullaby",
+            "An old folk song",
+            "A family song",
+            "A song about the mountain"
+          ],
+          "answer": "A family song"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Stanley unable to get up after waking in the meadow?",
+          "answer": "He felt weak and had sand in his mouth and throat."
+        },
+        {
+          "question": "What did Zero reveal about the shoes?",
+          "answer": "Zero admitted he took Stanley's shoes from the shelter."
+        },
+        {
+          "question": "What is the significance of the flowers Stanley picks?",
+          "answer": "They are clusters of tiny flowers, and Stanley considers going back down the trail to find the shovel."
+        }
+      ]
+    },
+    {
+      "chapter_number": 40,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "intertwined",
+          "eng_definition": "twisted or woven together",
+          "kor_definition": "얽히거나 엮인"
+        },
+        {
+          "word": "meadow",
+          "eng_definition": "a field of grass and wildflowers",
+          "kor_definition": "초원, 목초지"
+        },
+        {
+          "word": "leech",
+          "eng_definition": "a bloodsucking parasite used in medicine",
+          "kor_definition": "거머리"
+        },
+        {
+          "word": "tonic",
+          "eng_definition": "a medicinal substance that invigorates or strengthens",
+          "kor_definition": "강장제, 토닉"
+        },
+        {
+          "word": "deserted",
+          "eng_definition": "abandoned or empty of people",
+          "kor_definition": "버려진, 인적이 드문"
+        },
+        {
+          "word": "indentation",
+          "eng_definition": "a hollow or cut in the surface",
+          "kor_definition": "홈, 움푹 들어간 곳"
+        },
+        {
+          "word": "feebly",
+          "eng_definition": "in a weak or slight manner",
+          "kor_definition": "약하게, 힘없이"
+        },
+        {
+          "word": "indentation",
+          "eng_definition": "a hollow or cut in the surface",
+          "kor_definition": "홈, 움푹 들어간 곳"
+        },
+        {
+          "word": "sack",
+          "eng_definition": "a large bag used for carrying items",
+          "kor_definition": "자루, 큰 가방"
+        },
+        {
+          "word": "climb",
+          "eng_definition": "to go up or ascend",
+          "kor_definition": "오르다, 올라가다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley find that helped save Rebecca?",
+          "options": [
+            "A magic potion",
+            "A bandage",
+            "A bunch of onions",
+            "A medical book"
+          ],
+          "answer": "A bunch of onions"
+        },
+        {
+          "question": "Why was Mrs. Tennyson running down the street?",
+          "options": [
+            "To buy onions",
+            "Because she was late",
+            "To see her daughter",
+            "To help Rebecca"
+          ],
+          "answer": "To help Rebecca"
+        },
+        {
+          "question": "What did the townspeople think about Dr. Hawthorn's treatment?",
+          "options": [
+            "They thought he was a quack",
+            "They thought it was effective",
+            "They agreed with it",
+            "They didn't care"
+          ],
+          "answer": "They thought he was a quack"
+        },
+        {
+          "question": "What did Mrs. Tennyson buy from Sam?",
+          "options": [
+            "A loaf of bread",
+            "A pair of shoes",
+            "A new hat",
+            "A dozen onions"
+          ],
+          "answer": "A dozen onions"
+        },
+        {
+          "question": "What did Stanley find at the end of his search on the mountain?",
+          "options": [
+            "A lost dog",
+            "A hidden cave",
+            "A shovel and jars",
+            "A treasure chest"
+          ],
+          "answer": "A shovel and jars"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How did onions help Rebecca?",
+          "answer": "They acted as a tonic that helped her recover from illness."
+        },
+        {
+          "question": "Why didn't Stanley want Zero to see him look for the shovel?",
+          "answer": "He didn't want Zero to think he had been abandoned or to worry about him."
+        },
+        {
+          "question": "What did Stanley find in the weeds at the top of the mountain?",
+          "answer": "The shovel and the sack of jars."
+        },
+        {
+          "question": "Why was Mrs. Tennyson running in her nightgown?",
+          "answer": "She was rushing to help her daughter Rebecca after she fell sick."
+        }
+      ]
+    },
+    {
+      "chapter_number": 41,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "murky",
+          "eng_definition": "Dark and not clear, often due to dirt or fog",
+          "kor_definition": "흐리고 탁한, 흐릿한"
+        },
+        {
+          "word": "contaminate",
+          "eng_definition": "To make something dirty or harmful by adding something bad",
+          "kor_definition": "오염시키다, 더럽히다"
+        },
+        {
+          "word": "ward of the state",
+          "eng_definition": "A minor who is placed under the care of the government",
+          "kor_definition": "국가가 보호하는 미성년자"
+        },
+        {
+          "word": "pretend",
+          "eng_definition": "To act as if something is true when it is not",
+          "kor_definition": "가장하다, 인척하다"
+        },
+        {
+          "word": "uniform",
+          "eng_definition": "Clothing that is the same for all members of a group",
+          "kor_definition": "군복, 유니폼"
+        },
+        {
+          "word": "sneakers",
+          "eng_definition": "Casual athletic shoes",
+          "kor_definition": "운동화, 스니커즈"
+        },
+        {
+          "word": "arrested",
+          "eng_definition": "Caught and taken to jail by the police",
+          "kor_definition": "체포되다, 구속되다"
+        },
+        {
+          "word": "famous",
+          "eng_definition": "Known by many people",
+          "kor_definition": "유명한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Stanley not want Zero to help dig the water hole?",
+          "options": [
+            "He thought Zero would get sick",
+            "He believed Zero was lazy",
+            "He wanted Zero to rest",
+            "He wanted to do all the work himself"
+          ],
+          "answer": "He thought Zero would get sick"
+        },
+        {
+          "question": "What did Zero say he used to pretend to be outside?",
+          "options": [
+            "A Boy Scout",
+            "A police officer",
+            "A firefighter",
+            "A teacher"
+          ],
+          "answer": "A Boy Scout"
+        },
+        {
+          "question": "Why did Zero take Clyde Livingston's shoes?",
+          "options": [
+            "He wanted to sell them",
+            "He liked the way they looked",
+            "He was asked to take them",
+            "He thought they were old shoes nobody cared about"
+          ],
+          "answer": "He thought they were old shoes nobody cared about"
+        },
+        {
+          "question": "What did Zero think was better than stealing new shoes?",
+          "options": [
+            "Not taking any shoes at all",
+            "Taking old shoes from a display",
+            "Buying shoes legally",
+            "Getting shoes from a friend"
+          ],
+          "answer": "Taking old shoes from a display"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Zero think it was better to take old shoes rather than new ones?",
+          "answer": "Because he believed old shoes were less likely to cause problems and thought it was less serious to take them."
+        },
+        {
+          "question": "What does Zero say about his experience with stealing when he was little?",
+          "answer": "He didn't realize he was stealing at first and thought they only took what they needed."
+        },
+        {
+          "question": "What does Zero say about his mother?",
+          "answer": "He says everyone has to have a mother, and his mother once won a prize for selling Girl Scout cookies."
+        }
+      ]
+    },
+    {
+      "chapter_number": 42,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "dig",
+          "eng_definition": "to break up and move soil or sand with a tool or hands",
+          "kor_definition": "파다, 땅을 파다"
+        },
+        {
+          "word": "separate",
+          "eng_definition": "to set or keep apart",
+          "kor_definition": "분리하다, 갈라놓다"
+        },
+        {
+          "word": "surround",
+          "eng_definition": "to be all around something",
+          "kor_definition": "둘러싸다"
+        },
+        {
+          "word": "delirious",
+          "eng_definition": "feeling disoriented or confused, often due to illness or exhaustion",
+          "kor_definition": "환각 상태의, 혼란스러운"
+        },
+        {
+          "word": "fugitive",
+          "eng_definition": "a person who is running away to avoid arrest or persecution",
+          "kor_definition": "도망자"
+        },
+        {
+          "word": "coincidence",
+          "eng_definition": "a surprising event that happens at the same time by chance",
+          "kor_definition": "우연의 일치"
+        },
+        {
+          "word": "destiny",
+          "eng_definition": "the idea that events are predetermined and inevitable",
+          "kor_definition": "운명"
+        },
+        {
+          "word": "identity",
+          "eng_definition": "who a person is; their name and characteristics that distinguish them",
+          "kor_definition": "신원, 정체성"
+        },
+        {
+          "word": "treasure",
+          "eng_definition": "valuable items such as gold, jewels, or money hidden or stored away",
+          "kor_definition": "보물"
+        },
+        {
+          "word": "onion",
+          "eng_definition": "a vegetable with a strong smell and flavor, often used in cooking",
+          "kor_definition": "양파"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Zero help Stanley do in this chapter?",
+          "options": [
+            "Help dig a hole",
+            "Build a shelter",
+            "Find water",
+            "Cook food"
+          ],
+          "answer": "Help dig a hole"
+        },
+        {
+          "question": "Why does Stanley think they might not have to return to Camp Green Lake?",
+          "options": [
+            "They have a boat",
+            "They can escape through the desert",
+            "They might make it past the camp and follow the dirt road",
+            "They found a city"
+          ],
+          "answer": "They might make it past the camp and follow the dirt road"
+        },
+        {
+          "question": "What does Stanley think about the shoes that fell from the sky?",
+          "options": [
+            "They are destiny",
+            "They are a mistake",
+            "They are just shoes",
+            "They are a coincidence"
+          ],
+          "answer": "They are destiny"
+        },
+        {
+          "question": "What is Stanley considering doing at the end of the chapter?",
+          "options": [
+            "Getting a new home",
+            "Going to the city",
+            "Digging one more hole",
+            "Going back to school"
+          ],
+          "answer": "Digging one more hole"
+        },
+        {
+          "question": "What does Stanley think might be in Big Thumb?",
+          "options": [
+            "A treasure chest",
+            "A hole filled with water",
+            "A cave",
+            "A city"
+          ],
+          "answer": "A hole filled with water"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "How deep was the hole Zero dug?",
+          "answer": "It was over six feet deep."
+        },
+        {
+          "question": "Why does Stanley think they have been eating so many onions?",
+          "answer": "Because they have eaten about twenty onions a day for about a week."
+        },
+        {
+          "question": "What does Stanley wonder about his happiness at the end of the chapter?",
+          "answer": "He wonders if he is delirious or if it's part of destiny."
+        },
+        {
+          "question": "What does Stanley think about the shoes that fell from the sky?",
+          "answer": "He thinks they are part of destiny and not just a coincidence."
+        }
+      ]
+    },
+    {
+      "chapter_number": 43,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "homeless",
+          "eng_definition": "Without a home; having no place to live",
+          "kor_definition": "집이 없는, 노숙자의"
+        },
+        {
+          "word": "clap",
+          "eng_definition": "To hit the palms of the hands together repeatedly",
+          "kor_definition": "손뼉을 치다"
+        },
+        {
+          "word": "shadow",
+          "eng_definition": "A dark shape produced by a body blocking light",
+          "kor_definition": "그림자"
+        },
+        {
+          "word": "onion",
+          "eng_definition": "A vegetable with a strong smell, used in cooking",
+          "kor_definition": "양파"
+        },
+        {
+          "word": "sack",
+          "eng_definition": "A large bag used for carrying things",
+          "kor_definition": "자루, 가방"
+        },
+        {
+          "word": "squeak",
+          "eng_definition": "A short, high-pitched sound",
+          "kor_definition": "삑 소리"
+        },
+        {
+          "word": "treasure",
+          "eng_definition": "Valuable objects or money hidden or stored",
+          "kor_definition": "보물"
+        },
+        {
+          "word": "dirt",
+          "eng_definition": "Soil or earth",
+          "kor_definition": "흙"
+        },
+        {
+          "word": "destiny",
+          "eng_definition": "The events that will necessarily happen in the future",
+          "kor_definition": "운명"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Zero remember about his past?",
+          "options": [
+            "He remembers his parents clearly",
+            "He remembers a blue house",
+            "He remembers a yellow room",
+            "He remembers living in an apartment"
+          ],
+          "answer": "He remembers a yellow room"
+        },
+        {
+          "question": "Why do Stanley and Zero want to leave early in the morning?",
+          "options": [
+            "To reach Camp Green Lake before dark",
+            "To avoid the camp guards",
+            "To find treasure",
+            "To visit a friend"
+          ],
+          "answer": "To reach Camp Green Lake before dark"
+        },
+        {
+          "question": "What does Stanley worry about in his thoughts?",
+          "options": [
+            "Finding the treasure",
+            "Getting lost",
+            "His parents' fate",
+            "His own safety"
+          ],
+          "answer": "His parents' fate"
+        },
+        {
+          "question": "How does Stanley describe himself when carrying water jars?",
+          "options": [
+            "A horse",
+            "A turtle",
+            "A camel",
+            "A lion"
+          ],
+          "answer": "A camel"
+        },
+        {
+          "question": "What do Stanley and Zero do when they get close to camp?",
+          "options": [
+            "Yell loudly",
+            "Run away",
+            "Run into camp",
+            "Climb into holes and wait"
+          ],
+          "answer": "Climb into holes and wait"
+        },
+        {
+          "question": "What is Zero’s feeling about his mother’s leaving?",
+          "options": [
+            "He waited for her at Laney Park",
+            "He forgot her",
+            "He was angry",
+            "He was happy"
+          ],
+          "answer": "He waited for her at Laney Park"
+        },
+        {
+          "question": "What was Zero’s experience at the birthday party?",
+          "options": [
+            "He got a cake",
+            "He was ignored",
+            "He was asked to leave",
+            "He played happily"
+          ],
+          "answer": "He was asked to leave"
+        },
+        {
+          "question": "What does Stanley think about the direction they are heading?",
+          "options": [
+            "They are lost",
+            "They are going in circles",
+            "They are going the right way",
+            "They are going the wrong way"
+          ],
+          "answer": "They are going the wrong way"
+        },
+        {
+          "question": "What do Stanley and Zero do to hide from the camp?",
+          "options": [
+            "Hide in holes and wait until camp sleeps",
+            "Hide in trees",
+            "Hide behind rocks",
+            "Run away into the woods"
+          ],
+          "answer": "Hide in holes and wait until camp sleeps"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What memory does Zero have about his mother?",
+          "answer": "Zero remembers her leaving him at Laney Park and never coming back."
+        },
+        {
+          "question": "Why did Stanley think about his own parents?",
+          "answer": "He thought about how they might be worried, evicted, or think he is dead."
+        },
+        {
+          "question": "What did Zero say about his stuffed animal Jaffy?",
+          "answer": "Zero said Jaffy wasn't real."
+        },
+        {
+          "question": "How did Stanley and Zero protect the jars of water when falling down the mountain?",
+          "answer": "The onions in the sack protected the jars like Styrofoam packing."
+        },
+        {
+          "question": "What is the significance of the boat Stanley and Zero saw?",
+          "answer": "It helped them determine the direction they should go."
+        },
+        {
+          "question": "Why did Zero run away from the birthday party?",
+          "answer": "He felt he didn't belong and was stared at like a monster."
+        },
+        {
+          "question": "What does Stanley compare himself to when carrying the water jars?",
+          "answer": "He compares himself to a camel."
+        },
+        {
+          "question": "What is the main reason Stanley and Zero are hiding in the camp?",
+          "answer": "To wait until the camp is asleep so they can sneak out safely."
+        }
+      ]
+    },
+    {
+      "chapter_number": 44,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "creaking",
+          "eng_definition": "a high-pitched, squeaking sound made by something old or strained",
+          "kor_definition": "삐걱거리는 소리"
+        },
+        {
+          "word": "canteen",
+          "eng_definition": "a portable container for carrying water or other drinks",
+          "kor_definition": "물통, 병"
+        },
+        {
+          "word": "shovel",
+          "eng_definition": "a tool with a broad blade and a handle, used for digging or lifting material",
+          "kor_definition": "삽"
+        },
+        {
+          "word": "cave-in",
+          "eng_definition": "a sudden collapse of a surface or structure, especially underground",
+          "kor_definition": "무너짐, 붕괴"
+        },
+        {
+          "word": "treasure",
+          "eng_definition": "valuable items such as gold, jewels, or money hidden or stored away",
+          "kor_definition": "보물"
+        },
+        {
+          "word": "precarious",
+          "eng_definition": "not securely held or in position and dangerously likely to fall or collapse",
+          "kor_definition": "위험한, 불안정한"
+        },
+        {
+          "word": "sifted",
+          "eng_definition": "passed through a sieve to remove larger particles or to find something",
+          "kor_definition": "체로 거르다, 찾아내다"
+        },
+        {
+          "word": "luxurious",
+          "eng_definition": "extremely comfortable or elegant, often involving great expense",
+          "kor_definition": "호화로운"
+        },
+        {
+          "word": "astonishment",
+          "eng_definition": "great surprise or amazement",
+          "kor_definition": "놀람"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley hear that indicated activity at the camp?",
+          "options": [
+            "Waves crashing",
+            "Birds singing",
+            "Children playing",
+            "Showers and dinner sounds"
+          ],
+          "answer": "Showers and dinner sounds"
+        },
+        {
+          "question": "Why did Stanley decide to make the hole wider instead of deeper?",
+          "options": [
+            "Because Zero suggested it",
+            "Because he ran out of time",
+            "Because he was afraid of a cave-in",
+            "Because Kate Barlow buried her treasure at shallow depths"
+          ],
+          "answer": "Because Kate Barlow buried her treasure at shallow depths"
+        },
+        {
+          "question": "What did Stanley find sticking out of the dirt in the hole?",
+          "options": [
+            "A wooden box",
+            "A diamond",
+            "A gold coin",
+            "A metal suitcase"
+          ],
+          "answer": "A metal suitcase"
+        },
+        {
+          "question": "How did Stanley try to get the metal object out of the ground?",
+          "options": [
+            "By digging a tunnel underneath it",
+            "By lifting it with his hands",
+            "By pouring water on it",
+            "By hitting it with a rock"
+          ],
+          "answer": "By digging a tunnel underneath it"
+        },
+        {
+          "question": "What did Stanley think the metal object might be?",
+          "options": [
+            "An old box",
+            "A safe",
+            "A treasure chest",
+            "A metal suitcase"
+          ],
+          "answer": "A metal suitcase"
+        },
+        {
+          "question": "Who thanked Stanley at the end of the chapter?",
+          "options": [
+            "The sheriff",
+            "The Warden",
+            "Zero",
+            "The camp cook"
+          ],
+          "answer": "The Warden"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What was Stanley trying to do in the hole?",
+          "answer": "He was trying to find and dig up a treasure or valuable object buried underground."
+        },
+        {
+          "question": "Why was Stanley worried about the cave-in when digging the tunnel?",
+          "answer": "Because he was afraid the earth above the tunnel might collapse if he dug too hard or too deep."
+        },
+        {
+          "question": "How did Stanley identify the hard object in the dirt?",
+          "answer": "He felt it with his hands and noticed its cool, smooth texture, indicating it was metal."
+        },
+        {
+          "question": "What did Stanley and Zero do after finding the metal object?",
+          "answer": "They worked to free it by digging around and under it and finally pulled out a metal suitcase."
+        },
+        {
+          "question": "What does the chapter suggest about Kate Barlow?",
+          "answer": "That she buried a treasure chest and probably had help from a gang of thieves."
+        }
+      ]
+    },
+    {
+      "chapter_number": 45,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "beam",
+          "eng_definition": "a ray of light; a line of light emitted from a source",
+          "kor_definition": "빛줄기, 광선"
+        },
+        {
+          "word": "suitcase",
+          "eng_definition": "a case with a handle used for carrying clothes and belongings when traveling",
+          "kor_definition": "여행 가방, 여행용 짐가방"
+        },
+        {
+          "word": "guard duty",
+          "eng_definition": "the act of protecting or watching over something or someone",
+          "kor_definition": "감시 근무, 경비 근무"
+        },
+        {
+          "word": "glowed",
+          "eng_definition": "shined with a steady light",
+          "kor_definition": "빛났다, 빛나다"
+        },
+        {
+          "word": "crawl",
+          "eng_definition": "to move on hands and knees or dragging the body close to the ground",
+          "kor_definition": "기어가다, 기다"
+        },
+        {
+          "word": "nest",
+          "eng_definition": "a structure built by birds or animals for laying eggs or shelter",
+          "kor_definition": "둥지"
+        },
+        {
+          "word": "suppressed",
+          "eng_definition": "restrained, held back, or kept from being expressed",
+          "kor_definition": "억제된, 참다"
+        },
+        {
+          "word": "claws",
+          "eng_definition": "the sharp, curved nails on the toes of animals like cats or birds",
+          "kor_definition": "발톱, 발톱 모양의 것"
+        },
+        {
+          "word": "distracted",
+          "eng_definition": "unable to concentrate because of worry or interruption",
+          "kor_definition": "산만한, 집중하지 못하는"
+        },
+        {
+          "word": "commotion",
+          "eng_definition": "a state of confused and noisy disturbance",
+          "kor_definition": "소란, 소동"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What was Zero sitting on during the scene?",
+          "options": [
+            "His knees",
+            "A rock",
+            "A chair",
+            "A tree"
+          ],
+          "answer": "His knees"
+        },
+        {
+          "question": "What animal crawled onto Stanley's suitcase?",
+          "options": [
+            "A spider",
+            "A lizard",
+            "A moth",
+            "A beetle"
+          ],
+          "answer": "A lizard"
+        },
+        {
+          "question": "What did Stanley see on the ground in his hole?",
+          "options": [
+            "Flowers",
+            "Rocks",
+            "Animals",
+            "Lizards"
+          ],
+          "answer": "Lizards"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Stanley afraid to look at the lizards?",
+          "answer": "He was afraid they might crawl on him or bite him."
+        },
+        {
+          "question": "What was the Warden's attitude about the situation with the lizards?",
+          "answer": "She was calm and said they just needed to wait."
+        }
+      ]
+    },
+    {
+      "chapter_number": 46,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "shattered",
+          "eng_definition": "broken into pieces or destroyed",
+          "kor_definition": "산산조각이 난, 부서진"
+        },
+        {
+          "word": "scurried",
+          "eng_definition": "moved quickly and hurriedly",
+          "kor_definition": "서둘러 달리다"
+        },
+        {
+          "word": "frantically",
+          "eng_definition": "done in a hurried, excited, or anxious way",
+          "kor_definition": "미친 듯이, 필사적으로"
+        },
+        {
+          "word": "delirious",
+          "eng_definition": "in an acutely disturbed state of mind due to illness or intoxication",
+          "kor_definition": "망상 상태의, 정신이 혼란한"
+        },
+        {
+          "word": "initially",
+          "eng_definition": "at first, at the beginning",
+          "kor_definition": "처음에, 처음에는"
+        },
+        {
+          "word": "rigid",
+          "eng_definition": "unable to bend or be forced out of shape; stiff",
+          "kor_definition": "뻣뻣한, 굳은"
+        },
+        {
+          "word": "punished",
+          "eng_definition": "dealt with or penalized for a wrong or offense",
+          "kor_definition": "처벌받은"
+        },
+        {
+          "word": "perched",
+          "eng_definition": "situated or resting on something high or narrow",
+          "kor_definition": "앉아 있는, 자리 잡은"
+        },
+        {
+          "word": "fist",
+          "eng_definition": "a hand with the fingers clenched into a ball",
+          "kor_definition": "주먹"
+        },
+        {
+          "word": "strenuous",
+          "eng_definition": "requiring or using great effort or exertion",
+          "kor_definition": "격렬한, 힘든"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Mr. Sir do to the lizard in the cereal box?",
+          "options": [
+            "He caught it and released it",
+            "He ignored it",
+            "He fed it to the other lizards",
+            "He shot it in midair"
+          ],
+          "answer": "He shot it in midair"
+        },
+        {
+          "question": "Why did Mr. Pendanski suggest shooting the lizards or the kids?",
+          "options": [
+            "Because they would die anyway",
+            "Because they needed to be saved",
+            "Because they were cute",
+            "Because they were dangerous"
+          ],
+          "answer": "Because they would die anyway"
+        },
+        {
+          "question": "What story does the Warden plan to tell the authorities about what happened to Stanley?",
+          "options": [
+            "He was attacked by other campers",
+            "He tried to run away, fell in a hole, and the lizards got him",
+            "He fell in a river",
+            "He was kidnapped"
+          ],
+          "answer": "He tried to run away, fell in a hole, and the lizards got him"
+        },
+        {
+          "question": "What is Zero doing when Stanley looks at him at the end of the chapter?",
+          "options": [
+            "Perched with a lizard on his shoulder and giving a thumbs-up",
+            "Talking to the Warden",
+            "Digging a hole",
+            "Sleeping"
+          ],
+          "answer": "Perched with a lizard on his shoulder and giving a thumbs-up"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Stanley feel calm when the lizard ran across his mouth?",
+          "answer": "Because he was still alive and felt a connection with Zero, and he chose to stay still despite the danger."
+        },
+        {
+          "question": "What did Stanley remember about his childhood with his mother?",
+          "answer": "He remembered slipping on ice, falling down a hill, and laughing with his mother, feeling happy and safe."
+        },
+        {
+          "question": "Why did the Warden tell the counselors to give the campers breakfast and not talk to anyone?",
+          "answer": "To keep their story simple and prevent them from revealing what really happened, avoiding punishment."
+        }
+      ]
+    },
+    {
+      "chapter_number": 47,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "lizard",
+          "eng_definition": "a type of reptile with a long body and tail, and usually four legs",
+          "kor_definition": "도마뱀, 파충류의 일종"
+        },
+        {
+          "word": "blotchy",
+          "eng_definition": "having irregular patches or spots of color",
+          "kor_definition": "얼룩덜룩한, 반점이 있는"
+        },
+        {
+          "word": "stark",
+          "eng_definition": "harsh, severe, or sharply outlined",
+          "kor_definition": "극명한, 뚜렷한, 황량한"
+        },
+        {
+          "word": "pounce",
+          "eng_definition": "to jump or swoop suddenly so as to catch prey",
+          "kor_definition": "덮치다, 뛰어오르다"
+        },
+        {
+          "word": "numb",
+          "eng_definition": "lacking sensation or feeling in a part of the body",
+          "kor_definition": "마비된, 감각이 없는"
+        },
+        {
+          "word": "delirious",
+          "eng_definition": "in an acutely disturbed state of mind, often with hallucinations",
+          "kor_definition": "섬망에 빠진, 의식이 혼미한"
+        },
+        {
+          "word": "authenticate",
+          "eng_definition": "to verify the legitimacy or validity of something",
+          "kor_definition": "인증하다, 진위를 확인하다"
+        },
+        {
+          "word": "hallucination",
+          "eng_definition": "a perception of something that is not present or real",
+          "kor_definition": "환각, 환영"
+        },
+        {
+          "word": "suitcase",
+          "eng_definition": "a case with a handle used for carrying clothes and belongings",
+          "kor_definition": "여행 가방, 여행용 가방"
+        },
+        {
+          "word": "disbelief",
+          "eng_definition": "inability or refusal to believe something",
+          "kor_definition": "불신, 믿지 않음"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What animal crawled across the dirt near Stanley?",
+          "options": [
+            "A lizard",
+            "A scorpion",
+            "A snake",
+            "A tarantula"
+          ],
+          "answer": "A tarantula"
+        },
+        {
+          "question": "What did Stanley see moving down to his stomach as the sun rose?",
+          "options": [
+            "Birds",
+            "Lizards",
+            "Snakes",
+            "Insects"
+          ],
+          "answer": "Lizards"
+        },
+        {
+          "question": "Who arrived to help Stanley and Zero?",
+          "options": [
+            "Strangers including a woman and a man",
+            "Police officers",
+            "Family members",
+            "Camp Green Lake staff"
+          ],
+          "answer": "Strangers including a woman and a man"
+        },
+        {
+          "question": "What is the woman’s likely ethnicity based on her description?",
+          "options": [
+            "Asian",
+            "African",
+            "Hispanic",
+            "Caucasian"
+          ],
+          "answer": "Hispanic"
+        },
+        {
+          "question": "What was the key reason the Warden refused to release Stanley earlier?",
+          "options": [
+            "She wanted to keep him for observation",
+            "Lack of proper court authorization",
+            "She didn’t want to let him go",
+            "Stanley was still sick"
+          ],
+          "answer": "Lack of proper court authorization"
+        },
+        {
+          "question": "What did Zero show his lawyer regarding the suitcase?",
+          "options": [
+            "That it was empty",
+            "That it had Stanley’s name on it",
+            "That it belonged to him",
+            "That it was stolen"
+          ],
+          "answer": "That it had Stanley’s name on it"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did the lizards move lower in the hole as the sun rose?",
+          "answer": "They moved to stay in the shade and avoid the sunlight."
+        },
+        {
+          "question": "What did Stanley feel on the side of his neck, and what was it actually?",
+          "answer": "He felt a sharp sting, but it was just the lizard pushing off, not biting."
+        },
+        {
+          "question": "What did Zero ask Stanley about his last name?",
+          "answer": "Zero asked if his last name is his first name spelled backward."
+        },
+        {
+          "question": "Why did the woman threaten to file charges against the Warden?",
+          "answer": "Because Stanley was in danger and the Warden was accused of child abuse and false imprisonment."
+        },
+        {
+          "question": "What did Stanley do after the last lizard hopped off him?",
+          "answer": "He swung his legs over the hole, steadied himself, and helped Zero to his feet."
+        }
+      ]
+    },
+    {
+      "chapter_number": 48,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "Attorney General",
+          "eng_definition": "the main legal officer for a state or country",
+          "kor_definition": "주 법무장관, 주 또는 국가의 주요 법률 담당 공무원"
+        },
+        {
+          "word": "jurisdiction",
+          "eng_definition": "the official power to make legal decisions and judgments",
+          "kor_definition": "관할권, 법적 결정과 판단을 내릴 수 있는 공식 권한"
+        },
+        {
+          "word": "hysterical",
+          "eng_definition": "extremely emotional or unable to control feelings",
+          "kor_definition": "히스테리의, 감정을 조절하지 못하는 매우 흥분된 상태"
+        },
+        {
+          "word": "misplaced",
+          "eng_definition": "put in the wrong place or lost",
+          "kor_definition": "잘못 놓인, 잘못된 장소에 두어진 또는 분실된"
+        },
+        {
+          "word": "investigation",
+          "eng_definition": "a systematic examination or inquiry",
+          "kor_definition": "조사, 체계적인 검토 또는 수사"
+        },
+        {
+          "word": "cyberspace",
+          "eng_definition": "the virtual environment of computer networks",
+          "kor_definition": "사이버 공간, 컴퓨터 네트워크의 가상 환경"
+        },
+        {
+          "word": "confinement",
+          "eng_definition": "the state of being restricted or imprisoned",
+          "kor_definition": "감금, 구속 또는 감옥에 갇혀 있는 상태"
+        },
+        {
+          "word": "so tired",
+          "eng_definition": "extremely exhausted or fatigued",
+          "kor_definition": "매우 피곤한, 극도로 지친 상태"
+        },
+        {
+          "word": "suitcase",
+          "eng_definition": "a portable case for carrying clothes and personal items",
+          "kor_definition": "여행 가방, 옷과 개인 용품을 넣는 휴대용 케이스"
+        },
+        {
+          "word": "file",
+          "eng_definition": "a collection of records or documents stored together",
+          "kor_definition": "파일, 함께 저장된 기록 또는 문서 모음"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Who is the chief law enforcement officer for the state?",
+          "options": [
+            "The Warden",
+            "The Attorney General",
+            "Ms. Morengo",
+            "Mr. Pendanski"
+          ],
+          "answer": "The Attorney General"
+        },
+        {
+          "question": "What did Stanley's lawyer advise him to do with the suitcase?",
+          "options": [
+            "Hide it",
+            "Open it immediately",
+            "Give it to the Warden",
+            "Not to open it"
+          ],
+          "answer": "Not to open it"
+        },
+        {
+          "question": "Why was the file of Hector Zeroni missing?",
+          "options": [
+            "It was misplaced",
+            "It was never created",
+            "It was in another camp",
+            "It was stolen"
+          ],
+          "answer": "It was misplaced"
+        },
+        {
+          "question": "What is the meaning of cyberspace as used in the story?",
+          "options": [
+            "A physical space in the camp",
+            "A secret underground tunnel",
+            "Outer space",
+            "The internet or virtual environment"
+          ],
+          "answer": "The internet or virtual environment"
+        },
+        {
+          "question": "What does Stanley decide to do at the end of the chapter?",
+          "options": [
+            "Stay with Zero",
+            "Leave Zero behind",
+            "Open the suitcase",
+            "Run away from the camp"
+          ],
+          "answer": "Stay with Zero"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Who is Ms. Morengo?",
+          "answer": "She is Stanley's lawyer."
+        },
+        {
+          "question": "What does Stanley feel like walking back to camp?",
+          "answer": "He feels as if he is walking in a dream and can't think straight."
+        },
+        {
+          "question": "Why does Stanley refuse to open his suitcase?",
+          "answer": "Ms. Morengo advised him not to open it, and he was unsure what was inside."
+        },
+        {
+          "question": "What is the significance of the file for Hector Zeroni?",
+          "answer": "It contains important information about Hector's release, but it was missing, causing concern."
+        }
+      ]
+    },
+    {
+      "chapter_number": 49,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "dried up",
+          "eng_definition": "completely dried out; no longer has water",
+          "kor_definition": "완전히 말라 버린"
+        },
+        {
+          "word": "anchored",
+          "eng_definition": "fastened securely to the bottom of a body of water",
+          "kor_definition": "닻을 내려 고정된"
+        },
+        {
+          "word": "rattlesnake",
+          "eng_definition": "a venomous snake that makes a rattling sound",
+          "kor_definition": "방울뱀, 독이 있는 뱀"
+        },
+        {
+          "word": "juice",
+          "eng_definition": "the liquid obtained from fruits or vegetables",
+          "kor_definition": "과일이나 채소에서 짜낸 액체"
+        },
+        {
+          "word": "bloodstream",
+          "eng_definition": "the flow of blood through the body",
+          "kor_definition": "혈액이 흐르는 혈관계"
+        },
+        {
+          "word": "patent attorney",
+          "eng_definition": "a lawyer who helps inventors protect their inventions",
+          "kor_definition": "특허 변호사"
+        },
+        {
+          "word": "recycle",
+          "eng_definition": "to process used materials so they can be used again",
+          "kor_definition": "재활용하다"
+        },
+        {
+          "word": "odor",
+          "eng_definition": "a smell, especially an unpleasant one",
+          "kor_definition": "냄새"
+        },
+        {
+          "word": "investigating",
+          "eng_definition": "examining or studying carefully to find facts",
+          "kor_definition": "조사하는 중인"
+        },
+        {
+          "word": "spicy",
+          "eng_definition": "having strong flavors from spices",
+          "kor_definition": "향신료가 강한, 매운"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did the townsfolk become interested in the yellow-spotted lizards?",
+          "options": [
+            "Because they wanted to catch rattlesnakes",
+            "Because the lizards came after the lake dried up",
+            "Because they saw them in the lake",
+            "Because they heard about the black teeth"
+          ],
+          "answer": "Because the lizards came after the lake dried up"
+        },
+        {
+          "question": "What was Sam giving to the men for rattlesnake hunting?",
+          "options": [
+            "Rattlesnake venom",
+            "Medicine",
+            "Water",
+            "Lizard juice"
+          ],
+          "answer": "Lizard juice"
+        },
+        {
+          "question": "What is Ms. Morengo's profession?",
+          "options": [
+            "A scientist",
+            "A teacher",
+            "A doctor",
+            "A patent attorney"
+          ],
+          "answer": "A patent attorney"
+        },
+        {
+          "question": "What did Zero confess to Ms. Morengo?",
+          "options": [
+            "He lost his book",
+            "He stole the sneakers",
+            "He broke the suitcase",
+            "He was in the bathroom"
+          ],
+          "answer": "He stole the sneakers"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Sam tell the men to drink onion juice?",
+          "answer": "Because the onion juice was supposed to protect them from the red-eyed monsters and lizards."
+        },
+        {
+          "question": "What did Ms. Morengo invent?",
+          "answer": "She invented a product that eliminates foot odor."
+        },
+        {
+          "question": "What happened to the lake at the end of the chapter?",
+          "answer": "A drop of rain fell into the empty lake for the first time in over a hundred years."
+        }
+      ]
+    },
+    {
+      "chapter_number": 50,
+      "chapter_title": "",
+      "vocabulary": [
+        {
+          "word": "insist",
+          "eng_definition": "to demand something forcefully",
+          "kor_definition": "강력히 주장하다"
+        },
+        {
+          "word": "tedious",
+          "eng_definition": "boring or too long",
+          "kor_definition": "지루한"
+        },
+        {
+          "word": "deed",
+          "eng_definition": "an action or act",
+          "kor_definition": "행위"
+        },
+        {
+          "word": "trust",
+          "eng_definition": "a legal arrangement to hold property",
+          "kor_definition": "신탁, 신뢰"
+        },
+        {
+          "word": "precious",
+          "eng_definition": "valuable or important",
+          "kor_definition": "귀중한"
+        },
+        {
+          "word": "cheered",
+          "eng_definition": "to shout approval or praise",
+          "kor_definition": "환호하다"
+        },
+        {
+          "word": "neutralizes",
+          "eng_definition": "to make something ineffective or harmless",
+          "kor_definition": "중화하다, 무효화하다"
+        },
+        {
+          "word": "weary",
+          "eng_definition": "feeling tired or exhausted",
+          "kor_definition": "피곤한, 지친"
+        },
+        {
+          "word": "overstuffed",
+          "eng_definition": "filled with too much material or padding",
+          "kor_definition": "과도하게 채운"
+        },
+        {
+          "word": "hummed",
+          "eng_definition": "to sing with closed lips in a low, continuous sound",
+          "kor_definition": "흐느적거리며 부르다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Stanley's father invent the day after Elya Yelnats's great-great-grandson carried Madame Zeroni's descendant?",
+          "options": [
+            "A legal document",
+            "A new type of pig",
+            "A cure for foot odor",
+            "A special kind of jewelry"
+          ],
+          "answer": "A cure for foot odor"
+        },
+        {
+          "question": "What will Camp Green Lake become after it is sold?",
+          "options": [
+            "A shopping mall",
+            "A Girl Scout camp",
+            "A zoo",
+            "A school"
+          ],
+          "answer": "A Girl Scout camp"
+        },
+        {
+          "question": "What was the jewelry found under the papers worth?",
+          "options": [
+            "Less than twenty thousand dollars",
+            "Nothing at all",
+            "Exactly fifty thousand dollars",
+            "More than a million dollars"
+          ],
+          "answer": "Less than twenty thousand dollars"
+        },
+        {
+          "question": "What product does Clyde Livingston promote in the commercial?",
+          "options": [
+            "A new pair of shoes",
+            "A type of soap",
+            "A sports drink",
+            "Foot spray called Sploosh"
+          ],
+          "answer": "Foot spray called Sploosh"
+        },
+        {
+          "question": "What is Clyde Livingston's nickname in the commercial?",
+          "options": [
+            "Lucky Legs",
+            "Quick Steps",
+            "Sweet Feet",
+            "Fast Feet"
+          ],
+          "answer": "Sweet Feet"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Stanley's mother doubt the existence of a curse?",
+          "answer": "She believes there never was a curse and doubts the story about Stanley's great-great-grandfather stealing a pig."
+        },
+        {
+          "question": "What was found underneath the jewelry in Stanley’s suitcase?",
+          "answer": "A stack of old papers, including stock certificates, deeds, and promissory notes."
+        },
+        {
+          "question": "How did Clyde Livingston improve his foot odor problem?",
+          "answer": "He used a product called Sploosh, which he sprays on his feet every morning."
+        },
+        {
+          "question": "What is the final scene described in the chapter about?",
+          "answer": "A small party at the Yelnats house celebrating Stanley and Hector's lives, with family and friends watching TV and sharing snacks."
+        }
+      ]
+    }
+  ]
+}
