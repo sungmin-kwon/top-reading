@@ -1,0 +1,1078 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-30T23:04:04",
+    "model": "gpt-4.1-nano",
+    "prompt_tokens": 10911,
+    "completion_tokens": 7990,
+    "total_tokens": 18901
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Bv Moonlight",
+      "vocabulary": [
+        {
+          "word": "lamp",
+          "eng_definition": "a device that produces light, usually by electricity",
+          "kor_definition": "램프, 전등"
+        },
+        {
+          "word": "shadow",
+          "eng_definition": "a dark shape made when something blocks light",
+          "kor_definition": "그림자"
+        },
+        {
+          "word": "moonlight",
+          "eng_definition": "the light that comes from the moon at night",
+          "kor_definition": "달빛"
+        },
+        {
+          "word": "climb",
+          "eng_definition": "to go up something using your hands and feet",
+          "kor_definition": "오르다, 기어오르다"
+        },
+        {
+          "word": "structure",
+          "eng_definition": "something built or constructed, like a building or a shape",
+          "kor_definition": "구조물, 건축물"
+        },
+        {
+          "word": "spell",
+          "eng_definition": "a word or phrase that has magic power or is part of a magic ritual",
+          "kor_definition": "마법의 주문"
+        },
+        {
+          "word": "diagrams",
+          "eng_definition": "simple drawings that explain how something works",
+          "kor_definition": "도표, 도해"
+        },
+        {
+          "word": "astronauts",
+          "eng_definition": "people trained to travel and work in space",
+          "kor_definition": "우주비행사"
+        },
+        {
+          "word": "structure",
+          "eng_definition": "an arrangement of parts that form a thing",
+          "kor_definition": "구조, 구조물"
+        },
+        {
+          "word": "whispered",
+          "eng_definition": "spoke very softly or quietly",
+          "kor_definition": "속삭이다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What time did Jack realize it was midnight?",
+          "options": [
+            "A) 10 pm",
+            "C) 2 am",
+            "D) 6 pm",
+            "B) Midnight"
+          ],
+          "answer": "B) Midnight"
+        },
+        {
+          "question": "Why does Annie say the moonlight is enough to see?",
+          "options": [
+            "A) Because it is daytime",
+            "D) Because it is sunny",
+            "B) Because the moon makes it bright",
+            "C) Because they have flashlights"
+          ],
+          "answer": "B) Because the moon makes it bright"
+        },
+        {
+          "question": "What is the last M thing they need to find?",
+          "options": [
+            "A) Moonstone",
+            "B) Mango",
+            "D) Map",
+            "C) Mammoth horn"
+          ],
+          "answer": "C) Mammoth horn"
+        },
+        {
+          "question": "Where are Jack and Annie planning to go in the story?",
+          "options": [
+            "C) The forest",
+            "B) The moon",
+            "A) The beach",
+            "D) The city"
+          ],
+          "answer": "B) The moon"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What is the moonlight used for in the story?",
+          "answer": "The moonlight helps Jack and Annie see outside and guides them to the tree house."
+        },
+        {
+          "question": "What is the special power of the tree house in the story?",
+          "answer": "The tree house can transport them to different places when they make a wish."
+        },
+        {
+          "question": "Why can't Jack and Annie actually go to the moon?",
+          "answer": "Because there is no air to breathe, and it would be too cold or hot for them."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Space Motel",
+      "vocabulary": [
+        {
+          "word": "dome",
+          "eng_definition": "A rounded, roof-like structure or building.",
+          "kor_definition": "반구형 지붕 또는 구조물."
+        },
+        {
+          "word": "landscape",
+          "eng_definition": "The visible features of an area of land.",
+          "kor_definition": "지형이나 풍경."
+        },
+        {
+          "word": "crater",
+          "eng_definition": "A large, round hole in the ground caused by an explosion or a meteor impact.",
+          "kor_definition": "폭발이나 운석 충돌로 만들어진 큰 원형 구멍."
+        },
+        {
+          "word": "futurer",
+          "eng_definition": "A time that is yet to come; the future.",
+          "kor_definition": "앞으로 올 시간, 미래."
+        },
+        {
+          "word": "airlock",
+          "eng_definition": "A small chamber used to move between different air pressures, especially in space stations.",
+          "kor_definition": "우주선이나 우주 기지에서 공기압 차이를 조절하는 작은 방."
+        },
+        {
+          "word": "spacesuits",
+          "eng_definition": "Special suits worn by astronauts to protect them in space.",
+          "kor_definition": "우주비행사들이 우주에서 입는 특별한 복장."
+        },
+        {
+          "word": "crater",
+          "eng_definition": "A large hole caused by an impact or explosion on the surface of a planet or moon.",
+          "kor_definition": "행성이나 달 표면에 생긴 큰 구멍."
+        },
+        {
+          "word": "inhale",
+          "eng_definition": "To breathe in air.",
+          "kor_definition": "공기를 들이마시다."
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Jack and Annie find inside the room on the moon?",
+          "options": [
+            "A spaceship museum",
+            "A spaceship",
+            "A space station",
+            "A moon base"
+          ],
+          "answer": "A moon base"
+        },
+        {
+          "question": "Why does Jack think the book is from the future?",
+          "options": [
+            "Because it mentions the year 2031",
+            "Because it is written in a strange language",
+            "Because it has a robot drawing",
+            "Because it has futuristic pictures"
+          ],
+          "answer": "Because it mentions the year 2031"
+        },
+        {
+          "question": "What is a moon base used for?",
+          "options": [
+            "To grow plants",
+            "For astronauts to eat and sleep",
+            "To watch movies",
+            "To build rockets"
+          ],
+          "answer": "For astronauts to eat and sleep"
+        },
+        {
+          "question": "What does Annie think Peanut is nervous about?",
+          "options": [
+            "Meeting aliens",
+            "Loud noises",
+            "Being on the moon",
+            "The dark"
+          ],
+          "answer": "Being on the moon"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Where do Jack and Annie realize they are?",
+          "answer": "They are on the moon inside a moon base."
+        },
+        {
+          "question": "What do Jack and Annie decide to do after finding the moon base?",
+          "answer": "They decide to explore and find the fourth thing for Morgan."
+        },
+        {
+          "question": "What did Jack see when he looked out the window at the end of the chapter?",
+          "answer": "He saw a rocky gray land with craters and tall mountains, under a black sky with the sun shining."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Open Sesame",
+      "vocabulary": [
+        {
+          "word": "button",
+          "eng_definition": "a small device that you press to operate a machine or device",
+          "kor_definition": "버튼; 기계나 장치를 작동시키기 위해 누르는 작은 장치"
+        },
+        {
+          "word": "spacesuit",
+          "eng_definition": "a special suit worn by astronauts to protect them in space",
+          "kor_definition": "우주복; 우주에서 우주인을 보호하기 위해 입는 특별한 복장"
+        },
+        {
+          "word": "helmet",
+          "eng_definition": "a hard hat worn to protect the head",
+          "kor_definition": "헬멧; 머리를 보호하는 딱딱한 모자"
+        },
+        {
+          "word": "visor",
+          "eng_definition": "a clear shield on a helmet that protects the eyes and face",
+          "kor_definition": "바이저; 헬멧에 달린 투명한 보호막"
+        },
+        {
+          "word": "air tank",
+          "eng_definition": "a container that holds compressed air for breathing",
+          "kor_definition": "공기 탱크; 호흡을 위해 압축된 공기를 담는 용기"
+        },
+        {
+          "word": "moon",
+          "eng_definition": "the natural satellite that orbits Earth",
+          "kor_definition": "달; 지구를 도는 자연 위성"
+        },
+        {
+          "word": "surface",
+          "eng_definition": "the outermost layer or top of something",
+          "kor_definition": "표면; 어떤 것의 가장 바깥쪽 층 또는 윗부분"
+        },
+        {
+          "word": "oxygen",
+          "eng_definition": "a gas needed for breathing",
+          "kor_definition": "산소; 호흡에 필요한 기체"
+        },
+        {
+          "word": "door",
+          "eng_definition": "a movable barrier used to open and close an entrance",
+          "kor_definition": "문; 출입구를 열거나 닫는 이동식 막"
+        },
+        {
+          "word": "clumsy",
+          "eng_definition": "lacking grace or coordination",
+          "kor_definition": "어색한; 조화롭거나 능숙하지 못한"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the main reason Jack and Annie wear spacesuits?",
+          "options": [
+            "To look like astronauts",
+            "To make it easier to walk",
+            "To protect themselves from the moon's extreme temperatures",
+            "To stay warm and cool"
+          ],
+          "answer": "To protect themselves from the moon's extreme temperatures"
+        },
+        {
+          "question": "How long can the tanks in the spacesuits provide air?",
+          "options": [
+            "Two hours",
+            "One hour",
+            "Four hours",
+            "Six hours"
+          ],
+          "answer": "Two hours"
+        },
+        {
+          "question": "What do Jack and Annie say when they are ready to go outside?",
+          "options": [
+            "Open sesame!",
+            "Let’s go!",
+            "Ready, set, go!",
+            "Time to explore!"
+          ],
+          "answer": "Open sesame!"
+        },
+        {
+          "question": "What is the purpose of the visor on their helmets?",
+          "options": [
+            "To see better in the dark",
+            "To communicate with others",
+            "To protect their eyes and face",
+            "To keep the helmet clean"
+          ],
+          "answer": "To protect their eyes and face"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do Jack and Annie need to hurry while on the moon?",
+          "answer": "Because their air tanks only last two hours, so they must find the M thing quickly."
+        },
+        {
+          "question": "What does Annie say when she presses the open button?",
+          "answer": "Open sesame!"
+        },
+        {
+          "question": "Why do Jack and Annie wear helmets and gloves in the moon room?",
+          "answer": "To protect themselves and to be able to move safely while wearing the spacesuits."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Moon Rabbits",
+      "vocabulary": [
+        {
+          "word": "dust",
+          "eng_definition": "tiny particles of matter found on surfaces or floating in the air",
+          "kor_definition": "먼지 작은 입자들이 표면이나 공기 중에 떠다님"
+        },
+        {
+          "word": "crater",
+          "eng_definition": "a large hole in the ground caused by an explosion or impact",
+          "kor_definition": "구멍 충돌이나 폭발로 생긴 땅의 큰 구멍"
+        },
+        {
+          "word": "gravity",
+          "eng_definition": "the force that pulls objects toward each other, especially toward the center of the Earth",
+          "kor_definition": "중력 물체를 끌어당기는 힘, 특히 지구 중심으로"
+        },
+        {
+          "word": "spacesuit",
+          "eng_definition": "a protective suit worn by astronauts in space",
+          "kor_definition": "우주복 우주인들이 우주에서 입는 보호복"
+        },
+        {
+          "word": "lurch",
+          "eng_definition": "to move suddenly or unsteadily",
+          "kor_definition": "갑자기 또는 불안정하게 움직이다"
+        },
+        {
+          "word": "lunar",
+          "eng_definition": "relating to the moon",
+          "kor_definition": "달과 관련된"
+        },
+        {
+          "word": "glow",
+          "eng_definition": "to shine with a soft light",
+          "kor_definition": "부드러운 빛을 내며 빛나다"
+        },
+        {
+          "word": "clumsy",
+          "eng_definition": "lacking grace or coordination",
+          "kor_definition": "우둔한, 서투른"
+        },
+        {
+          "word": "lunge",
+          "eng_definition": "to move forward suddenly and quickly",
+          "kor_definition": "갑자기 빠르게 앞으로 돌진하다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why do footprints on the moon last forever?",
+          "options": [
+            "Because the moon is covered with water",
+            "Because the moon is hot",
+            "Because the moon has rain and wind",
+            "Because the moon has no rain or wind"
+          ],
+          "answer": "Because the moon has no rain or wind"
+        },
+        {
+          "question": "What makes Jack feel lighter on the moon?",
+          "options": [
+            "He eats space food",
+            "He wears special shoes",
+            "He is in outer space",
+            "The moon's low gravity"
+          ],
+          "answer": "The moon's low gravity"
+        },
+        {
+          "question": "What does Annie want to do with the moon buggy?",
+          "options": [
+            "Fix it",
+            "Sell it",
+            "Drive it across the moon",
+            "Use it to dig a hole"
+          ],
+          "answer": "Drive it across the moon"
+        },
+        {
+          "question": "Why can’t Annie and Jack drive the moon buggy easily?",
+          "options": [
+            "The buggy is broken",
+            "They don’t have a license",
+            "There are no roads or stoplights",
+            "They don’t know how to drive"
+          ],
+          "answer": "There are no roads or stoplights"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do footprints on the moon last for a billion years?",
+          "answer": "Because there is no wind or rain on the moon to wear them away."
+        },
+        {
+          "question": "What happens to Jack when he steps into the moondust?",
+          "answer": "He slips, falls, and finds it hard to get back up because the dust is deep."
+        },
+        {
+          "question": "Why do Annie and Jack decide to ride the moon buggy?",
+          "answer": "They think it will help them find the M thing faster and they want to explore."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Hang On",
+      "vocabulary": [
+        {
+          "word": "bumped",
+          "eng_definition": "hit or knocked against something, causing a jolt",
+          "kor_definition": "부딪혔다"
+        },
+        {
+          "word": "hollows",
+          "eng_definition": "empty spaces or holes in the ground or surface",
+          "kor_definition": "속이 빈 곳, 구멍"
+        },
+        {
+          "word": "barrenness",
+          "eng_definition": "the state of being empty or lacking life or growth",
+          "kor_definition": "불모지, 척박함"
+        },
+        {
+          "word": "craters",
+          "eng_definition": "large, round holes on the surface of a planet or moon",
+          "kor_definition": "분화구, 충돌구"
+        },
+        {
+          "word": "sign",
+          "eng_definition": "a symbol or message written or drawn to communicate something",
+          "kor_definition": "표지, 표지판"
+        },
+        {
+          "word": "forever",
+          "eng_definition": "for all time; always",
+          "kor_definition": "영원히"
+        },
+        {
+          "word": "dizzy",
+          "eng_definition": "feeling unsteady or like the surroundings are spinning",
+          "kor_definition": "어지러운"
+        },
+        {
+          "word": "spacesuit",
+          "eng_definition": "a suit worn by astronauts to survive in space",
+          "kor_definition": "우주복"
+        },
+        {
+          "word": "telescope",
+          "eng_definition": "a device to see distant objects more clearly",
+          "kor_definition": "망원경"
+        },
+        {
+          "word": "landing",
+          "eng_definition": "the act of arriving on the ground from the air or space",
+          "kor_definition": "착륙"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What did Annie point to when she said she was going through there?",
+          "options": [
+            "A spaceship",
+            "An opening between mountains",
+            "A mountain",
+            "A crater"
+          ],
+          "answer": "An opening between mountains"
+        },
+        {
+          "question": "What message was on the sign left by the first astronauts?",
+          "options": [
+            "We came in peace for all mankind",
+            "Earth is our home",
+            "Explore the universe",
+            "Welcome to the moon"
+          ],
+          "answer": "We came in peace for all mankind"
+        },
+        {
+          "question": "What did Jack see through the telescope in the distance?",
+          "options": [
+            "A flying saucer",
+            "A giant man in a spacesuit",
+            "A moon rover",
+            "A spaceship landing pad"
+          ],
+          "answer": "A giant man in a spacesuit"
+        },
+        {
+          "question": "Why did Jack feel dizzy later in the story?",
+          "options": [
+            "Because he was looking at the moon",
+            "Because he was thinking of forever",
+            "Because he was tired",
+            "Because he was standing up too fast"
+          ],
+          "answer": "Because he was thinking of forever"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why did Annie and Jack leave a message on the moon?",
+          "answer": "They wanted to leave a message of peace and introduce themselves as the first kids from Earth."
+        },
+        {
+          "question": "What did Jack and Annie do after reading the sign?",
+          "answer": "They signed their names in their notebooks and left a message by the flag."
+        },
+        {
+          "question": "What unusual thing did Jack see through the telescope?",
+          "answer": "He saw a giant man in a spacesuit flying above the ground."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "High Jump",
+      "vocabulary": [
+        {
+          "word": "trapped",
+          "eng_definition": "stuck and unable to move",
+          "kor_definition": "갇힌, 꼼짝 못하는"
+        },
+        {
+          "word": "meteorite",
+          "eng_definition": "a rock from outer space that lands on the moon or Earth",
+          "kor_definition": "운석"
+        },
+        {
+          "word": "leaping",
+          "eng_definition": "jumping high or far",
+          "kor_definition": "높이 뛰기"
+        },
+        {
+          "word": "bulky",
+          "eng_definition": "large and difficult to move or carry",
+          "kor_definition": "크고 무거운, 부피가 큰"
+        },
+        {
+          "word": "radio",
+          "eng_definition": "a device for sending and receiving sound signals",
+          "kor_definition": "라디오"
+        },
+        {
+          "word": "trembled",
+          "eng_definition": "shook slightly because of fear, excitement, or instability",
+          "kor_definition": "떨었다"
+        },
+        {
+          "word": "pass",
+          "eng_definition": "a narrow opening between mountains or rocks",
+          "kor_definition": "통로, 산길"
+        },
+        {
+          "word": "moon base",
+          "eng_definition": "a station or settlement on the moon",
+          "kor_definition": "달 기지"
+        },
+        {
+          "word": "dust",
+          "eng_definition": "tiny particles of dirt or sand in the air or on surfaces",
+          "kor_definition": "먼지"
+        },
+        {
+          "word": "suit",
+          "eng_definition": "a protective outfit worn in space or dangerous environments",
+          "kor_definition": "우주복, 보호복"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the main problem Jack and Annie face at the mountain pass?",
+          "options": [
+            "They are lost in a forest",
+            "A giant rock is blocking the pass",
+            "They run out of air",
+            "They see a strange moon man"
+          ],
+          "answer": "A giant rock is blocking the pass"
+        },
+        {
+          "question": "What are meteorites?",
+          "options": [
+            "Pieces of moon dust",
+            "Aliens from space",
+            "Stars falling from the sky",
+            "Rocks from outer space that land on the moon or Earth"
+          ],
+          "answer": "Rocks from outer space that land on the moon or Earth"
+        },
+        {
+          "question": "Why does Annie decide to jump over the meteorite?",
+          "options": [
+            "She wants to get to the other side quickly",
+            "She doesn’t want to wait for Jack",
+            "She thinks it’s a game",
+            "She wants to see if she can fly"
+          ],
+          "answer": "She wants to get to the other side quickly"
+        },
+        {
+          "question": "What does Jack worry about during the story?",
+          "options": [
+            "His space suit",
+            "Their air tanks",
+            "The moon man",
+            "The moon book"
+          ],
+          "answer": "Their air tanks"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do Jack and Annie want to go back to the moon base?",
+          "answer": "Because they are unsure if the stranger is friendly and they haven't found the fourth M thing."
+        },
+        {
+          "question": "What happens when Annie tries to jump over the meteorite?",
+          "answer": "She leaps toward it, flies through space, and disappears behind the meteorite."
+        },
+        {
+          "question": "How does Jack feel when he is stuck in his space suit?",
+          "answer": "He feels unable to move or stand properly and is worried about their situation."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "The Moon Man",
+      "vocabulary": [
+        {
+          "word": "visor",
+          "eng_definition": "a transparent shield for the face, often used by astronauts or pilots",
+          "kor_definition": "보호경, 안면 보호막"
+        },
+        {
+          "word": "spaceman",
+          "eng_definition": "a person who travels or works in space",
+          "kor_definition": "우주인"
+        },
+        {
+          "word": "jet pack",
+          "eng_definition": "a device worn on the back that allows a person to fly using jet propulsion",
+          "kor_definition": "제트 백, 착용용 추진장치"
+        },
+        {
+          "word": "message",
+          "eng_definition": "information sent from one person to another",
+          "kor_definition": "메시지, 전달 내용"
+        },
+        {
+          "word": "map",
+          "eng_definition": "a diagram that shows the location of things",
+          "kor_definition": "지도"
+        },
+        {
+          "word": "stars",
+          "eng_definition": "large celestial bodies of hot gases that produce light and heat",
+          "kor_definition": "별"
+        },
+        {
+          "word": "mountains",
+          "eng_definition": "large landforms that rise high above the surrounding land",
+          "kor_definition": "산"
+        },
+        {
+          "word": "flying",
+          "eng_definition": "the act of moving through the air using wings or a flying device",
+          "kor_definition": "날기"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is a jet pack described as in the story?",
+          "options": [
+            "A small airplane",
+            "A metal suit",
+            "A mini-spaceship that allows flying",
+            "A backpack with rockets"
+          ],
+          "answer": "A mini-spaceship that allows flying"
+        },
+        {
+          "question": "What did Jack think the moon man was drawing?",
+          "options": [
+            "A picture of Earth",
+            "A space map",
+            "A picture of the moon",
+            "Stars only"
+          ],
+          "answer": "A space map"
+        },
+        {
+          "question": "Why did Annie say they would never know what the map meant?",
+          "options": [
+            "Because Jack forgot to ask",
+            "Because the moon man flew away",
+            "Because the moon man was flying over the mountains",
+            "Because they lost the notebook"
+          ],
+          "answer": "Because the moon man was flying over the mountains"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "What did Jack write in his message to the moon man?",
+          "answer": "He wrote: 'We come in peace. Who are you?'"
+        },
+        {
+          "question": "What did Annie think the moon man was drawing, and what might it represent?",
+          "answer": "She thought he was drawing stars, which might be part of a space map."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_title": "One Star To Another",
+      "vocabulary": [
+        {
+          "word": "airlock",
+          "eng_definition": "a chamber that can be sealed off to allow people to move between areas with different air pressures",
+          "kor_definition": "공기 차단실, 공기 잠금장치"
+        },
+        {
+          "word": "visor",
+          "eng_definition": "a transparent shield for the eyes, often part of a helmet",
+          "kor_definition": "조종사용 헬멧의 눈앞 덮개 또는 보호경"
+        },
+        {
+          "word": "clumsily",
+          "eng_definition": "in a way that is awkward or not graceful",
+          "kor_definition": "서투르게"
+        },
+        {
+          "word": "storeroom",
+          "eng_definition": "a room where supplies or equipment are stored",
+          "kor_definition": "창고, 저장실"
+        },
+        {
+          "word": "constellation",
+          "eng_definition": "a group of stars that form a pattern in the sky",
+          "kor_definition": "별자리"
+        },
+        {
+          "word": "sank",
+          "eng_definition": "past tense of sink, to go down below the surface of water or another liquid",
+          "kor_definition": "가라앉다, 침몰하다"
+        },
+        {
+          "word": "chant",
+          "eng_definition": "to repeat a phrase or series of words aloud in a rhythmic way",
+          "kor_definition": "구호를 외치다, 노래하듯 반복하다"
+        },
+        {
+          "word": "blinding",
+          "eng_definition": "so bright that it hurts the eyes",
+          "kor_definition": "눈이 부신, 눈이 멀게 하는"
+        },
+        {
+          "word": "whirling",
+          "eng_definition": "moving rapidly in a circle or spiral",
+          "kor_definition": "빙빙 돌다"
+        },
+        {
+          "word": "fay",
+          "eng_definition": "a fairy or magical being, often from legend or folklore",
+          "kor_definition": "요정, 요정 같은 존재"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What is the main purpose of the airlock in the story?",
+          "options": [
+            "To serve as a living room",
+            "To keep the moon's atmosphere out",
+            "To store equipment",
+            "To allow characters to move between spacesuits and the base"
+          ],
+          "answer": "To allow characters to move between spacesuits and the base"
+        },
+        {
+          "question": "What does Jack do to try to figure out the map's meaning?",
+          "options": [
+            "Draw a line connecting the stars",
+            "Use a telescope",
+            "Read a book",
+            "Ask Peanut"
+          ],
+          "answer": "Draw a line connecting the stars"
+        },
+        {
+          "question": "What do Jack and Annie realize the four special objects spell out?",
+          "options": [
+            "Moon, star, planet, comet",
+            "Sun, moon, star, earth",
+            "Map, star, moon, earth",
+            "Moonstone, mango, mammoth bone, mouse"
+          ],
+          "answer": "Moonstone, mango, mammoth bone, mouse"
+        },
+        {
+          "question": "Who appears at the end of the story?",
+          "options": [
+            "Morgan le Fay",
+            "Peanut the mouse",
+            "A moon man",
+            "A new astronaut"
+          ],
+          "answer": "Morgan le Fay"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why do Jack and Annie remove their spacesuits?",
+          "answer": "Because they are inside the moon base and need to be free of their bulky suits."
+        },
+        {
+          "question": "What does Jack draw to help understand the map?",
+          "answer": "He draws lines connecting the stars to form a shape."
+        },
+        {
+          "question": "What is the significance of the objects Moonstone, mango, mammoth bone, and mouse?",
+          "answer": "They are the objects that spell out the spell needed to return home."
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_title": "Morgan",
+      "vocabulary": [
+        {
+          "word": "spell",
+          "eng_definition": "a magic charm or incantation",
+          "kor_definition": "마법 주문"
+        },
+        {
+          "word": "mission",
+          "eng_definition": "a task or duty to be accomplished",
+          "kor_definition": "임무, 사명"
+        },
+        {
+          "word": "constellation",
+          "eng_definition": "a group of stars forming a pattern",
+          "kor_definition": "별자리"
+        },
+        {
+          "word": "shrug",
+          "eng_definition": "to raise shoulders to show uncertainty or indifference",
+          "kor_definition": "어깨를 으쓱하다"
+        },
+        {
+          "word": "understand",
+          "eng_definition": "to grasp the meaning of something",
+          "kor_definition": "이해하다"
+        },
+        {
+          "word": "trick",
+          "eng_definition": "a clever or skillful act intended to deceive",
+          "kor_definition": "속임수, 장난"
+        },
+        {
+          "word": "magician",
+          "eng_definition": "a person who performs magic tricks",
+          "kor_definition": "마법사"
+        },
+        {
+          "word": "help",
+          "eng_definition": "to assist or aid",
+          "kor_definition": "돕다"
+        },
+        {
+          "word": "spin",
+          "eng_definition": "to turn around quickly",
+          "kor_definition": "빙글빙글 돌다"
+        },
+        {
+          "word": "absolutely",
+          "eng_definition": "completely or totally",
+          "kor_definition": "절대적으로"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "Why did Morgan say they had to go to the moon?",
+          "options": [
+            "To break the magician’s spell",
+            "To find a magic book",
+            "To see the stars",
+            "To visit a friend"
+          ],
+          "answer": "To break the magician’s spell"
+        },
+        {
+          "question": "Who is Merlin in the story?",
+          "options": [
+            "A magician who likes to play tricks",
+            "A ninja master",
+            "A moon creature",
+            "A brave mouse"
+          ],
+          "answer": "A magician who likes to play tricks"
+        },
+        {
+          "question": "What did Morgan give to Annie at the end?",
+          "options": [
+            "A constellation chart",
+            "A book about stars",
+            "A magic wand",
+            "The Pennsylvania book"
+          ],
+          "answer": "The Pennsylvania book"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why was Morgan able to understand the tiny creatures?",
+          "answer": "Because certain wise ones understand the language of little creatures."
+        },
+        {
+          "question": "What happened to the tree house at the end of the chapter?",
+          "answer": "It started to spin faster and faster, then everything was still for a moment."
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "chapter_title": "Earth Life",
+      "vocabulary": [
+        {
+          "word": "rustled",
+          "eng_definition": "to make a soft, muffled crackling sound like leaves or paper moving",
+          "kor_definition": "바스락거리다"
+        },
+        {
+          "word": "hooted",
+          "eng_definition": "made a loud, deep sound like an owl",
+          "kor_definition": "부엉부엉 울다"
+        },
+        {
+          "word": "moondust",
+          "eng_definition": "fine particles of dust that appear to be illuminated by the moon",
+          "kor_definition": "달빛 먼지"
+        },
+        {
+          "word": "wonders",
+          "eng_definition": "things that cause surprise or admiration",
+          "kor_definition": "경이로움, 놀라운 것"
+        },
+        {
+          "word": "galaxy",
+          "eng_definition": "a system of millions or billions of stars, together with gas and dust, held together by gravitational attraction",
+          "kor_definition": "은하"
+        },
+        {
+          "word": "alien",
+          "eng_definition": "a being from another world or galaxy",
+          "kor_definition": "외계인"
+        },
+        {
+          "word": "squeezed",
+          "eng_definition": "to press something firmly",
+          "kor_definition": "꾹 누르다"
+        },
+        {
+          "word": "glanced",
+          "eng_definition": "to look quickly or casually",
+          "kor_definition": "슬쩍 보다"
+        },
+        {
+          "word": "climbed",
+          "eng_definition": "to go up or ascend",
+          "kor_definition": "오르다"
+        },
+        {
+          "word": "whispered",
+          "eng_definition": "to speak very softly",
+          "kor_definition": "속삭이다"
+        }
+      ],
+      "multiple_choice": [
+        {
+          "question": "What does Morgan give Jack before leaving?",
+          "options": [
+            "His pack",
+            "A book",
+            "A magic wand",
+            "A necklace"
+          ],
+          "answer": "His pack"
+        },
+        {
+          "question": "Where was Morgan staying in the story?",
+          "options": [
+            "Frog Creek",
+            "Earth",
+            "The Moon",
+            "Camelot"
+          ],
+          "answer": "Frog Creek"
+        },
+        {
+          "question": "What does Annie wonder about the moon man?",
+          "options": [
+            "If he is from another galaxy",
+            "If he is lost",
+            "If he is a king",
+            "If he is a scientist"
+          ],
+          "answer": "If he is from another galaxy"
+        },
+        {
+          "question": "What do Jack and Annie do at the end of the chapter?",
+          "options": [
+            "Find Morgan",
+            "Go to bed",
+            "Stay in the tree house",
+            "Start for home"
+          ],
+          "answer": "Start for home"
+        }
+      ],
+      "short_answer": [
+        {
+          "question": "Why does Morgan say she must leave the tree house?",
+          "answer": "Because she’s been away from Camelot for a long time and needs to return."
+        },
+        {
+          "question": "What is Jack’s thought about the moon man being from another galaxy?",
+          "answer": "He wonders if the moon man could really be from another galaxy, just like Annie suggests."
+        },
+        {
+          "question": "What does Jack remember Morgan saying about the universe?",
+          "answer": "That the universe is filled with wonders."
+        }
+      ]
+    }
+  ]
+}

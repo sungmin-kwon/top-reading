@@ -1,4 +1,5 @@
 let quizData = null;
+let currentChapterIndex = -1;
 
 function loadFromJSON(jsonPath) {
   fetch(jsonPath)
@@ -6,6 +7,7 @@ function loadFromJSON(jsonPath) {
     .then(data => {
       quizData = data;
       populateDropdown();
+      setupNavButtons();
     })
     .catch(err => {
       document.getElementById('quiz').innerHTML = "<p style='color:red;'>Failed to load quiz data.</p>";
@@ -15,6 +17,8 @@ function loadFromJSON(jsonPath) {
 
 function populateDropdown() {
   const select = document.getElementById("chapter-select");
+  select.innerHTML = '<option value="">-- Choose a Chapter --</option>';
+
   quizData.chapters.forEach((chapter, index) => {
     const option = document.createElement("option");
     option.value = index;
@@ -22,32 +26,66 @@ function populateDropdown() {
     select.appendChild(option);
   });
 
-  select.addEventListener('change', loadChapter);
+  select.addEventListener('change', () => {
+    currentChapterIndex = parseInt(select.value);
+    renderChapter(currentChapterIndex);
+    updateNavButtons();
+  });
 }
 
-function loadChapter() {
-  const selectedIndex = document.getElementById("chapter-select").value;
+function setupNavButtons() {
+  const prevBtn = document.getElementById("prev-chapter");
+  const nextBtn = document.getElementById("next-chapter");
+
+  if (!prevBtn || !nextBtn) return;
+
+  prevBtn.addEventListener("click", () => {
+    if (currentChapterIndex > 0) {
+      currentChapterIndex--;
+      document.getElementById("chapter-select").value = currentChapterIndex;
+      renderChapter(currentChapterIndex);
+      updateNavButtons();
+    }
+  });
+
+  nextBtn.addEventListener("click", () => {
+    if (currentChapterIndex < quizData.chapters.length - 1) {
+      currentChapterIndex++;
+      document.getElementById("chapter-select").value = currentChapterIndex;
+      renderChapter(currentChapterIndex);
+      updateNavButtons();
+    }
+  });
+}
+
+function updateNavButtons() {
+  const prevBtn = document.getElementById("prev-chapter");
+  const nextBtn = document.getElementById("next-chapter");
+
+  if (!prevBtn || !nextBtn) return;
+
+  prevBtn.disabled = currentChapterIndex <= 0;
+  nextBtn.disabled = currentChapterIndex >= quizData.chapters.length - 1;
+}
+
+function renderChapter(index) {
+  const chapter = quizData.chapters[index];
   const quizContainer = document.getElementById("quiz");
   quizContainer.innerHTML = "";
 
-  if (selectedIndex === "") return;
-
-  const chapter = quizData.chapters[selectedIndex];
-  const questions = chapter.multiple_choice || [];
-
-  if (questions.length === 0) {
+  if (!chapter || !chapter.multiple_choice || chapter.multiple_choice.length === 0) {
     quizContainer.innerHTML = "<p>No multiple-choice questions available for this chapter.</p>";
     return;
   }
 
-  questions.forEach((q, index) => {
+  chapter.multiple_choice.forEach((q, i) => {
     const questionDiv = document.createElement("div");
     questionDiv.className = "question";
     questionDiv.innerHTML = `
-      <h3>${index + 1}. ${q.question}</h3>
+      <h3>${i + 1}. ${q.question}</h3>
       ${q.options.map(opt => `
         <label>
-          <input type="radio" name="q${index}" value="${opt}">
+          <input type="radio" name="q${i}" value="${opt}">
           ${opt}
         </label>
       `).join("")}
