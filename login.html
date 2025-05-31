@@ -71,8 +71,8 @@
     <input type="email" id="email" placeholder="Email" />
     <input type="password" id="password" placeholder="Password" />
     <div>
-      <button id="signup">Sign Up</button>
       <button id="login">Login</button>
+      <button id="signup">Sign Up</button>
     </div>
     <p id="status"></p>
   </div>
@@ -109,6 +109,11 @@
             name: "Anonymous Reader",
             grade: "",
             createdAt: new Date()
+          }).then(() => {
+            console.log("✅ Firestore profile created!");
+          }).catch(err => {
+            console.error("❌ Firestore error:", err.message);
+            status.textContent = `❌ Firestore error: ${err.message}`;
           });
           status.textContent = "✅ Signed up and profile created!";
         })
