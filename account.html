@@ -45,33 +45,29 @@
     const form = document.getElementById("profile-form");
 
     onAuthStateChanged(auth, async (user) => {
-    if (user) {
-        const userRef = doc(db, "users", user.uid);
-        const snap = await getDoc(userRef);
-        if (snap.exists()) {
+      if (!user) {
+        window.location.href = "login.html";
+        return;
+      }
+
+      const userRef = doc(db, "users", user.uid);
+      const snap = await getDoc(userRef);
+      if (snap.exists()) {
         const data = snap.data();
         nameInput.value = data.name || "";
         gradeInput.value = data.grade || "";
         form.style.display = "block";
-        } else {
+      } else {
         statusText.textContent = "⚠️ Profile not found.";
-        }
+      }
 
-        document.getElementById("save").onclick = async () => {
+      document.getElementById("save").onclick = async () => {
         await updateDoc(userRef, {
-            name: nameInput.value,
-            grade: gradeInput.value
+          name: nameInput.value,
+          grade: gradeInput.value
         });
         statusText.textContent = "✅ Profile updated!";
-        };
-    } else {
-        // Wait a short delay to make sure auth isn't loading
-        setTimeout(() => {
-        if (!auth.currentUser) {
-            window.location.href = "login.html";
-        }
-        }, 500); // wait 500ms before redirecting
-    }
+      };
     });
   </script>
 </body>
