@@ -12,40 +12,37 @@
     <h1>📚 Top Reading Interactive Quiz Portal</h1>
     <p>Choose a book to get started!</p>
     <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
-    <button id="open-auth-modal" style="margin-left: 10px;">🔐 Login / Sign Up</button>
-  </header>
 
-  <!-- 🔐 Auth Modal -->
-  <div id="auth-modal" class="modal">
-    <div class="modal-content">
-      <span class="close-button" id="close-auth-modal">&times;</span>
-      <h3>Login / Sign Up</h3>
-      <input type="email" id="email" placeholder="Email" />
-      <input type="password" id="password" placeholder="Password" />
-      <button id="signup">Sign Up</button>
-      <button id="login">Login</button>
-      <button id="logout" style="display: none;">Logout</button>
-      <p id="user-status" style="margin-top: 5px;"></p>
+    <!-- 👤 User Dropdown Menu -->
+    <div id="user-dropdown-container" style="position: relative;">
+      <button id="user-menu-toggle" style="padding: 6px 12px; background-color: #4a90e2; color: white; border: none; border-radius: 6px; cursor: pointer;">
+        <span id="user-email">👤 User</span> ⌄
+      </button>
+      <div id="user-dropdown" style="display: none; position: absolute; right: 0; top: 110%; background: white; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); min-width: 160px; z-index: 1000;">
+        <a href="account.html" style="display: block; padding: 10px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">My Account</a>
+        <a href="scores.html" style="display: block; padding: 10px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">My Scores</a>
+        <button id="logout" style="width: 100%; padding: 10px; border: none; background: none; text-align: left; cursor: pointer; color: #c00;">Logout</button>
+      </div>
     </div>
-  </div>
+  </header>
 
   <div class="container" id="book-container">
     <!-- Book cards will be loaded here -->
   </div>
 
-  <!-- Existing scripts -->
+  <!-- Scripts -->
   <script src="../js/theme.js"></script>
 
-  <!-- Firebase SDKs -->
+  <!-- Firebase Auth -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
-    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+    import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyARGXx_Xyo6BMuMuDLOriWTISKCB3hbXi0",
       authDomain: "top-reading.firebaseapp.com",
       projectId: "top-reading",
-      storageBucket: "top-reading.firebasestorage.app",
+      storageBucket: "top-reading.appspot.com",
       messagingSenderId: "147776736959",
       appId: "1:147776736959:web:150f3a25409ba7f2c1800a",
       measurementId: "G-NDKY8VNG00"
@@ -53,48 +50,35 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth();
-
-    // DOM elements
-    const emailInput = document.getElementById("email");
-    const passwordInput = document.getElementById("password");
-    const statusText = document.getElementById("user-status");
+    const userEmailSpan = document.getElementById("user-email");
     const logoutBtn = document.getElementById("logout");
+    const dropdown = document.getElementById("user-dropdown");
+    const toggleBtn = document.getElementById("user-menu-toggle");
 
-    // Modal logic
-    const modal = document.getElementById("auth-modal");
-    const openModalBtn = document.getElementById("open-auth-modal");
-    const closeModalBtn = document.getElementById("close-auth-modal");
-
-    openModalBtn.onclick = () => modal.style.display = "block";
-    closeModalBtn.onclick = () => modal.style.display = "none";
-    window.onclick = e => { if (e.target === modal) modal.style.display = "none"; };
-
-    // Auth logic
-    document.getElementById("signup").onclick = () => {
-      createUserWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
-        .then(() => alert("Signed up!"))
-        .catch(e => alert(e.message));
+    // Toggle dropdown visibility
+    toggleBtn.onclick = (e) => {
+      e.stopPropagation();
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
     };
 
-    document.getElementById("login").onclick = () => {
-      signInWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
-        .then(() => modal.style.display = "none")
-        .catch(e => alert(e.message));
-    };
-
-    logoutBtn.onclick = () => {
-      signOut(auth).then(() => alert("Logged out"));
-    };
+    // Close dropdown when clicking outside
+    document.addEventListener("click", () => {
+      dropdown.style.display = "none";
+    });
 
     onAuthStateChanged(auth, user => {
       if (user) {
-        statusText.textContent = `✅ Logged in as ${user.email}`;
-        logoutBtn.style.display = "inline-block";
+        userEmailSpan.textContent = `👋 ${user.email}`;
       } else {
-        statusText.textContent = `❌ Not logged in`;
-        logoutBtn.style.display = "none";
+        window.location.href = "login.html";
       }
     });
+
+    logoutBtn.onclick = () => {
+      signOut(auth).then(() => {
+        window.location.href = "login.html";
+      });
+    };
   </script>
 
   <!-- Load book cards -->
