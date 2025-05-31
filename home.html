@@ -8,20 +8,25 @@
 </head>
 <body>
 
-  <header>
-    <h1>📚 Top Reading Interactive Quiz Portal</h1>
-    <p>Choose a book to get started!</p>
-    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+  <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; flex-wrap: wrap;">
+    <div>
+      <h1>📚 Top Reading Interactive Quiz Portal</h1>
+      <p>Choose a book to get started!</p>
+    </div>
 
-    <!-- 👤 User Dropdown Menu -->
-    <div id="user-dropdown-container" style="position: relative;">
-      <button id="user-menu-toggle" style="padding: 6px 12px; background-color: #4a90e2; color: white; border: none; border-radius: 6px; cursor: pointer;">
-        <span id="user-email">👤 User</span> ⌄
-      </button>
-      <div id="user-dropdown" style="display: none; position: absolute; right: 0; top: 110%; background: white; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); min-width: 160px; z-index: 1000;">
-        <a href="account.html" style="display: block; padding: 10px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">My Account</a>
-        <a href="scores.html" style="display: block; padding: 10px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">My Scores</a>
-        <button id="logout" style="width: 100%; padding: 10px; border: none; background: none; text-align: left; cursor: pointer; color: #c00;">Logout</button>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+
+      <!-- 👤 User Dropdown Menu -->
+      <div id="user-dropdown-container" style="position: relative;">
+        <button id="user-menu-toggle" style="padding: 6px 12px; background-color: #4a90e2; color: white; border: none; border-radius: 6px; cursor: pointer;">
+          <span id="user-email">👤 User</span> ⌄
+        </button>
+        <div id="user-dropdown" style="display: none; position: absolute; right: 0; top: 110%; background: white; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); min-width: 160px; z-index: 1000;">
+          <a href="account.html" style="display: block; padding: 10px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">My Account</a>
+          <a href="scores.html" style="display: block; padding: 10px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">My Scores</a>
+          <button id="logout" style="width: 100%; padding: 10px; border: none; background: none; text-align: left; cursor: pointer; color: #c00;">Logout</button>
+        </div>
       </div>
     </div>
   </header>
