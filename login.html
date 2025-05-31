@@ -80,6 +80,7 @@
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
     import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+    import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyARGXx_Xyo6BMuMuDLOriWTISKCB3hbXi0",
@@ -93,6 +94,7 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth();
+    const db = getFirestore(app);
 
     const emailInput = document.getElementById("email");
     const passwordInput = document.getElementById("password");
@@ -100,7 +102,16 @@
 
     document.getElementById("signup").onclick = () => {
       createUserWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
-        .then(() => status.textContent = "✅ Signed up successfully!")
+        .then(async (cred) => {
+          // Create default Firestore profile document
+          await setDoc(doc(db, "users", cred.user.uid), {
+            email: cred.user.email,
+            name: "Anonymous Reader",
+            grade: "",
+            createdAt: new Date()
+          });
+          status.textContent = "✅ Signed up and profile created!";
+        })
         .catch(e => status.textContent = `❌ ${e.message}`);
     };
 
