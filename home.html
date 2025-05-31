@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Reading Interactive Quiz Portal</title>
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <header>
+    <h1>📚 Top Reading Interactive Quiz Portal</h1>
+    <p>Choose a book to get started!</p>
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button id="open-auth-modal" style="margin-left: 10px;">🔐 Login / Sign Up</button>
+  </header>
+
+  <!-- 🔐 Auth Modal -->
+  <div id="auth-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" id="close-auth-modal">&times;</span>
+      <h3>Login / Sign Up</h3>
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button id="signup">Sign Up</button>
+      <button id="login">Login</button>
+      <button id="logout" style="display: none;">Logout</button>
+      <p id="user-status" style="margin-top: 5px;"></p>
+    </div>
+  </div>
+
+  <div class="container" id="book-container">
+    <!-- Book cards will be loaded here -->
+  </div>
+
+  <!-- Existing scripts -->
+  <script src="../js/theme.js"></script>
+
+  <!-- Firebase SDKs -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyARGXx_Xyo6BMuMuDLOriWTISKCB3hbXi0",
+      authDomain: "top-reading.firebaseapp.com",
+      projectId: "top-reading",
+      storageBucket: "top-reading.firebasestorage.app",
+      messagingSenderId: "147776736959",
+      appId: "1:147776736959:web:150f3a25409ba7f2c1800a",
+      measurementId: "G-NDKY8VNG00"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth();
+
+    // DOM elements
+    const emailInput = document.getElementById("email");
+    const passwordInput = document.getElementById("password");
+    const statusText = document.getElementById("user-status");
+    const logoutBtn = document.getElementById("logout");
+
+    // Modal logic
+    const modal = document.getElementById("auth-modal");
+    const openModalBtn = document.getElementById("open-auth-modal");
+    const closeModalBtn = document.getElementById("close-auth-modal");
+
+    openModalBtn.onclick = () => modal.style.display = "block";
+    closeModalBtn.onclick = () => modal.style.display = "none";
+    window.onclick = e => { if (e.target === modal) modal.style.display = "none"; };
+
+    // Auth logic
+    document.getElementById("signup").onclick = () => {
+      createUserWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
+        .then(() => alert("Signed up!"))
+        .catch(e => alert(e.message));
+    };
+
+    document.getElementById("login").onclick = () => {
+      signInWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
+        .then(() => modal.style.display = "none")
+        .catch(e => alert(e.message));
+    };
+
+    logoutBtn.onclick = () => {
+      signOut(auth).then(() => alert("Logged out"));
+    };
+
+    onAuthStateChanged(auth, user => {
+      if (user) {
+        statusText.textContent = `✅ Logged in as ${user.email}`;
+        logoutBtn.style.display = "inline-block";
+      } else {
+        statusText.textContent = `❌ Not logged in`;
+        logoutBtn.style.display = "none";
+      }
+    });
+  </script>
+
+  <!-- Load book cards -->
+  <script>
+    fetch('books.html')
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById('book-container').innerHTML = html;
+      })
+      .catch(err => {
+        console.error('Failed to load book cards:', err);
+      });
+  </script>
+
+</body>
+</html>
