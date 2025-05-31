@@ -103,7 +103,8 @@
     document.getElementById("signup").onclick = () => {
       createUserWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
         .then(async (cred) => {
-          // Create default Firestore profile document
+          redirectHandled = true;
+          console.log("✅ User created:", cred.user.email);
           await setDoc(doc(db, "users", cred.user.uid), {
             email: cred.user.email,
             name: "Anonymous Reader",
@@ -111,13 +112,17 @@
             createdAt: new Date()
           }).then(() => {
             console.log("✅ Firestore profile created!");
+            status.textContent = "✅ Signed up and profile created!";
           }).catch(err => {
             console.error("❌ Firestore error:", err.message);
             status.textContent = `❌ Firestore error: ${err.message}`;
           });
-          status.textContent = "✅ Signed up and profile created!";
         })
-        .catch(e => status.textContent = `❌ ${e.message}`);
+        .catch(e => {
+          redirectHandled = true;
+          console.error("❌ Signup error:", e.message);
+          status.textContent = `❌ ${e.message}`;
+        });
     };
 
     document.getElementById("login").onclick = () => {
@@ -129,9 +134,16 @@
         .catch(e => status.textContent = `❌ ${e.message}`);
     };
 
+    let redirectHandled = false;
+
     onAuthStateChanged(auth, user => {
-      if (user) {
-        window.location.href = "home.html";
+      // Prevent redirect before signup finishes
+      if (user && !redirectHandled) {
+        setTimeout(() => {
+          if (!redirectHandled) {
+            window.location.href = "home.html";
+          }
+        }, 1000); // Give sign-up logic time to run first
       }
     });
   </script>
