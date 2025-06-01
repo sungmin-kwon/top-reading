@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
-import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
+import { getFirestore, collection, addDoc, serverTimestamp, query, where, getDocs} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
 const firebaseConfig = {
@@ -80,31 +80,64 @@ function renderQuiz(chapter) {
   });
 
   submitBtn.onclick = async (e) => {
-    e.preventDefault();
-    let score = 0;
-    const answers = [];
+  e.preventDefault();
 
-    questions.forEach((q, i) => {
-      const selected = document.querySelector(`input[name="q${i}"]:checked`);
-      const chosen = selected?.value || "No answer";
-      if (chosen === q.answer) score++;
-      answers.push({ question: q.question, selected: chosen, correct: q.answer });
-    });
+  // ✅ Check if all questions are answered
+  let incomplete = false;
+  const questions = chapter.multiple_choice;
+  const answers = [];
 
-    scoreOutput.textContent = `✅ You scored ${score} / ${questions.length}`;
-
-    // Save to Firestore
-    if (currentUser) {
-      await addDoc(collection(db, "quizSubmissions"), {
-        userId: currentUser.uid,
-        email: currentUser.email,
-        book: "Lord of the Flies",
-        chapter: chapter.chapter_number,
-        score,
-        total: questions.length,
-        answers,
-        timestamp: serverTimestamp()
-      });
+  questions.forEach((q, i) => {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (!selected) {
+      incomplete = true;
     }
-  };
+    answers.push({
+      question: q.question,
+      selected: selected?.value || "No answer",
+      correct: q.answer
+    });
+  });
+
+  if (incomplete) {
+    alert("Please answer all questions before submitting.");
+    return;
+  }
+
+  // ✅ Check if user already submitted this chapter
+  const q = query(
+    collection(db, "quizSubmissions"),
+    where("userId", "==", currentUser.uid),
+    where("book", "==", "Lord of the Flies"),
+    where("chapter", "==", chapter.chapter_number)
+  );
+
+  const snap = await getDocs(q);
+  if (!snap.empty) {
+    alert("You have already submitted answers for this chapter.");
+    return;
+  }
+
+  // ✅ Calculate score
+  let score = 0;
+  answers.forEach(a => {
+    if (a.selected === a.correct) score++;
+  });
+
+  scoreOutput.textContent = `✅ You scored ${score} / ${questions.length}`;
+
+  // ✅ Save to Firestore
+  await addDoc(collection(db, "quizSubmissions"), {
+    userId: currentUser.uid,
+    email: currentUser.email,
+    book: "Lord of the Flies",
+    chapter: chapter.chapter_number,
+    score,
+    total: questions.length,
+    answers,
+    timestamp: serverTimestamp()
+  });
+
+  alert("✅ Submission recorded!");
+};
 }

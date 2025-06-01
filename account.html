@@ -6,17 +6,22 @@
     body { font-family: sans-serif; padding: 20px; }
     input { display: block; margin: 10px 0; padding: 8px; width: 300px; }
     button { padding: 10px 20px; }
+    p { font-weight: bold; color: #333; margin: 5px 0 15px 0; }
   </style>
 </head>
 <body>
 
   <h1>My Profile</h1>
   <div id="profile-form" style="display: none;">
-    <label>Name:</label>
-    <input type="text" id="name" />
-    <label>Grade:</label>
-    <input type="text" id="grade" />
-    <button id="save">Save Changes</button>
+  <label>Name:</label>
+  <input type="text" id="name" />
+  <label>Grade:</label>
+  <input type="text" id="grade" />
+  <label>Member Since:</label>
+  <p id="member-since" style="margin-top: 0;"></p>
+  <label>Role:</label>
+  <p id="user-role" style="margin-top: 0;"></p>
+  <button id="save">Save Changes</button>
   </div>
   <p id="status"></p>
   <a href="home.html">← Back to Home</a>
@@ -51,6 +56,13 @@
         const snap = await getDoc(userRef);
         if (snap.exists()) {
         const data = snap.data();
+        // Format the creation date if present
+        const createdAt = data.createdAt?.toDate?.(); // Firestore Timestamp → JS Date
+        document.getElementById("member-since").textContent = createdAt 
+          ? createdAt.toLocaleDateString()
+          : "Unknown";
+        // Show role or fallback
+        document.getElementById("user-role").textContent = data.role || "student";
         nameInput.value = data.name || "";
         gradeInput.value = data.grade || "";
         form.style.display = "block";
@@ -67,12 +79,11 @@
         };
 
     } else {
-        // Add delay before assuming not logged in
         setTimeout(() => {
         if (!auth.currentUser) {
             window.location.href = "login.html";
         }
-        }, 1000); // 1000ms gives Firebase time to detect session
+        }, 500); // add delay to detect session
     }
     });
   </script>
