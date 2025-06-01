@@ -45,38 +45,39 @@
     document.getElementById("signup").onclick = async () => {
       try {
         const cred = await createUserWithEmailAndPassword(auth, emailInput.value, passwordInput.value);
-        console.log("✅ User created:", cred.user.uid);
+        console.log("User created:", cred.user.uid);
 
         await setDoc(doc(db, "users", cred.user.uid), {
           email: cred.user.email,
           name: "Anonymous Reader",
           grade: "",
+          role: "student",
           createdAt: new Date()
         });
 
-        console.log("✅ Firestore profile created!");
-        status.textContent = "✅ Signed up and profile created!";
+        console.log("Firestore profile created");
+        status.textContent = "Signed up and profile created!";
       } catch (e) {
-        console.error("❌ Signup error:", e.message);
-        status.textContent = `❌ ${e.message}`;
+        console.error("Signup error:", e.message);
+        status.textContent = `${e.message}`;
       }
     };
 
     document.getElementById("login").onclick = () => {
       signInWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
         .then(() => {
-          console.log("✅ Logged in!");
+          console.log("Logged in!");
           window.location.href = "home.html";
         })
         .catch(e => {
-          console.error("❌ Login error:", e.message);
-          status.textContent = `❌ ${e.message}`;
+          console.error("Login error:", e.message);
+          status.textContent = `${e.message}`;
         });
     };
 
     onAuthStateChanged(auth, user => {
       if (user) {
-        console.log("ℹ️ Already logged in:", user.email);
+        console.log("Already logged in:", user.email);
       }
     });
   </script>

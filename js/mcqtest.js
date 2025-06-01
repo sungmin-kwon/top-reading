@@ -73,10 +73,10 @@ function renderQuiz(chapter) {
       label.appendChild(input);
       label.appendChild(document.createTextNode(" " + option));
       fieldset.appendChild(label);
-      fieldset.appendChild(document.createElement("br"));
     });
 
     form.appendChild(fieldset);
+    fieldset.appendChild(document.createElement("br"));
   });
 
   submitBtn.onclick = async (e) => {
