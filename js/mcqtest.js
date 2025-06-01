@@ -32,7 +32,7 @@ onAuthStateChanged(auth, user => {
 });
 
 // Load quiz data and populate dropdown
-fetch("../json/mcq_lord_of_the_flies.json")
+fetch("json/mcq_lord_of_the_flies.json")
   .then(res => res.json())
   .then(data => {
     chapterData = data.chapters;
