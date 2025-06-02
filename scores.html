@@ -32,6 +32,13 @@
     <a href="home.html" id="back-button">← Back to Home</a>
   </main>
 
+  <!-- Load modular topbar -->
+  <script type="module">
+    import { setupTopbar } from "./js/topbar.js";
+    setupTopbar("📊 My Submissions");
+  </script>
+
+  <!-- Load score logic -->
   <script type="module">
     import { auth, db } from "./js/firebase-init.js";
     import { collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
@@ -61,20 +68,5 @@
       });
     });
   </script>
-
-  <script>
-    fetch("components/topbar.html")
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById("topbar-container").innerHTML = html;
-        setTimeout(() => {
-          const titleEl = document.querySelector(".portal-title");
-          if (titleEl) titleEl.textContent = "📊 My Scores";
-        }, 50);
-      });
-  </script>
-
-  <script type="module" src="js/home.js"></script>
-  <script src="js/theme.js"></script>
 </body>
 </html>

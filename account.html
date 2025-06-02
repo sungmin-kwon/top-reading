@@ -1,77 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>My Account</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/home.css" />
   <style>
-    body { font-family: sans-serif; padding: 20px; }
-    input { display: block; margin: 10px 0; padding: 8px; width: 300px; }
-    button { padding: 10px 20px; }
-    p { font-weight: bold; color: #333; margin: 5px 0 15px 0; }
+    main.container { padding: 20px; max-width: 700px; margin: auto; }
+    h1 { font-size: 1.8em; text-align: center; margin-bottom: 1em; }
+    p { font-size: 1em; margin-bottom: 1em; color: #444; }
+    .info-box { background-color: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    body.dark .info-box { background-color: #1e1e1e; color: #e0e0e0; box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); }
   </style>
 </head>
 <body>
+  <div id="topbar-container"></div>
 
-  <h1>My Profile</h1>
-  <div id="profile-form" style="display: none;">
-    <label>Name:</label>
-    <input type="text" id="name" />
-    <label>Grade:</label>
-    <input type="text" id="grade" />
-    <label>Member Since:</label>
-    <p id="member-since" style="margin-top: 0;"></p>
-    <label>Role:</label>
-    <p id="user-role" style="margin-top: 0;"></p>
-    <button id="save">Save Changes</button>
-  </div>
+  <main class="container">
+    <h1>👤 My Account</h1>
+    <div class="info-box">
+      <p>This page will display your profile information, preferences, and account settings in future updates.</p>
+      <p>For now, you can return to the home page or view your test scores.</p>
+      <a href="home.html" id="back-button">← Back to Home</a>
+    </div>
+  </main>
 
-  <p id="status"></p>
-  <a href="home.html">← Back to Home</a>
-
+  <!-- Topbar integration -->
   <script type="module">
-    import { auth, db } from "./js/firebase-init.js";
-    import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
-    import { doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
-
-    const nameInput = document.getElementById("name");
-    const gradeInput = document.getElementById("grade");
-    const statusText = document.getElementById("status");
-    const form = document.getElementById("profile-form");
-
-    onAuthStateChanged(auth, async (user) => {
-      if (user) {
-        const userRef = doc(db, "users", user.uid);
-        const snap = await getDoc(userRef);
-
-        if (snap.exists()) {
-          const data = snap.data();
-          const createdAt = data.createdAt?.toDate?.();
-          document.getElementById("member-since").textContent = createdAt 
-            ? createdAt.toLocaleDateString()
-            : "Unknown";
-          document.getElementById("user-role").textContent = data.role || "student";
-
-          nameInput.value = data.name || "";
-          gradeInput.value = data.grade || "";
-          form.style.display = "block";
-        } else {
-          statusText.textContent = "⚠️ Profile not found.";
-        }
-
-        document.getElementById("save").onclick = async () => {
-          await updateDoc(userRef, {
-            name: nameInput.value,
-            grade: gradeInput.value
-          });
-          statusText.textContent = "✅ Profile updated!";
-        };
-      } else {
-        setTimeout(() => {
-          if (!auth.currentUser) {
-            window.location.href = "login.html";
-          }
-        }, 500);
-      }
-    });
+    import { setupTopbar } from "./js/topbar.js";
+    setupTopbar("👤 My Account");
   </script>
 </body>
 </html>

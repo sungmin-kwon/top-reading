@@ -8,30 +8,17 @@
 </head>
 <body>
 
-  <!-- Load topbar dynamically -->
   <div id="topbar-container"></div>
 
   <div class="container" id="book-container">
     <!-- Book cards will be loaded here -->
   </div>
 
-  <!-- Theme and app logic -->
-  <script src="js/theme.js"></script>
-  <script type="module" src="js/home.js"></script>
-
-  <!-- Load topbar component -->
-  <script>
-    fetch("components/topbar.html")
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById("topbar-container").innerHTML = html;
-
-        // Set page title (icon and text)
-        setTimeout(() => {
-          const titleEl = document.querySelector(".portal-title");
-          if (titleEl) titleEl.textContent = "🏠 Home";
-        }, 50);
-      });
+  <script type="module">
+    import { setupTopbar } from "./js/topbar.js";
+    setupTopbar("🏠 Home");
   </script>
+
+  <script type="module" src="js/home.js"></script>
 </body>
 </html>
