@@ -31,8 +31,14 @@ onAuthStateChanged(auth, user => {
   }
 });
 
-// Load quiz data and populate dropdown
-fetch("json/mcq_lord_of_the_flies.json")
+const params = new URLSearchParams(window.location.search);
+const bookId = params.get("book");
+const bookTitle = params.get("title") || "Untitled Book";
+
+document.title = `${bookTitle} Quiz`;
+document.getElementById("quiz-title").textContent = `${bookTitle}: Chapter-by-Chapter Test`;
+
+fetch(`json/${bookId}.json`)
   .then(res => res.json())
   .then(data => {
     chapterData = data.chapters;
@@ -93,6 +99,7 @@ function renderQuiz(chapter) {
       incomplete = true;
     }
     answers.push({
+      number: q.number ?? i + 1, // fallback if number is missing
       question: q.question,
       selected: selected?.value || "No answer",
       correct: q.answer
@@ -106,9 +113,9 @@ function renderQuiz(chapter) {
 
   // ✅ Check if user already submitted this chapter
   const q = query(
-    collection(db, "quizSubmissions"),
+    collection(db, "submissions"),
     where("userId", "==", currentUser.uid),
-    where("book", "==", "Lord of the Flies"),
+    where("book", "==", bookTitle),
     where("chapter", "==", chapter.chapter_number)
   );
 
@@ -124,13 +131,27 @@ function renderQuiz(chapter) {
     if (a.selected === a.correct) score++;
   });
 
-  scoreOutput.textContent = `✅ You scored ${score} / ${questions.length}`;
+  scoreOutput.innerHTML = `<strong>✅ You scored ${score} / ${questions.length}</strong><br><br>`;
+
+  answers.forEach((a, i) => {
+    const isCorrect = a.selected === a.correct;
+    const result = document.createElement("p");
+    result.innerHTML = `
+      <strong>Q${a.number}:</strong> ${a.question}<br>
+      <span style="color: ${isCorrect ? 'green' : 'red'};">
+        Your Answer: ${a.selected} ${isCorrect ? '✓' : '✗'}
+      </span><br>
+      ${!isCorrect ? `Correct Answer: ${a.correct}<br>` : ""}
+      <hr>
+    `;
+    scoreOutput.appendChild(result);
+  });
 
   // ✅ Save to Firestore
-  await addDoc(collection(db, "quizSubmissions"), {
+  await addDoc(collection(db, "submissions"), {
     userId: currentUser.uid,
     email: currentUser.email,
-    book: "Lord of the Flies",
+    book: bookTitle,
     chapter: chapter.chapter_number,
     score,
     total: questions.length,
@@ -139,5 +160,16 @@ function renderQuiz(chapter) {
   });
 
   alert("✅ Submission recorded!");
-};
+  };
+
+  const toggleDark = document.getElementById("dark-mode-toggle");
+  toggleDark.onclick = () => {
+    document.body.classList.toggle("dark");
+    localStorage.setItem("darkMode", document.body.classList.contains("dark"));
+  };
+
+  // Persist dark mode on reload
+  if (localStorage.getItem("darkMode") === "true") {
+    document.body.classList.add("dark");
+  }
 }

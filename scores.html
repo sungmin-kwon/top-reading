@@ -1,9 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head><title>My Scores</title></head>
+<head>
+  <title>My Quiz Scores</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
 <body>
-  <h1>My Quiz Scores</h1>
-  <p>This page will show completed quizzes and performance history.</p>
-  <a href="home.html">← Back to Home</a>
+  <h1>📊 My Quiz Scores</h1>
+  <table id="scores-table">
+    <thead>
+      <tr>
+        <th>Book</th>
+        <th>Chapter</th>
+        <th>Score</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
+    import { getFirestore, collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyARGXx_Xyo6BMuMuDLOriWTISKCB3hbXi0",
+      authDomain: "top-reading.firebaseapp.com",
+      projectId: "top-reading",
+      storageBucket: "top-reading.appspot.com",
+      messagingSenderId: "147776736959",
+      appId: "1:147776736959:web:150f3a25409ba7f2c1800a"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const auth = getAuth(app);
+
+    const tbody = document.querySelector("#scores-table tbody");
+
+    onAuthStateChanged(auth, async user => {
+      if (!user) {
+        window.location.href = "login.html";
+        return;
+      }
+
+      const q = query(
+        collection(db, "submissions"),
+        where("userId", "==", user.uid)
+      );
+
+      const snapshot = await getDocs(q);
+
+      snapshot.forEach(doc => {
+        const data = doc.data();
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${data.book}</td>
+          <td>${data.chapter}</td>
+          <td>${data.score} / ${data.total}</td>
+          <td>${data.timestamp?.toDate().toLocaleString() || "Unknown"}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    });
+  </script>
 </body>
 </html>
