@@ -69,6 +69,8 @@ body {
   background: none;
   font-size: 0.9rem;
   cursor: pointer;
+  color: #333;
+  text-decoration: none;
 }
 
 .dropdown button#logout {
@@ -78,10 +80,6 @@ body {
 .dropdown a:hover,
 .dropdown button:hover {
   background-color: #f0f0f0;
-}
-
-.user-dropdown-container:hover .dropdown {
-  display: block;
 }
 
 @media (max-width: 600px) {
@@ -94,6 +92,22 @@ body {
   .user-section {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .container {
+    padding: 1em;
+  }
+
+  .quiz-card img {
+    float: none;
+    display: block;
+    margin: 0 auto 1em;
+  }
+
+  a.button {
+    display: block;
+    width: 100%;
+    font-size: 1em;
   }
 }
 
@@ -110,7 +124,7 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   margin-bottom: 1.5em;
   transition: transform 0.2s;
-  overflow: hidden; /* prevent float bleed */
+  overflow: hidden;
 }
 
 .quiz-card:hover {
@@ -146,24 +160,6 @@ a.button:hover {
   background: #005fa3;
 }
 
-@media (max-width: 600px) {
-  .container {
-    padding: 1em;
-  }
-
-  .quiz-card img {
-    float: none;
-    display: block;
-    margin: 0 auto 1em;
-  }
-
-  a.button {
-    display: block;
-    width: 100%;
-    font-size: 1em;
-  }
-}
-
 /* Dark Mode Styles */
 body.dark-mode {
   background: #121212;
@@ -188,19 +184,32 @@ body.dark-mode a.button:hover {
   background: #2980b9;
 }
 
+body.dark-mode .dropdown {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #444;
+}
+
+body.dark-mode .dropdown a,
+body.dark-mode .dropdown button {
+  color: white;
+}
+
+body.dark-mode .dropdown a:hover,
+body.dark-mode .dropdown button:hover {
+  background-color: #333;
+}
+
 #dark-mode-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: transparent;
-  border: none;
   font-size: 1.5em;
   cursor: pointer;
+  background: transparent;
+  border: none;
   color: #fff;
 }
 
 body.dark-mode #dark-mode-toggle {
-  color: #ffd700; /* Gold sun icon in dark mode */
+  color: #ffd700;
 }
 
 /* Modal base */

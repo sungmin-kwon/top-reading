@@ -1,19 +1,6 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
-import { getFirestore, collection, addDoc, serverTimestamp, query, where, getDocs} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
-import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyARGXx_Xyo6BMuMuDLOriWTISKCB3hbXi0",
-  authDomain: "top-reading.firebaseapp.com",
-  projectId: "top-reading",
-  storageBucket: "top-reading.appspot.com",
-  messagingSenderId: "147776736959",
-  appId: "1:147776736959:web:150f3a25409ba7f2c1800a"
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-const auth = getAuth(app);
+import { auth, db } from "./firebase-init.js";
+import { collection, addDoc, serverTimestamp, query, where, getDocs} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
 let currentUser = null;
 let chapterData = [];
@@ -22,6 +9,7 @@ const form = document.getElementById("quiz-form");
 const dropdown = document.getElementById("chapter-select");
 const submitBtn = document.getElementById("submit-btn");
 const scoreOutput = document.getElementById("score-output");
+const progress = document.getElementById("progress");
 
 onAuthStateChanged(auth, user => {
   if (!user) {
@@ -62,7 +50,7 @@ function renderQuiz(chapter) {
   scoreOutput.textContent = "";
   submitBtn.style.display = "block";
 
-  const progress = document.getElementById("progress");
+  const questions = chapter.multiple_choice;
 
   function updateProgress() {
     const total = questions.length;
@@ -72,12 +60,8 @@ function renderQuiz(chapter) {
         answered++;
       }
     }
-    progress.textContent = `Progress: ${answered} of ${total} answered`;
+    if (progress) progress.textContent = `Progress: ${answered} of ${total} answered`;
   }
-  input.addEventListener("change", updateProgress);
-  updateProgress();
-
-  const questions = chapter.multiple_choice;
 
   questions.forEach((q, i) => {
     const fieldset = document.createElement("fieldset");
@@ -91,6 +75,8 @@ function renderQuiz(chapter) {
       input.type = "radio";
       input.name = `q${i}`;
       input.value = option;
+      input.addEventListener("change", updateProgress);
+
       label.appendChild(input);
       label.appendChild(document.createTextNode(" " + option));
       fieldset.appendChild(label);
@@ -100,101 +86,95 @@ function renderQuiz(chapter) {
     fieldset.appendChild(document.createElement("br"));
   });
 
+  updateProgress();
+
   submitBtn.onclick = async (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  // ✅ Check if all questions are answered
-  let incomplete = false;
-  const questions = chapter.multiple_choice;
-  const answers = [];
+    let incomplete = false;
+    const answers = [];
 
-  questions.forEach((q, i) => {
-    const selected = document.querySelector(`input[name="q${i}"]:checked`);
-    if (!selected) {
-      incomplete = true;
-    }
-    answers.push({
-      number: q.number ?? i + 1, // fallback if number is missing
-      question: q.question,
-      selected: selected?.value || "No answer",
-      correct: q.answer
+    questions.forEach((q, i) => {
+      const selected = document.querySelector(`input[name="q${i}"]:checked`);
+      if (!selected) incomplete = true;
+      answers.push({
+        number: q.number ?? i + 1,
+        question: q.question,
+        selected: selected?.value || "No answer",
+        correct: q.answer
+      });
     });
-  });
 
-  if (incomplete) {
-    alert("Please answer all questions before submitting.");
-    return;
-  }
+    if (incomplete) {
+      alert("Please answer all questions before submitting.");
+      return;
+    }
 
-  // ✅ Check if user already submitted this chapter
-  const q = query(
-    collection(db, "submissions"),
-    where("userId", "==", currentUser.uid),
-    where("book", "==", bookTitle),
-    where("chapter", "==", chapter.chapter_number)
-  );
+    const qSnap = query(
+      collection(db, "submissions"),
+      where("userId", "==", currentUser.uid),
+      where("book", "==", bookTitle),
+      where("chapter", "==", chapter.chapter_number)
+    );
 
-  const snap = await getDocs(q);
-  if (!snap.empty) {
-    alert("You have already submitted answers for this chapter.");
-    return;
-  }
+    const snap = await getDocs(qSnap);
+    if (!snap.empty) {
+      alert("You have already submitted answers for this chapter.");
+      return;
+    }
 
-  // ✅ Calculate score
-  let score = 0;
-  answers.forEach(a => {
-    if (a.selected === a.correct) score++;
-  });
+    let score = 0;
+    answers.forEach(a => {
+      if (a.selected === a.correct) score++;
+    });
 
-  // Show summary modal
-  const modal = document.getElementById("result-modal");
-  const modalContent = document.getElementById("result-content");
-  const closeModal = document.getElementById("close-modal");
+    const modal = document.getElementById("result-modal");
+    const modalContent = document.getElementById("result-content");
+    const closeModal = document.getElementById("close-modal");
 
-  modalContent.innerHTML = `<strong>✅ You scored ${score} / ${questions.length}</strong><br><br>`;
+    modalContent.innerHTML = `<strong>✅ You scored ${score} / ${questions.length}</strong><br><br>`;
 
-  answers.forEach((a, i) => {
-    const isCorrect = a.selected === a.correct;
-    modalContent.innerHTML += `
-      <p>
-        <strong>Q${a.number}:</strong> ${a.question}<br>
-        <span style="color: ${isCorrect ? 'green' : 'red'};">
-          Your Answer: ${a.selected} ${isCorrect ? '✓' : '✗'}
-        </span><br>
-        ${!isCorrect ? `Correct Answer: ${a.correct}<br>` : ""}
-      </p><hr>`;
-  });
+    answers.forEach(a => {
+      const isCorrect = a.selected === a.correct;
+      modalContent.innerHTML += `
+        <p>
+          <strong>Q${a.number}:</strong> ${a.question}<br>
+          <span style="color: ${isCorrect ? 'green' : 'red'};">
+            Your Answer: ${a.selected} ${isCorrect ? '✓' : '✗'}
+          </span><br>
+          ${!isCorrect ? `Correct Answer: ${a.correct}<br>` : ""}
+        </p><hr>`;
+    });
 
-  modal.style.display = "block";
+    modal.style.display = "block";
 
-  // Close modal
-  closeModal.onclick = () => modal.style.display = "none";
-  window.onclick = e => {
-    if (e.target === modal) modal.style.display = "none";
+    closeModal.onclick = () => modal.style.display = "none";
+    window.onclick = e => {
+      if (e.target === modal) modal.style.display = "none";
+    };
+
+    await addDoc(collection(db, "submissions"), {
+      userId: currentUser.uid,
+      email: currentUser.email,
+      book: bookTitle,
+      chapter: chapter.chapter_number,
+      score,
+      total: questions.length,
+      answers,
+      timestamp: serverTimestamp()
+    });
+
+    alert("✅ Submission recorded!");
   };
+}
 
-  // ✅ Save to Firestore
-  await addDoc(collection(db, "submissions"), {
-    userId: currentUser.uid,
-    email: currentUser.email,
-    book: bookTitle,
-    chapter: chapter.chapter_number,
-    score,
-    total: questions.length,
-    answers,
-    timestamp: serverTimestamp()
-  });
-
-  alert("✅ Submission recorded!");
-  };
-
-  const toggleDark = document.getElementById("dark-mode-toggle");
+const toggleDark = document.getElementById("dark-mode-toggle");
+if (toggleDark) {
   toggleDark.onclick = () => {
     document.body.classList.toggle("dark");
     localStorage.setItem("darkMode", document.body.classList.contains("dark"));
   };
 
-  // Persist dark mode on reload
   if (localStorage.getItem("darkMode") === "true") {
     document.body.classList.add("dark");
   }
