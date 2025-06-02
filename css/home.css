@@ -13,6 +13,9 @@ body {
   background-color: #333;
   color: #fff;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo-section {
@@ -44,7 +47,7 @@ body {
 }
 
 #user-menu-toggle {
-  background-color: #4a90e2;
+  background-color: #444;
   color: white;
   border: none;
   padding: 6px 12px;
@@ -79,6 +82,7 @@ body {
   z-index: 10;
   padding: 6px 0;
   box-sizing: border-box;
+  text-align: right;
 }
 
 .dropdown a,
@@ -88,13 +92,13 @@ body {
   padding: 10px 16px;
   border: none;
   width: 100%;
-  text-align: left;
   background: none;
   font-size: 0.9rem;
   cursor: pointer;
   color: #333;
   text-decoration: none;
   box-sizing: border-box;
+  text-align: right;
 }
 
 .dropdown button#logout {
