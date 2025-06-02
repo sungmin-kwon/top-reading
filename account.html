@@ -2,33 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Account</title>
+  <title>Account Info</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/home.css" />
   <style>
-    main.container { padding: 20px; max-width: 700px; margin: auto; }
-    h1 { font-size: 1.8em; text-align: center; margin-bottom: 1em; }
-    p { font-size: 1em; margin-bottom: 1em; color: #444; }
-    .info-box { background-color: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    body.dark .info-box { background-color: #1e1e1e; color: #e0e0e0; box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); }
+    main.container { padding: 20px; max-width: 600px; margin: auto; }
+    .info-box { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .info-row { margin-bottom: 1em; }
+    .label { font-weight: bold; color: #333; }
   </style>
 </head>
 <body>
   <div id="topbar-container"></div>
 
   <main class="container">
-    <h1>👤 My Account</h1>
+    <h1>👤 Account Info</h1>
     <div class="info-box">
-      <p>This page will display your profile information, preferences, and account settings in future updates.</p>
-      <p>For now, you can return to the home page or view your test scores.</p>
-      <a href="home.html" id="back-button">← Back to Home</a>
+      <div class="info-row"><span class="label">Email:</span> <span id="email">Loading...</span></div>
+      <div class="info-row"><span class="label">Member Since:</span> <span id="created">Loading...</span></div>
+      <div class="info-row"><span class="label">User Role:</span> <span id="role">Loading...</span></div>
+      <hr>
+      <a href="scores.html" id="back-button">← View My Scores</a>
     </div>
   </main>
 
-  <!-- Topbar integration -->
   <script type="module">
-    import { setupTopbar } from "./js/topbar.js";
-    setupTopbar("👤 My Account");
+    import { auth, db } from "./js/firebase-init.js";
+    import { doc, getDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
+    import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+
+    const emailEl = document.getElementById("email");
+    const createdEl = document.getElementById("created");
+    const roleEl = document.getElementById("role");
+
+    onAuthStateChanged(auth, async (user) => {
+      if (!user) return (window.location.href = "login.html");
+
+      emailEl.textContent = user.email;
+      createdEl.textContent = new Date(user.metadata.creationTime).toLocaleDateString();
+
+      const docRef = doc(db, "users", user.uid);
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        roleEl.textContent = docSnap.data().role || "student";
+      } else {
+        roleEl.textContent = "student";
+      }
+    });
   </script>
+
+  <script>
+    fetch("components/topbar.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("topbar-container").innerHTML = html;
+        setTimeout(() => {
+          const titleEl = document.querySelector(".portal-title");
+          if (titleEl) titleEl.textContent = "👤 My Account";
+        }, 50);
+      });
+  </script>
+
+  <script type="module" src="js/home.js"></script>
+  <script src="js/theme.js"></script>
 </body>
 </html>
