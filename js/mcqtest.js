@@ -62,6 +62,21 @@ function renderQuiz(chapter) {
   scoreOutput.textContent = "";
   submitBtn.style.display = "block";
 
+  const progress = document.getElementById("progress");
+
+  function updateProgress() {
+    const total = questions.length;
+    let answered = 0;
+    for (let i = 0; i < total; i++) {
+      if (document.querySelector(`input[name="q${i}"]:checked`)) {
+        answered++;
+      }
+    }
+    progress.textContent = `Progress: ${answered} of ${total} answered`;
+  }
+  input.addEventListener("change", updateProgress);
+  updateProgress();
+
   const questions = chapter.multiple_choice;
 
   questions.forEach((q, i) => {
@@ -131,21 +146,32 @@ function renderQuiz(chapter) {
     if (a.selected === a.correct) score++;
   });
 
-  scoreOutput.innerHTML = `<strong>✅ You scored ${score} / ${questions.length}</strong><br><br>`;
+  // Show summary modal
+  const modal = document.getElementById("result-modal");
+  const modalContent = document.getElementById("result-content");
+  const closeModal = document.getElementById("close-modal");
+
+  modalContent.innerHTML = `<strong>✅ You scored ${score} / ${questions.length}</strong><br><br>`;
 
   answers.forEach((a, i) => {
     const isCorrect = a.selected === a.correct;
-    const result = document.createElement("p");
-    result.innerHTML = `
-      <strong>Q${a.number}:</strong> ${a.question}<br>
-      <span style="color: ${isCorrect ? 'green' : 'red'};">
-        Your Answer: ${a.selected} ${isCorrect ? '✓' : '✗'}
-      </span><br>
-      ${!isCorrect ? `Correct Answer: ${a.correct}<br>` : ""}
-      <hr>
-    `;
-    scoreOutput.appendChild(result);
+    modalContent.innerHTML += `
+      <p>
+        <strong>Q${a.number}:</strong> ${a.question}<br>
+        <span style="color: ${isCorrect ? 'green' : 'red'};">
+          Your Answer: ${a.selected} ${isCorrect ? '✓' : '✗'}
+        </span><br>
+        ${!isCorrect ? `Correct Answer: ${a.correct}<br>` : ""}
+      </p><hr>`;
   });
+
+  modal.style.display = "block";
+
+  // Close modal
+  closeModal.onclick = () => modal.style.display = "none";
+  window.onclick = e => {
+    if (e.target === modal) modal.style.display = "none";
+  };
 
   // ✅ Save to Firestore
   await addDoc(collection(db, "submissions"), {

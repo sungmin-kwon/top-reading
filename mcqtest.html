@@ -7,15 +7,24 @@
 <body>
   <h1 id="quiz-title">Loading...</h1>
   <button id="dark-mode-toggle" style="float: right;">🌙 Toggle Dark Mode</button>
+  <a href="home.html" id="back-button">← Back to Home</a>
 
   <label for="chapter-select">Choose Chapter:</label>
   <select id="chapter-select">
     <option value="">-- Select Chapter --</option>
   </select>
 
+  <p id="progress" style="font-weight: bold; margin-top: 20px;"></p>
   <form id="quiz-form"></form>
   <button id="submit-btn" style="display: none;">Submit Answers</button>
   <p id="score-output"></p>
+  <div id="result-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" id="close-modal">&times;</span>
+      <h2>Test Summary</h2>
+      <div id="result-content"></div>
+    </div>
+  </div>
 
   <script type="module" src="js/mcqtest.js"></script>
 </body>

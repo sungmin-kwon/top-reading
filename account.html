@@ -13,37 +13,24 @@
 
   <h1>My Profile</h1>
   <div id="profile-form" style="display: none;">
-  <label>Name:</label>
-  <input type="text" id="name" />
-  <label>Grade:</label>
-  <input type="text" id="grade" />
-  <label>Member Since:</label>
-  <p id="member-since" style="margin-top: 0;"></p>
-  <label>Role:</label>
-  <p id="user-role" style="margin-top: 0;"></p>
-  <button id="save">Save Changes</button>
+    <label>Name:</label>
+    <input type="text" id="name" />
+    <label>Grade:</label>
+    <input type="text" id="grade" />
+    <label>Member Since:</label>
+    <p id="member-since" style="margin-top: 0;"></p>
+    <label>Role:</label>
+    <p id="user-role" style="margin-top: 0;"></p>
+    <button id="save">Save Changes</button>
   </div>
+
   <p id="status"></p>
   <a href="home.html">← Back to Home</a>
 
   <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
-    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
-    import { getFirestore, doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyARGXx_Xyo6BMuMuDLOriWTISKCB3hbXi0",
-      authDomain: "top-reading.firebaseapp.com",
-      projectId: "top-reading",
-      storageBucket: "top-reading.appspot.com",
-      messagingSenderId: "147776736959",
-      appId: "1:147776736959:web:150f3a25409ba7f2c1800a",
-      measurementId: "G-NDKY8VNG00"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth();
-    const db = getFirestore();
+    import { auth, db } from "./js/firebase-init.js";
+    import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+    import { doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
 
     const nameInput = document.getElementById("name");
     const gradeInput = document.getElementById("grade");
@@ -51,40 +38,39 @@
     const form = document.getElementById("profile-form");
 
     onAuthStateChanged(auth, async (user) => {
-    if (user) {
+      if (user) {
         const userRef = doc(db, "users", user.uid);
         const snap = await getDoc(userRef);
+
         if (snap.exists()) {
-        const data = snap.data();
-        // Format the creation date if present
-        const createdAt = data.createdAt?.toDate?.(); // Firestore Timestamp → JS Date
-        document.getElementById("member-since").textContent = createdAt 
-          ? createdAt.toLocaleDateString()
-          : "Unknown";
-        // Show role or fallback
-        document.getElementById("user-role").textContent = data.role || "student";
-        nameInput.value = data.name || "";
-        gradeInput.value = data.grade || "";
-        form.style.display = "block";
+          const data = snap.data();
+          const createdAt = data.createdAt?.toDate?.();
+          document.getElementById("member-since").textContent = createdAt 
+            ? createdAt.toLocaleDateString()
+            : "Unknown";
+          document.getElementById("user-role").textContent = data.role || "student";
+
+          nameInput.value = data.name || "";
+          gradeInput.value = data.grade || "";
+          form.style.display = "block";
         } else {
-        statusText.textContent = "⚠️ Profile not found.";
+          statusText.textContent = "⚠️ Profile not found.";
         }
 
         document.getElementById("save").onclick = async () => {
-        await updateDoc(userRef, {
+          await updateDoc(userRef, {
             name: nameInput.value,
             grade: gradeInput.value
-        });
-        statusText.textContent = "✅ Profile updated!";
+          });
+          statusText.textContent = "✅ Profile updated!";
         };
-
-    } else {
+      } else {
         setTimeout(() => {
-        if (!auth.currentUser) {
+          if (!auth.currentUser) {
             window.location.href = "login.html";
-        }
-        }, 500); // add delay to detect session
-    }
+          }
+        }, 500);
+      }
     });
   </script>
 </body>
