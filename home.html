@@ -10,16 +10,17 @@
 
 <header class="topbar">
   <div class="logo-section">
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
     <span class="portal-title">🏠 Home</span>
   </div>
 
   <div class="user-section">
-    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
     <div class="user-dropdown-container">
       <button id="user-menu-toggle">
-        👋 <span id="user-email">User</span> ⌄
+        👤
       </button>
       <div id="user-dropdown" class="dropdown">
+        <div class="user-info" id="user-email">user@example.com</div>
         <a href="account.html">My Account</a>
         <a href="scores.html">My Scores</a>
         <button id="logout">Logout</button>
@@ -28,39 +29,39 @@
   </div>
 </header>
 
-  <div class="container" id="book-container">
-    <!-- Book cards will be loaded here -->
-  </div>
+<div class="container" id="book-container">
+  <!-- Book cards will be loaded here -->
+</div>
 
-  <!-- Scripts -->
-  <script src="js/theme.js"></script>
+<!-- Scripts -->
+<script src="js/theme.js"></script>
 
-  <!-- Firebase Auth -->
-  <script type="module">
-    import { auth } from "./js/firebase-init.js";
-    import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
+<!-- Firebase Auth -->
+<script type="module">
+  import { auth } from "./js/firebase-init.js";
+  import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
-    const userEmailSpan = document.getElementById("user-email");
-    const logoutBtn = document.getElementById("logout");
+  const userEmailDiv = document.getElementById("user-email");
+  const logoutBtn = document.getElementById("logout");
 
-    onAuthStateChanged(auth, user => {
-      if (user) {
-        if (userEmailSpan) userEmailSpan.textContent = `👋 ${user.email}`;
-      } else {
-        window.location.href = "login.html";
-      }
-    });
-
-    if (logoutBtn) {
-      logoutBtn.onclick = () => {
-        signOut(auth).then(() => {
-          window.location.href = "login.html";
-        });
-      };
+  onAuthStateChanged(auth, user => {
+    if (user) {
+      if (userEmailDiv) userEmailDiv.textContent = user.email;
+    } else {
+      window.location.href = "login.html";
     }
-  </script>
+  });
 
-  <script src="js/home.js"></script>
+  if (logoutBtn) {
+    logoutBtn.onclick = () => {
+      signOut(auth).then(() => {
+        window.location.href = "login.html";
+      });
+    };
+  }
+</script>
+
+<script src="js/home.js"></script>
 
 </body>
 </html>
