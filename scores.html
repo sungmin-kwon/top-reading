@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>My Test Scores</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/home.css" />
   <style>
-    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
-    h1 { text-align: center; }
+    main.container { padding: 20px; }
     table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th, td {border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
     th { background-color: #eaeaea; }
   </style>
 </head>
 <body>
-  <h1>📊 My Test Scores</h1>
-  <table id="scores-table">
-    <thead>
-      <tr>
-        <th>Book</th>
-        <th>Chapter</th>
-        <th>Score</th>
-        <th>Date</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <div id="topbar-container"></div>
 
-  <p id="status"></p>
-  <a href="home.html">← Back to Home</a>
+  <main class="container">
+    <h1>📊 My Test Scores</h1>
+    <table id="scores-table">
+      <thead>
+        <tr>
+          <th>Book</th>
+          <th>Chapter</th>
+          <th>Score</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <p id="status"></p>
+    <a href="home.html" id="back-button">← Back to Home</a>
+  </main>
 
   <script type="module">
     import { auth, db } from "./js/firebase-init.js";
@@ -40,11 +45,7 @@
         return;
       }
 
-      const q = query(
-        collection(db, "submissions"),
-        where("userId", "==", user.uid)
-      );
-
+      const q = query(collection(db, "submissions"), where("userId", "==", user.uid));
       const snapshot = await getDocs(q);
 
       snapshot.forEach((doc) => {
@@ -60,5 +61,20 @@
       });
     });
   </script>
+
+  <script>
+    fetch("components/topbar.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("topbar-container").innerHTML = html;
+        setTimeout(() => {
+          const titleEl = document.querySelector(".portal-title");
+          if (titleEl) titleEl.textContent = "📊 My Scores";
+        }, 50);
+      });
+  </script>
+
+  <script type="module" src="js/home.js"></script>
+  <script src="js/theme.js"></script>
 </body>
 </html>
