@@ -6,10 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/home.css" />
   <style>
+    body { transition: background 0.3s, color 0.3s; }
+    body.dark { background: #121212; color: #e0e0e0; }
+    header.topbar { position: sticky; top: 0; z-index: 999; background-color: #333; }
+    body.dark header.topbar { background-color: #222; }
+
     main.container { padding: 20px; }
     table { width: 100%; border-collapse: collapse; margin-top: 20px; }
     th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
     th { background-color: #eaeaea; }
+    body.dark th { background-color: #2c2c2c; color: #f0f0f0; }
+    body.dark td { background-color: #1e1e1e; color: #e0e0e0; }
   </style>
 </head>
 <body>
@@ -32,6 +39,15 @@
     <a href="home.html" id="back-button">← Back to Home</a>
   </main>
 
+  <!-- Load topbar and theme toggle -->
+  <script type="module">
+    import { setupTopbar } from "./js/topbar.js";
+    import { setupThemeToggleAfterTopbar } from "./js/theme.js";
+    setupTopbar("📊 My Scores");
+    setupThemeToggleAfterTopbar();
+  </script>
+
+  <!-- Load user data -->
   <script type="module">
     import { auth, db } from "./js/firebase-init.js";
     import { collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
@@ -61,12 +77,5 @@
       });
     });
   </script>
-
-  <script type="module">
-    import { setupTopbar } from "./js/topbar.js";
-    setupTopbar("📊 My Scores");
-  </script>
-
-  <script src="js/theme.js"></script>
 </body>
 </html>

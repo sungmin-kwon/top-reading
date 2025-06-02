@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="css/home.css" />
   <style>
     body { transition: background 0.3s, color 0.3s; }
-    body.dark { background: #121212; color: #e0e0e0;
-    }
+    body.dark { background: #121212; color: #e0e0e0; }
     header.topbar { position: sticky; top: 0; z-index: 999; background-color: #333; }
     body.dark header.topbar { background-color: #222; }
     .container { padding: 2em; }
@@ -25,9 +24,12 @@
 
   <script type="module">
     import { setupTopbar } from "./js/topbar.js";
+    import { setupThemeToggleAfterTopbar } from "./js/theme.js";
     setupTopbar("🏠 Home");
+    setupThemeToggleAfterTopbar();
   </script>
 
   <script type="module" src="js/home.js"></script>
+
 </body>
 </html>

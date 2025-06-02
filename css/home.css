@@ -3,6 +3,7 @@ body {
   background: #f5f5f5;
   margin: 0;
   padding: 0;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .topbar {
@@ -204,52 +205,63 @@ a.button {
 }
 
 /* Dark Mode Styles */
-body.dark-mode {
+body.dark {
   background: #121212;
   color: #e0e0e0;
 }
 
-body.dark-mode header {
+body.dark header {
   background: #aaa;
   color: #000;
 }
 
-body.dark-mode .quiz-card,
-body.dark-mode .test-card {
+body.dark .quiz-card,
+body.dark .test-card {
   background: #1e1e1e;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  color: #f0f0f0;
 }
 
-body.dark-mode .quiz-card a.button {
+body.dark .quiz-card h2,
+body.dark .test-card h2 {
+  color: #ffffff;
+}
+
+body.dark .quiz-card p,
+body.dark .test-card p {
+  color: #cccccc;
+}
+
+body.dark .quiz-card a.button {
   background: #3498db;
 }
 
-body.dark-mode .quiz-card a.button:hover {
+body.dark .quiz-card a.button:hover {
   background: #2980b9;
 }
 
-body.dark-mode .test-card a.button {
+body.dark .test-card a.button {
   background: #e67e22;
 }
 
-body.dark-mode .test-card a.button:hover {
+body.dark .test-card a.button:hover {
   background: #d35400;
 }
 
-body.dark-mode .dropdown {
+body.dark .dropdown {
   background-color: #1e1e1e;
   color: white;
   border-color: #444;
 }
 
-body.dark-mode .dropdown a,
-body.dark-mode .dropdown button,
-body.dark-mode .dropdown .user-info {
+body.dark .dropdown a,
+body.dark .dropdown button,
+body.dark .dropdown .user-info {
   color: white;
 }
 
-body.dark-mode .dropdown a:hover,
-body.dark-mode .dropdown button:hover {
+body.dark .dropdown a:hover,
+body.dark .dropdown button:hover {
   background-color: #333;
 }
 

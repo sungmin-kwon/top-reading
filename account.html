@@ -6,10 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/home.css" />
   <style>
+    body { transition: background 0.3s, color 0.3s; }
+    body.dark { background: #121212; color: #e0e0e0; }
+    header.topbar { position: sticky; top: 0; z-index: 999; background-color: #333; }
+    body.dark header.topbar { background-color: #222; }
+
     main.container { padding: 20px; max-width: 600px; margin: auto; }
-    .info-box { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .info-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
     .info-row { margin-bottom: 1em; }
     .label { font-weight: bold; color: #333; }
+
+    body.dark .info-box {
+      background: #1e1e1e;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+    }
+    body.dark .label { color: #e0e0e0; }
   </style>
 </head>
 <body>
@@ -21,10 +37,17 @@
       <div class="info-row"><span class="label">Email:</span> <span id="email">Loading...</span></div>
       <div class="info-row"><span class="label">Member Since:</span> <span id="created">Loading...</span></div>
       <div class="info-row"><span class="label">User Role:</span> <span id="role">Loading...</span></div>
-      <hr>
+      <hr />
       <a href="scores.html" id="back-button">← View My Scores</a>
     </div>
   </main>
+
+  <script type="module">
+    import { setupTopbar } from "./js/topbar.js";
+    import { setupThemeToggleAfterTopbar } from "./js/theme.js";
+    setupTopbar("👤 My Account");
+    setupThemeToggleAfterTopbar();
+  </script>
 
   <script type="module">
     import { auth, db } from "./js/firebase-init.js";
@@ -43,27 +66,8 @@
 
       const docRef = doc(db, "users", user.uid);
       const docSnap = await getDoc(docRef);
-      if (docSnap.exists()) {
-        roleEl.textContent = docSnap.data().role || "student";
-      } else {
-        roleEl.textContent = "student";
-      }
+      roleEl.textContent = docSnap.exists() ? (docSnap.data().role || "student") : "student";
     });
   </script>
-
-  <script>
-    fetch("components/topbar.html")
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById("topbar-container").innerHTML = html;
-        setTimeout(() => {
-          const titleEl = document.querySelector(".portal-title");
-          if (titleEl) titleEl.textContent = "👤 My Account";
-        }, 50);
-      });
-  </script>
-
-  <script type="module" src="js/home.js"></script>
-  <script src="js/theme.js"></script>
 </body>
 </html>
