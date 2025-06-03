@@ -1,0 +1,2079 @@
+{
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "multiple_choice": [
+        {
+          "number": 1,
+          "question": "What color is Bilbo's front door into his hobbit hole?",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Green",
+            "Brown"
+          ],
+          "answer": "Green"
+        },
+        {
+          "number": 2,
+          "question": "Who is the first dwarf to arrive at Bilbo's house in Chapter 1?",
+          "options": [
+            "Balin",
+            "Bombur",
+            "Gloin",
+            "Dwalin"
+          ],
+          "answer": "Dwalin"
+        },
+        {
+          "number": 3,
+          "question": "What does Gloin say about Bilbo that enrages Bilbo so much that he overcomes his fears and joins the adventurers?",
+          "options": [
+            "As fierce as a dragon in a pinch",
+            "Our friend and fellow conspirator",
+            "Little fellow bobbing on the mat",
+            "More like a grocer than a burglar"
+          ],
+          "answer": "Little fellow bobbing on the mat"
+        },
+        {
+          "number": 4,
+          "question": "Who made the map that Gandalf gives to Thorin?",
+          "options": [
+            "Dain",
+            "Thrain",
+            "Thror",
+            "The Necromancer"
+          ],
+          "answer": "Thror"
+        },
+        {
+          "number": 5,
+          "question": "What was the name of the town of Men that was under the shadow of the Lonely Mountain until the dragon came and destroyed it?",
+          "options": [
+            "Esgaroth",
+            "Moria",
+            "Bywater",
+            "Dale"
+          ],
+          "answer": "Dale"
+        },
+        {
+          "number": 6,
+          "question": "Which dwarf has a smoke-ring blowing competition or game with Gandalf?",
+          "options": [
+            "Thorin",
+            "Bifur",
+            "Balin",
+            "Gloin"
+          ],
+          "answer": "Thorin"
+        },
+        {
+          "number": 7,
+          "question": "What musical instrument does Thorin Oakenshield play?",
+          "options": [
+            "A fiddle",
+            "A flute",
+            "A harp",
+            "A clarinet"
+          ],
+          "answer": "A harp"
+        },
+        {
+          "number": 8,
+          "question": "What color is Thorin's hood?",
+          "options": [
+            "Scarlet",
+            "Sky blue",
+            "Green",
+            "Yellow and orange"
+          ],
+          "answer": "Sky blue"
+        },
+        {
+          "number": 9,
+          "question": "What game or sport was accidentally invented by Bilbo's ancestor Bullroarer Took?",
+          "options": [
+            "Football",
+            "Snooker",
+            "Golf",
+            "Polo"
+          ],
+          "answer": "Golf"
+        },
+        {
+          "number": 10,
+          "question": "Which pair of dwarves are the youngest?",
+          "options": [
+            "Balin and Dwalin",
+            "Dori and Nori",
+            "Fili and Kili",
+            "Oin and Gloin"
+          ],
+          "answer": "Fili and Kili"
+        },
+        {
+          "number": 11,
+          "question": "What was the name of Bilbo's mother?",
+          "options": [
+            "Lobelia Sackville-Baggins",
+            "Belladonna Took",
+            "Rosemary Took",
+            "Bluebell Belladonna"
+          ],
+          "answer": "Belladonna Took"
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "multiple_choice": [
+        {
+          "number": 12,
+          "question": "What sort of drink does Gandalf ask Bilbo to get him in Chapter 1?",
+          "options": [
+            "Coffee",
+            "Beer",
+            "Red wine",
+            "Porter"
+          ],
+          "answer": "Red wine"
+        },
+        {
+          "number": 13,
+          "question": "What is the name of the inn where the dwarves meet Bilbo in Chapter 2?",
+          "options": [
+            "The Prancing Pony",
+            "The Golden Perch",
+            "The Green Dragon",
+            "The Bridge and Bottle"
+          ],
+          "answer": "The Green Dragon"
+        },
+        {
+          "number": 14,
+          "question": "Whose hood and cloak does Bilbo borrow?",
+          "options": [
+            "Gloin's",
+            "Thorin's",
+            "Dwalin's",
+            "Gandalf's"
+          ],
+          "answer": "Dwalin's"
+        },
+        {
+          "number": 15,
+          "question": "Which dwarves are the best at lighting fires?",
+          "options": [
+            "Bifur and Bofur",
+            "Kili and Fili",
+            "Nori and Ori",
+            "Oin and Gloin"
+          ],
+          "answer": "Oin and Gloin"
+        },
+        {
+          "number": 16,
+          "question": "Which of the following is not a name for the trolls?",
+          "options": [
+            "Sam",
+            "William",
+            "Bert",
+            "Tom"
+          ],
+          "answer": "Sam"
+        },
+        {
+          "number": 17,
+          "question": "What does Bilbo try to steal from the trolls?",
+          "options": [
+            "A pony",
+            "A purse",
+            "A jug of beer",
+            "A dagger"
+          ],
+          "answer": "A purse"
+        },
+        {
+          "number": 18,
+          "question": "Which troll catches Bilbo in Chapter 2?",
+          "options": [
+            "William",
+            "All three of them",
+            "Tom",
+            "Bert"
+          ],
+          "answer": "William"
+        },
+        {
+          "number": 19,
+          "question": "Which dwarf puts up the most fight when the trolls try to capture him?",
+          "options": [
+            "Thorin",
+            "Gloin",
+            "Bombur",
+            "Balin"
+          ],
+          "answer": "Thorin"
+        },
+        {
+          "number": 20,
+          "question": "What does Thorin use as a weapon against the trolls in Chapter 2?",
+          "options": [
+            "A branch torn off a tree",
+            "A burning branch from the fire",
+            "A cauldron of boiling water",
+            "A dagger"
+          ],
+          "answer": "A burning branch from the fire"
+        },
+        {
+          "number": 21,
+          "question": "What cooking method do the trolls decide on first of all before Gandalf stirs up the argument again?",
+          "options": [
+            "Sitting on them and squashing them",
+            "Mincing them and making them into pies",
+            "Mincing them and boiling them",
+            "Roasting the dwarves slowly"
+          ],
+          "answer": "Roasting the dwarves slowly"
+        },
+        {
+          "number": 22,
+          "question": "What does Bilbo take from the trolls' hoard of loot?",
+          "options": [
+            "A large, clumsy key",
+            "A pot full of gold coins",
+            "A long beautiful sword in a jewelled scabbard",
+            "A knife big enough to serve him as a short sword"
+          ],
+          "answer": "A knife big enough to serve him as a short sword"
+        },
+        {
+          "number": 23,
+          "question": "What foodstuffs do the adventurers take from the troll's cave for breakfast?",
+          "options": [
+            "Cheese, eggs, sausages, and tomatoes",
+            "Mutton bones, mince pies and sausages",
+            "Ale, bread, cheese and bacon",
+            "Bacon, beer, rabbit pie, and apples"
+          ],
+          "answer": "Ale, bread, cheese and bacon"
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "multiple_choice": [
+        {
+          "number": 24,
+          "question": "Where does Bilbo hide while the trolls are fighting and arguing?",
+          "options": [
+            "In a tree trunk",
+            "In the trolls' cave",
+            "In a bush",
+            "Under a sack"
+          ],
+          "answer": "In a bush"
+        },
+        {
+          "number": 25,
+          "question": "What is the other name for Rivendell?",
+          "options": [
+            "The Last Homely House",
+            "The Hidden Valley",
+            "The Edge of the Wild",
+            "The Valley of the Elves"
+          ],
+          "answer": "The Last Homely House"
+        },
+        {
+          "number": 26,
+          "question": "What is unusual or rare about Elrond's ancestry?",
+          "options": [
+            "He is half elf and half human",
+            "He is half elf and half goblin",
+            "He is half human and half hobbit",
+            "He is half human and half goblin"
+          ],
+          "answer": "He is half elf and half human"
+        },
+        {
+          "number": 27,
+          "question": "On what day does Elrond read the runes on the swords and on the map?",
+          "options": [
+            "Midsummer morning",
+            "Bilbo's birthday",
+            "Midsummer's Eve",
+            "The autumn equinox"
+          ],
+          "answer": "Midsummer's Eve"
+        },
+        {
+          "number": 28,
+          "question": "What is the English translation for the names of the swords (Orcrist and Glamdring) that Thorin and Gandalf now own?",
+          "options": [
+            "Tailbiter and Flame of the West",
+            "Goblin-cleaver and Foe-hammer",
+            "Truefriend and Goblin-hammer",
+            "Warhammer and Dragonslayer"
+          ],
+          "answer": "Goblin-cleaver and Foe-hammer"
+        },
+        {
+          "number": 29,
+          "question": "What is another name for the Dwarves' New Year?",
+          "options": [
+            "The Threshold of Winter",
+            "The Hunter's Moon",
+            "Durin's Day",
+            "The Day of the Thrush"
+          ],
+          "answer": "Durin's Day"
+        },
+        {
+          "number": 30,
+          "question": "What phase of the moon is showing when Elrond studies the map?",
+          "options": [
+            "A full moon",
+            "A gibbous moon",
+            "A new moon",
+            "A crescent moon"
+          ],
+          "answer": "A crescent moon"
+        },
+        {
+          "number": 31,
+          "question": "Where were Glamdring and Orcrist originally forged?",
+          "options": [
+            "In Rivendell itself",
+            "In Thror's kingdom that was destroyed by the dragon",
+            "In the ancient elvish kingdom of Gondolin",
+            "In the Mines of Moria"
+          ],
+          "answer": "In the ancient elvish kingdom of Gondolin"
+        },
+        {
+          "number": 32,
+          "question": "What does Elrond dislike about dwarves?",
+          "options": [
+            "Their cruelty and wickedness towards dragons",
+            "Their singing",
+            "Their long beards",
+            "Their love of gold"
+          ],
+          "answer": "Their love of gold"
+        },
+        {
+          "number": 33,
+          "question": "Where are the elves hiding when they sing nonsense songs to welcome the adventurers to Rivendell?",
+          "options": [
+            "On the roof of Rivendell",
+            "In trees beside the path",
+            "Beside the stream",
+            "Under the narrow stone bridge"
+          ],
+          "answer": "In trees beside the path"
+        },
+        {
+          "number": 34,
+          "question": "What does Bilbo's handwriting look like?",
+          "options": [
+            "Crabbed and rather clumsy",
+            "Thin and spidery",
+            "Flowing and beautiful",
+            "Cunning and cryptic"
+          ],
+          "answer": "Thin and spidery"
+        },
+        {
+          "number": 35,
+          "question": "Which of the following is not a hazard that needs to be avoided in the path leading to Rivendell?",
+          "options": [
+            "Deceptively green bogs",
+            "A very narrow bridge over a swift-flowing stream",
+            "Steep slopes and deep ravines",
+            "Avalanches and rock falls"
+          ],
+          "answer": "Avalanches and rock falls"
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "multiple_choice": [
+        {
+          "number": 36,
+          "question": "What type of bird is named in the moon-letters on the map?",
+          "options": [
+            "An eagle",
+            "A sparrow",
+            "A thrush",
+            "A raven"
+          ],
+          "answer": "A thrush"
+        },
+        {
+          "number": 37,
+          "question": "What weather forces the adventurers to seek shelter in a cave in Chapter 4?",
+          "options": [
+            "A blizzard",
+            "A hurricane",
+            "A thunderstorm",
+            "Hail and sleet"
+          ],
+          "answer": "A thunderstorm"
+        },
+        {
+          "number": 38,
+          "question": "Who found the cave in Chapter 4?",
+          "options": [
+            "Bifur, Bofur and Bombur",
+            "Gandalf and Bilbo",
+            "Balin and Dwalin",
+            "Fili and Kili"
+          ],
+          "answer": "Fili and Kili"
+        },
+        {
+          "number": 39,
+          "question": "How many goblins grab Bilbo?",
+          "options": [
+            "Six",
+            "Two",
+            "None - Bilbo escapes",
+            "Thirty"
+          ],
+          "answer": "Two"
+        },
+        {
+          "number": 40,
+          "question": "What do the goblins use to beat time while they sing?",
+          "options": [
+            "Hammers and tongs",
+            "Footsteps and whips",
+            "Cymbals and tamborines",
+            "Drums and gongs"
+          ],
+          "answer": "Footsteps and whips"
+        },
+        {
+          "number": 41,
+          "question": "What was the final fate of the ponies?",
+          "options": [
+            "The goblins used them to draw carts in the mines",
+            "The goblins ate them",
+            "They starved to death",
+            "They escaped back to Rivendell"
+          ],
+          "answer": "The goblins ate them"
+        },
+        {
+          "number": 42,
+          "question": "Which of the following devices do the goblins not make (or have made for them)?",
+          "options": [
+            "Instruments of torture",
+            "Tongs",
+            "Pickaxes",
+            "Trumpets"
+          ],
+          "answer": "Trumpets"
+        },
+        {
+          "number": 43,
+          "question": "What is the goblin name for Thorin's sword?",
+          "options": [
+            "Beater",
+            "Biter",
+            "Thunderbolt",
+            "Murderer"
+          ],
+          "answer": "Biter"
+        },
+        {
+          "number": 44,
+          "question": "Who carries Bilbo at first as they try to escape from the mines after Gandalf kills the Great Goblin?",
+          "options": [
+            "Dori",
+            "Dwalin",
+            "Nori",
+            "Ori"
+          ],
+          "answer": "Dori"
+        },
+        {
+          "number": 45,
+          "question": "What is obviously magical about Gandalf's sword Glamdring (Foe-hammer)?",
+          "options": [
+            "It burns blue when goblins are nearby",
+            "It cannot be taken out of the owner's hand unless the owner is killed",
+            "It becomes invisible when the owner is in danger",
+            "It emits a high-pitched screeching sound when it kills goblins"
+          ],
+          "answer": "It burns blue when goblins are nearby"
+        },
+        {
+          "number": 46,
+          "question": "Who is carrying Bilbo when the goblins find them for the second time?",
+          "options": [
+            "Gloin",
+            "Dori",
+            "Bifur",
+            "Bombur"
+          ],
+          "answer": "Bombur"
+        },
+        {
+          "number": 47,
+          "question": "What light are the adventurers using to guide them inside the tunnels in Chapter 4?",
+          "options": [
+            "A torch dropped by a goblin when Thorin killed one",
+            "The magical glow on Gandalf's staff",
+            "A strange green glow given off by Gandalf's smoke rings",
+            "The magical light given off by Orcrist and Glamdring when goblins are nearby"
+          ],
+          "answer": "The magical glow on Gandalf's staff"
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "multiple_choice": [
+        {
+          "number": 48,
+          "question": "Why can't the dwarves hear the goblins coming?",
+          "options": [
+            "The dwarves are talking too loudly",
+            "The echoes inside the caves are too confusing",
+            "The goblins have made themselves invisible",
+            "The goblins are wearing soft shoes"
+          ],
+          "answer": "The goblins are wearing soft shoes"
+        },
+        {
+          "number": 49,
+          "question": "Why do the goblins not find Bilbo after he is knocked unconscious?",
+          "options": [
+            "The are too busy looking at the dwarves and Gandalf",
+            "They see him, but do not bother with him",
+            "He is lying quietly in a dark corner",
+            "They have all been killed by Gandalf's magic"
+          ],
+          "answer": "He is lying quietly in a dark corner"
+        },
+        {
+          "number": 50,
+          "question": "What does Bilbo find on the floor in Chapter 5?",
+          "options": [
+            "A ring",
+            "A knife",
+            "A slice of bacon",
+            "His pipe and tobacco pouch"
+          ],
+          "answer": "A ring"
+        },
+        {
+          "number": 51,
+          "question": "What does Bilbo learn about his sword in Chapter 5?",
+          "options": [
+            "He can use it like a match to make fire",
+            "It is an elvish blade like Glamdring and Orcrist",
+            "It helps him see in the dark",
+            "It acts as a compass so he does not lose his sense of direction"
+          ],
+          "answer": "It is an elvish blade like Glamdring and Orcrist"
+        },
+        {
+          "number": 52,
+          "question": "What animals does Bilbo sense as he wanders through the dark tunnels in Chapter 5?",
+          "options": [
+            "Snakes",
+            "Fish",
+            "None - the goblins have eaten everything alive",
+            "Bats"
+          ],
+          "answer": "Bats"
+        },
+        {
+          "number": 53,
+          "question": "What stops Bilbo from going forward in the dark tunnels in Chapter 5?",
+          "options": [
+            "He hears goblins going fishing",
+            "Gollum catches him",
+            "He blunders into a dead end",
+            "He comes to the edge of a subterranean lake"
+          ],
+          "answer": "He comes to the edge of a subterranean lake"
+        },
+        {
+          "number": 54,
+          "question": "How does Gollum get from his island to the shore of the lake?",
+          "options": [
+            "He paddles a little boat",
+            "He rides on the back of blind fish",
+            "His ring helps him walk across the surface of the water",
+            "He swims, as he is an excellent swimmer"
+          ],
+          "answer": "He paddles a little boat"
+        },
+        {
+          "number": 55,
+          "question": "What does Gollum eat?",
+          "options": [
+            "Fish and goblins",
+            "Fish and mushrooms",
+            "Ponies and goblins",
+            "Bats and spiders"
+          ],
+          "answer": "Fish and goblins"
+        },
+        {
+          "number": 56,
+          "question": "What is the answer to Bilbo's first riddle?",
+          "options": [
+            "Teeth",
+            "A mountain",
+            "The wind",
+            "White horses"
+          ],
+          "answer": "Teeth"
+        },
+        {
+          "number": 57,
+          "question": "What will happen if Bilbo loses the riddle contest?",
+          "options": [
+            "Bilbo will become Gollum's slave",
+            "He will have to give the ring back to Gollum",
+            "Gollum will hand him over to the goblins in return for food",
+            "Gollum will eat him"
+          ],
+          "answer": "Gollum will eat him"
+        },
+        {
+          "number": 58,
+          "question": "Where did Gollum live before coming to the underground lake?",
+          "options": [
+            "Nowhere - he has always lived on his island",
+            "On the top of a windy mountain",
+            "With his grandmother in a hole in a bank beside a river",
+            "With the goblins, but he was banished after he ate one of them"
+          ],
+          "answer": "With his grandmother in a hole in a bank beside a river"
+        },
+        {
+          "number": 59,
+          "question": "What is \"never thirsty, ever drinking/All in mail never clinking?\"",
+          "options": [
+            "Gollum's grandmother",
+            "A fish",
+            "The skeleton of a drowned knight",
+            "Goblins"
+          ],
+          "answer": "A fish"
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "multiple_choice": [
+        {
+          "number": 60,
+          "question": "What does Gollum call the ring?",
+          "options": [
+            "My precious",
+            "My birthday present",
+            "My hiding place",
+            "My special secret"
+          ],
+          "answer": "My birthday present"
+        },
+        {
+          "number": 61,
+          "question": "Who does Bilbo see first after escaping Gollum and the dark tunnels?",
+          "options": [
+            "Bombur",
+            "Gandalf",
+            "Balin",
+            "Gollum"
+          ],
+          "answer": "Balin"
+        },
+        {
+          "number": 62,
+          "question": "What does Bilbo not tell the dwarves about his adventures inside the tunnels?",
+          "options": [
+            "That his little sword is an elvish blade like Glamdring and Orcrist",
+            "That he had pity on Gollum and did not kill him when he had the chance",
+            "That he now has a ring that makes him invisible when he puts it on",
+            "That Gollum wanted to eat him if he lost the riddle contest"
+          ],
+          "answer": "That he now has a ring that makes him invisible when he puts it on"
+        },
+        {
+          "number": 63,
+          "question": "What type of enchantments is Gandalf especially good at?",
+          "options": [
+            "Illusions and turning his enemies to stone",
+            "Prophecy and pathfinding",
+            "Fire and lights",
+            "Calling down lightning and thunder"
+          ],
+          "answer": "Fire and lights"
+        },
+        {
+          "number": 64,
+          "question": "What day of the week was it when the adventurers were captured?",
+          "options": [
+            "Monday night (or Tuesday morning)",
+            "Tuesday night (or Wednesday morning)",
+            "Monday morning (or Sunday night)",
+            "Thursday evening (or Thursday morning)"
+          ],
+          "answer": "Monday night (or Tuesday morning)"
+        },
+        {
+          "number": 65,
+          "question": "What does Bilbo find to eat as they walk through the woods in Chapter 6?",
+          "options": [
+            "Sorrel and wild strawberries",
+            "Blackberries and strawberries",
+            "Mushrooms and crab-apples",
+            "Hawthorn berries and blackberries"
+          ],
+          "answer": "Sorrel and wild strawberries"
+        },
+        {
+          "number": 66,
+          "question": "Why is the magic ring unable to protect the wearer from the wargs?",
+          "options": [
+            "Wargs are magical, and the ring does not work on them",
+            "Wargs can find the wearer by their sense of smell",
+            "Wargs have especially keen hearing",
+            "Wargs can still see the wearer's shadow, even by moonlight"
+          ],
+          "answer": "Wargs can find the wearer by their sense of smell"
+        },
+        {
+          "number": 67,
+          "question": "What sort of tree does Gandalf take refuge from the wargs in?",
+          "options": [
+            "An oak",
+            "A spruce",
+            "A pine",
+            "A fir"
+          ],
+          "answer": "A pine"
+        },
+        {
+          "number": 68,
+          "question": "Why did the wargs come to the clearing where the adventurers were?",
+          "options": [
+            "The goblins had sent the wargs to hunt down the adventurers",
+            "The wolves were running away from the woodsmen who had settled in the area",
+            "They were going to meet the goblins so they could go raiding together",
+            "The wargs could smell the adventurers and came to hunt them"
+          ],
+          "answer": "They were going to meet the goblins so they could go raiding together"
+        },
+        {
+          "number": 69,
+          "question": "What colors of flame does Gandalf use to drive the wolves back with?",
+          "options": [
+            "Blue, white and purple",
+            "Blue, red and green",
+            "Red, yellow and orange",
+            "Green, black and white"
+          ],
+          "answer": "Blue, red and green"
+        },
+        {
+          "number": 70,
+          "question": "What first alerts the Lord of the Eagles to the events in the wood?",
+          "options": [
+            "The flames in the forest",
+            "The howling of the wolves",
+            "The line of goblin soldiers marching towards the forest",
+            "A magical message from Gandalf"
+          ],
+          "answer": "The howling of the wolves"
+        },
+        {
+          "number": 71,
+          "question": "How does the forest catch on fire in Chapter 6?",
+          "options": [
+            "A dead tree is hit by summer lightning",
+            "Gandalf lights the fire to attract the attention of the eagles",
+            "The goblins light it deliberately to kill the adventurers",
+            "The wargs spread it accidentally after Gandalf sets their coats alight"
+          ],
+          "answer": "The wargs spread it accidentally after Gandalf sets their coats alight"
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "multiple_choice": [
+        {
+          "number": 72,
+          "question": "What does Bilbo think the eagles will do to him at first?",
+          "options": [
+            "He thinks they will give him back to the goblins",
+            "He is afraid they will drop him over the edge of their eyrie",
+            "He thinks they plan to eat him",
+            "He hopes that they will give him a meal"
+          ],
+          "answer": "He thinks they plan to eat him"
+        },
+        {
+          "number": 73,
+          "question": "What does Bilbo eat for breakfast when he wakes up in the eagles' eyrie?",
+          "options": [
+            "Bread and water",
+            "Bacon and eggs",
+            "Cold mutton and rabbit",
+            "Cold ham and apples"
+          ],
+          "answer": "Cold mutton and rabbit"
+        },
+        {
+          "number": 74,
+          "question": "What reward do the dwarves give to the eagles at the end of the adventures?",
+          "options": [
+            "A golden crown for the Lord of Eagles and golden collars for his fifteen chieftans",
+            "A wagon load of silver and gold",
+            "Specially designed spurs of steel that will help them fight agains the goblins better",
+            "A magnificent necklace set with rubies and emeralds"
+          ],
+          "answer": "A golden crown for the Lord of Eagles and golden collars for his fifteen chieftans"
+        },
+        {
+          "number": 75,
+          "question": "What special ability does Beorn have?",
+          "options": [
+            "He can hunt any animal alive with his bare hands",
+            "He can change from a man into a black bear",
+            "He can handle bees without being stung",
+            "He can lift rocks as big as the Carrock"
+          ],
+          "answer": "He can change from a man into a black bear"
+        },
+        {
+          "number": 76,
+          "question": "Which dwarf has to come to Beorn's house alone?",
+          "options": [
+            "Bombur",
+            "Thorin",
+            "Dwalin",
+            "Dori"
+          ],
+          "answer": "Bombur"
+        },
+        {
+          "number": 77,
+          "question": "What is Beorn doing when Gandalf and Bilbo arrive at his house?",
+          "options": [
+            "Chopping wood",
+            "Extracting honey from his hives",
+            "Shearing sheep",
+            "Churning butter"
+          ],
+          "answer": "Chopping wood"
+        },
+        {
+          "number": 78,
+          "question": "What is the name of Gandalf's cousin?",
+          "options": [
+            "Radagast",
+            "Saruman",
+            "Elrond",
+            "Mithrandir"
+          ],
+          "answer": "Radagast"
+        },
+        {
+          "number": 79,
+          "question": "What animals set up the dinner table and light the lamps in Beorn's hall?",
+          "options": [
+            "Bears, boars and oxen",
+            "Bees, eagles and enslaved wolves",
+            "Sheep, cattle and cats",
+            "Ponies, dogs and sheep"
+          ],
+          "answer": "Ponies, dogs and sheep"
+        },
+        {
+          "number": 80,
+          "question": "How does Beorn react to the dwarves' talk of gold, silver and jewels?",
+          "options": [
+            "He is amazed at the skill the dwarves talk about",
+            "He ignores them, as he has no interest in treasures",
+            "He is angry and perplexed at their greed",
+            "He is intrigued and starts becoming greedy for a share of the treasure"
+          ],
+          "answer": "He ignores them, as he has no interest in treasures"
+        },
+        {
+          "number": 81,
+          "question": "What happened outside Beorn's hall on the first night the adventurers stayed there?",
+          "options": [
+            "Beorn and other bears held a meeting and a dance",
+            "Beorn and Gandalf talked all night on top of the Carrock",
+            "Beorn had a great battle against a pack of Wargs",
+            "Beorn, in bear-shape, tried to kill the adventurers"
+          ],
+          "answer": "Beorn and other bears held a meeting and a dance"
+        },
+        {
+          "number": 82,
+          "question": "How does Beorn find out that Gandalf's story is true?",
+          "options": [
+            "His bees bring him the news",
+            "The Lord of the Eagles tells him",
+            "He finds the burnt wolf-glade and also forces a captive warg and goblin to tell him",
+            "He finds the dead body of the Great Goblin"
+          ],
+          "answer": "He finds the burnt wolf-glade and also forces a captive warg and goblin to tell him"
+        },
+        {
+          "number": 83,
+          "question": "What does Bilbo see at nightfall as they travel towards Mirkwood?",
+          "options": [
+            "Wargs and goblins trying to sneak past Beorn's borders",
+            "The borrowed ponies trying to escape",
+            "Spies and servants of the Necromancer",
+            "A great black bear (Beorn in his animal shape) following them"
+          ],
+          "answer": "A great black bear (Beorn in his animal shape) following them"
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "multiple_choice": [
+        {
+          "number": 84,
+          "question": "What is Gandalf's last piece of advice before he leaves the dwarves and Bilbo?",
+          "options": [
+            "Don't go near the Necromancer's tower",
+            "You must either go through or give up the quest",
+            "Keep going straight ahead, no matter what happens",
+            "Don't leave the path"
+          ],
+          "answer": "Don't leave the path"
+        },
+        {
+          "number": 85,
+          "question": "What animals do the adventurers see quite frequently in the early stages of their journey through Mirkwood?",
+          "options": [
+            "Deer",
+            "Black squirrels",
+            "Poisonous snakes",
+            "Wild boars"
+          ],
+          "answer": "Black squirrels"
+        },
+        {
+          "number": 86,
+          "question": "Why don't the adventurers drink from the black stream in the middle of Mirkwood?",
+          "options": [
+            "Beorn had warned them that the water was enchanted",
+            "It looks poisonous and unhealthy",
+            "They are more interested in getting across it",
+            "It flows too fast to be safe if they stand on the brink and try to fill their waterskins"
+          ],
+          "answer": "Beorn had warned them that the water was enchanted"
+        },
+        {
+          "number": 87,
+          "question": "Who is supposed to ride in the boat with Bombur?",
+          "options": [
+            "Bofur",
+            "Dwalin",
+            "Bilbo",
+            "Kili"
+          ],
+          "answer": "Dwalin"
+        },
+        {
+          "number": 88,
+          "question": "Why does Bombur fall into the enchanted river?",
+          "options": [
+            "Dwalin knocks him in accidentally",
+            "The boat starts floating downstream so he jumps into the water",
+            "A deer knocks him in",
+            "He is too fat and clumsy to jump out of the boat without stumbling"
+          ],
+          "answer": "A deer knocks him in"
+        },
+        {
+          "number": 89,
+          "question": "Which of the following is not a change that the adventurers notice after encountering the hunt and the white deer?",
+          "options": [
+            "They begin to hear singing and laughter in the distance",
+            "They start to see and hear birds in the branches above them",
+            "They see autumn leaves beginning to fall from the trees",
+            "The shadows in the forest do not seem as deep or dark"
+          ],
+          "answer": "They start to see and hear birds in the branches above them"
+        },
+        {
+          "number": 90,
+          "question": "What small creatures does Bilbo find at the top of the oak tree in Chapter 8?",
+          "options": [
+            "Centipedes and earwigs",
+            "Squirrels and sparrows",
+            "Black butterflies and spiders",
+            "Moths and caterpillars"
+          ],
+          "answer": "Black butterflies and spiders"
+        },
+        {
+          "number": 91,
+          "question": "Who is the first to see the lights from the elves' feast?",
+          "options": [
+            "Bilbo",
+            "Balin",
+            "Thorin",
+            "Bombur"
+          ],
+          "answer": "Balin"
+        },
+        {
+          "number": 92,
+          "question": "Which of the following does not happen when one of the adventurers steps into the ring of lights surrounding the elves' feast?",
+          "options": [
+            "The lights magically go out",
+            "The elves begin singing an eerie tune",
+            "The fire erupts in a shower of sparks",
+            "The adventurers become confused and disoriented"
+          ],
+          "answer": "The elves begin singing an eerie tune"
+        },
+        {
+          "number": 93,
+          "question": "What wakes Bilbo up from his sleep after he realizes he is alone in Chapter 8, after coming across the elves' feast?",
+          "options": [
+            "A spider, which is trying to wrap him up in sticky thread",
+            "A high-pitched buzzing noise made by a fly attempting to escape from the spiders",
+            "The hunting horn of the elf king",
+            "The shouts and cries of the dwarves"
+          ],
+          "answer": "A spider, which is trying to wrap him up in sticky thread"
+        },
+        {
+          "number": 94,
+          "question": "How does Bilbo kill the spiders who have captured the dwarves in their webs?",
+          "options": [
+            "He stabs them stealthily with Sting",
+            "He enrages them so much that they fall out of their trees to their deaths",
+            "He uses strands of their own webs to make nooses and strangles them",
+            "He throws stones at them"
+          ],
+          "answer": "He throws stones at them"
+        },
+        {
+          "number": 95,
+          "question": "After they have defeated the spiders, who do the adventurers discover is missing?",
+          "options": [
+            "Bombur",
+            "Thorin",
+            "Dwalin",
+            "Kili"
+          ],
+          "answer": "Thorin"
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "multiple_choice": [
+        {
+          "number": 96,
+          "question": "What sort of elves have taken Thorin prisoner?",
+          "options": [
+            "Sea Elves",
+            "Light Elves",
+            "Deep Elves",
+            "Wood Elves"
+          ],
+          "answer": "Wood Elves"
+        },
+        {
+          "number": 97,
+          "question": "What weapons do the Wood Elves use when they take the dwarves prisoner?",
+          "options": [
+            "Bows and spears",
+            "Swords and daggers",
+            "Whips and clubs",
+            "They freeze the dwarves with their magical powers"
+          ],
+          "answer": "Bows and spears"
+        },
+        {
+          "number": 98,
+          "question": "What is the Elf King's crown made of during autumn (fall)?",
+          "options": [
+            "Berries and red leaves",
+            "Silver and white gems",
+            "Gold and emeralds",
+            "Oak leaves and acorns"
+          ],
+          "answer": "Berries and red leaves"
+        },
+        {
+          "number": 99,
+          "question": "Why are the dwarves glad to be captured by the elves (at first)?",
+          "options": [
+            "They are starving, and the elves will give their prisoners food",
+            "They guess that the elves have taken Thorin prisoner and they want to be reunited with him",
+            "The elves have been friends with the dwarves for hundreds of years",
+            "They know that if they promise the elves a share of their treasure, they will be set free"
+          ],
+          "answer": "They are starving, and the elves will give their prisoners food"
+        },
+        {
+          "number": 100,
+          "question": "What question of Balin's enraged the Elvenking?",
+          "options": [
+            "Balin asks the Elvenking for food and drink before being set free",
+            "Balin asks if the elves know anything about Smaug's treasure",
+            "Balin asks if the spiders are the elves' pets",
+            "Balin asks what has happened to Thorin"
+          ],
+          "answer": "Balin asks if the spiders are the elves' pets"
+        },
+        {
+          "number": 101,
+          "question": "How does Bilbo find food while skulking around in the Elvenking's palace?",
+          "options": [
+            "He takes it out of the barrels sent to Esgaroth",
+            "He scrounges it off the rubbish heaps of the elves",
+            "He steals it from the stores or the table when nobody is looking",
+            "He slips out through the magic gates and goes hunting"
+          ],
+          "answer": "He steals it from the stores or the table when nobody is looking"
+        },
+        {
+          "number": 102,
+          "question": "What is mostly transported by river inside the barrels from the people of Laketown to the Wood Elves?",
+          "options": [
+            "Cider",
+            "Mead",
+            "Wine",
+            "Ale"
+          ],
+          "answer": "Wine"
+        },
+        {
+          "number": 103,
+          "question": "In Chapter 9, with whom does the chief guard get drunk?",
+          "options": [
+            "The Elf King",
+            "The king's butler",
+            "The men who guided the barrels up the river",
+            "The other guards"
+          ],
+          "answer": "The king's butler"
+        },
+        {
+          "number": 104,
+          "question": "What is the name of the elvenking's butler?",
+          "options": [
+            "Galion",
+            "Legolas",
+            "Dorwinion",
+            "Thranduil"
+          ],
+          "answer": "Galion"
+        },
+        {
+          "number": 105,
+          "question": "What is the weak point in Bilbo's plan of escape from the elves?",
+          "options": [
+            "He forgot that the elves would notice that the barrels were still full",
+            "He forgot to leave air-holes so the dwarves could breathe through",
+            "He forgot that he had nobody to pack him inside a barrel",
+            "He forgot that he couldn't swim"
+          ],
+          "answer": "He forgot that he had nobody to pack him inside a barrel"
+        },
+        {
+          "number": 106,
+          "question": "What nearly gives Bilbo's presence away to the men steering the barrels in spite of the invisibility conferred on him by the ring?",
+          "options": [
+            "His wet footprints and his sneezing",
+            "His shadow in the torchlight",
+            "He bumps into the men quite frequently",
+            "His weight presses the barrels lower in the water"
+          ],
+          "answer": "His wet footprints and his sneezing"
+        },
+        {
+          "number": 107,
+          "question": "What is Thorin considering doing when he learns that the other dwarves are also in prison with him?",
+          "options": [
+            "Promising the Elvenking a share of the treasure",
+            "Swearing to become a slave of the elves for the rest of his life",
+            "Telling the Elvenking about the quest and the treasure",
+            "Committing suicide"
+          ],
+          "answer": "Telling the Elvenking about the quest and the treasure"
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "multiple_choice": [
+        {
+          "number": 108,
+          "question": "What prediction of Gandalf's comes true in Chapter 9?",
+          "options": [
+            "The dwarves have learned to trust Bilbo to save them",
+            "They will have to abandon their quest and return to digging coal",
+            "They came to disaster when they left the path in Mirkwood",
+            "They will be unable to reach the Lonely Mountain by Durin's Day"
+          ],
+          "answer": "The dwarves have learned to trust Bilbo to save them"
+        },
+        {
+          "number": 109,
+          "question": "What is the first landmark feature that Bilbo notices as the barrel he is riding takes him out of the forest?",
+          "options": [
+            "The Iron Hills to the northeast of the lake",
+            "A landslide",
+            "The Lonely Mountain",
+            "The Long Lake"
+          ],
+          "answer": "The Lonely Mountain"
+        },
+        {
+          "number": 110,
+          "question": "What is the most common building material used in Laketown?",
+          "options": [
+            "Stone",
+            "Wood",
+            "Rammed earth",
+            "Iron"
+          ],
+          "answer": "Wood"
+        },
+        {
+          "number": 111,
+          "question": "What had Fili's barrel been used to carry before he escaped inside it?",
+          "options": [
+            "Butter",
+            "Wine",
+            "Apples",
+            "Cheese"
+          ],
+          "answer": "Apples"
+        },
+        {
+          "number": 112,
+          "question": "How does Bilbo manage to recognize Thorin after freeing him from the barrel?",
+          "options": [
+            "By his red cloak, black boots and dark green tunic",
+            "By his blue hood with the silver tassel and by his golden chain",
+            "By a distinctive scar left from his encounter with Smaug in the distant past",
+            "By his long nose and bristling beard"
+          ],
+          "answer": "By his blue hood with the silver tassel and by his golden chain"
+        },
+        {
+          "number": 113,
+          "question": "What happened to Thorin's sword Orcrist?",
+          "options": [
+            "It had fallen off and become lost while the Eagles were rescuing the adventurers from the wargs and goblins",
+            "Nothing - Thorin uses it to enhance his kingly apperance when he presents himself to the Master of Laketown",
+            "The King of the Wood Elves took it from Thorin when he was made prisoner",
+            "It had become hopelessly rusty in the trip down the river"
+          ],
+          "answer": "The King of the Wood Elves took it from Thorin when he was made prisoner"
+        },
+        {
+          "number": 114,
+          "question": "What skills or interests does the Master have that have made him the ruler of Laketown?",
+          "options": [
+            "His excellent memory and people skills",
+            "His economic expertise",
+            "His love of old songs",
+            "His knowledge of the Elvish languages"
+          ],
+          "answer": "His economic expertise"
+        },
+        {
+          "number": 115,
+          "question": "Why is the King of the Wood Elves wiser than the men of Laketown?",
+          "options": [
+            "He knows a way to kill Smaug that the Lake-men do not",
+            "He realizes that the dwarves will have to steal from Smaug rather than attempt to kill him, which is what the Lake-men believe",
+            "He believes in the old songs and tales that the Master of Laketown has forgotten about",
+            "He quickly realizes how the dwarves managed to escape from his dungeons"
+          ],
+          "answer": "He realizes that the dwarves will have to steal from Smaug rather than attempt to kill him, which is what the Lake-men believe"
+        },
+        {
+          "number": 116,
+          "question": "Why is Bilbo unhappy during their stay in Laketown?",
+          "options": [
+            "He is suspicious about the possible motives of the Master",
+            "He has a bad cold",
+            "He does not like the food that the Lake-men offer them",
+            "He still wishes he was back in his hobbit-hole"
+          ],
+          "answer": "He has a bad cold"
+        },
+        {
+          "number": 117,
+          "question": "What does the Master believe about Thorin and his company at first?",
+          "options": [
+            "That Thorin will be killed by the dragon",
+            "That Thorin is the true King Under the Mountain",
+            "That Thorin will be a worthy ally and trade partner",
+            "That they are frauds"
+          ],
+          "answer": "That they are frauds"
+        },
+        {
+          "number": 118,
+          "question": "How long do the dwarves and Bilbo stay in Laketown?",
+          "options": [
+            "We are not told",
+            "A fortnight",
+            "Two days",
+            "Three weeks"
+          ],
+          "answer": "A fortnight"
+        },
+        {
+          "number": 119,
+          "question": "Who sit beside Thorin at the high table after Thorin proclaims himself as the descendant of Thror, King Under the Mountain?",
+          "options": [
+            "Bofur and Bombur",
+            "Dwalin and Balin",
+            "Bilbo and the Master",
+            "Fili and Kili"
+          ],
+          "answer": "Fili and Kili"
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "multiple_choice": [
+        {
+          "number": 120,
+          "question": "What mistaken belief is held by the younger people of Laketown?",
+          "options": [
+            "They believe that the dragon is harmless and even friendly",
+            "They believe that Thorin is not the rightful King Under the Mountain",
+            "They believe that the river will flow with gold once the King Under the Mountain returns",
+            "They believe that the dragon does not exist"
+          ],
+          "answer": "They believe that the dragon does not exist"
+        },
+        {
+          "number": 121,
+          "question": "What is the name of the hill close to where the dwarves and Bilbo make their first camp approaching the Lonely Mountain?",
+          "options": [
+            "Dale",
+            "Ravenhill",
+            "Dragonmount",
+            "Ravensdown"
+          ],
+          "answer": "Ravenhill"
+        },
+        {
+          "number": 122,
+          "question": "What type of birds inhabit the area of the mountain and valleys closest to the Front Gate?",
+          "options": [
+            "None - the dragon has eaten them all",
+            "Thrushes",
+            "Crows",
+            "Ravens"
+          ],
+          "answer": "Crows"
+        },
+        {
+          "number": 123,
+          "question": "What does Bilbo deduce from seeing the smoke and steam issuing from the Front Gate?",
+          "options": [
+            "That the dragon is alive",
+            "That the dragon has set himself on fire",
+            "That the dragon is getting ready to come out and eat them",
+            "That the dragon is watching them from the side of the mountain"
+          ],
+          "answer": "That the dragon is alive"
+        },
+        {
+          "number": 124,
+          "question": "Who finds the 'doorstep' of the secret door in Chapter 11?",
+          "options": [
+            "Thorin, Bilbo and Balin",
+            "Nori, Dori and Ori",
+            "Bilbo, Fili and Kili",
+            "Bifur, Bofur and Bombur"
+          ],
+          "answer": "Bilbo, Fili and Kili"
+        },
+        {
+          "number": 125,
+          "question": "How can the dwarves and Bilbo reach the third camp outside the 'doorstep'?",
+          "options": [
+            "Either by a narrow path along the edge of a precipice or by ropes",
+            "Only by ropes - no other way is possible",
+            "By floating along the river",
+            "On horseback"
+          ],
+          "answer": "Either by a narrow path along the edge of a precipice or by ropes"
+        },
+        {
+          "number": 126,
+          "question": "What phase of the moon is showing when Bilbo realizes that Durin's Day has come and they can find the keyhole?",
+          "options": [
+            "A half moon",
+            "A new moon",
+            "A full moon",
+            "A waning crescent"
+          ],
+          "answer": "A new moon"
+        },
+        {
+          "number": 127,
+          "question": "How high is the doorway that leads into the secret tunnel in Chapter 11?",
+          "options": [
+            "Five feet high",
+            "We are not told",
+            "Three feet high",
+            "Six feet high"
+          ],
+          "answer": "Five feet high"
+        },
+        {
+          "number": 128,
+          "question": "Which dwarf is not present on the Doorstep when the door is finally opened?",
+          "options": [
+            "Balin",
+            "Bombur",
+            "Thorin",
+            "Gloin"
+          ],
+          "answer": "Bombur"
+        },
+        {
+          "number": 129,
+          "question": "Which of the following methods do the dwarves not use in an attempt to open the secret door before the keyhole is revealed?",
+          "options": [
+            "Throwing loose rocks at the cliff face",
+            "Beating on the stone and pushing at the cliff face",
+            "Using pickaxes to break through the stone",
+            "Reciting spells that can open locked doors"
+          ],
+          "answer": "Throwing loose rocks at the cliff face"
+        },
+        {
+          "number": 130,
+          "question": "What animals or creatures can be found near the doorstep?",
+          "options": [
+            "Thrushes and giant snails",
+            "Thrushes and ravens",
+            "Snails and scorpions",
+            "Snakes, spiders and crows"
+          ],
+          "answer": "Thrushes and giant snails"
+        },
+        {
+          "number": 131,
+          "question": "What do the dwarves suggest that Bilbo should do when they begin to despair of being able to open the secret door in Chapter 11?",
+          "options": [
+            "Go back to Laketown and ask for more supplies and weapons",
+            "Try to capture one of the thrushes, crows or ravens and use its feathers as a disguise to sneak into the mountain through the Front Gate",
+            "Go into the mountain through the Front Gate using his magic ring",
+            "Talk to the thrushes and see if they know the secret of opening the door"
+          ],
+          "answer": "Go into the mountain through the Front Gate using his magic ring"
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "multiple_choice": [
+        {
+          "number": 132,
+          "question": "Why does Bombur choose to stay below and guard the ponies in Chapter 11?",
+          "options": [
+            "He lost a bet and had to go on guard duty as a result",
+            "He thinks he is too fat for the ropes and that he will get dizzy or trip on the path",
+            "He does not believe that Bilbo and the others have really found the secret door",
+            "He is very fond of the ponies and doesn't want to leave them behind"
+          ],
+          "answer": "He thinks he is too fat for the ropes and that he will get dizzy or trip on the path"
+        },
+        {
+          "number": 133,
+          "question": "In Chapter 12, who volunteers to come some of the way down the tunnel with Bilbo?",
+          "options": [
+            "Fili",
+            "Thorin",
+            "Balin",
+            "Kili"
+          ],
+          "answer": "Balin"
+        },
+        {
+          "number": 134,
+          "question": "What is the first hint of the dragon's presence that Bilbo notices as he descends the tunnel?",
+          "options": [
+            "Wisps of smoke",
+            "The rumbling sound of Smaug's breathing or snoring",
+            "The air about him grows hotter",
+            "A reddish glow"
+          ],
+          "answer": "A reddish glow"
+        },
+        {
+          "number": 135,
+          "question": "What colors is Smaug?",
+          "options": [
+            "Red and gold",
+            "Red and green",
+            "Red and black",
+            "Green and gold"
+          ],
+          "answer": "Red and gold"
+        },
+        {
+          "number": 136,
+          "question": "What does Bilbo manage to steal from Smaug in Chapter 12?",
+          "options": [
+            "A sharp sword",
+            "A golden cup",
+            "A pocketful of gold coins",
+            "A necklace of rubies"
+          ],
+          "answer": "A golden cup"
+        },
+        {
+          "number": 137,
+          "question": "What did Smaug meet in his nightmare before he wakes up?",
+          "options": [
+            "A brave warrior with a sword",
+            "An army of archers",
+            "A bigger, stronger dragon wanting to steal his hoard",
+            "Thieves stealing from his hoard"
+          ],
+          "answer": "A brave warrior with a sword"
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "multiple_choice": [
+        {
+          "number": 138,
+          "question": "Why does Smaug react with such great fury in Chapter 12?",
+          "options": [
+            "He smells the dwarves and realizes that they are coming to kill him",
+            "He is hungry after his long sleep and his hunger infuriates him",
+            "He is extremely disturbed by his nightmare",
+            "He is outraged that someone has dared to steal from him"
+          ],
+          "answer": "He is outraged that someone has dared to steal from him"
+        },
+        {
+          "number": 139,
+          "question": "How does Bilbo know that the gem he stumbles across is the Arkenstone?",
+          "options": [
+            "He does not know it is the Arkenstone at all and fails to recognize it",
+            "Bilbo recognizes it from Thorin's description",
+            "He hears the ghost of a long-dead dwarf whisper its name to him as he picks it up",
+            "It is written in letters of gold across one of the facets of the stone"
+          ],
+          "answer": "Bilbo recognizes it from Thorin's description"
+        },
+        {
+          "number": 140,
+          "question": "What makes Bilbo drop his torch after finding the Arkenstone?",
+          "options": [
+            "He trips over a necklace of pearls",
+            "He is so surprised when he sees the Arkenstone that he drops the torch",
+            "He believes the dragon is coming back and wants to hide",
+            "A bat startles him"
+          ],
+          "answer": "A bat startles him"
+        },
+        {
+          "number": 141,
+          "question": "What does Thorin take as armor and weapons from the hoard of Smaug's treasure?",
+          "options": [
+            "A coat of silver mail, a helmet encrusted with diamonds and an ivory bow",
+            "Silver armour, a belt set with rubies and a black mace set with diamonds",
+            "A coat of gold-plated rings, an axe with a silver haft and a belt encrusted with scarlet stones",
+            "Spears with the heads inlaid with gold, an emerald-studded shield and a crown"
+          ],
+          "answer": "A coat of gold-plated rings, an axe with a silver haft and a belt encrusted with scarlet stones"
+        },
+        {
+          "number": 142,
+          "question": "For whom was the armor Bilbo is rewarded with in Chapter 13 originally made?",
+          "options": [
+            "Thorin when he was younger",
+            "The bride of the King Under the Mountain",
+            "A young elf prince",
+            "Bullroarer Took as a reward for killing the goblin chieftain"
+          ],
+          "answer": "A young elf prince"
+        },
+        {
+          "number": 143,
+          "question": "Apart from the dragon, what other animals live inside the Lonely Mountain?",
+          "options": [
+            "Nothing",
+            "Bats",
+            "Spiders",
+            "Snails"
+          ],
+          "answer": "Bats"
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "multiple_choice": [
+        {
+          "number": 144,
+          "question": "Who makes the cram that the dwarves and Bilbo eat while camping at Ravenhill?",
+          "options": [
+            "The dwarves, using an ancient and secret recipe",
+            "The Wood Elves",
+            "Beorn",
+            "The Lake-men"
+          ],
+          "answer": "The Lake-men"
+        },
+        {
+          "number": 145,
+          "question": "What is the full name of the grim-faced man who habitually predicts disasters like floods and poisoned fish?",
+          "options": [
+            "Bowman the Bard",
+            "Bard ap Girion",
+            "Bard the Bowman",
+            "Bard of Esgaroth"
+          ],
+          "answer": "Bard the Bowman"
+        },
+        {
+          "number": 146,
+          "question": "Why do the people of Lake-town destroy the bridges as a defense against the onslaught of the dragon?",
+          "options": [
+            "The Master ordered them to do so in the hopes that his rival, Bard, would be killed",
+            "The bridges are the only part of the town that is vulnerable to dragon-fire",
+            "The dragon can then only attack them from the air (which makes him vulnerable to arrows) or have his fire quenched by the cold water of the lake",
+            "They are attempting to fool the dragon into thinking they have left the town"
+          ],
+          "answer": "The dragon can then only attack them from the air (which makes him vulnerable to arrows) or have his fire quenched by the cold water of the lake"
+        },
+        {
+          "number": 147,
+          "question": "Why do most of the arrows shot at Smaug have no effect on him?",
+          "options": [
+            "Smag has a magic of his own that makes him invulnerable",
+            "The arrows either bounce off his scales and diamond encrusted underbelly, or he incinerates them with his fiery breath",
+            "The wind from Smaug's wings makes all the arrows miss their targets",
+            "Smaug flies so high and fast that no arrows can reach him"
+          ],
+          "answer": "The arrows either bounce off his scales and diamond encrusted underbelly, or he incinerates them with his fiery breath"
+        },
+        {
+          "number": 148,
+          "question": "Why is Bard astonished when the thrush lands on his shoulder?",
+          "options": [
+            "He believes the thrush is a spy of the dragon's sent to distract his aim",
+            "He thought all the thrushes in the area had been killed by the dragon",
+            "He can understand its speech",
+            "The thrush is the emblem on his family coat of arms"
+          ],
+          "answer": "He can understand its speech"
+        },
+        {
+          "number": 149,
+          "question": "Why can Bard understand the speech of the thrush?",
+          "options": [
+            "It was a special, magical thrush that could make any human that spoke to it understand",
+            "His ancestors came from Dale, where the people had the power of understanding the speech of birds",
+            "The thrush spoke Bard's native language",
+            "He has studied the language of birds and is used to it"
+          ],
+          "answer": "His ancestors came from Dale, where the people had the power of understanding the speech of birds"
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "multiple_choice": [
+        {
+          "number": 150,
+          "question": "In Chapter 14, qho does Bard ask for help in making sure that the refugees from Laketown have food and shelter to help them through the oncoming winter?",
+          "options": [
+            "Beorn and the woodsmen who hunt the Wargs",
+            "The King of the Wood Elves",
+            "The goblins of the Misty Mountains",
+            "The dwarves of the Iron Hills"
+          ],
+          "answer": "The King of the Wood Elves"
+        },
+        {
+          "number": 151,
+          "question": "What type of bird brings Bilbo and the dwarves the news of the dragon's death?",
+          "options": [
+            "A thrush",
+            "An eagle",
+            "A raven",
+            "A crow"
+          ],
+          "answer": "A raven"
+        },
+        {
+          "number": 152,
+          "question": "How old is Roac the raven?",
+          "options": [
+            "300",
+            "We are not told",
+            "153",
+            "135"
+          ],
+          "answer": "153"
+        },
+        {
+          "number": 153,
+          "question": "What advice does Roac give to Thorin about the Lakemen?",
+          "options": [
+            "To trust all of them, especially the Master",
+            "To trust Bard, and to share the treasure with them",
+            "Not to trust any of them, as they want to steal the gold",
+            "To attack first before the elf army arrives"
+          ],
+          "answer": "To trust Bard, and to share the treasure with them"
+        },
+        {
+          "number": 154,
+          "question": "What does Bilbo most want to happen while the dwarves are preparing for a siege by the elves and Lakemen?",
+          "options": [
+            "He wants to steal away with his share of the treasure and leave the dwarves to fight the Lakemen over the rest",
+            "He wants the armies to go away and leave them alone",
+            "He wants a peaceful resolution to the situation - and enough food",
+            "He wants Gandalf to turn up and take him back to his hobbit hole again"
+          ],
+          "answer": "He wants a peaceful resolution to the situation - and enough food"
+        },
+        {
+          "number": 155,
+          "question": "How do the dwarves manage to obtain three ponies in Chapter 15?",
+          "options": [
+            "Bilbo steals the ponies off the Lakemen using his magic ring",
+            "Dain from the Iron Hills sends the ponies to help Thorin",
+            "They capture and tame wild ponies that were living in the area",
+            "They find that three of the ponies escaped from the dragon and were wandering down the river"
+          ],
+          "answer": "They find that three of the ponies escaped from the dragon and were wandering down the river"
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "multiple_choice": [
+        {
+          "number": 156,
+          "question": "Which of the following does Bard not use as a reason why the dwarves should share the treasure with the people of Laketown?",
+          "options": [
+            "Some of the treasure came from Dale and belonged to Bard's ancestors",
+            "The dragon had a lot of treasure, so there is plenty for all to share",
+            "Bard was the one who actually killed the dragon",
+            "The people of Laketown helped the dwarves when the dwarves were in need, but are now in need themselves"
+          ],
+          "answer": "The dragon had a lot of treasure, so there is plenty for all to share"
+        },
+        {
+          "number": 157,
+          "question": "Who is supposed to be on watch when Bilbo steals out of the stronghold to the elves and Lakemen?",
+          "options": [
+            "Bombur",
+            "Thorin",
+            "Kili",
+            "Dwalin"
+          ],
+          "answer": "Bombur"
+        },
+        {
+          "number": 158,
+          "question": "In Chapter 16, who does Bilbo deal with and offer his share of the treasure to, along with the Arkenstone?",
+          "options": [
+            "Bard and the King of the Wood Elves",
+            "Gandalf and Bard",
+            "Bard and the Master",
+            "The Elvish High Council"
+          ],
+          "answer": "Bard and the King of the Wood Elves"
+        },
+        {
+          "number": 159,
+          "question": "What unexpected news does Bilbo give the elves and Lakemen?",
+          "options": [
+            "Dain from the Iron Hills is coming to Thorin's aid",
+            "Thorin is weakening and is prepared to share",
+            "Smaug had a mate who is still alive inside the mountain",
+            "The goblins are on their way to take the treasure"
+          ],
+          "answer": "Dain from the Iron Hills is coming to Thorin's aid"
+        },
+        {
+          "number": 160,
+          "question": "How does the Elvenking react to the sight of the Arkenstone?",
+          "options": [
+            "He is consumed by lust for the gem and is willing to renounce the rest of the treasure if he can have the Arkenstone",
+            "He rejects Bilbo's offer as treacherous and ignoble, preferring instead to fight fairly for a share of the treasure",
+            "He is amazed by its beauty and questions Bilbo's right to give it to him",
+            "He is unimpressed by it"
+          ],
+          "answer": "He is amazed by its beauty and questions Bilbo's right to give it to him"
+        },
+        {
+          "number": 161,
+          "question": "Who does Bilbo meet unexpectedly in the camp of the elves and Lakemen?",
+          "options": [
+            "Gandalf",
+            "Thorin",
+            "Gollum",
+            "Beorn.,"
+          ],
+          "answer": "Gandalf"
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "multiple_choice": [
+        {
+          "number": 162,
+          "question": "What is the other name for the Arkenstone?",
+          "options": [
+            "The Heart of the Mountain",
+            "The Heart of Darkness",
+            "The Heart of the Dragon",
+            "The Mountain of Light"
+          ],
+          "answer": "The Heart of the Mountain"
+        },
+        {
+          "number": 163,
+          "question": "How does Thorin learn that Bilbo was the one who gave the Arkenstone to Bard and the Elvenking?",
+          "options": [
+            "A raven who saw Bilbo going to the camp tells him",
+            "Bard tells Thorin where he got the Arkenstone from",
+            "Bilbo confesses to giving it to them",
+            "Thorin finds Bilbo's distinctive footprints leading out of the stronghold"
+          ],
+          "answer": "Bilbo confesses to giving it to them"
+        },
+        {
+          "number": 164,
+          "question": "Who carries the wooden casket holding the Arkenstone to the parley with Thorin?",
+          "options": [
+            "An unnamed wood-elf",
+            "Bard the Bowman",
+            "The Master of Laketown",
+            "Gandalf"
+          ],
+          "answer": "Gandalf"
+        },
+        {
+          "number": 165,
+          "question": "Which of the following does Thorin not threaten to do to Bilbo in Chapter 17?",
+          "options": [
+            "Throw him off the cliff",
+            "Never be friends with him again",
+            "Shoot at his feet with arrows",
+            "Stab him with his own elvish dagger"
+          ],
+          "answer": "Stab him with his own elvish dagger"
+        },
+        {
+          "number": 166,
+          "question": "What do the dwarves of the Iron Hills wear that is their special technological secret?",
+          "options": [
+            "Seven-league boots that help them cover long distances quickly",
+            "Knee-length hauberks of stainless steel",
+            "Helmets made of mithril",
+            "Flexible mail trousers or hose"
+          ],
+          "answer": "Flexible mail trousers or hose"
+        },
+        {
+          "number": 167,
+          "question": "What is the name of Dain's father?",
+          "options": [
+            "Thrain",
+            "Carc",
+            "Nain",
+            "Thorin"
+          ],
+          "answer": "Nain"
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "multiple_choice": [
+        {
+          "number": 168,
+          "question": "Who attacks first and starts the war over the dragon gold?",
+          "options": [
+            "The goblins and wargs",
+            "The dwarves",
+            "The elves",
+            "The Lakemen"
+          ],
+          "answer": "The dwarves"
+        },
+        {
+          "number": 169,
+          "question": "What wound has Gandalf sustained during the Battle of the Five Armies?",
+          "options": [
+            "Loss of half a foot when a goblin hacked it off with an axe",
+            "A bad cut to the head that required stitching",
+            "A broken arm from falling off a cliff",
+            "An undefined wound in the arm that requires him to wear a sling"
+          ],
+          "answer": "An undefined wound in the arm that requires him to wear a sling"
+        },
+        {
+          "number": 170,
+          "question": "Which dwarves are killed in the battle or die because of wounds sustained during it?",
+          "options": [
+            "Dori, Nori and Ori",
+            "Bifur, Bofur and Bombur",
+            "Thorin, Fili and Kili",
+            "Thorin, Balin and Dwalin"
+          ],
+          "answer": "Thorin, Fili and Kili"
+        },
+        {
+          "number": 171,
+          "question": "Who killed Bolg, the goblin cheiftan?",
+          "options": [
+            "Beorn in bear's shape",
+            "Gandalf, who called down lightning",
+            "Bard the Bowman",
+            "Thorin, who got his death-wound fighting single-handed against Bolg"
+          ],
+          "answer": "Beorn in bear's shape"
+        },
+        {
+          "number": 172,
+          "question": "What treasures are placed on Thorin's body and/or tomb when he is buried?",
+          "options": [
+            "The shield and sword he carried in his last battle",
+            "The Arkenstone and the sword Orcrist",
+            "A golden statue of Smaug",
+            "The crown that had been his grandfather's"
+          ],
+          "answer": "The Arkenstone and the sword Orcrist"
+        },
+        {
+          "number": 173,
+          "question": "What gift does Bard the Bowman give to the Elvenking?",
+          "options": [
+            "A chest full of diamonds",
+            "The rubies that had belonged to Bard's ancestors",
+            "All the crowns that could be found in Smaug's treasure",
+            "The emeralds that had belonged to King Girion of Dale"
+          ],
+          "answer": "The emeralds that had belonged to King Girion of Dale"
+        }
+      ]
+    },
+    {
+      "chapter_number": 19,
+      "multiple_choice": [
+        {
+          "number": 174,
+          "question": "What does Bilbo give to the Elvenking to pay for the food and wine he stole from him?",
+          "options": [
+            "A necklace of silver and pearls",
+            "A chest of gold",
+            "His sword Sting",
+            "A crown of silver set with diamonds"
+          ],
+          "answer": "A necklace of silver and pearls"
+        },
+        {
+          "number": 175,
+          "question": "Where are Bilbo and Gandalf when Bilbo learns what Gandalf was doing while they were in Mirkwood?",
+          "options": [
+            "Going over the mountain road in the Misty Mountains",
+            "At Beorn's house",
+            "At the palace of the King of the Wood Elves",
+            "In Rivendell"
+          ],
+          "answer": "In Rivendell"
+        },
+        {
+          "number": 176,
+          "question": "What wakes Bilbo while he is sleeping at Rivendell in Chapter 19?",
+          "options": [
+            "Gandalf and Elrond talking over their adventures",
+            "Elves singing outside his window",
+            "The snoring of a captive goblin",
+            "An alarm warning them of an attack by bandits"
+          ],
+          "answer": "Elves singing outside his window"
+        },
+        {
+          "number": 177,
+          "question": "How long do Gandalf and Bilbo stay at Rivendell on the return journey?",
+          "options": [
+            "A month",
+            "A fortnight",
+            "A week",
+            "We are not told"
+          ],
+          "answer": "A week"
+        },
+        {
+          "number": 178,
+          "question": "Where else does Bilbo get treasure from, apart from his share of Smaug's hoard?",
+          "options": [
+            "A gift from Beorn",
+            "A gift from Elrond",
+            "The troll's treasure",
+            "He steals some from the goblins"
+          ],
+          "answer": "The troll's treasure"
+        },
+        {
+          "number": 179,
+          "question": "Who are the auctioneers selling off Bilbo's house and effects?",
+          "options": [
+            "The Hobbiton Historic Places Trust",
+            "Mr. Sackville-Baggins and Company",
+            "Messrs Grubb, Grubb and Burrowes",
+            "Messrs Burrowes, Took and Grubb"
+          ],
+          "answer": "Messrs Grubb, Grubb and Burrowes"
+        },
+        {
+          "number": 180,
+          "question": "On what date was the auction of Bilbo's house and effects to take place?",
+          "options": [
+            "The 12 of June",
+            "The 4th of July",
+            "The 22nd of June",
+            "The first of May"
+          ],
+          "answer": "The 22nd of June"
+        }
+      ]
+    }
+  ]
+}

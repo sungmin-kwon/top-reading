@@ -1,5 +1,6 @@
 import { auth, db } from "./firebase-init.js";
-import { collection, getDoc, getDocs, doc} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
+import { collection, getDoc, getDocs, doc
+} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
 const container = document.getElementById("book-container");
@@ -20,12 +21,9 @@ function renderBookCard(book) {
 
 onAuthStateChanged(auth, async (user) => {
   if (!user) {
-    console.log("User not authenticated, redirecting to login.");
     window.location.href = "login.html";
     return;
   }
-
-  console.log("User authenticated:", user.uid);
 
   // Clear previous content
   container.innerHTML = "";
@@ -36,59 +34,44 @@ onAuthStateChanged(auth, async (user) => {
     const userDocSnap = await getDoc(userDocRef);
 
     if (!userDocSnap.exists()) {
-      console.error("User document does not exist for UID:", user.uid);
-      container.innerHTML = `<p>Error: User profile not found.</p>`;
+      // It's good practice to inform the user if their profile is missing
+      container.innerHTML = `<p style="font-style: italic; opacity: 0.8;">Your user profile was not found. Please contact support.</p>`;
       return;
     }
 
     const userData = userDocSnap.data();
     const role = userData.role;
-    const allowedBooks = userData.allowedBooks || []; // Default to empty array if undefined
-
-    console.log("User role:", role);
-    console.log("User allowedBooks (from client-side userDoc):", JSON.stringify(allowedBooks));
+    const allowedBooks = userData.allowedBooks || []; // Default to empty array
 
     if (role === "Teacher") {
-      console.log("Fetching all books for Teacher.");
       const snapshot = await getDocs(collection(db, "books"));
-      visibleBooks = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
+      visibleBooks = snapshot.docs.map(docData => ({ // Renamed 'doc' to 'docData' to avoid conflict
+        id: docData.id,
+        ...docData.data()
       }));
-      console.log(`Teacher fetched ${visibleBooks.length} books.`);
     } else { // Student logic
-      console.log("Fetching allowed books for Student.");
       if (allowedBooks.length > 0) {
-        for (const bookId of allowedBooks) {
+        const bookPromises = allowedBooks.map(async (bookId) => {
           // Ensure bookId is a valid string before proceeding
           if (typeof bookId !== 'string' || bookId.trim() === '') {
-            console.warn(`Invalid bookId found in allowedBooks: '${bookId}'. Skipping.`);
-            continue;
+            // Silently skip invalid bookIds in production, or log to a server-side analytics/error tool if needed
+            return null;
           }
           try {
-            console.log(`Attempting to fetch book with ID: "${bookId}"`);
             const bookDocRef = doc(db, "books", bookId);
             const bookDocSnap = await getDoc(bookDocRef);
-
-            if (bookDocSnap.exists()) {
-              visibleBooks.push({ id: bookId, ...bookDocSnap.data() });
-              console.log(`Successfully fetched book: "${bookId}"`);
-            } else {
-              console.warn(`Book with ID "${bookId}" does not exist in 'books' collection (docSnap.exists() is false).`);
-            }
+            return bookDocSnap.exists() ? { id: bookId, ...bookDocSnap.data() } : null;
           } catch (error) {
-            // This catch block will specifically catch errors related to fetching this single book,
-            // including permission errors.
-            console.error(`Failed to fetch book "${bookId}":`, error.message);
-            if (error.code === 'permission-denied') {
-              console.error(`PERMISSION DENIED for book "${bookId}". Check Firestore rules and ensure this book ID is correctly listed in the user's 'allowedBooks' field (as seen by the rules) and that the user document is accessible by the rule's get() call.`);
-            }
+            // Log unexpected errors during individual book fetch if necessary, perhaps to a dedicated error tracker
+            // For now, we'll let it return null, and it will be filtered out.
+            // console.error(`Error fetching book "${bookId}": ${error.message}`); // Keep this commented or use a proper error tracker
+            return null;
           }
-        }
-      } else {
-        console.log("Student has no book IDs in their allowedBooks list.");
+        });
+
+        const results = await Promise.all(bookPromises);
+        visibleBooks = results.filter(book => book !== null);
       }
-      console.log(`Student fetched ${visibleBooks.length} books out of ${allowedBooks.length} allowed.`);
     }
 
     if (visibleBooks.length === 0) {
@@ -97,7 +80,6 @@ onAuthStateChanged(auth, async (user) => {
           You currently have no assigned books. Please contact your teacher or check your assignments.
         </p>
       `;
-      console.log("No books to display.");
       return;
     }
 
@@ -105,7 +87,7 @@ onAuthStateChanged(auth, async (user) => {
 
   } catch (error) {
     // Catch errors related to fetching the user document itself or other unexpected errors
-    console.error("Error in onAuthStateChanged main block:", error);
-    container.innerHTML = `<p>An error occurred while loading book data. Please try again later.</p>`;
+    // console.error("Critical error in onAuthStateChanged:", error); // Keep this commented or use a proper error tracker
+    container.innerHTML = `<p style="font-style: italic; opacity: 0.8;">An error occurred while loading your books. Please try refreshing the page.</p>`;
   }
 });
