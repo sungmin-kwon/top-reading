@@ -152,3 +152,27 @@ body.dark a#back-button {
   margin-top: 10px;
   font-style: italic;
 }
+
+.label-full {
+  display: inline;
+}
+.label-short {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .label-full {
+    display: none;
+  }
+  .label-short {
+    display: inline;
+  }
+}
+
+body.dark a {
+  color: #4aa3ff;
+}
+
+body.dark a:hover {
+  color: #79c2ff;
+}

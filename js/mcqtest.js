@@ -132,7 +132,7 @@ function renderQuiz(chapter) {
     const modalContent = document.getElementById("result-content");
     const closeModal = document.getElementById("close-modal");
 
-    modalContent.innerHTML = `<strong>✅ You scored ${score} / ${questions.length}</strong><br><br>`;
+    modalContent.innerHTML = `<strong>✅ You answered ${score} / ${questions.length} questions correctly.</strong><br><br>`;
 
     answers.forEach(a => {
       const isCorrect = a.selected === a.correct;
@@ -164,7 +164,7 @@ function renderQuiz(chapter) {
       timestamp: serverTimestamp()
     });
 
-    alert("✅ Submission recorded!");
+    alert("Answers submitted!");
   };
 }
 

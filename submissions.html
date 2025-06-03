@@ -30,10 +30,14 @@
     <table id="submissions-table">
       <thead>
         <tr>
-          <th data-key="book">Book</th>
-          <th data-key="chapter">Chapter</th>
-          <th data-key="score">Score</th>
-          <th data-key="timestamp">Date</th>
+          <th data-key="book">Book <span class="sort-indicator"></span></th>
+          <th data-key="chapter">
+            <span class="label-full">Chapter</span>
+            <span class="label-short">Ch.</span>
+            <span class="sort-indicator"></span>
+          </th>
+          <th data-key="score">Score <span class="sort-indicator"></span></th>
+          <th data-key="timestamp">Date <span class="sort-indicator"></span></th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -131,6 +135,11 @@
         const ascending = currentSort.key === key ? !currentSort.ascending : true;
         currentSort = { key, ascending };
         sortTableBy(key, ascending);
+
+        // Clear all sort indicators
+        document.querySelectorAll(".sort-indicator").forEach(span => span.textContent = "");
+        const arrow = ascending ? "↑" : "↓";
+        th.querySelector(".sort-indicator").textContent = arrow;
       });
     });
 
