@@ -1,9 +1,5 @@
 import { auth, db } from "./firebase-init.js";
-import {
-  collection,
-  getDoc,
-  getDocs,
-  doc
+import { collection, getDoc, getDocs, doc
 } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
@@ -34,26 +30,36 @@ onAuthStateChanged(auth, async (user) => {
   const role = userData.role;
   const allowedBooks = userData.allowedBooks || [];
 
-  const snapshot = await getDocs(collection(db, "books"));
-  const allBooks = snapshot.docs.map(doc => ({
-    id: doc.id,
-    ...doc.data()
-  }));
+  let visibleBooks = [];
 
-  const visibleBooks = role === "Teacher"
-    ? allBooks
-    : allBooks.filter(book => allowedBooks.includes(book.id));
+  if (role === "Teacher") {
+    // Teachers can access all books
+    const snapshot = await getDocs(collection(db, "books"));
+    visibleBooks = snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+  } else {
+    // Students only fetch books they're allowed to access
+    const promises = allowedBooks.map(async (bookId) => {
+      const docSnap = await getDoc(doc(db, "books", bookId));
+      return docSnap.exists() ? { id: bookId, ...docSnap.data() } : null;
+    });
+
+    const results = await Promise.all(promises);
+    visibleBooks = results.filter(book => book !== null);
+  }
 
   container.innerHTML = "";
 
   if (visibleBooks.length === 0) {
-  container.innerHTML = `
-    <p style="font-style: italic; opacity: 0.8;">
-      You currently have no assigned books. Please contact your teacher.
-    </p>
-  `;
-  return;
+    container.innerHTML = `
+      <p style="font-style: italic; opacity: 0.8;">
+        You currently have no assigned books. Please contact your teacher.
+      </p>
+    `;
+    return;
   }
-  
+
   visibleBooks.forEach(renderBookCard);
 });
