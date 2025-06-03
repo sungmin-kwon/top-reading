@@ -1,0 +1,132 @@
+/* ---------- Topbar Layout ---------- */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background-color: #333;
+  color: #fff;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.portal-title {
+  color: white;
+  font-weight: 600;
+}
+
+#dark-mode-toggle {
+  font-size: 1.3em;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+/* ---------- User Menu ---------- */
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.user-dropdown-container {
+  position: relative;
+}
+
+#user-menu-toggle {
+  background-color: #666;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ---------- Dropdown Menu ---------- */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 180px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+  padding: 6px 0;
+  box-sizing: border-box;
+}
+
+#user-email {
+  display: block;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.dropdown a,
+.dropdown button,
+.dropdown .user-info {
+  display: block;
+  padding: 10px 16px;
+  border: none;
+  width: 100%;
+  background: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.dropdown button#logout {
+  color: red;
+}
+
+.dropdown a:hover,
+.dropdown button:hover {
+  background-color: #f0f0f0;
+}
+
+/* ---------- Dark Mode ---------- */
+body.dark header.topbar {
+  background-color: #222;
+}
+
+body.dark .dropdown {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #444;
+}
+
+body.dark .dropdown a,
+body.dark .dropdown button,
+body.dark .dropdown .user-info {
+  color: white;
+}
+
+body.dark .dropdown a:hover,
+body.dark .dropdown button:hover {
+  background-color: #333;
+}
