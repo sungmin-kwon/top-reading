@@ -37,6 +37,7 @@
     <h1>👤 Account Info</h1>
     <div class="info-box">
       <div class="info-row"><span class="label">Email:</span> <span id="email">Loading...</span></div>
+      <div class="info-row"><span class="label">Name:</span> <span id="name">Loading...</span></div>
       <div class="info-row"><span class="label">Member Since:</span> <span id="created">Loading...</span></div>
       <div class="info-row"><span class="label">User Role:</span> <span id="role">Loading...</span></div>
       <hr />
@@ -60,6 +61,7 @@
     const emailEl = document.getElementById("email");
     const createdEl = document.getElementById("created");
     const roleEl = document.getElementById("role");
+    const nameEl = document.getElementById("name");
 
     onAuthStateChanged(auth, async (user) => {
       if (!user) return (window.location.href = "login.html");
@@ -69,7 +71,15 @@
 
       const docRef = doc(db, "users", user.uid);
       const docSnap = await getDoc(docRef);
-      roleEl.textContent = docSnap.exists() ? (docSnap.data().role || "student") : "student";
+
+      if (docSnap.exists()) {
+        const data = docSnap.data();
+        roleEl.textContent = data.role || "student";
+        nameEl.textContent = `${data.firstName || ""} ${data.lastName || ""}`.trim();
+      } else {
+        roleEl.textContent = "student";
+        nameEl.textContent = "Anonymous";
+      }
     });
   </script>
 </body>
