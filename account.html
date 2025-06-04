@@ -36,13 +36,14 @@
   <main class="container">
     <h1>👤 Account Info</h1>
     <div class="info-box">
-      <div class="info-row"><span class="label">Email:</span> <span id="email">Loading...</span></div>
       <div class="info-row"><span class="label">Name:</span> <span id="name">Loading...</span></div>
+      <div class="info-row"><span class="label">Email:</span> <span id="email">Loading...</span></div>
       <div class="info-row"><span class="label">Member Since:</span> <span id="created">Loading...</span></div>
-      <div class="info-row"><span class="label">User Role:</span> <span id="role">Loading...</span></div>
+      <div class="info-row"><span class="label">Role:</span> <span id="role">Loading...</span></div>
       <hr />
       <a href="home.html" id="back-button">← Back to Home</a><br>
-      <a href="submissions.html" id="back-button">← View My Scores</a>
+      <a href="submissions.html" id="back-button">← View My Scores</a><br>
+      <a href="permissions.html" id="permissions-link" style="display: none;">🔒 Manage Book Permissions</a>
     </div>
   </main>
 
@@ -53,34 +54,6 @@
     setupThemeToggleAfterTopbar();
   </script>
 
-  <script type="module">
-    import { auth, db } from "./js/firebase-init.js";
-    import { doc, getDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
-    import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
-
-    const emailEl = document.getElementById("email");
-    const createdEl = document.getElementById("created");
-    const roleEl = document.getElementById("role");
-    const nameEl = document.getElementById("name");
-
-    onAuthStateChanged(auth, async (user) => {
-      if (!user) return (window.location.href = "login.html");
-
-      emailEl.textContent = user.email;
-      createdEl.textContent = new Date(user.metadata.creationTime).toLocaleDateString();
-
-      const docRef = doc(db, "users", user.uid);
-      const docSnap = await getDoc(docRef);
-
-      if (docSnap.exists()) {
-        const data = docSnap.data();
-        roleEl.textContent = data.role || "student";
-        nameEl.textContent = `${data.firstName || ""} ${data.lastName || ""}`.trim();
-      } else {
-        roleEl.textContent = "student";
-        nameEl.textContent = "Anonymous";
-      }
-    });
-  </script>
+  <script type="module" src="js/account.js"></script>
 </body>
 </html>
