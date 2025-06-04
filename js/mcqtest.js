@@ -1,23 +1,19 @@
 import { auth, db } from "./firebase-init.js";
-import { collection, addDoc, serverTimestamp, query, where, getDocs} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
+import {
+  collection, addDoc, serverTimestamp,
+  query, where, getDocs
+} from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
 
 let currentUser = null;
 let chapterData = [];
+let submittedChapters = new Set();
 
 const form = document.getElementById("quiz-form");
 const dropdown = document.getElementById("chapter-select");
 const submitBtn = document.getElementById("submit-btn");
 const scoreOutput = document.getElementById("score-output");
 const progress = document.getElementById("progress");
-
-onAuthStateChanged(auth, user => {
-  if (!user) {
-    window.location.href = "login.html";
-  } else {
-    currentUser = user;
-  }
-});
 
 const params = new URLSearchParams(window.location.search);
 const bookId = params.get("book");
@@ -26,29 +22,49 @@ const bookTitle = params.get("title") || "Untitled Book";
 document.title = `${bookTitle} Quiz`;
 document.getElementById("quiz-title").textContent = `${bookTitle}: Chapter-by-Chapter Test`;
 
-fetch(`json/${bookId}.json`)
-  .then(res => res.json())
-  .then(data => {
-    chapterData = data.chapters;
+onAuthStateChanged(auth, user => {
+  if (!user) return (window.location.href = "login.html");
+  currentUser = user;
+  init(); // call main logic
+});
 
-    chapterData.forEach(ch => {
-      const opt = document.createElement("option");
-      opt.value = ch.chapter_number;
-      opt.textContent = `Chapter ${ch.chapter_number}`;
-      dropdown.appendChild(opt);
-    });
-
-    dropdown.onchange = () => {
-      const selected = parseInt(dropdown.value);
-      const chapter = chapterData.find(ch => ch.chapter_number === selected);
-      renderQuiz(chapter);
-    };
+async function init() {
+  const submissionSnap = await getDocs(query(
+    collection(db, "submissions"),
+    where("userId", "==", currentUser.uid),
+    where("book", "==", bookTitle)
+  ));
+  submissionSnap.forEach(doc => {
+    submittedChapters.add(doc.data().chapter);
   });
+
+  const res = await fetch(`json/${bookId}.json`);
+  const data = await res.json();
+  chapterData = data.chapters;
+
+  chapterData.forEach(ch => {
+    const opt = document.createElement("option");
+    opt.value = ch.chapter_number;
+    const isSubmitted = submittedChapters.has(ch.chapter_number);
+    opt.textContent = `Chapter ${ch.chapter_number} ${isSubmitted ? "✓" : "✗"}`;
+    dropdown.appendChild(opt);
+  });
+
+  dropdown.onchange = () => {
+    const selected = parseInt(dropdown.value);
+    const chapter = chapterData.find(ch => ch.chapter_number === selected);
+    renderQuiz(chapter);
+  };
+}
 
 function renderQuiz(chapter) {
   form.innerHTML = "";
   scoreOutput.textContent = "";
+  const alreadySubmitted = submittedChapters.has(chapter.chapter_number);
+  submitBtn.disabled = alreadySubmitted;
   submitBtn.style.display = "block";
+  submitBtn.textContent = alreadySubmitted ? "Already Submitted" : "Submit Answers";
+  submitBtn.classList.toggle("disabled", alreadySubmitted);
 
   const questions = chapter.multiple_choice;
 
@@ -56,9 +72,7 @@ function renderQuiz(chapter) {
     const total = questions.length;
     let answered = 0;
     for (let i = 0; i < total; i++) {
-      if (document.querySelector(`input[name="q${i}"]:checked`)) {
-        answered++;
-      }
+      if (document.querySelector(`input[name="q${i}"]:checked`)) answered++;
     }
     if (progress) progress.textContent = `Progress: ${answered} of ${total} answered`;
   }
@@ -75,8 +89,8 @@ function renderQuiz(chapter) {
       input.type = "radio";
       input.name = `q${i}`;
       input.value = option;
+      input.disabled = alreadySubmitted;
       input.addEventListener("change", updateProgress);
-
       label.appendChild(input);
       label.appendChild(document.createTextNode(" " + option));
       fieldset.appendChild(label);
@@ -87,10 +101,12 @@ function renderQuiz(chapter) {
   });
 
   updateProgress();
+  addNavigationButtons(chapter.chapter_number);
+
+  if (alreadySubmitted) return;
 
   submitBtn.onclick = async (e) => {
     e.preventDefault();
-
     let incomplete = false;
     const answers = [];
 
@@ -110,48 +126,7 @@ function renderQuiz(chapter) {
       return;
     }
 
-    const qSnap = query(
-      collection(db, "submissions"),
-      where("userId", "==", currentUser.uid),
-      where("book", "==", bookTitle),
-      where("chapter", "==", chapter.chapter_number)
-    );
-
-    const snap = await getDocs(qSnap);
-    if (!snap.empty) {
-      alert("You have already submitted answers for this chapter.");
-      return;
-    }
-
-    let score = 0;
-    answers.forEach(a => {
-      if (a.selected === a.correct) score++;
-    });
-
-    const modal = document.getElementById("result-modal");
-    const modalContent = document.getElementById("result-content");
-    const closeModal = document.getElementById("close-modal");
-
-    modalContent.innerHTML = `<strong>✅ You answered ${score} / ${questions.length} questions correctly.</strong><br><br>`;
-
-    answers.forEach(a => {
-      const isCorrect = a.selected === a.correct;
-      modalContent.innerHTML += `
-        <p>
-          <strong>Q${a.number}:</strong> ${a.question}<br>
-          <span style="color: ${isCorrect ? 'green' : 'red'};">
-            Your Answer: ${a.selected} ${isCorrect ? '✓' : '✗'}
-          </span><br>
-          ${!isCorrect ? `Correct Answer: ${a.correct}<br>` : ""}
-        </p><hr>`;
-    });
-
-    modal.style.display = "block";
-
-    closeModal.onclick = () => modal.style.display = "none";
-    window.onclick = e => {
-      if (e.target === modal) modal.style.display = "none";
-    };
+    let score = answers.filter(a => a.selected === a.correct).length;
 
     await addDoc(collection(db, "submissions"), {
       userId: currentUser.uid,
@@ -165,16 +140,48 @@ function renderQuiz(chapter) {
     });
 
     alert("Answers submitted!");
+    location.reload(); // reload to show ✓ and disable button
   };
 }
 
+function addNavigationButtons(currentChapter) {
+  const navWrapper = document.getElementById("nav-buttons") || document.createElement("div");
+  navWrapper.id = "nav-buttons";
+  navWrapper.innerHTML = "";
+
+  const prev = chapterData.find(ch => ch.chapter_number === currentChapter - 1);
+  const next = chapterData.find(ch => ch.chapter_number === currentChapter + 1);
+
+  if (prev) {
+    const prevBtn = document.createElement("button");
+    prevBtn.textContent = "← Prev Chapter";
+    prevBtn.onclick = () => {
+      dropdown.value = prev.chapter_number;
+      dropdown.dispatchEvent(new Event("change"));
+    };
+    navWrapper.appendChild(prevBtn);
+  }
+
+  if (next) {
+    const nextBtn = document.createElement("button");
+    nextBtn.textContent = "Next Chapter →";
+    nextBtn.onclick = () => {
+      dropdown.value = next.chapter_number;
+      dropdown.dispatchEvent(new Event("change"));
+    };
+    navWrapper.appendChild(nextBtn);
+  }
+
+  dropdown.parentNode.insertBefore(navWrapper, dropdown.nextSibling);
+}
+
+// Dark mode
 const toggleDark = document.getElementById("dark-mode-toggle");
 if (toggleDark) {
   toggleDark.onclick = () => {
     document.body.classList.toggle("dark");
     localStorage.setItem("darkMode", document.body.classList.contains("dark"));
   };
-
   if (localStorage.getItem("darkMode") === "true") {
     document.body.classList.add("dark");
   }
