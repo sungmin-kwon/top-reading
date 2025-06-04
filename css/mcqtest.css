@@ -115,6 +115,31 @@ button#dark-mode-toggle {
   cursor: pointer;
 }
 
+/* Right-align progress */
+#progress {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Disabled button style */
+button.disabled {
+  background-color: #999 !important;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: white;
+}
+
+/* Style for the emoji prefix */
+.chapter-status {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.chapter-label {
+  color: #333;
+}
+
 /* Back to Home Button */
 #back-button {
   display: inline-block;

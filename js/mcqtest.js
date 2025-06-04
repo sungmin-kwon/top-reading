@@ -46,7 +46,13 @@ async function init() {
     const opt = document.createElement("option");
     opt.value = ch.chapter_number;
     const isSubmitted = submittedChapters.has(ch.chapter_number);
-    opt.textContent = `Chapter ${ch.chapter_number} ${isSubmitted ? "✓" : "✗"}`;
+
+    opt.innerHTML = `
+      ${isSubmitted
+        ? '<span class="chapter-status" style="color: green;">✓</span>'
+        : '<span class="chapter-status" style="color: red;">✗</span>'}
+      <span class="chapter-label">Chapter ${ch.chapter_number}</span>
+    `;
     dropdown.appendChild(opt);
   });
 
