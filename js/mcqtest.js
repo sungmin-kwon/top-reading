@@ -47,14 +47,12 @@ async function init() {
     opt.value = ch.chapter_number;
     const isSubmitted = submittedChapters.has(ch.chapter_number);
 
-    opt.innerHTML = `
-      ${isSubmitted
-        ? '<span class="chapter-status" style="color: green;">✓</span>'
-        : '<span class="chapter-status" style="color: red;">✗</span>'}
-      <span class="chapter-label">Chapter ${ch.chapter_number}</span>
-    `;
+    opt.textContent = `${isSubmitted ? '✅' : '❌'} Chapter ${ch.chapter_number}`;
     dropdown.appendChild(opt);
   });
+
+  const completionEl = document.getElementById("chapter-completion");
+  completionEl.textContent = `✅ ${submittedChapters.size} of ${chapterData.length} chapters complete`;
 
   dropdown.onchange = () => {
     const selected = parseInt(dropdown.value);
@@ -77,10 +75,25 @@ function renderQuiz(chapter) {
   function updateProgress() {
     const total = questions.length;
     let answered = 0;
+
     for (let i = 0; i < total; i++) {
-      if (document.querySelector(`input[name="q${i}"]:checked`)) answered++;
+      const box = document.getElementById(`q-box-${i}`);
+      const isChecked = document.querySelector(`input[name="q${i}"]:checked`);
+
+      if (isChecked) {
+        answered++;
+        box.classList.add("answered");
+
+        // Trigger animation only for this box
+        box.classList.remove("animate-once");
+        void box.offsetWidth; // Force reflow
+        box.classList.add("animate-once");
+      } else {
+        box.classList.remove("answered");
+      }
     }
-    if (progress) progress.textContent = `Progress: ${answered} of ${total} answered`;
+
+    progressBar.textContent = `Progress: ${answered} of ${total} answered`;
   }
 
   questions.forEach((q, i) => {
