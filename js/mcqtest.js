@@ -46,13 +46,12 @@ async function init() {
     const opt = document.createElement("option");
     opt.value = ch.chapter_number;
     const isSubmitted = submittedChapters.has(ch.chapter_number);
-
     opt.textContent = `${isSubmitted ? '✅' : '❌'} Chapter ${ch.chapter_number}`;
     dropdown.appendChild(opt);
   });
 
   const completionEl = document.getElementById("chapter-completion");
-  completionEl.textContent = `✅ ${submittedChapters.size} of ${chapterData.length} chapters complete`;
+  completionEl.textContent = `Progress: ${submittedChapters.size} of ${chapterData.length} chapters complete`;
 
   dropdown.onchange = () => {
     const selected = parseInt(dropdown.value);
@@ -72,29 +71,29 @@ function renderQuiz(chapter) {
 
   const questions = chapter.multiple_choice;
 
-  function updateProgress() {
-    const total = questions.length;
-    let answered = 0;
+function updateProgress() {
+  const total = questions.length;
+  const container = document.createElement("div");
+  container.className = "question-progress";
 
-    for (let i = 0; i < total; i++) {
-      const box = document.getElementById(`q-box-${i}`);
-      const isChecked = document.querySelector(`input[name="q${i}"]:checked`);
+  for (let i = 0; i < total; i++) {
+    const box = document.createElement("div");
+    box.className = "question-box";
+    box.textContent = i + 1;
 
-      if (isChecked) {
-        answered++;
-        box.classList.add("answered");
-
-        // Trigger animation only for this box
-        box.classList.remove("animate-once");
-        void box.offsetWidth; // Force reflow
-        box.classList.add("animate-once");
-      } else {
-        box.classList.remove("answered");
-      }
-    }
-
-    progressBar.textContent = `Progress: ${answered} of ${total} answered`;
+  const isAnswered = alreadySubmitted || document.querySelector(`input[name="q${i}"]:checked`);
+  if (isAnswered) {
+    box.classList.add("answered");
   }
+
+    container.appendChild(box);
+  }
+
+  if (progress) {
+    progress.innerHTML = "";
+    progress.appendChild(container);
+  }
+}
 
   questions.forEach((q, i) => {
     const fieldset = document.createElement("fieldset");
