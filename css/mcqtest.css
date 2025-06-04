@@ -122,6 +122,32 @@ button#dark-mode-toggle {
   margin-top: 10px;
 }
 
+.question-progress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.question-box {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #888;
+  border-radius: 4px;
+  font-size: 0.85em;
+  background-color: #eee;
+}
+
+.question-box.answered {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
 /* Disabled button style */
 button.disabled {
   background-color: #999 !important;

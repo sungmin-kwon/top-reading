@@ -47,14 +47,12 @@ async function init() {
     opt.value = ch.chapter_number;
     const isSubmitted = submittedChapters.has(ch.chapter_number);
 
-    opt.innerHTML = `
-      ${isSubmitted
-        ? '<span class="chapter-status" style="color: green;">✓</span>'
-        : '<span class="chapter-status" style="color: red;">✗</span>'}
-      <span class="chapter-label">Chapter ${ch.chapter_number}</span>
-    `;
+    opt.textContent = `${isSubmitted ? '✅' : '❌'} Chapter ${ch.chapter_number}`;
     dropdown.appendChild(opt);
   });
+
+  const completionEl = document.getElementById("chapter-completion");
+  completionEl.textContent = `✅ ${submittedChapters.size} of ${chapterData.length} chapters complete`;
 
   dropdown.onchange = () => {
     const selected = parseInt(dropdown.value);
@@ -76,11 +74,25 @@ function renderQuiz(chapter) {
 
   function updateProgress() {
     const total = questions.length;
-    let answered = 0;
+    const container = document.createElement("div");
+    container.className = "question-progress";
+
     for (let i = 0; i < total; i++) {
-      if (document.querySelector(`input[name="q${i}"]:checked`)) answered++;
+      const box = document.createElement("div");
+      box.className = "question-box";
+      box.textContent = i + 1;
+
+      if (document.querySelector(`input[name="q${i}"]:checked`)) {
+        box.classList.add("answered");
+      }
+
+      container.appendChild(box);
     }
-    if (progress) progress.textContent = `Progress: ${answered} of ${total} answered`;
+
+    if (progress) {
+      progress.innerHTML = "";
+      progress.appendChild(container);
+    }
   }
 
   questions.forEach((q, i) => {
