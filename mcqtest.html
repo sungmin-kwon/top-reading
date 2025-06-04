@@ -30,5 +30,17 @@
   </div>
 
   <script type="module" src="js/mcqtest.js"></script>
+  <script>
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+  document.addEventListener("keydown", (e) => {
+    if (
+      (e.ctrlKey && ["c", "u", "s", "x", "a", "p"].includes(e.key.toLowerCase())) ||
+      (e.metaKey && ["c", "u", "s", "x", "a", "p"].includes(e.key.toLowerCase())) // Mac support
+    ) {
+      e.preventDefault();
+    }
+  });
+</script>
 </body>
 </html>

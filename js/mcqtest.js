@@ -74,26 +74,26 @@ function renderQuiz(chapter) {
 
   function updateProgress() {
     const total = questions.length;
-    const container = document.createElement("div");
-    container.className = "question-progress";
+    let answered = 0;
 
     for (let i = 0; i < total; i++) {
-      const box = document.createElement("div");
-      box.className = "question-box";
-      box.textContent = i + 1;
+      const box = document.getElementById(`q-box-${i}`);
+      const isChecked = document.querySelector(`input[name="q${i}"]:checked`);
 
-    const isAnswered = alreadySubmitted || document.querySelector(`input[name="q${i}"]:checked`);
-    if (isAnswered) {
-      box.classList.add("answered");
+      if (isChecked) {
+        answered++;
+        box.classList.add("answered");
+
+        // Trigger animation only for this box
+        box.classList.remove("animate-once");
+        void box.offsetWidth; // Force reflow
+        box.classList.add("animate-once");
+      } else {
+        box.classList.remove("answered");
+      }
     }
 
-      container.appendChild(box);
-    }
-
-    if (progress) {
-      progress.innerHTML = "";
-      progress.appendChild(container);
-    }
+    progressBar.textContent = `Progress: ${answered} of ${total} answered`;
   }
 
   questions.forEach((q, i) => {
