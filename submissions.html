@@ -83,10 +83,11 @@
       data.forEach(({ docId, book, chapter, score, total, timestamp }) => {
         const row = document.createElement("tr");
         const dateStr = timestamp ? timestamp.toDate().toLocaleString() : "Unknown";
+        const percentage = ((score / total) * 100).toFixed(1);
         row.innerHTML = `
           <td>${book}</td>
           <td>${chapter}</td>
-          <td>${score} / ${total}</td>
+          <td data-score="${parseFloat(percentage)}">${percentage}%</td>
           <td><a href="#" class="view-submission" data-id="${docId}">${dateStr}</a></td>
         `;
         tbody.appendChild(row);

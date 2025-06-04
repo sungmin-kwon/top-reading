@@ -82,9 +82,10 @@ function renderQuiz(chapter) {
       box.className = "question-box";
       box.textContent = i + 1;
 
-      if (document.querySelector(`input[name="q${i}"]:checked`)) {
-        box.classList.add("answered");
-      }
+    const isAnswered = alreadySubmitted || document.querySelector(`input[name="q${i}"]:checked`);
+    if (isAnswered) {
+      box.classList.add("answered");
+    }
 
       container.appendChild(box);
     }

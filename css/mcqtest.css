@@ -142,7 +142,31 @@ button#dark-mode-toggle {
   background-color: #eee;
 }
 
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .question-box.answered {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+  animation: pop 0.2s ease-in-out;
+}
+
+body.dark .question-box {
+  background-color: #2a2a2a;
+  color: #ccc;
+  border-color: #555;
+}
+
+body.dark .question-box.answered {
   background-color: #4caf50;
   color: white;
   border-color: #4caf50;
