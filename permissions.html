@@ -2,27 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Manage Book Permissions</title>
+  <title>Access Permissions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="/img/topreading.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/topbar.css" />
-  <style>
-    body { font-family: "Segoe UI", sans-serif; padding: 20px; transition: background 0.3s, color 0.3s; }
-    body.dark { background-color: #121212; color: #e0e0e0; }
-    main.container { max-width: 800px; margin: auto; }
-    select, button { padding: 8px; margin-top: 10px; margin-bottom: 20px; }
-    table { width: 100%; border-collapse: collapse; }
-    th, td { padding: 10px; border: 1px solid #ccc; }
-    th { background: #f0f0f0; }
-    body.dark th { background-color: #2c2c2c; color: #f0f0f0; }
-    body.dark td { background-color: #1e1e1e; color: #e0e0e0; }
-    #status { margin-top: 1em; font-weight: bold; }
-  </style>
+  <link rel="stylesheet" href="css/permissions.css" />
 </head>
 <body>
   <div id="topbar-container"></div>
   <main class="container">
-    <h1>📚 Manage Book Access</h1>
+    <h1>⚠️ Access Permissions</h1>
     <label for="user-select">Select Student:</label>
     <select id="user-select"></select>
 
@@ -33,78 +22,19 @@
       <tbody></tbody>
     </table>
 
-    <button id="confirm-btn">Confirm</button>
+    <br>
+    <button id="confirm-btn">Confirm Changes</button>
     <p id="status"></p>
+    <a href="account.html" id="back-button">← Back to My Account</a><br>
   </main>
 
   <script type="module">
-    import { auth, db } from "./js/firebase-init.js";
-    import { collection, getDocs, doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-firestore.js";
-    import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-auth.js";
-
-    const userSelect = document.getElementById("user-select");
-    const booksTable = document.getElementById("books-table").querySelector("tbody");
-    const confirmBtn = document.getElementById("confirm-btn");
-    const status = document.getElementById("status");
-
-    let allBooks = [];
-    let currentUserId = null;
-
-    async function loadStudents() {
-      const usersSnap = await getDocs(collection(db, "users"));
-      userSelect.innerHTML = "";
-      usersSnap.forEach(docSnap => {
-        const data = docSnap.data();
-        if (data.role === "Student") {
-          const opt = document.createElement("option");
-          opt.value = docSnap.id;
-          opt.textContent = `${data.firstName || ""} ${data.lastName || ""}`.trim() || data.email;
-          userSelect.appendChild(opt);
-        }
-      });
-    }
-
-    async function loadBooksAndPermissions(studentId) {
-      currentUserId = studentId;
-      const userSnap = await getDoc(doc(db, "users", studentId));
-      const allowedBooks = userSnap.exists() ? (userSnap.data().allowedBooks || []) : [];
-
-      const booksSnap = await getDocs(collection(db, "books"));
-      allBooks = booksSnap.docs.map(doc => ({ id: doc.id, title: doc.data().title }));
-
-      booksTable.innerHTML = "";
-      allBooks.forEach(book => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-          <td>${book.title}</td>
-          <td><input type="checkbox" value="${book.id}" ${allowedBooks.includes(book.id) ? "checked" : ""}></td>
-        `;
-        booksTable.appendChild(row);
-      });
-    }
-
-    userSelect.addEventListener("change", () => {
-      loadBooksAndPermissions(userSelect.value);
-    });
-
-    confirmBtn.onclick = async () => {
-      const selected = [...booksTable.querySelectorAll("input[type='checkbox']:checked")].map(cb => cb.value);
-      await updateDoc(doc(db, "users", currentUserId), {
-        allowedBooks: selected
-      });
-      status.textContent = "✅ Permissions updated!";
-    };
-
-    onAuthStateChanged(auth, async user => {
-      if (!user) return (window.location.href = "login.html");
-      const docSnap = await getDoc(doc(db, "users", user.uid));
-      if (!docSnap.exists() || docSnap.data().role !== "Teacher") {
-        document.body.innerHTML = "<p style='text-align:center;'>Access Denied. Teachers only.</p>";
-        return;
-      }
-      await loadStudents();
-      if (userSelect.value) loadBooksAndPermissions(userSelect.value);
-    });
+    import { setupTopbar } from "./js/topbar.js";
+    import { setupThemeToggleAfterTopbar } from "./js/theme.js";
+    setupTopbar("⚠️ Access Permissions");
+    setupThemeToggleAfterTopbar();
   </script>
+
+  <script type="module" src="./js/permissions.js"></script>
 </body>
 </html>
