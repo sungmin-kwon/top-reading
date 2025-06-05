@@ -44,12 +44,18 @@ async function loadBooksAndPermissions(studentId) {
   const booksSnap = await getDocs(collection(db, "books"));
   allBooks = booksSnap.docs.map(doc => ({ id: doc.id, title: doc.data().title }));
 
+  const allSubsSnap = await getDocs(query(
+    collection(db, "submissions"),
+    where("userId", "==", studentId)
+  ));
+  const submittedBooks = new Set();
+  allSubsSnap.forEach(doc => submittedBooks.add(doc.data().book));
+
   booksTable.innerHTML = "";
 
   for (const book of allBooks) {
     const row = document.createElement("tr");
-
-    const hasSubmission = await checkSubmissionExists(studentId, book.title);
+    const hasSubmission = submittedBooks.has(book.title);
 
     row.innerHTML = `
       <td>${book.title}</td>
@@ -70,7 +76,7 @@ async function loadBooksAndPermissions(studentId) {
       const deleteOps = snap.docs.map(d => deleteDoc(d.ref));
       await Promise.all(deleteOps);
       alert(`Submissions for "${book.title}" deleted.`);
-      await loadBooksAndPermissions(studentId); // reload UI
+      await loadBooksAndPermissions(studentId);
     };
 
     booksTable.appendChild(row);
